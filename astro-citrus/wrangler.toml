@@ -1,0 +1,16 @@
+# Cloudflare Pages configuration
+# Use: wrangler pages deploy (interactive) or GitHub integration
+
+name = "solar-currents"
+pages_build_output_dir = "dist"
+compatibility_date = "2024-11-12"
+
+# Environment variables
+[env.production.vars]
+ENVIRONMENT = "production"
+SONICJS_API_URL = "https://solar-currents-cms.buzzuw2.workers.dev"
+
+# Preview environment
+[env.preview.vars]
+ENVIRONMENT = "preview"
+SONICJS_API_URL = "https://solar-currents-cms.buzzuw2.workers.dev"
