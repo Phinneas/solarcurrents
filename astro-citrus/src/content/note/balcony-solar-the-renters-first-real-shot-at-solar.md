@@ -1,6 +1,6 @@
 ---
 title: "Balcony solar: the renter's first real shot at solar"
-date: 2026-04-21
+publishDate: "2026-04-21T00:00:00Z"
 ---
 
 Balcony solar (also called plug-in solar) is exactly what it sounds like: 1–3 panels that mount on a balcony railing, patio fence, or exterior wall, connected to a small microinverter, plugged into a standard wall outlet. No installer. No permits. No roof.

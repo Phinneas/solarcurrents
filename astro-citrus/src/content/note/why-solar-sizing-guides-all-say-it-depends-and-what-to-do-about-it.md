@@ -1,6 +1,6 @@
 ---
 title: "Why solar sizing guides all say 'it depends' (and what to do about it)"
-date: 2026-04-20
+publishDate: "2026-04-20T00:00:00Z"
 ---
 
 Every solar sizing guide hedges. Your location, usage patterns, battery chemistry, temperature, and panel angle all genuinely change the numbers.

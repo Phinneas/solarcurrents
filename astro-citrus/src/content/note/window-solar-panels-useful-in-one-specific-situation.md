@@ -1,6 +1,6 @@
 ---
 title: "Window solar panels: useful in one specific situation"
-date: 2026-04-18
+publishDate: "2026-04-18T00:00:00Z"
 ---
 
 Window solar panels work. They just don't work well enough to matter for most people.

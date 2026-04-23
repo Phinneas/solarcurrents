@@ -1,6 +1,6 @@
 ---
 title: "One shaded cell can kill your whole panel's output"
-date: 2026-04-15
+publishDate: "2026-04-15T00:00:00Z"
 ---
 
 Solar panels aren't like a row of buckets filling independently. Most are wired so that one shaded cell drags down the output of the entire string.

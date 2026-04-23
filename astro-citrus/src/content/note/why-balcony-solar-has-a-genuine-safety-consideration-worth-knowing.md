@@ -1,6 +1,6 @@
 ---
 title: "Why balcony solar has a genuine safety consideration worth knowing"
-date: 2026-04-22
+publishDate: "2026-04-22T00:00:00Z"
 ---
 
 Most US electrical wiring assumes power flows one direction: from the panel to the outlet. Plug-in solar reverses that. When a balcony system pushes power back through a receptacle, it can potentially overload older wiring or interfere with ground-fault circuit interrupters (GFCIs).
