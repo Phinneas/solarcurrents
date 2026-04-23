@@ -12,14 +12,29 @@ meta_description: ""
 tags: []
 ---
 
-All you need to know about solar
+We help you make sense of solar — without the sales pitch.
 
-Solar Currents is your premier digital destination for everything related to portable and small-scale solar power solutions. Founded in the Pacific Northwest by outdoor enthusiasts and renewable energy advocates, our mission is to demystify solar technology and make clean energy accessible to everyone—whether you're powering a weekend camping trip or seeking energy independence for your home.
+Most solar content online is written to sell you something. We write to help you figure out whether solar actually makes sense for your situation — and if it does, how to do it right.
 
-Our team of experienced reviewers and solar technology experts tests and evaluates the latest products on the market, from compact foldable panels to comprehensive home battery storage systems. We provide honest, hands-on assessments that help our readers make informed decisions about their energy investments.
+Solar Currents covers solar for RVs, vans, backpacking, and home setups. Our guides are built around the questions people actually search for — including the skeptical ones. We'd rather tell you when solar isn't worth it than oversell a system that won't meet your needs.
 
-At Solar Currents, we believe that the transition to renewable energy happens one household, one adventure, and one solar panel at a time. Our content aims to empower urban apartment dwellers, outdoor adventurers, homeowners, and everyone in between to harness the sun's energy for a more sustainable future.
+## How we approach our content
 
-Led by Editor-in-Chief Buzz Beard, our publication combines technical expertise with practical applications, ensuring that our guides and reviews are both technically sound and accessible to beginners. We pride ourselves on independence—our recommendations are never influenced by manufacturer relationships, ensuring you always get our honest assessment.
+**Research-first.** We analyze what people actually search before writing a word — including the doubts and limitations they want answered.
 
-Join us as we illuminate the path toward personal energy independence and adventure-ready power solutions. Whether you're looking to power your next wilderness expedition or maximize your home's energy efficiency, Solar Currents is your trusted source for navigating the bright world of solar technology.
+**Real numbers.** Concrete calculations, real-world performance derates, and regional factors — not vague "it depends" answers.
+
+**Honest about limits.** We cover disadvantages and tradeoffs upfront, because a skeptical reader who trusts you is more valuable than one you've oversold.
+
+## What we cover
+
+From weekend backpacking trips to full-time van life and residential rooftop setups, we cover solar across a range of real-world use cases:
+
+- RV solar systems
+- Van life builds
+- Backpacking panels
+- Residential solar
+- Window solar panels
+- Sizing & calculations
+
+Our goal is simple: be the most useful, honest source in the room — not the loudest.
