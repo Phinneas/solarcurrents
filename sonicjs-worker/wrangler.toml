@@ -1,0 +1,23 @@
+name = "solar-currents-cms"
+main = "src/index.ts"
+compatibility_date = "2024-11-12"
+
+# D1 Database configuration
+[[d1_databases]]
+binding = "DB"
+database_name = "solar-currents-cms-db"
+database_id = "8db2540a-af3d-497a-af35-11235bb44503"
+
+# Variables
+[vars]
+ENVIRONMENT = "production"
+CORS_ORIGIN = "https://solar-currents.pages.dev"
+
+# Development environment
+[env.dev]
+name = "solar-currents-cms-dev"
+
+[[env.dev.d1_databases]]
+binding = "DB"
+database_name = "solar-currents-cms-db-dev"
+database_id = "8db2540a-af3d-497a-af35-11235bb44503"
