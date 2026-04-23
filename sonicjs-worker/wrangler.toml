@@ -11,7 +11,7 @@ database_id = "8db2540a-af3d-497a-af35-11235bb44503"
 # Variables
 [vars]
 ENVIRONMENT = "production"
-CORS_ORIGIN = "https://solar-currents.pages.dev"
+CORS_ORIGIN = "https://solarcurrents.pages.dev"
 
 # Development environment
 [env.dev]
