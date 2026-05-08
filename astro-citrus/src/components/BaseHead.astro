@@ -6,7 +6,7 @@ import "@/styles/global.css";
 
 type Props = SiteMeta;
 
-const { articleDate, description, ogImage, title } = Astro.props;
+const { articleDate, description, noindex, ogImage, title } = Astro.props;
 
 const titleSeparator = "•";
 const siteTitle = `${title} ${titleSeparator} ${siteConfig.title}`;
@@ -35,6 +35,7 @@ const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url
 
 {/* Canonical URL */}
 <link href={canonicalURL} rel="canonical" />
+{noindex && <meta name="robots" content="noindex,nofollow" />}
 
 {/* Primary Meta Tags */}
 <meta content={siteTitle} name="title" />
@@ -63,12 +64,8 @@ const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url
 	)
 }
 
-{/* Twitter */}
-<meta content="summary_large_image" property="twitter:card" />
-<meta content={canonicalURL} property="twitter:url" />
-<meta content={title} property="twitter:title" />
-<meta content={description} property="twitter:description" />
-<meta content={socialImageURL} property="twitter:image" />
+{/* Twitter card format */}
+<meta content="summary_large_image" name="twitter:card" />
 
 {/* Sitemap */}
 <link href="/sitemap-index.xml" rel="sitemap" />

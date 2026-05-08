@@ -34,9 +34,32 @@ export default defineConfig({
       applyBaseStyles: false,
       nesting: true,
     }),
-    sitemap(),
+    sitemap({
+      filter: (page) =>
+        !page.includes("/tags/") &&
+        !page.includes("/author/") &&
+        /\/posts\/\d+\/?$/.test(page) === false &&
+        /\/notes\/\d+\/?$/.test(page) === false,
+    }),
     mdx(),
-    robotsTxt(),
+    robotsTxt({
+      policy: [
+        {
+          userAgent: "*",
+          allow: "/",
+          disallow: [
+            "/api/",
+            "/tags/",
+            "/author/",
+            "/page/",
+            "/posts/page/",
+            "/notes/page/",
+            "/*?ref=",
+          ],
+        },
+      ],
+      sitemapBase: "https://www.solarcurrents.co/sitemap-index.xml",
+    }),
     webmanifest({
       // See: https://github.com/alextim/astro-lib/blob/main/packages/astro-webmanifest/README.md
       /**
@@ -114,8 +137,7 @@ export default defineConfig({
   },
   // https://docs.astro.build/en/guides/prefetch/
   prefetch: true,
-  // ! Please remember to replace the following site property with your own domain
-  site: "http://astrocitrus.artemkutsan.pp.ua/",
+  site: "https://www.solarcurrents.co",
   vite: {
     build: {
       sourcemap: true, // Source maps generation

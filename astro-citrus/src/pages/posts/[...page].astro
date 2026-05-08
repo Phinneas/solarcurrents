@@ -29,6 +29,7 @@ const { page, uniqueTags } = Astro.props;
 
 const meta = {
 	description: "Read my collection of posts and the things that interest me",
+	noindex: page.currentPage > 1,
 	title: "Posts",
 };
 
