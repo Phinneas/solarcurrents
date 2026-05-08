@@ -97,8 +97,8 @@ export default {
       },
       fontFamily: {
         // Add any custom fonts here
-        sans: ["SFProRounded", ...fontFamily.sans],
-        serif: ["CascadiaCode", ...fontFamily.serif],
+        sans: ["Sora", ...fontFamily.sans],
+        serif: ["Fraunces", ...fontFamily.serif],
       },
       transitionProperty: {
         height: "height",

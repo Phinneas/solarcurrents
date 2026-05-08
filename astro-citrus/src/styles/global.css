@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Sora:wght@300;400;500;600&display=swap');
+
+/* Homepage design tokens */
+:root {
+  --navy: #0f1e2e;
+  --navy-mid: #152638;
+  --navy-light: #1d3249;
+  --gold: #e8c84a;
+  --cream: #f5f0e8;
+  --cream-dim: #c8bfaa;
+  --muted: #7a8fa3;
+  --border: rgba(232,200,74,0.15);
+}
 
 @font-face {
 	font-family: "SFProRounded";
