@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
 		},
 	},
 	// Used as the default description meta property and webmanifest description
-	description: "Your guide to solar power, energy independence, and sustainable living",
+	description: "Real solar guides for RVs, van life, camping, backpacking, and home. Actual math, honest tradeoffs, and no sales pitch.",
 	// HTML lang property, found in src/layouts/Base.astro L:18 & astro.config.ts L:48
 	lang: "en-GB",
 	// Meta property, found in src/components/BaseHead.astro L:42
