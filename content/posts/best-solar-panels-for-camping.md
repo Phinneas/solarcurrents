@@ -957,6 +957,44 @@ Replace degraded panels when output drops below 80% of rated capacity. Most qual
 
 * * *
 
+## Safety Certifications: What UL 1703 and IEC 61215/61730 Mean for Your Panel
+
+Every panel in this guide is a low-voltage DC device, but "low voltage" doesn't mean "untested." **UL 1703** (or its successor UL 61730) is the US safety listing for flat-plate photovoltaic modules, covering fire resistance, electrical insulation, and grounding. **IEC 61215** covers performance and durability testing — thermal cycling, mechanical load, humidity, and UV exposure — while **IEC 61730** mirrors UL 1703's electrical safety scope for international markets.
+
+For foldable camping panels specifically, the certification that matters almost as much is the IP (ingress protection) rating. IP65 or higher means the panel resists dust and heavy rain — relevant for something that gets packed away wet, tossed in a trunk, and unfolded on dewy grass dozens of times a season. A "CE marked" sticker alone doesn't confirm any of this; CE marking is a self-declaration, not third-party testing.
+
+→ Action: Before buying, check the manufacturer's spec sheet for UL 1703/61730 or IEC 61215/61730 listings and an IP65+ rating — Jackery, Renogy, and Anker publish these; budget no-name brands often don't.
+
+## Battery Chemistry: LiFePO4 vs. Standard Li-ion Power Banks for Pairing
+
+None of the panels above store power on their own — you're pairing them with a power bank or power station, and that device's battery chemistry determines how long your overall investment actually lasts.
+
+| | LiFePO4 (LFP) | Standard Li-ion (NMC/LCO) |
+|---|---|---|
+| Cycle life | 2,000–5,000+ | 300–800 |
+| Capacity retention (~500 cycles) | ~90–95% | ~70–80% |
+| Weight | Heavier per Wh | Lighter per Wh |
+| Thermal stability | High — self-extinguishing | Lower — more prone to thermal runaway |
+| Best for | Frequent campers, van-life, long-term use | Occasional trips, ultralight priority |
+
+If you're pairing a panel like the Jackery SolarSaga 100 or Renogy 100W with a power station for van-life or frequent weekend trips, a LiFePO4 unit will outlast 3-4 generations of standard Li-ion packs at the same usage rate — the 2,000+ cycle life means daily charging for years rather than months before noticeable capacity loss.
+
+→ Action: When shopping for the power bank or station to pair with your panel, search the spec sheet for "LiFePO4" or "LFP" — generic "lithium-ion" listings are usually NMC or LCO cells with a much shorter useful life.
+
+## Per-Region ROI: Solar Payback Times by Climate
+
+The cost-benefit scenarios above assume average sun conditions, but your actual payback period swings significantly based on where you camp most.
+
+**Southwest and Mountain West (AZ, NM, CO, UT, NV):** 6-8 peak sun hours for most of the year means a 100W panel reliably hits its rated output. A $200-300 panel paired with a power bank typically breaks even against hookup fees and disposable batteries within 1-2 camping seasons for regular campers (4+ trips/year).
+
+**Southeast and Mid-Atlantic:** 4-6 peak sun hours with seasonal humidity and cloud cover. Expect 70-85% of rated output on clear days, less in summer storm season. Payback stretches to 2-3 seasons; consider sizing up to 120-150W if solar is your primary power source.
+
+**Pacific Northwest and New England:** 3-4 peak sun hours much of the year, with extended cloudy stretches in fall/winter/spring. A 100W panel may deliver only 40-60% of rated output for weeks at a time. Solar still pays off for van-lifers (who camp year-round and benefit from any free charging), but occasional campers in these regions often find a quality power bank a better first purchase, with solar as a supplement rather than primary power.
+
+→ Action: Match your panel size to your region's typical peak sun hours, not just your wattage budget — a $150 100W panel in the Southwest can outperform a $300 150W panel in a cloudy Pacific Northwest fall.
+
+* * *
+
 ## Frequently Asked Questions
 
 **Q: How much do solar panels for camping cost?**

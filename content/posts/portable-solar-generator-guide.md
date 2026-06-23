@@ -38,6 +38,21 @@ List every device you plan to power. Note each item's wattage (found on labels o
 
 Example: A 60W laptop used 5 hours daily needs 300Wh. A 10W LED light running 8 hours requires 80Wh. Total daily need: 380Wh plus buffer equals 456Wh minimum capacity.
 
+## Camping Load Sizing Table: How Much Capacity Do You Actually Need?
+
+The example above walks through the math one device at a time, but it helps to see common camping loads side by side:
+
+| Device | Typical draw | Hours/day | Wh/day |
+|---|---|---|---|
+| 12V compressor fridge | 40–80W (30–70% duty cycle) | 24 | 300–600 |
+| Phone charging (x2) | 10W | 3 | 30 |
+| LED lantern/string lights | 5–10W | 4 | 20–40 |
+| CPAP machine | 30–60W | 8 | 240–480 |
+| Laptop | 50W | 3 | 150 |
+| Portable fan | 10–25W | 6 | 60–150 |
+
+Add up the Wh/day for your gear, then add the 20% buffer from the example above. A trip with a 12V fridge, phone charging, and lighting lands in the 350–670 Wh/day range — comfortably inside a 500–1000Wh unit's capacity for an overnight trip. A multi-day trip without recharging would need to size up, or pair the battery with a solar panel sized to replace that daily draw within your available sun hours.
+
 ## Solar Panel Selection and Charging Speed
 
 Panel wattage directly impacts charging time. A 100W panel replenishes a 500Wh battery in 6-7 hours of direct sunlight. Double the panel capacity, and you halve the charging time.
@@ -48,6 +63,20 @@ Foldable panels maximize portability. They pack small for transport yet unfold t
 
 Weather affects charging performance. Clouds reduce output by 50-80%. Winter sun sits lower, decreasing panel efficiency. Plan accordingly and consider oversizing your panel array for consistent charging.
 
+## Charge Controllers: MPPT vs. PWM and Why It Affects Charging Speed
+
+The charge controller between your panel and battery has a bigger impact on charging speed than most buyers realize. **PWM controllers** run at roughly 74–81% efficiency, and that gap widens the further your panel's voltage sits from your battery's voltage. **MPPT controllers** run at 94–99% efficiency regardless of that voltage gap, because they continuously track the panel's maximum power point as conditions like shade, temperature, and angle change. Real-world tests show MPPT harvesting around 28% more energy from an identical array over a full day — and the gap widens to roughly 35% in cold weather.
+
+PWM is fine for small setups — one or two 100W panels closely matched to a 12V battery. For foldable panels, larger arrays, or any setup where panel and battery voltages don't closely match, MPPT pays for itself quickly. Most portable solar generators sold today ship with MPPT built in, so check the spec sheet to confirm rather than assume.
+
+## Cable and Wire Gauge: Avoiding Power Loss Between Panel and Battery
+
+If you're running your own cables between a panel and a portable solar generator — common with larger foldable arrays — wire gauge determines how much power you lose along the way. The target is to keep voltage drop under 2–3%.
+
+For 12V systems: 10 AWG is generally sufficient for short runs up to about 10–15 feet, and 8 AWG for longer runs of 15–30 feet. For panels rated 50W or higher, 10 AWG is the practical minimum regardless of distance.
+
+System voltage matters too — the higher it is, the thinner (and cheaper) your wire can be for the same power. A 1,200W load needs roughly 100A at 12V but only about 25A at 48V, a 4x difference in wire size. If you're comparing 12V and 24V/48V portable systems, this is part of why the higher-voltage units can use lighter cabling.
+
 ## Battery Technology Comparison
 
 Lithium batteries dominate the **portable solar generator** market for good reasons. They weigh 60% less than lead-acid equivalents, last 5-10 times longer, and charge faster.
@@ -57,6 +86,18 @@ LiFePO4 (lithium iron phosphate) batteries offer the best safety profile. They r
 Standard lithium-ion batteries cost less upfront but degrade faster. Expect 500-1000 cycles before capacity drops below 80%. They work well for occasional use but struggle with daily cycling.
 
 AGM lead-acid batteries appear in budget models. While affordable, they're heavy, slow-charging, and last only 200-300 cycles. The false economy becomes apparent when replacement time arrives.
+
+**Quick reference:**
+
+| | LiFePO4 (LFP) | Standard Li-ion | AGM Lead-Acid |
+|---|---|---|---|
+| Cycle life | 3,000–7,000+ | 500–1,000 | 200–300 |
+| Capacity retention (~500 cycles) | ~94% | ~80% | Typically replaced before this point |
+| Weight | ~60% lighter than AGM, heaviest of the lithium options | Lighter than LFP | Heaviest overall |
+| Thermal stability | Highest — self-extinguishing | Lower — more prone to thermal runaway | Stable, but no runaway risk to begin with |
+| Best for | Daily-use units expected to last years | Occasional use, lower upfront cost | Budget units where weight and lifespan aren't priorities |
+
+Bottom line: if you're cycling the generator regularly — camping every month, or using it as a primary power source — LFP's lifespan advantage usually outweighs its slightly higher weight and cost.
 
 ## Essential Features to Consider
 
@@ -77,6 +118,14 @@ Pass-through charging lets you use the generator while it charges. This feature 
 LCD screens show remaining battery percentage, input/output wattage, and estimated runtime. Advanced displays include individual port monitoring and historical usage data.
 
 Bluetooth connectivity enables smartphone monitoring. Apps provide detailed statistics, remote control, and firmware updates. Some systems send low-battery alerts to prevent unexpected shutdowns.
+
+## Safety Certifications: What UL 2743 Covers
+
+The certification that matters for portable solar generators is **UL 2743** — the standard for mobile/portable energy storage power supplies, covering overload protection, short-circuit protection, dielectric withstand, and battery charging system safety across the unit's lifecycle. It was updated in 2025 (effective October 4, 2025), with non-compliant units already being delisted from major marketplaces starting in March 2026.
+
+Look for "UL 2743" specifically on the spec sheet or unit label — generic "UL listed" claims or UL 2056 (the standard for smaller power banks) aren't the same thing. For the battery cells themselves, **UN 38.3** (transport safety) and **IEC 62133** (cell safety) are the relevant lithium-battery standards, and most reputable brands list compliance with both.
+
+If you're wiring your own panels with exposed DC runs rather than using a sealed, panel-included kit, DC arc-fault protection (UL 1699B, tied to NEC Article 690) becomes relevant — but that applies to fixed PV wiring installations, not the portable unit itself.
 
 ## Real-World Applications
 

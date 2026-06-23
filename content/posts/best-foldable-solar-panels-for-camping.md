@@ -246,6 +246,40 @@ For campers in national parks or state parks with strict generator bans, **folda
 
 * * *
 
+## Safety Certifications: UL 1703 and What to Check on a Foldable Panel
+
+Foldable solar panels use the same photovoltaic cells as rigid panels, so the same certification standards apply: **UL 1703** (or its updated successor **UL 61730**) covers fire and electrical safety of the panel itself, while **IEC 61215** and **IEC 61730** are the international equivalents for performance and safety. Premium models like the Jackery SolarSaga and EcoFlow lines publish these listings; budget sub-$100 panels often don't, which is part of why they're cheaper.
+
+The IP65/IP67 water-resistance ratings mentioned earlier in this guide protect against rain and dew, but they're a separate spec from electrical safety certification — a panel can be IP65-rated without carrying a UL or IEC listing on its actual cells and wiring.
+
+If your foldable panel charges a power station (BougeRV 200W setups, EcoFlow chaining, etc.), the power station itself should carry **UL 2743**, the safety standard for portable power stations updated effective October 4, 2025 — non-compliant units begin delisting from major retailers starting March 2026.
+
+→ Action: Before buying, check the panel's spec sheet for UL 1703/61730 or IEC 61215/61730. If you're pairing it with a power station, separately confirm the power station carries a current UL 2743 listing — these are two different certifications covering two different components.
+
+## Battery Chemistry: LiFePO4 vs. Standard Li-ion for Your Power Station
+
+Refrigerator camping and basecamp/digital nomad setups (the EcoFlow 110W and BougeRV 200W scenarios above) depend on a power station battery, not just the panel. The cell chemistry inside that battery determines how well it survives repeated daily charge cycles over a camping season.
+
+| | LiFePO4 (LFP) | Standard Li-ion (NMC/LCO) |
+|---|---|---|
+| Cycle life | 2,000–5,000+ | 300–800 |
+| Capacity retention (~500 cycles) | ~90–95% | ~70–80% |
+| Weight | Heavier per Wh | Lighter per Wh |
+| Thermal stability | High — self-extinguishing | Lower — more prone to thermal runaway |
+| Best for | Frequent campers, basecamp/overlanding | Occasional weekend use |
+
+Most current power stations from Jackery, EcoFlow, and Goal Zero have shifted their mid-size and larger units to LiFePO4 specifically because of the daily charge/discharge cycling that solar setups demand — a station charged every day for a week-long overlanding trip puts far more wear on the battery than one used a few times a year.
+
+→ Action: For digital nomad or overlanding setups where the power station charges and discharges daily, confirm LiFePO4 chemistry — older or budget power stations may still use NMC cells that degrade noticeably within a season or two of heavy use.
+
+## Cost Analysis: Foldable Solar vs. Generator Rental and Campground Fees
+
+The "Quiet Campground Advantage" section above covers the noise and access benefits of solar, but there's a direct cost comparison too. Generator rental for a long weekend runs $40-80 plus fuel ($3-6/night for 3-4 hours of runtime), and many campgrounds in California, Colorado, and the Pacific Northwest charge $5-15/night generator-use surcharges that don't apply to silent solar charging.
+
+For the **Weekend Warrior** tier (60W panel, ~$250), the break-even against generator rental fees alone lands around 4-6 weekend trips — well within a single camping season for regular campers. The **Digital Nomad** tier (120W panel + 500Wh power station, often $600-900 combined) takes longer to pay back against rental costs alone, but for full-time or near-full-time van/overland living, it replaces an ongoing fuel and rental expense entirely within 1-2 seasons.
+
+→ Action: If you camp at sites with generator surcharges or noise restrictions, factor those fees into your payback math — they often shorten the break-even period more than the cost of gasoline alone.
+
 ## Frequently Asked Questions
 
 **Can you charge a solar panel through a tent window?**

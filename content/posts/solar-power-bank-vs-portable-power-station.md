@@ -150,6 +150,16 @@ Understanding the true cost of these solutions goes beyond the sticker price.
 
 The calculation shifts dramatically based on usage patterns. For regular use in off-grid settings, portable power stations offer compelling long-term economics despite their higher upfront cost.
 
+## Real-World ROI: Comparing Against Grid Power and Campground Fees
+
+The ROI examples above compare power banks and stations to each other, but the more relevant comparison for most buyers is against what you'd otherwise pay for power on the road.
+
+Campgrounds with electrical hookups typically charge $5-15 more per night than tent-only sites — a portable power station that lets you skip the hookup pays for itself in hookup-fee savings alone within 15-40 nights, depending on the model's price. For RV travelers doing 60+ nights a year, a $500 power station paired with solar panels can offset $300-900 in hookup fees annually.
+
+For grid-tied emergency backup, compare against your utility's outage frequency. Areas with frequent short outages (under 4 hours, a few times a year) are well-served by a sub-$500 power station running essentials. Areas prone to multi-day outages from storms or wildfire-related shutoffs justify the higher-capacity, higher-cost units — the cost-per-outage drops fast if outages are frequent enough to use the investment.
+
+→ Action: Estimate your annual hookup-fee or outage-related costs (spoiled groceries, hotel nights, etc.) before comparing sticker prices — for frequent travelers or outage-prone areas, the power station often pays for itself faster than the per-use math above suggests.
+
 ## Environmental Impact
 
 Both solar power banks and portable power stations reduce carbon emissions compared to traditional generators.
@@ -159,6 +169,30 @@ Solar power banks create minimal environmental impact due to their small batteri
 Portable power stations have larger batteries requiring more manufacturing resources, initially creating a bigger carbon footprint. However, a 500Wh portable power station paired with solar panels can offset about 120kg of CO2 emissions per year compared to gas generators. Importantly, portable power stations with LiFePO4 batteries offer 3,500-5,000 charge cycles lasting 7-10 years, significantly reducing e-waste compared to solar power banks (2-3 years, 300-500 cycles).
 
 Many manufacturers now implement battery recycling programs. Anker and EcoFlow accept end-of-life products for recycling, recovering up to 90% of battery materials for reuse. The extended lifespan of quality portable power stations makes them more environmentally friendly over their full lifecycle despite the larger initial material footprint.
+
+## Battery Chemistry Deep Dive: LiFePO4 vs. NMC vs. Standard Li-ion
+
+Battery chemistry is the single biggest factor in how long your investment lasts — and it varies more between portable power stations than the capacity specs suggest.
+
+| | LiFePO4 (LFP) | NMC | Standard Li-ion (solar power banks) |
+|---|---|---|---|
+| Cycle life | 3,000–5,000+ | 800–2,000 | 300–800 |
+| Capacity retention (~500 cycles) | ~90–95% | ~80% | ~70–80% |
+| Energy density | Lower (heavier per Wh) | Higher | Highest (smallest form factor) |
+| Thermal stability | High — self-extinguishing | Moderate | Lower — more prone to thermal runaway |
+| Typical use | Premium portable power stations | Mid-range power stations | Compact solar power banks |
+
+Solar power banks almost universally use standard Li-ion cells (NMC or LCO blends) to hit their small form factor — this is part of why they're rated for only 300-500 cycles and a 2-3 year practical lifespan. Portable power stations split between NMC (lighter, cheaper, shorter-lived) and LiFePO4 (heavier, pricier, 7-10 year lifespan). The Bluetti AC200P below uses LiFePO4; many sub-$300 power stations still use NMC.
+
+→ Action: For a power station you expect to use for years, check specifically for "LiFePO4" or "LFP" in the battery spec — "lithium-ion" alone usually means NMC, with roughly a third of LFP's cycle life.
+
+## Safety Certifications: UL 2056 (Power Banks) vs. UL 2743 (Power Stations)
+
+The two product categories carry different safety listings. Solar power banks are covered by **UL 2056**, the standard for portable lithium battery packs, addressing short-circuit protection and charging safety for smaller cells.
+
+Portable power stations fall under **UL 2743** — the standard for mobile/portable energy storage power supplies, covering overload protection, short-circuit protection, dielectric withstand, and the battery charging system across the unit's lifecycle. UL 2743 was updated in 2025 (effective October 4, 2025), with non-compliant units being delisted from major marketplaces starting in March 2026.
+
+→ Action: For a power bank, look for "UL 2056" on the spec sheet. For a power station, look for "UL 2743" specifically — not just generic "UL listed," which doesn't confirm the same testing scope.
 
 ## Top Products & Recommendations
 

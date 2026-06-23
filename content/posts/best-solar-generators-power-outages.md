@@ -20,6 +20,14 @@ Your refrigerator pulls about 600 watts. Add a few LED lights at 60 watts, your 
 
 Peak power matters too. That same refrigerator might surge to 1,200 watts when the compressor kicks on. Your generator needs enough surge capacity to handle these spikes without tripping.
 
+## Continuous vs. Surge Watts: The Two Numbers That Actually Matter
+
+Every spec sheet lists two wattage numbers, and mixing them up is the most common sizing mistake. **Continuous (rated) output** is the steady wattage the unit can deliver indefinitely — your real "what can I run all day" number. **Surge (peak) output** is a short 2-3 second burst sized to absorb the startup spike from motor-driven appliances like a refrigerator compressor.
+
+The math above already hints at why this matters: that 600W fridge can spike to 1,200W for a couple seconds when the compressor kicks on. A generator rated 1,000W continuous / 2,000W surge can run your 710W of continuous loads all day and still absorb that fridge spike without tripping.
+
+→ Action: When comparing models, check both numbers against your power audit — continuous output against your running-watts total, and surge output against your single largest appliance's starting watts.
+
 ## Battery Storage: The Heart of Outage Protection
 
 Battery capacity, measured in watt-hours (Wh), tells you how long your generator runs without sun. A 2,000Wh battery powers a 200-watt load for 10 hours.
@@ -27,6 +35,21 @@ Battery capacity, measured in watt-hours (Wh), tells you how long your generator
 Most power outages last less than 24 hours. A 3,000Wh battery system keeps critical loads running through the night and recharges during the day.
 
 Lithium iron phosphate (LiFePO4) batteries dominate the market now. They last 10+ years, handle thousands of cycles, and work safely indoors.
+
+## LiFePO4 vs. NMC: Which Battery Chemistry Powers Your Backup?
+
+Most solar generators on the market today use one of two lithium chemistries, and the difference affects lifespan, safety, and price.
+
+| | LiFePO4 (LFP) | NMC |
+|---|---|---|
+| Cycle life | 3,000–7,000 cycles | 1,000–2,000 cycles |
+| Capacity retention (~500 cycles) | ~94% | ~82% |
+| Energy density | 90–160 Wh/kg | 150–250 Wh/kg |
+| Thermal stability | High — self-extinguishing | Lower — more prone to thermal runaway |
+
+For a backup system that mostly sits in storage and gets exercised occasionally, LFP's 10+ year lifespan and stronger safety margin make it the better choice — which is why it's become the default chemistry for emergency-prep units. NMC's lighter, more compact cells matter more for ultralight or space-constrained gear, where backup duty isn't the primary use case.
+
+→ Action: If a listing doesn't specify the chemistry, check the spec sheet for "LiFePO4" or "LFP" — generic "lithium-ion" usually means NMC.
 
 ## Solar Panel Integration and Charging Speed
 
@@ -46,6 +69,14 @@ Automatic transfer switches connect your generator directly to home circuits. Wh
 
 WiFi monitoring lets you check battery levels and power consumption from your phone. You'll know exactly how long your power will last.
 
+## Certification to Look For: What UL 2743 Actually Tests
+
+The relevant safety certification for portable power stations is **UL 2743** — the standard covering mobile/portable energy storage power supplies. It was updated in 2025 (effective October 4, 2025), and units that don't meet the revised standard are already being delisted from major marketplaces starting in March 2026.
+
+UL 2743 testing covers overload protection, short-circuit protection, dielectric withstand, and the battery charging system across the unit's lifecycle — the failure modes that matter most for a device you're trusting to run safely, possibly unattended, during an outage.
+
+→ Action: Look for "UL 2743" specifically on the spec sheet or label — not just generic "UL listed," and not UL 2056, which covers smaller power banks rather than full power stations. If a listing doesn't mention it, check the manufacturer's safety documentation before buying.
+
 ## Sizing Your System: Real-World Calculations
 
 Start with a power audit. List every device you need during outages. Note both running watts and starting watts.
@@ -64,6 +95,14 @@ Peak starting watts: 2,195W
 
 Choose the best solar generators power outages based on these numbers. Add 20% safety margin for unexpected loads.
 
+## Off-Grid Bonus: Sizing for a 12V Compressor Fridge
+
+The math above covers a household fridge running on AC power, but if you're sizing a system for an RV, van, or cabin running a 12V compressor fridge, the numbers look different. These fridges typically draw **40–80 watts while running**, with a duty cycle of roughly 30–40% in moderate weather and up to 50–70% in hot conditions — working out to **300–600 Wh per day** for a typical 40–75 qt unit.
+
+To keep that fridge running indefinitely off-grid, pair **100–150W of solar panel** with a **500Wh+ battery**, assuming about 5 peak sun hours and 80% system efficiency. Hotter climates or larger fridges should size toward the higher end of both numbers.
+
+→ Action: If a 12V fridge is on your essential-loads list, add its daily Wh estimate to your power audit total before choosing a system size.
+
 ## Installation and Setup Considerations
 
 Portable units require no installation. Roll them out when needed, plug in your devices, and start using power immediately.
@@ -71,6 +110,22 @@ Portable units require no installation. Roll them out when needed, plug in your 
 Whole-home integration needs professional installation. Electricians install transfer switches and dedicated circuits for about $500-1,500.
 
 Solar panels mount on roofs, ground racks, or portable stands. Portable panels offer flexibility but require storage space. Fixed installations provide consistent power but cost more upfront.
+
+## Is It Safe to Run a Solar Generator Indoors?
+
+Unlike gas generators, solar generators produce no carbon monoxide — they're battery-based, so there's no combustion and no exhaust. This is the main reason they're marketed as safe for indoor and enclosed-space use during an outage, including bedrooms, vans, and tents.
+
+That said, lithium batteries generate heat under load, and manufacturers generally recommend keeping some airflow around the unit during heavy charging or discharging rather than tucking it into a fully sealed cabinet or closet. LFP chemistry (see above) has a meaningfully higher thermal-runaway threshold than NMC, which is part of why it's become the standard for units marketed for indoor backup use.
+
+→ Action: Check your unit's manual for a specific clearance recommendation — most manufacturers list a minimum distance from walls or enclosures for ventilation during operation.
+
+## Do Solar Generators Need RV Certification?
+
+If you're planning to use a portable solar generator in an RV, it's worth knowing which codes actually apply. **NEC Article 551** governs permanently installed RV electrical systems — wiring, grounding, and generator installations built into the vehicle. **RVIA certification** is the RV Industry Association's compliance mark for systems built into the RV itself, including low-voltage DC systems under RVIA-LV.
+
+A portable unit that you carry in and plug into an outlet or 12V port falls outside both of these frameworks — they apply to the RV's built-in electrical system, not to portable accessories. The certification that actually matters for a plug-and-use unit is UL 2743 (above).
+
+→ Action: NEC 551 and RVIA only come into play if you're permanently wiring a solar system into your RV's electrical panel — a different project with its own electrician and inspection requirements.
 
 ## Maintenance for Long-Term Reliability
 

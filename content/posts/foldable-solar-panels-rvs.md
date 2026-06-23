@@ -377,6 +377,18 @@ Using 16-gauge speaker wire for 30-foot runs from panel to battery. By the time 
 
 * * *
 
+## Cost Analysis: Foldable Solar vs. Campground Electrical Fees and Generator Fuel
+
+The case for foldable RV solar isn't just about boondocking freedom — it's also a direct offset against two recurring costs: full-hookup campground fees and generator fuel.
+
+**Campground hookup fees:** Sites with electrical (30/50A) hookups typically run $10-25/night more than non-electric or primitive sites, depending on region — national park and BLM dispersed sites are often free or under $10, while private RV resorts with full hookups can run $40-70/night where the electrical hookup is part of that premium. A snowbird or full-time boondocker spending 60-90 nights/year on non-electric sites instead of full-hookup sites can offset $600-2,000+ annually — often covering the cost of a 400W foldable kit plus LiFePO4 battery bank within a single season.
+
+**Generator fuel:** A mid-size RV generator burns roughly 0.5-0.75 gallons/hour under load. Running it 3-4 hours/day to maintain a residential fridge and basic loads costs $6-12/day in fuel at current gas prices — $180-360/month for full-time boondockers. The "Sunny Day Scenario" above (400W system generating 2,000Wh in Arizona June) covers that same fridge load with zero fuel cost; even the "Cloudy Day Scenario" cuts generator runtime roughly in half.
+
+**Regional variation:** Southwest and Mountain West boondockers (Arizona, Nevada, New Mexico, Utah) get the fastest payback — abundant sun and extensive free BLM/dispersed camping mean both higher solar output and more non-electric nights to offset. Pacific Northwest and forest-heavy travelers see slower solar payback (per the Cloudy Day and Shade Management sections above) but may still offset hookup fees if they're willing to use non-electric sites and lean on generator backup during low-sun stretches.
+
+→ Action: Tally your actual nights on non-electric sites and your generator fuel spend from a recent season — for most snowbirds and full-time boondockers, a 400W foldable system plus LiFePO4 battery bank pays for itself in fee and fuel savings within one to two seasons, separate from any electricity-bill savings at a fixed residence.
+
 ## Frequently Asked Questions
 
 **Can I run my RV air conditioner on foldable solar?**

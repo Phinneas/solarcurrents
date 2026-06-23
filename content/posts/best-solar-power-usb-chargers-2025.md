@@ -564,6 +564,30 @@ You avoid outlet hunting in airports and hotels with solar chargers. Internation
 
 Business travelers charge devices during outdoor meetings. Adventure tourists power equipment in remote destinations. You maintain device operation across time zones and continents.
 
+## Safety Certifications: UL 2056 and What to Look for on Solar Power Banks
+
+Pure solar-to-USB panels without batteries don't carry battery safety certifications, but any model with an integrated battery — the Solgaard Solarbank Nomad, BLAVOR 5-Panel Solar Power Bank, or Voltaic Arc paired with the V15 — falls under **UL 2056**, the safety standard for portable lithium battery power packs. UL 2056 testing covers cell protection circuits, short-circuit prevention, overcharge/over-discharge protection, and thermal safety for the internal battery.
+
+Beyond UL 2056, solar panel components (the photovoltaic cells themselves) may carry **UL 1703** or **IEC 61215/61730** listings, though this is less common at the smaller wattages typical of USB chargers. CE, FCC, and RoHS markings — mentioned earlier in this guide — confirm basic electrical safety and emissions compliance but don't substitute for UL 2056 on the battery itself.
+
+→ Action: If you're buying a model with a built-in battery (20,000mAh+ units especially), check the listing or spec sheet for "UL 2056." Pure solar-to-USB panels without batteries don't need this certification, but anything storing a charge does.
+
+## Battery Chemistry: LiFePO4 vs. Standard Li-ion in Solar Power Banks
+
+The integrated batteries in solar power banks use one of two lithium chemistries, and the difference matters for anyone who plans to use the charger every camping season rather than once or twice.
+
+| | LiFePO4 (LFP) | Standard Li-ion (NMC/LCO) |
+|---|---|---|
+| Cycle life | 2,000–5,000+ | 300–800 |
+| Capacity retention (~500 cycles) | ~90–95% | ~70–80% |
+| Weight | Heavier per Wh | Lighter per Wh |
+| Thermal stability | High — self-extinguishing | Lower — more prone to thermal runaway |
+| Typical use | Long-term seasonal gear | Budget/lightweight power banks |
+
+Most solar power banks in the 10,000-20,000mAh range — including budget options like the BLAVOR — use standard Li-ion cells to keep weight and cost down. This is a reasonable tradeoff for occasional use, but after 1-2 seasons of regular charging cycles, capacity noticeably drops. Higher-end integrated units increasingly offer LiFePO4 variants for buyers who want the battery to outlast multiple camping seasons without replacement.
+
+→ Action: If you're charging this bank every weekend or on multi-week trips, look for "LiFePO4" or "LFP" in the spec sheet — the higher upfront cost pays for itself once a standard Li-ion bank would have already degraded to 70-80% capacity.
+
 ## Frequently Asked Questions
 
 ### How long does a solar charger take to charge a phone?
