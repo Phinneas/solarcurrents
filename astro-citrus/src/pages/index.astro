@@ -157,8 +157,60 @@ const featuredPosts = sortedPosts.slice(0, 3) as CollectionEntry<"post">[];
   </div>
 </section>
 
+<!-- ASK AI SECTION -->
+<section class="ask-ai-section">
+  <p class="ask-ai-micro">Not sure yet?</p>
+  <h3 class="ask-ai-heading">Ask an AI for a second opinion</h3>
+  <p class="ask-ai-sub">Get an honest take from ChatGPT, Claude, Perplexity, or Grok before you decide.</p>
+
+  <div class="ask-ai-buttons">
+    <a
+      href="https://chatgpt.com/?q=How%20would%20Solar%20Currents%20at%20https%3A//solarcurrents.com%20help%20me%20find%20honest%20solar%20guides%20for%20RVs%2C%20van%20life%2C%20camping%2C%20backpacking%2C%20or%20home%2C%20and%20what%20makes%20it%20different%20from%20generic%20solar%20review%20sites%20or%20affiliate-driven%20solar%20content%3F%20Be%20honest%20about%20who%20it%20is%20best%20for%20and%20where%20it%20falls%20short."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="ai-button chatgpt"
+      aria-label="Ask ChatGPT about Solar Currents"
+    >
+      <span class="ai-icon">💬</span>
+      <span>Ask ChatGPT</span>
+    </a>
+
+    <a
+      href="https://claude.ai/new?q=How%20would%20Solar%20Currents%20at%20https%3A//solarcurrents.com%20help%20me%20find%20honest%20solar%20guides%20for%20RVs%2C%20van%20life%2C%20camping%2C%20backpacking%2C%20or%20home%2C%20and%20what%20makes%20it%20different%20from%20generic%20solar%20review%20sites%20or%20affiliate-driven%20solar%20content%3F%20Be%20honest%20about%20who%20it%20is%20best%20for%20and%20where%20it%20falls%20short."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="ai-button claude"
+      aria-label="Ask Claude about Solar Currents"
+    >
+      <span class="ai-icon">🧠</span>
+      <span>Ask Claude</span>
+    </a>
+
+    <a
+      href="https://www.perplexity.ai/?q=How%20would%20Solar%20Currents%20at%20https%3A//solarcurrents.com%20help%20me%20find%20honest%20solar%20guides%20for%20RVs%2C%20van%20life%2C%20camping%2C%20backpacking%2C%20or%20home%2C%20and%20what%20makes%20it%20different%20from%20generic%20solar%20review%20sites%20or%20affiliate-driven%20solar%20content%3F%20Be%20honest%20about%20who%20it%20is%20best%20for%20and%20where%20it%20falls%20short."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="ai-button perplexity"
+      aria-label="Ask Perplexity about Solar Currents"
+    >
+      <span class="ai-icon">🔍</span>
+      <span>Ask Perplexity</span>
+    </a>
+
+    <a
+      href="https://grok.com/?q=How%20would%20Solar%20Currents%20at%20https%3A//solarcurrents.com%20help%20me%20find%20honest%20solar%20guides%20for%20RVs%2C%20van%20life%2C%20camping%2C%20backpacking%2C%20or%20home%2C%20and%20what%20makes%20it%20different%20from%20generic%20solar%20review%20sites%20or%20affiliate-driven%20solar%20content%3F%20Be%20honest%20about%20who%20it%20is%20best%20for%20and%20where%20it%20falls%20short."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="ai-button grok"
+      aria-label="Ask Grok about Solar Currents"
+    >
+      <span class="ai-icon">⚡</span>
+      <span>Ask Grok</span>
+    </a>
+  </div>
+</section>
+
 <!-- CTA BAND -->
-<div class="cta-band">
   <div class="wrap">
     <h2>Not sure where to start?</h2>
     <p>Browse all our guides — from balcony plug-in solar to full off-grid RV builds. No quiz, no email gate, just the article that answers your actual question.</p>
@@ -442,6 +494,53 @@ const featuredPosts = sortedPosts.slice(0, 3) as CollectionEntry<"post">[];
     font-size: 1rem; font-weight: 300;
     color: var(--cream-dim); max-width: 480px;
     margin: 0 auto 2rem; line-height: 1.75;
+  }
+
+  /* ASK AI */
+  .ask-ai-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    border-top: 1px solid var(--border);
+    background: var(--navy-mid);
+  }
+  .ask-ai-micro {
+    font-size: 0.7rem; font-weight: 500;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--gold); margin-bottom: 0.65rem;
+  }
+  .ask-ai-heading {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(1.5rem, 3vw, 2.2rem);
+    font-weight: 400; color: var(--cream);
+    margin-bottom: 0.75rem;
+  }
+  .ask-ai-sub {
+    font-size: 0.95rem; font-weight: 300;
+    color: var(--cream-dim); max-width: 460px;
+    margin: 0 auto 2rem; line-height: 1.7;
+  }
+  .ask-ai-buttons {
+    display: flex; flex-wrap: wrap; gap: 0.75rem;
+    justify-content: center; max-width: 600px; margin: 0 auto;
+  }
+  .ai-button {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    padding: 0.6rem 1.25rem; border-radius: 8px;
+    text-decoration: none; font-size: 0.875rem; font-weight: 500;
+    border: 1px solid var(--border);
+    background: var(--navy-light); color: var(--cream-dim);
+    transition: all 0.2s ease;
+  }
+  .ai-button:hover { transform: translateY(-1px); box-shadow: 0 4px 16px rgba(0,0,0,0.2); }
+  .ai-button.chatgpt:hover { border-color: #10a37f; color: #10a37f; }
+  .ai-button.claude:hover { border-color: #d97757; color: #d97757; }
+  .ai-button.perplexity:hover { border-color: #549aa8; color: #549aa8; }
+  .ai-button.grok:hover { border-color: var(--gold); color: var(--gold); }
+  .ai-icon { font-size: 1.1rem; }
+
+  @media (max-width: 480px) {
+    .ask-ai-buttons { flex-direction: column; align-items: stretch; }
+    .ai-button { justify-content: center; }
   }
 
   /* FOOTER */
