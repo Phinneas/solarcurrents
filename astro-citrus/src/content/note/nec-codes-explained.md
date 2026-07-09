@@ -21,7 +21,7 @@ Cross-links: [Plug-and-Play Solar](/posts/plug-and-play-solar-panels/) · [Balco
 
 ## NEC 705 — Grid Interconnection
 
-Covers how your solar or battery system ties into the utility grid — including the size limits on systems that can connect without utility approval, the required grid-protection devices, and how power flows between your home, your batteries, and the grid. If you're considering a home battery backup that can export to the grid, or a hybrid inverter, this is the section that governs what your installer has to do.
+Covers how your solar or battery system ties into the utility grid — including the size limits on systems that can connect without utility approval, the required grid-protection devices, and how power flows between your home, your batteries, and the grid. If you're considering a home battery backup that can export to the grid, or a hybrid inverter, this is the section that governs what your installer has to do. For the full breakdown — load-side vs. supply-side connections, the 120% rule, and the AHJ sign-off process — see [NEC Article 705 in Plain English](/posts/nec-705-plain-english-solar-interconnection/).
 
 *Applies to: Grid-tied solar and battery systems.*
 

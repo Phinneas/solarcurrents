@@ -439,44 +439,9 @@ You handle the non-electrical work (mounting, cable runs, permits). A licensed e
 
 ### 7.3 Installation Inspection Checklist (For AHJ Sign-Off)
 
-The Authority Having Jurisdiction (AHJ, usually the city/county building department) will inspect your installation. Here's what they verify:
+The Authority Having Jurisdiction (AHJ, usually the city/county building department) will inspect your installation against a standard set of items — rapid-shutdown compliance, electrical safety, fire clearances, and permit documentation.
 
-**Rapid-Shutdown Compliance (NEC Article 706)**
-
-  * ☐ Rapid-shutdown label visible and legible (red label stating "RAPID SHUTDOWN SWITCH")
-  * ☐ Main disconnect switch accessible within 10 feet, clearly labeled
-  * ☐ Disconnect de-energizes entire battery system when triggered
-  * ☐ Electrician confirms switch operation
-
-
-
-**Electrical Safety (NEC Articles 690, 750)**
-
-  * ☐ Arc-fault protection installed on all DC circuits (AFCI breakers or module-level AFCI)
-  * ☐ Ground-fault protection on all DC circuits (GFDI or GFDI-protected combiner)
-  * ☐ Battery disconnects are rated for DC current (AC-rated disconnects fail in DC)
-  * ☐ All wire gauge is correct per system voltage and continuous current rating
-  * ☐ Grounding is continuous and tested (resistance < 25 ohms)
-
-
-
-**Fire & Life Safety**
-
-  * ☐ Battery enclosure has 36-inch clearance on all sides (for ventilation, inspection, fire access)
-  * ☐ No flammable materials within 6 feet
-  * ☐ Proper ventilation holes aren't blocked
-  * ☐ Temperature sensor is installed and operational (if battery is indoors)
-
-
-
-**Permits & Documentation**
-
-  * ☐ Permit number posted on electrical panel
-  * ☐ One-line diagram matches actual installation
-  * ☐ Equipment cut-sheets filed with permit
-  * ☐ Installer certification on file
-
-
+**Full AHJ Inspection Checklist (Reference):** [ahj-inspection-checklist](/notes/ahj-inspection-checklist/)
 
 * * *
 
