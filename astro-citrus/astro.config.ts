@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import cloudflare from "@astrojs/cloudflare";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
@@ -25,6 +26,10 @@ import {
 
 // https://astro.build/config
 export default defineConfig({
+  output: "server",
+  adapter: cloudflare({
+    exclude: ["@resvg/resvg-js"],
+  }),
   image: {
     domains: ["webmention.io"],
   },
@@ -144,6 +149,9 @@ export default defineConfig({
     },
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
+    },
+    ssr: {
+      external: ["@resvg/resvg-js"],
     },
     plugins: [rawFonts([".ttf", ".woff"])],
   },

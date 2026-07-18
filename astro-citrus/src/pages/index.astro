@@ -1,16 +1,16 @@
 ---
-import { type CollectionEntry, getCollection } from "astro:content";
 import BaseHead from "@/components/BaseHead.astro";
 import Header from "@/components/layout/Header.astro";
 import { getAllPosts } from "@/data/post";
 import { collectionDateSort } from "@/utils/date";
 import { siteConfig } from "@/site.config";
 
-const allPosts = await getAllPosts();
+const db = Astro.locals.runtime.env.DB;
+const allPosts = await getAllPosts(db);
 const sortedPosts = allPosts.sort(collectionDateSort);
 
 // Featured posts — use first 3
-const featuredPosts = sortedPosts.slice(0, 3) as CollectionEntry<"post">[];
+const featuredPosts = sortedPosts.slice(0, 3);
 ---
 
 <!DOCTYPE html>

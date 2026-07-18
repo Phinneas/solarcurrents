@@ -1,30 +1,27 @@
 ---
-import { type CollectionEntry, render } from "astro:content";
+import type { MarkdownHeading } from "astro";
 import Masthead from "@/components/blog/Masthead.astro";
 import TOC from "@/components/blog/TOC.astro";
 import WebMentions from "@/components/blog/webmentions/index.astro";
 import BaseLayout from "./Base.astro";
 import SeriesPanel from "@/components/SeriesPanel.astro";
 import { Icon } from "astro-icon/components";
+import type { BlogPost } from "@/data/post";
 
 interface Props {
-	post: CollectionEntry<"post">;
+	post: BlogPost;
+	headings: MarkdownHeading[];
 }
 
-const { post } = Astro.props;
+const { post, headings } = Astro.props;
 const { ogImage, title, description, updatedDate, publishDate, seriesId } = post.data;
 
 const socialImage = ogImage ?? `/og-image/${post.id}.png`;
 const articleDate = updatedDate?.toISOString() ?? publishDate.toISOString();
-const { headings } = await render(post);
 ---
 
 <BaseLayout meta={{ articleDate, description, ogImage: socialImage, title }}>
 	<div class="fixed left-0 top-0 z-10 flex h-16 md:h-20 w-full bg-bgColor overflow-hidden">
-		<!-- Background 
-			TODO: This approach is not optimal and requires improvements. 
-  			- Too many absolutely positioned elements can affect performance. 
-  		-->	
 		<div class="absolute top-0 left-1/2 -ml-[50vw] w-screen min-h-screen pointer-events-none blur-2xl">
 			<div class="absolute top-[-90%] right-[25%] w-[75%] h-full bg-gradient-to-b from-blue-300 via-pink-300 to-transparent rounded-full opacity-40 dark:opacity-5"></div>
 			<div class="absolute top-[-90%] left-[25%] w-[75%] h-full bg-gradient-to-b from-blue-300 via-pink-300 to-transparent rounded-full opacity-40 dark:opacity-5"></div>
@@ -36,40 +33,10 @@ const { headings } = await render(post);
 			<div class="absolute top-[-85%] right-[-30%] w-[85%] h-full bg-gradient-to-b from-orange-300 via-indigo-300 to-transparent rounded-full opacity-60 dark:opacity-5"></div>
 		</div>
 	</div>
- 	
-	<!-- NEEDS IMPROVEMENT!!! -->
-	<!-- Menu button instead of the main menu -->
-	<!--
-	<div class="left-0 right-0 top-0 z-30 ml-auto h-0 w-fit px-2 md:absolute">
-		<div class="fixed top-0 -ml-[4rem] flex space-x-2 bg-bgColor pt-8">
-	-->
-			<!-- Button background -->
-			<!--
-			<div class="fixed top-0 h-20 right-[0%] w-[50%] bg-gradient-to-l from-orange-300 via-pink-300 to-transparent  opacity-40 dark:opacity-10">
-			</div>
-			-->
-
-			<!--
-			 <button
-				aria-expanded="false"
-				aria-haspopup="menu"
-				aria-label="Open main menu"
-				class="hidden md:flex group text-sm relative h-8 w-16 font-medium items-center justify-center px-4 rounded-lg bg-accent-base/5 text-accent-base hover:bg-accent-base/10"
-				id="toggle-navigation-menu"
-				type="button"
-			>
-				Menu
-			</button>
-			-->
-	<!--	
-		</div>
-	</div>
-	-->
-
-	<!-- SeriesPanel is inserted into the named slot "sidebar" -->
+ 
 	{seriesId && (<SeriesPanel slot="sidebar" seriesId={seriesId} />)}
 
-	<Masthead content={post} />
+	<Masthead content={post} headings={headings} />
 	
 	<div class="mt-6 flex sm:grid-cols-[auto_1fr] md:items-start gap-x-8">
 		<article class="grid flex-grow grid-cols-1 break-words pt-4" data-pagefind-body>
@@ -111,7 +78,6 @@ const { headings } = await render(post);
 		</button>
 	</div>
 
-	<!-- Series button for mobile screens -->
 	{seriesId && (
 		<mobile-button
 			id="toggle-panel-mobile"
@@ -123,55 +89,26 @@ const { headings } = await render(post);
 			</span>
 		</mobile-button>
 	)}
-
-	<!-- NEEDS IMPROVEMENT!!! -->
-	<!-- Table of Contents button for mobile screens -->
-	<!--
-	{!!headings.length && (
-		<mobile-button
-			id="toggle-toc-mobile"
-			class="size-12 flex items-center justify-center block sm:hidden fixed bottom-20 shadow-[0px_10px_25px_rgba(0,0,0,0.15)] border border-special-lighter right-4 z-50 rounded-lg bg-bgColor text-accent-base hover:text-accent-base/90"
-			aria-label="Toggle TOC Panel"
-		>
-			<span class="absolute inset-0 rounded-lg flex items-center justify-center bg-special-light hover:text-accent-base/90">
-				<Icon class="size-8" name="solar:clipboard-list-bold"/>
-			</span>
-		</mobile-button>
-	)}
-	-->
 </BaseLayout>
 
 <!-- Copy code button -->
 <script>
-	// Wait for the content to fully load
 	document.addEventListener("DOMContentLoaded", () => {
-		// Find all pre blocks
 		document.querySelectorAll("pre").forEach((pre) => {
-			// Check if the button already exists
 			if (!pre.querySelector(".copy-code")) {
-				// Create the button
 				const copyButton = document.createElement("button");
 				copyButton.className =
 				"absolute flex items-center justify-center bg-bgColor h-6 font-medium overflow-hidden rounded-md text-light hover:text-accent-two font-sans text-sm font-medium top-2 right-2";
-
-				// Create the span element that will hold the button text
 				const buttonText = document.createElement("span");
-				buttonText.innerText = "Copy"; // Initial text
-				buttonText.className = "flex items-center block w-full h-full px-2 bg-[var(--code-title-bg)]"; // Set the span to take up full width with background color
-
-				copyButton.appendChild(buttonText); // Append span to the button
-
-				// Add the button inside pre
+				buttonText.innerText = "Copy";
+				buttonText.className = "flex items-center block w-full h-full px-2 bg-[var(--code-title-bg)]";
+				copyButton.appendChild(buttonText);
 				pre.appendChild(copyButton);
-
-				// Event handler for copying text
 				copyButton.addEventListener("click", async () => {
 					const code = pre.querySelector("code")?.textContent;
 					if (code) {
 						await navigator.clipboard.writeText(code);
-						buttonText.innerText = "Copied!"; // Change text to "Copied!"
-
-						// After 1.5 seconds, change the text back to "Copy"
+						buttonText.innerText = "Copied!";
 						setTimeout(() => {
 							buttonText.innerText = "Copy";
 						}, 1500);
@@ -184,28 +121,24 @@ const { headings } = await render(post);
 
 <script>
 	const ANIMATION_DURATION = 300;
-	// Get the button and panel elements
 	const togglePanelBtn = document.getElementById("toggle-panel");
 	const closePanelBtn = document.getElementById("close-panel");
 	const seriesPanel = document.getElementById("series-panel");
 	const togglePanelMobileBtn = document.getElementById("toggle-panel-mobile");
 
-	// Ensure the seriesPanel exists
 	if (!seriesPanel) {
 		console.error("Element series-panel not found");
 		throw new Error("series-panel is required");
 	}
 
-	// Function to check if the panel is visible
 	const isPanelVisible = () => {
-		const isScreenLg = window.matchMedia("(min-width: 1024px)").matches; // Large screens
+		const isScreenLg = window.matchMedia("(min-width: 1024px)").matches;
 		return (
 			(isScreenLg && seriesPanel.classList.contains("lg:block")) ||
 			(!isScreenLg && !seriesPanel.classList.contains("hidden"))
 		);
 	};
 
-	// Function to hide the panel
 	const hidePanel = () => {
 		seriesPanel.classList.add("opacity-0", "-translate-x-full");
 		setTimeout(() => {
@@ -214,7 +147,6 @@ const { headings } = await render(post);
 		}, ANIMATION_DURATION);
 	};
 
-	// Function to show the panel
 	const showPanel = () => {
 		seriesPanel.classList.remove("hidden");
 		seriesPanel.classList.add("block", "lg:block");
@@ -223,49 +155,30 @@ const { headings } = await render(post);
 		}, 10);
 	};
 
-	// Common event handler for both buttons
 	const togglePanel = () => {
 		if (isPanelVisible()) {
-			hidePanel(); // If visible, hide it
+			hidePanel();
 		} else {
-			showPanel(); // If hidden, show it
+			showPanel();
 		}
 	};
 
-	// Event handlers for both buttons
-	if (togglePanelBtn) {
-		togglePanelBtn.addEventListener("click", togglePanel);
-	} else {
-		console.error("Element toggle-panel not found");
-	}
-
-	if (togglePanelMobileBtn) {
-		togglePanelMobileBtn.addEventListener("click", togglePanel);
-	} else {
-		console.error("Element toggle-panel-mobile not found");
-	}
-
-	if (closePanelBtn) {
-		closePanelBtn.addEventListener("click", hidePanel);
-	} else {
-		console.error("Element close-panel not found");
-	}
+	if (togglePanelBtn) togglePanelBtn.addEventListener("click", togglePanel);
+	if (togglePanelMobileBtn) togglePanelMobileBtn.addEventListener("click", togglePanel);
+	if (closePanelBtn) closePanelBtn.addEventListener("click", hidePanel);
 </script>
 
 <script>
-	// Get the button and panel elements
 	const toggleTocBtn = document.getElementById('toggle-toc');
 	const closeTocBtn = document.getElementById('close-toc');
 	const tocPanel = document.getElementById('toc-panel');
 	const toggleTocMobileBtn = document.getElementById("toggle-toc-mobile");
 
-	// Check for the panel's presence (required for functionality)
 	if (!tocPanel) {
 		console.error('Element toc-panel not found');
 		throw new Error('toc-panel is required');
 	}
 
-	// Function to check if the table of contents is visible
 	const isTocVisible = () => {
 		const isScreenMd = window.matchMedia("(min-width: 768px)").matches;
 		return (
@@ -274,59 +187,34 @@ const { headings } = await render(post);
 		);
 	};
 
-	// Function to hide the panel
 	const hideToc = () => {
 		tocPanel.classList.add('hidden');
 		tocPanel.classList.remove('md:block');
 	};
 
-	// Function to show the panel
 	const showToc = () => {
 		tocPanel.classList.remove('hidden');
 		tocPanel.classList.add('md:block');
 	};
 
-	// Common event handler for both buttons
 	const toggleToc = () => {
 		if (isTocVisible()) {
-			hideToc(); // If visible, hide it
+			hideToc();
 		} else {
-			showToc(); // If hidden, show it
+			showToc();
 		}
 	};
 	
-	// Add event handler for the toggle button
-	if (toggleTocBtn) {
-		toggleTocBtn.addEventListener("click", toggleToc);
-	} else {
-		console.error('Element toggle-toc not found');
-	}
-
-	// Add event handler for the toggle button (mobile)
-	if (toggleTocMobileBtn) {
-		toggleTocMobileBtn.addEventListener("click", toggleToc);
-	} else {
-		console.error('Element toggle-toc-mobile not found');
-	}
-
-	// Add event handler for the close button
-	if (closeTocBtn) {
-		closeTocBtn.addEventListener('click', hideToc);
-	} else {
-		console.error('Element close-toc not found');
-	}
+	if (toggleTocBtn) toggleTocBtn.addEventListener("click", toggleToc);
+	if (toggleTocMobileBtn) toggleTocMobileBtn.addEventListener("click", toggleToc);
+	if (closeTocBtn) closeTocBtn.addEventListener('click', hideToc);
 </script>
 
 <script>
-	// Wait for the content to fully load
 	document.addEventListener("DOMContentLoaded", () => {
 		const buttonsPanel = document.getElementById("buttons-panel");
-		
 		if (buttonsPanel) {
 			buttonsPanel.classList.add("fixed");
-			console.log("Class 'fixed' added to the buttons-panel element.");
-		} else {
-			console.error("Element with ID 'buttons-panel' not found.");
 		}
 	});
 </script>
@@ -338,7 +226,6 @@ const { headings } = await render(post);
 
 	function callback(entries: IntersectionObserverEntry[]) {
 		entries.forEach((entry) => {
-			// Show the scroll to top button when the <header> is out of view
 			scrollBtn.dataset.show = (!entry.isIntersecting).toString();
 		});
 	}
@@ -350,34 +237,3 @@ const { headings } = await render(post);
 	const observer = new IntersectionObserver(callback);
 	observer.observe(targetHeader);
 </script>
-
-<!-- REQUIRES IMPROVEMENT!!! -->
-<!-- Menu button instead of the main menu -->
-<!--
-<script>
-	document.addEventListener("DOMContentLoaded", () => {
-		const menuButton = document.getElementById("toggle-navigation-menu");
-		const navigationMenu = document.getElementById("menu");
-
-		if (!menuButton || !navigationMenu) {
-			console.error("Menu button or navigation menu is missing in the DOM.");
-			return;
-		}
-
-		menuButton.addEventListener("click", () => {
-			const isOpen = menuButton.getAttribute("aria-expanded") === "true";
-
-			if (isOpen) {
-				// Close the menu
-				navigationMenu.classList.add("hidden");
-			} else {
-				// Open the menu
-				navigationMenu.classList.remove("hidden");
-			}
-
-			// Update the button state
-			menuButton.setAttribute("aria-expanded", (!isOpen).toString());
-		});
-	});
-</script>
--->

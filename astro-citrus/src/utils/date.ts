@@ -1,5 +1,5 @@
-import type { CollectionEntry } from "astro:content";
 import { siteConfig } from "@/site.config";
+import type { BlogPost } from "@/data/post";
 
 export function getFormattedDate(
 	date: Date | undefined,
@@ -15,9 +15,6 @@ export function getFormattedDate(
 	}).format(date);
 }
 
-export function collectionDateSort(
-	a: CollectionEntry<"post" | "note">,
-	b: CollectionEntry<"post" | "note">,
-) {
+export function collectionDateSort(a: BlogPost, b: BlogPost) {
 	return b.data.publishDate.getTime() - a.data.publishDate.getTime();
 }

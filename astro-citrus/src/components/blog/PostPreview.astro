@@ -1,10 +1,10 @@
 ---
-import type { CollectionEntry } from "astro:content";
 import FormattedDate from "@/components/FormattedDate.astro";
 import type { HTMLTag, Polymorphic } from "astro/types";
+import type { BlogPost } from "@/data/post";
 
 type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag }> & {
-	post: CollectionEntry<"post">;
+	post: BlogPost;
 	withDesc?: boolean;
 };
 
@@ -18,8 +18,6 @@ const { as: Tag = "div", post, withDesc = false } = Astro.props;
 				class="shrink-0 text-lighter text-sm sm:order-2 sm:text-right"
 				date={post.data.publishDate}
 				dateTimeOptions={{
-					// hour: "2-digit",
-					// minute: "2-digit",
 					year: "numeric",
 					month: "long",
 					day: "2-digit",
@@ -38,8 +36,6 @@ const { as: Tag = "div", post, withDesc = false } = Astro.props;
 				class="text-sm shrink-0 text-lighter" 
 				date={post.data.publishDate}
 				dateTimeOptions={{
-					// hour: "2-digit",
-					// minute: "2-digit",
 					year: "numeric",
 					month: "long",
 					day: "2-digit",

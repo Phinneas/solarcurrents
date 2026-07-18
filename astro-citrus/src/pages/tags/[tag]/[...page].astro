@@ -1,32 +1,35 @@
 ---
-import type { CollectionEntry } from "astro:content";
 import Pagination from "@/components/Paginator.astro";
 import PostPreview from "@/components/blog/PostPreview.astro";
-import { getAllPosts, getUniqueTags } from "@/data/post";
+import { getPostsByTag } from "@/data/post";
 import PageLayout from "@/layouts/Base.astro";
 import { collectionDateSort } from "@/utils/date";
-import type { GetStaticPaths, Page } from "astro";
 
-export const getStaticPaths: GetStaticPaths = async ({ paginate }) => {
-	const allPosts = await getAllPosts();
-	const sortedPosts = allPosts.sort(collectionDateSort);
-	const uniqueTags = getUniqueTags(sortedPosts);
+const PAGE_SIZE = 10;
 
-	return uniqueTags.flatMap((tag) => {
-		const filterPosts = sortedPosts.filter((post) => post.data.tags.includes(tag));
-		return paginate(filterPosts, {
-			pageSize: 10,
-			params: { tag },
-		});
-	});
-};
+const { tag } = Astro.params;
+const pageParam = Astro.params.page;
 
-interface Props {
-	page: Page<CollectionEntry<"post">>;
+if (!tag) {
+	return new Response(null, { status: 404 });
 }
 
-const { page } = Astro.props;
-const { tag } = Astro.params;
+const db = Astro.locals.runtime.env.DB;
+const posts = await getPostsByTag(db, tag);
+const sortedPosts = posts.sort(collectionDateSort);
+
+const currentPage = pageParam ? parseInt(pageParam, 10) : 1;
+if (isNaN(currentPage) || currentPage < 1) {
+	return new Response(null, { status: 404 });
+}
+
+const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
+if (currentPage > totalPages && totalPages > 0) {
+	return new Response(null, { status: 404 });
+}
+
+const start = (currentPage - 1) * PAGE_SIZE;
+const pagePosts = sortedPosts.slice(start, start + PAGE_SIZE);
 
 const meta = {
 	description: `View all posts with the tag - ${tag}`,
@@ -35,16 +38,16 @@ const meta = {
 };
 
 const paginationProps = {
-	...(page.url.prev && {
+	...(currentPage > 1 && {
 		prevUrl: {
 			text: "← Previous Tags",
-			url: page.url.prev,
+			url: currentPage === 2 ? `/tags/${tag}/` : `/tags/${tag}/${currentPage - 1}/`,
 		},
 	}),
-	...(page.url.next && {
+	...(currentPage < totalPages && {
 		nextUrl: {
 			text: "Next Tags →",
-			url: page.url.next,
+			url: `/tags/${tag}/${currentPage + 1}/`,
 		},
 	}),
 };
@@ -59,7 +62,7 @@ const paginationProps = {
 	<section aria-label="Blog post list">
 		<ul class="space-y-4">
 			{
-				page.data.map((p) => (
+				pagePosts.map((p) => (
 					<li class="grid-cols-[auto_1fr]">
 						<PostPreview post={p} />
 					</li>

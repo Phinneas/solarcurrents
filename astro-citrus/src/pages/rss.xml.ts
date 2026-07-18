@@ -1,14 +1,16 @@
 import { getAllPosts } from "@/data/post";
 import { siteConfig } from "@/site.config";
 import rss from "@astrojs/rss";
+import type { APIContext } from "astro";
 
-export const GET = async () => {
-	const posts = await getAllPosts();
+export const GET = async (context: APIContext) => {
+	const db = context.locals.runtime.env.DB;
+	const posts = await getAllPosts(db);
 
 	return rss({
 		title: siteConfig.title,
 		description: siteConfig.description,
-		site: import.meta.env.SITE,
+		site: context.site ?? "https://www.solarcurrents.co",
 		items: posts.map((post) => ({
 			title: post.data.title,
 			description: post.data.description,

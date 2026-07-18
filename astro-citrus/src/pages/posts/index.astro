@@ -1,54 +1,42 @@
 ---
-import type { CollectionEntry } from "astro:content";
 import Pagination from "@/components/Paginator.astro";
 import PostPreview from "@/components/blog/PostPreview.astro";
 import { getAllPosts, getUniqueTags, groupPostsByYear } from "@/data/post";
 import PageLayout from "@/layouts/Base.astro";
 import { collectionDateSort } from "@/utils/date";
-import type { GetStaticPaths, Page } from "astro";
 import { Icon } from "astro-icon/components";
 import Badge from "@/components/Badge.astro";
 
-export const getStaticPaths = (async ({ paginate }) => {
-	const MAX_POSTS_PER_PAGE = 5;
-	const MAX_TAGS = 20;
-	const allPosts = await getAllPosts();
-	const uniqueTags = getUniqueTags(allPosts).slice(0, MAX_TAGS);
-	return paginate(allPosts.sort(collectionDateSort), {
-		pageSize: MAX_POSTS_PER_PAGE,
-		props: { uniqueTags },
-	});
-}) satisfies GetStaticPaths;
+const MAX_POSTS_PER_PAGE = 5;
+const MAX_TAGS = 20;
 
-interface Props {
-	page: Page<CollectionEntry<"post">>;
-	uniqueTags: string[];
-}
+const db = Astro.locals.runtime.env.DB;
+const allPosts = await getAllPosts(db);
+const sortedPosts = allPosts.sort(collectionDateSort);
+const uniqueTags = getUniqueTags(sortedPosts).slice(0, MAX_TAGS);
 
-const { page, uniqueTags } = Astro.props;
+const currentPage = 1;
+const totalPages = Math.ceil(sortedPosts.length / MAX_POSTS_PER_PAGE);
+
+const start = 0;
+const pagePosts = sortedPosts.slice(start, start + MAX_POSTS_PER_PAGE);
 
 const meta = {
 	description: "Read my collection of posts and the things that interest me",
-	noindex: page.currentPage > 1,
+	noindex: false,
 	title: "Posts",
 };
 
 const paginationProps = {
-	...(page.url.prev && {
-		prevUrl: {
-			text: "← Previous Page",
-			url: page.url.prev,
-		},
-	}),
-	...(page.url.next && {
+	...(currentPage < totalPages && {
 		nextUrl: {
 			text: "Next Page →",
-			url: page.url.next,
+			url: `/posts/page/2/`,
 		},
 	}),
 };
 
-const groupedByYear = groupPostsByYear(page.data);
+const groupedByYear = groupPostsByYear(pagePosts);
 const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 ---
 
@@ -82,9 +70,6 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 				<aside class="md:min-w-[14rem] md:max-w-[14rem] md:basis-[14rem]">
 					<h4 class="title mb-4 flex gap-2">
 						Tags
-						{/*
-						<Icon aria-hidden="true" class="mb-1 h-6 w-6" focusable="false" name="hugeicons:tags" />
-						*/}
 					</h4>
 					<ul class="flex flex-wrap gap-2">
 						{uniqueTags.map((tag) => (
@@ -105,17 +90,6 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 							</a>
 						</span>	
 					</ul>
-					{/*
-					<span class="mt-4 block sm:text-end">
-						<a
-							aria-label="View all blog categories"
-							class="font-medium text-accent sm:hover:text-accent-two"
-							href="/tags/"
-						>
-							View all →
-						</a>
-					</span>
-					*/}
 				</aside>
 			)
 		}
