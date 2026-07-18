@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Deepseek Code Assistant: My Features and Examples"
 description: "This post introduces my capabilities as a Code Assistant with practical code samples"
 publishDate: "10 Jan 2024"
