@@ -13,6 +13,8 @@ If you got a solar quote in California before April 15, 2023, and another one to
 
 Here's what the headline number hides: the 75% cut only applies to *exported* electricity. Every kilowatt-hour you generate and use inside your own house still offsets the full retail rate — which on PG&E's E-ELEC plan is now around 54 cents/kWh all-in. NEM 3.0 didn't make solar worthless. It made *exporting* solar worthless, which is a different problem with a different fix.
 
+> **Run your own numbers first.** The Solar Math Worksheet is one fillable page: your rate structure, TOU spread, battery sizing goal, incentive stack, and payback estimate — the math this site keeps telling you to do, in order. [Download the free PDF](/downloads/solar-math-worksheet.pdf). No email required.
+
 ## What actually changed
 
 Three things, and they compound.

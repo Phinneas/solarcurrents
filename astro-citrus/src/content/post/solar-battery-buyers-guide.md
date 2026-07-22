@@ -9,6 +9,8 @@ coverImage:
 ---
 
 
+> **Run your own numbers first.** The Solar Math Worksheet is one fillable page: your rate structure, TOU spread, battery sizing goal, incentive stack, and payback estimate — the math this site keeps telling you to do, in order. [Download the free PDF](/downloads/solar-math-worksheet.pdf). No email required.
+
 ## Quick-Scan Box
 
 **Make your decision in 30 seconds:**

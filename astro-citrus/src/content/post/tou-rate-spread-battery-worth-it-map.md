@@ -14,6 +14,8 @@ Every solar battery pitch leans on the same line: charge cheap, discharge expens
 
 Here's what the actual 2026 rate sheets say, and which utilities clear the bar.
 
+> **Run your own numbers first.** The Solar Math Worksheet is one fillable page: your rate structure, TOU spread, battery sizing goal, incentive stack, and payback estimate — the math this site keeps telling you to do, in order. [Download the free PDF](/downloads/solar-math-worksheet.pdf). No email required.
+
 ## What "worth it" actually requires
 
 A battery earning its keep on rate arbitrage alone needs three things to line up, not one:

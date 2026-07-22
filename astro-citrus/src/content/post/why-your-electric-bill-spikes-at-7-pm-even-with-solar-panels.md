@@ -13,6 +13,8 @@ You installed solar. Your panels are working — the app confirms it, the produc
 
 This isn't a malfunction, and it isn't a sign you got a bad install. It's a timing mismatch that has a name in the utility industry, and once you see it, your bill stops being a mystery.
 
+> **Run your own numbers first.** The Solar Math Worksheet is one fillable page: your rate structure, TOU spread, battery sizing goal, incentive stack, and payback estimate — the math this site keeps telling you to do, in order. [Download the free PDF](/downloads/solar-math-worksheet.pdf). No email required.
+
 ## The Quick Answer
 
 Your solar panels make most of their electricity in the middle of the day. You use most of your electricity in the early evening — cooking dinner, running AC or heat, charging an EV, turning on lights as the sun goes down. By 7 PM, your panels have largely stopped producing, but your household hasn't stopped consuming. If your utility charges more for electricity during those exact evening hours, you're buying expensive grid power at the worst possible time, regardless of how much free solar you made six hours earlier.
