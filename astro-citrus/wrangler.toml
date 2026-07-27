@@ -8,7 +8,7 @@ compatibility_date = "2024-11-12"
 [build.environment]
 NODE_VERSION = "20"
 
-# D1 Database — direct binding, no SonicJS worker
+# D1 Database binding
 [[d1_databases]]
 binding = "DB"
 database_name = "solar-currents-cms-db"
