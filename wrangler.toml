@@ -1,4 +1,6 @@
 # Cloudflare Pages configuration
+# For dashboard deployment (not wrangler CLI)
+
 name = "solarcurrents"
 pages_build_output_dir = "astro-citrus/dist"
 compatibility_date = "2024-11-12"
@@ -6,7 +8,7 @@ compatibility_date = "2024-11-12"
 [build.environment]
 NODE_VERSION = "20"
 
-# D1 Database — direct binding
+# D1 Database — direct binding, no SonicJS worker
 [[d1_databases]]
 binding = "DB"
 database_name = "solar-currents-cms-db"
