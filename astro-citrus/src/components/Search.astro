@@ -103,6 +103,12 @@ import { Icon } from "astro-icon/components";
 
 			try {
 				const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
+
+				if (!res.ok) {
+					this.results.innerHTML = '<p class="text-textColor/50 text-sm">Search unavailable. Please try again later.</p>';
+					return;
+				}
+
 				const data = await res.json() as { results: SearchResult[] };
 
 				if (!data.results.length) {
