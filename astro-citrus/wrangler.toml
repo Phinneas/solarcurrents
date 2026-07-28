@@ -1,21 +1,14 @@
 # Cloudflare Pages configuration
-# For dashboard deployment (not wrangler CLI)
 
 name = "solarcurrents"
 pages_build_output_dir = "dist"
 compatibility_date = "2024-11-12"
+compatibility_flags = ["nodejs_compat"]
 
 [build.environment]
 NODE_VERSION = "20"
 
-# D1 Database binding
 [[d1_databases]]
 binding = "DB"
 database_name = "solar-currents-cms-db"
 database_id = "8db2540a-af3d-497a-af35-11235bb44503"
-
-[env.production.vars]
-ENVIRONMENT = "production"
-
-[env.preview.vars]
-ENVIRONMENT = "preview"

@@ -1,4 +1,4 @@
-import { marked } from "marked";
+import { micromark } from "micromark";
 import getReadingTime from "reading-time";
 import type { MarkdownHeading } from "astro";
 
@@ -82,7 +82,7 @@ function extractHeadings(content: string): MarkdownHeading[] {
 }
 
 export async function renderPost(content: string): Promise<{ html: string; readingTime: string }> {
-	const html = await marked.parse(content);
+	const html = micromark(content);
 	const readingTime = getReadingTime(content).text;
 	return { html, readingTime };
 }
