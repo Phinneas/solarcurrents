@@ -4,8 +4,7 @@ import rss from "@astrojs/rss";
 import type { APIContext } from "astro";
 
 export const GET = async (context: APIContext) => {
-	const db = context.locals.runtime.env.DB;
-	const posts = await getAllPosts(db);
+	const posts = await getAllPosts();
 
 	return rss({
 		title: siteConfig.title,

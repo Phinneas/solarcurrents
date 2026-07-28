@@ -5,8 +5,7 @@ import { getAllPosts } from "@/data/post";
 import { collectionDateSort } from "@/utils/date";
 import { siteConfig } from "@/site.config";
 
-const db = Astro.locals.runtime.env.DB;
-const allPosts = await getAllPosts(db);
+const allPosts = await getAllPosts();
 const sortedPosts = allPosts.sort(collectionDateSort);
 
 // Featured posts — use first 3

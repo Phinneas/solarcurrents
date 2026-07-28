@@ -1,8 +1,9 @@
 import type { APIContext } from "astro";
+import { getAllPosts } from "@/data/post";
 
 export async function GET(context: APIContext) {
 	const url = new URL(context.request.url);
-	const q = url.searchParams.get("q")?.trim();
+	const q = url.searchParams.get("q")?.trim().toLowerCase();
 
 	if (!q || q.length < 2) {
 		return new Response(JSON.stringify({ results: [] }), {
@@ -11,38 +12,21 @@ export async function GET(context: APIContext) {
 	}
 
 	try {
-		const db = context.locals.runtime.env.DB;
-		const like = `%${q}%`;
+		const posts = await getAllPosts();
 
-		const result = await db
-			.prepare(
-				`
-				SELECT
-					p.slug,
-					p.title,
-					p.description,
-					p.publish_date as publishDate,
-					GROUP_CONCAT(t.name) as tags
-				FROM posts p
-				LEFT JOIN post_tags pt ON p.id = pt.post_id
-				LEFT JOIN tags t ON pt.tag_id = t.id
-				WHERE p.is_draft = 0
-					AND (p.title LIKE ? OR p.description LIKE ? OR p.content LIKE ?)
-				GROUP BY p.id
-				ORDER BY p.publish_date DESC
-				LIMIT 20
-				`,
-			)
-			.bind(like, like, like)
-			.all<{ slug: string; title: string; description: string; publishDate: string; tags: string | null }>();
-
-		const results = (result.results || []).map((row) => ({
-			slug: row.slug,
-			title: row.title,
-			description: row.description,
-			url: `/posts/${row.slug}/`,
-			tags: row.tags ? row.tags.split(",") : [],
-		}));
+		const results = posts
+			.filter((post) => {
+				const haystack = `${post.data.title} ${post.data.description} ${post.body}`.toLowerCase();
+				return haystack.includes(q);
+			})
+			.map((post) => ({
+				slug: post.id,
+				title: post.data.title,
+				description: post.data.description,
+				url: `/posts/${post.id}/`,
+				tags: post.data.tags,
+			}))
+			.slice(0, 20);
 
 		return new Response(JSON.stringify({ results }), {
 			headers: {

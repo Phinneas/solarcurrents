@@ -10,8 +10,7 @@ import Badge from "@/components/Badge.astro";
 const MAX_POSTS_PER_PAGE = 5;
 const MAX_TAGS = 20;
 
-const db = Astro.locals.runtime.env.DB;
-const allPosts = await getAllPosts(db);
+const allPosts = await getAllPosts();
 const sortedPosts = allPosts.sort(collectionDateSort);
 const uniqueTags = getUniqueTags(sortedPosts).slice(0, MAX_TAGS);
 

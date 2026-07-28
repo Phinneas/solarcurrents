@@ -3,8 +3,7 @@ import { getAllPosts } from "@/data/post";
 
 export async function GET(context: APIContext) {
 	try {
-		const db = context.locals.runtime.env.DB;
-		const posts = await getAllPosts(db);
+		const posts = await getAllPosts();
 		return new Response(
 			JSON.stringify({ ok: true, count: posts.length, firstSlug: posts[0]?.id }),
 			{ headers: { "Content-Type": "application/json" } }

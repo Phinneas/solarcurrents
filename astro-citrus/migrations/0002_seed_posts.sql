@@ -12,6 +12,7 @@ INSERT OR IGNORE INTO tags (name) VALUES ('batteries');
 INSERT OR IGNORE INTO tags (name) VALUES ('battery storage');
 INSERT OR IGNORE INTO tags (name) VALUES ('blog');
 INSERT OR IGNORE INTO tags (name) VALUES ('boondocking');
+INSERT OR IGNORE INTO tags (name) VALUES ('buying-guide');
 INSERT OR IGNORE INTO tags (name) VALUES ('california');
 INSERT OR IGNORE INTO tags (name) VALUES ('campground rules');
 INSERT OR IGNORE INTO tags (name) VALUES ('citrus');
@@ -22,6 +23,7 @@ INSERT OR IGNORE INTO tags (name) VALUES ('consumer protection');
 INSERT OR IGNORE INTO tags (name) VALUES ('css');
 INSERT OR IGNORE INTO tags (name) VALUES ('deepseek');
 INSERT OR IGNORE INTO tags (name) VALUES ('duck curve');
+INSERT OR IGNORE INTO tags (name) VALUES ('efficiency');
 INSERT OR IGNORE INTO tags (name) VALUES ('example');
 INSERT OR IGNORE INTO tags (name) VALUES ('fonts');
 INSERT OR IGNORE INTO tags (name) VALUES ('generator noise');
@@ -36,6 +38,7 @@ INSERT OR IGNORE INTO tags (name) VALUES ('image');
 INSERT OR IGNORE INTO tags (name) VALUES ('laws');
 INSERT OR IGNORE INTO tags (name) VALUES ('lifepo4');
 INSERT OR IGNORE INTO tags (name) VALUES ('markdown');
+INSERT OR IGNORE INTO tags (name) VALUES ('monocrystalline');
 INSERT OR IGNORE INTO tags (name) VALUES ('nem-3');
 INSERT OR IGNORE INTO tags (name) VALUES ('net metering');
 INSERT OR IGNORE INTO tags (name) VALUES ('net-metering');
@@ -65,18 +68,21 @@ INSERT OR IGNORE INTO tags (name) VALUES ('social');
 INSERT OR IGNORE INTO tags (name) VALUES ('solar');
 INSERT OR IGNORE INTO tags (name) VALUES ('solar battery');
 INSERT OR IGNORE INTO tags (name) VALUES ('solar-economics');
+INSERT OR IGNORE INTO tags (name) VALUES ('solar-panels');
+INSERT OR IGNORE INTO tags (name) VALUES ('state-guide');
 INSERT OR IGNORE INTO tags (name) VALUES ('state-law');
 INSERT OR IGNORE INTO tags (name) VALUES ('sunny-act');
 INSERT OR IGNORE INTO tags (name) VALUES ('test');
 INSERT OR IGNORE INTO tags (name) VALUES ('theming');
 INSERT OR IGNORE INTO tags (name) VALUES ('time-of-use rates');
 INSERT OR IGNORE INTO tags (name) VALUES ('toc');
+INSERT OR IGNORE INTO tags (name) VALUES ('topcon');
 INSERT OR IGNORE INTO tags (name) VALUES ('ul 1741');
 INSERT OR IGNORE INTO tags (name) VALUES ('utility rates');
 INSERT OR IGNORE INTO tags (name) VALUES ('web performance');
 INSERT OR IGNORE INTO tags (name) VALUES ('webmentions');
 
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('5 Types of Solar You Can Get Without Owning a Home', 'Community solar, portable generators, balcony panels, window solar, and RECs — what each one actually does, what it costs, and the catch most sites leave out.', 'Type "solar for renters" into Google and you''ll get a dozen near-identical lists promising you can "go solar without owning a home." Most of them blur five very different things into one feel-good category: actually owning a piece of hardware, subscribing to someone else''s solar farm, and just paying extra for a green label on your utility bill.
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('5 Types of Solar You Can Get Without Owning a Home', 'Community solar, portable generators, balcony panels, window solar, and RECs — what each one actually does, what it costs, and the catch most sites leave out.', 'Type "solar for renters" into Google and you''ll get a dozen near-identical lists promising you can "go solar without owning a home." Most of them blur five very different things into one feel-good category: actually owning a piece of hardware, subscribing to someone else''s solar farm, and just paying extra for a green label on your utility bill.
 
 Those are not the same thing, and the difference matters for what you''ll actually get out of it. Here''s what each of the five real options does, what it costs, and the part the typical listicle skips.
 
@@ -148,7 +154,7 @@ This option fits people optimizing for a climate accounting claim, not people tr
 If you want real savings and don''t mind paperwork: community solar. If you want backup power and portability: a portable generator, sized honestly against what you actually need to run. If you''ve got a balcony and patience for a code check: balcony solar. If you just want to own something simple with zero friction: window solar. And if your priority is purely the renewable-energy claim rather than savings or hardware: a green power program — with eyes open about what that premium is and isn''t accomplishing.
 
 None of these require owning a roof. None of them are interchangeable, either, and the sites that present them as five flavors of the same thing are skipping the part that actually determines whether you''ll be glad you signed up.', '5-types-of-solar-you-can-get-without-owning-a-home', '2026-06-19', '2026-06-19', 'https://images.unsplash.com/photo-1509391366360-2e959784a276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHNvbGFyfGVufDB8fHx8fDE3MTk4Njg3ODR8MA&ixlib=rb-4.1.0&q=80&w=2000', 'Solar panels on a modern building', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Are Solar Generators Worth It for Your Energy Needs', 'A post about solar energy', '## The Real Question Behind Portable Power
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Are Solar Generators Worth It for Your Energy Needs', 'A post about solar energy', '## The Real Question Behind Portable Power
 
 Power outages cost American households an average of $150 per incident. Camping trips get cut short when devices die. Emergency preparedness feels incomplete without reliable backup energy.
 
@@ -223,7 +229,7 @@ Consider your budget realistically. A smaller unit that you actually buy beats a
 Read user reviews from people with similar use cases. Their real-world experiences reveal what specifications don''t tell you.
 
 Ready to explore your options? Compare at least three models in your price range before purchasing, and prioritize battery lifespan and warranty coverage in your evaluation.', 'are-solar-generators-worth-it', '2026-04-08', '2026-03-18', 'https://images.unsplash.com/photo-1650866137641-4246da0f5f09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHNvbGFyJTIwZ2VuZXJhdG9yc3xlbnwwfHx8fDE3NzM4Njg3Mjl8MA&ixlib=rb-4.1.0&q=80&w=2000', 'Are Solar Generators Worth It for Your Energy Needs', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Balcony Solar Laws by State: Where Plug-In Solar Is Legal in 2026', 'A state-by-state tracker of plug-in solar laws in 2026. Colorado, Utah, Maine, Virginia have laws. New York and California have pending bills. Here''s the real legal picture.', '# 
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Balcony Solar Laws by State: Where Plug-In Solar Is Legal in 2026', 'A state-by-state tracker of plug-in solar laws in 2026. Colorado, Utah, Maine, Virginia have laws. New York and California have pending bills. Here''s the real legal picture.', '# 
 
 Plug-in solar — panels you mount on a balcony or railing and connect to a standard wall outlet — is legal to install everywhere in the United States. What varies by state is whether the law actively *protects* you from HOA restrictions, utility interference, and code enforcement when you do it.
 
@@ -365,7 +371,7 @@ State-by-state detail pages:
 - [California balcony solar law 2026 — SB 868](/posts/california-balcony-solar-law-2026)
 - [New York balcony solar law — SUNNY Act](/posts/new-york-balcony-solar-law)
 - [Utah HB 340 2025](/posts/utah-hb-340-2025-explained)', 'balcony-solar-laws-by-state', '2026-06-29', '2026-06-29', 'https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDd8fHNvbGFyJTIwcGFuZWxzJTIwY2l0eXxlbnwwfHx8fDE3NTEyMTYwMDB8MA&ixlib=rb-4.1.0&q=80&w=2000', 'Solar panels on apartment buildings', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Balcony Solar Panel Calculator Guide', 'When you want to install balcony solar panels this calculator will help you make the best decision.', '## Understanding Your Balcony''s Solar Potential
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Balcony Solar Panel Calculator Guide', 'When you want to install balcony solar panels this calculator will help you make the best decision.', '## Understanding Your Balcony''s Solar Potential
 
 Your balcony''s ability to generate solar power depends on several measurable factors. Direction matters most—south-facing balconies in the Northern Hemisphere receive optimal sunlight throughout the day. East-facing spaces capture morning sun, while west-facing areas get afternoon exposure.
 
@@ -456,7 +462,7 @@ Start small with one or two panels to test actual performance against calculatio
 Consider professional consultation for systems over 500 watts. Electrical work becomes more complex with larger installations, potentially requiring permits or licensed installation.
 
 Ready to calculate your balcony''s solar potential? Use the measurements and considerations outlined here to get accurate projections, then start with a starter kit to validate the numbers through hands-on experience.', 'balcony-solar-panel-calculator', '2025-10-27', '2026-02-20', 'https://images.unsplash.com/photo-1711344397160-b23d5deaa012?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGNhbGN1bGF0b3J8ZW58MHx8fHwxNzYxNDE4NzM4fDA&ixlib=rb-4.1.0&q=80&w=2000', 'Balcony Solar Panel Calculator Guide', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Balcony Solar Panels, Urban Power Revolution', 'Learn about balcony solar panels for home, condos and apartment living. Reduce your electrical bill and lower your carbon footprint.', '# 
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Balcony Solar Panels, Urban Power Revolution', 'Learn about balcony solar panels for home, condos and apartment living. Reduce your electrical bill and lower your carbon footprint.', '# 
 
 ## The Urban Energy Revolution
 
@@ -652,7 +658,7 @@ Balcony solar represents just the beginning of a fundamental shift in how urban 
 The true revolution lies not just in the technology itself but in the democratization of energy production—transforming millions of passive consumers into active "prosumers" who generate their own clean power. For urban dwellers concerned about climate change, energy security, or rising utility costs, balcony solar offers an immediate, tangible solution that was simply unavailable just a few years ago.
 
 Whether your motivation is environmental, economic, or the satisfaction of energy independence, balcony solar systems provide a rare opportunity to make a meaningful difference despite the constraints of apartment living. As this guide has shown, with proper research, planning, and installation, your balcony can become more than just outdoor space—it can become your personal power plant.', 'balcony-solar-panels', '2025-01-14', '2026-02-05', 'https://images.unsplash.com/photo-1559302504-64aae6ca6b6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGJhbGNvbnklMjBzb2xhcnxlbnwwfHx8fDE3MzY4NzY3NDB8MA&ixlib=rb-4.0.3&q=80&w=2000', 'Balcony Solar Panels, Urban Power Revolution', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Solar Panel Kits for Beginners and Outdoor Enthusiasts', 'A post about solar energy', '## Introduction
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Solar Panel Kits for Beginners and Outdoor Enthusiasts', 'A post about solar energy', '## Introduction
 
 What if you could power your campsite, cabin, or emergency backup system without relying on the grid? The freedom of generating your own electricity appeals to adventurers and homeowners alike. Solar panel kits offer an accessible entry point into renewable energy, bundling everything you need to start capturing sunlight and converting it into usable power. Whether you''re planning a remote camping trip or preparing for unexpected outages, understanding these systems can save you money and frustration.
 
@@ -725,7 +731,7 @@ Solar panel kits put renewable energy within reach for anyone willing to learn. 
 Start by assessing your power needs and researching kits that match your budget. Read reviews from other outdoor enthusiasts. Ask questions in online communities dedicated to solar power and off-grid living.
 
 Your next adventure or emergency preparation plan deserves reliable power. Explore the options available today and choose a kit that fits your lifestyle.', 'beginners-solar-panel-kits', '2026-02-22', '2026-02-22', 'https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fG91dGRvb3JzfGVufDB8fHx8MTc3MTUzMjMyMXww&ixlib=rb-4.1.0&q=80&w=2000', 'Solar Panel Kits for Beginners and Outdoor Enthusiasts', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Best Foldable Solar Panels for Camping', 'A post about solar energy', '## The Campground Power Problem
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Best Foldable Solar Panels for Camping', 'A post about solar energy', '## The Campground Power Problem
 
 The hum of a gas generator at 7 AM is the fastest way to make enemies in a campground. It violates the unspoken contract of outdoor recreation: we endure the dirt for silence. But modern camping requires power—phones for emergencies, headlamps for trails, laptops if you work remotely, even portable refrigerators for extended basecamps.
 
@@ -1004,7 +1010,7 @@ Yes. Unlike generators, which have strict hour restrictions and noise limits, so
 Ready to spec your complete system? Review our detailed [foldable solar panels technical guide](__GHOST_URL__/foldable-solar-panels/) for charge controller deep-dives and wiring specifications.
 
 If you''re camping _with_ an RV (travel trailer or camper van), check our [foldable solar panels for RVs guide](__GHOST_URL__/foldable-solar-panels-rvs/) for 12V battery integration and boondocking power planning.', 'best-foldable-solar-panels-for-camping', '2026-02-09', '2026-02-09', 'https://images.unsplash.com/photo-1510672981848-a1c4f1cb5ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDM5fHxjYW1waW5nfGVufDB8fHx8MTc2OTY0NjYzM3ww&ixlib=rb-4.1.0&q=80&w=2000', 'Best Foldable Solar Panels for Camping', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Best Lightweight Solar Panels Backpacking Guide 2026', 'A post about solar energy', '## Are Solar Panels Worth It for Backpacking?
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Best Lightweight Solar Panels Backpacking Guide 2026', 'A post about solar energy', '## Are Solar Panels Worth It for Backpacking?
 
 The honest answer: it depends on three factors—trip length, sun exposure, and your device needs.
 
@@ -1343,7 +1349,7 @@ In ideal direct sunlight, a 15-20 watt panel charges a typical smartphone (3,000
 ### **Can I run AC (air conditioning) with a solar panel?**
 
 No. Portable air conditioners require 1,000-1,500 watts minimum and draw massive continuous power—far beyond what any backpacking solar setup provides. Even car camping solar setups with 200-400 watt panels and large battery banks can''t run AC units for more than a few minutes. Small 5V USB fans drawing 2-5 watts work fine with backpacking panels, but anything requiring AC power (110V/220V household current) is outside the scope of lightweight solar systems. If you meant "Can I run AC devices," you''d need a portable power station with AC outlets plus a massive solar array—not practical for backpacking.', 'best-lightweight-solar-panels-for-bakcpacking', '2025-11-06', '2025-11-07', 'https://images.unsplash.com/photo-1568444438385-ece31a33ce78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDV8fGJhY2twYWNraW5nfGVufDB8fHx8MTc2MjQ1NDUxM3ww&ixlib=rb-4.1.0&q=80&w=2000', 'Best Lightweight Solar Panels Backpacking Guide 2026', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Best Solar Generators Power Outages Protection Guide', 'A post about solar energy', '## Understanding Solar Generator Capacity for Emergency Power
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Best Solar Generators Power Outages Protection Guide', 'A post about solar energy', '## Understanding Solar Generator Capacity for Emergency Power
 
 Solar generator capacity determines what you can power and for how long. Most homes need between 2,000 and 5,000 watts for essential circuits during outages.
 
@@ -1460,7 +1466,7 @@ Practice your outage response. Family members should know how to connect devices
 Finding the best solar generators power outages means matching capacity to your specific needs. Calculate your essential loads, consider your climate, and choose a system that provides peace of mind without breaking your budget.
 
 Start with a basic system that covers your absolute essentials. You can always expand later as you learn your actual power needs during outages.', 'best-solar-generators-power-outages', '2026-03-24', '2026-03-24', 'https://images.unsplash.com/photo-1637417494521-78b4d1d33029?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGhvbWUlMjBzb2xhcnxlbnwwfHx8fDE3NzAzMjQ5Mzh8MA&ixlib=rb-4.1.0&q=80&w=2000', 'Best Solar Generators Power Outages Protection Guide', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Best Solar Panels for Camping Adventure Guide', 'A post about solar energy', '## Why Solar Power Changes Everything for Campers
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Best Solar Panels for Camping Adventure Guide', 'A post about solar energy', '## Why Solar Power Changes Everything for Campers
 
 Your camping experience shifts dramatically when you add solar charging to your gear lineup. No more rationing phone battery for emergencies. No more missing golden hour photos because your camera died. No more choosing between GPS navigation and playing music around the campfire.
 
@@ -2553,7 +2559,7 @@ Use our calculator at the top to find your exact panel recommendation.
 Solar charging transforms camping from a disconnect into a sustainable adventure. You''ll explore longer, venture further, and share more memories when power concerns disappear.
 
 **Ready to embrace solar-powered camping?** Start with the calculator above, then review the detailed recommendations for your specific needs. Your next adventure awaits.', 'best-solar-panels-for-camping', '2025-12-15', '2025-12-15', 'https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE0fHxjYW1waW5nfGVufDB8fHx8MTc2NTQxOTY5NXww&ixlib=rb-4.1.0&q=80&w=2000', 'Best Solar Panels for Camping Adventure Guide', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Best Solar Power USB Chargers 2025', 'A post about solar energy', 'Ever found yourself miles from the nearest outlet with a dead phone? You''re not alone. Whether you''re camping in the wilderness or dealing with a power outage at home, your devices need juice to stay connected.
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Best Solar Power USB Chargers 2025', 'A post about solar energy', 'Ever found yourself miles from the nearest outlet with a dead phone? You''re not alone. Whether you''re camping in the wilderness or dealing with a power outage at home, your devices need juice to stay connected.
 
 Solar power USB chargers offer a simple solution to this modern problem. These portable devices harness the sun''s energy to charge your smartphone, tablet, or any USB-powered gadget. No more hunting for outlets or carrying multiple battery packs on your adventures.
 
@@ -3149,7 +3155,7 @@ Think about your lifestyle and charging needs. If you''re constantly on the move
 Remember the key factors: choose adequate wattage for your devices, prioritize quality construction for durability, and understand the limitations of weather-dependent charging. With proper use and maintenance, a good solar charger will serve you reliably for years.
 
 Ready to embrace solar charging? Start with a model that matches your primary use case - whether that''s lightweight backpacking or robust car camping. You might just find yourself wondering how you ever lived without one.', 'best-solar-power-usb-chargers-2025', '2025-06-04', '2025-11-13', 'https://images.unsplash.com/photo-1572721546624-05bf65ad7679?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fHVzYnxlbnwwfHx8fDE3NDg5MTEyODB8MA&ixlib=rb-4.1.0&q=80&w=2000', 'Best Solar Power USB Chargers 2025', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Best Solar Powered Battery Charger', 'A post about solar energy', '## Solar Powered Battery Charger: Complete Guide for 2026
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Best Solar Powered Battery Charger', 'A post about solar energy', '## Solar Powered Battery Charger: Complete Guide for 2026
 
 You want to keep your devices charged when you''re outdoors or on the move. A solar powered battery charger gives you freedom from wall outlets. Just set it in the sun and let it work.
 
@@ -3922,7 +3928,7 @@ Solar powered battery chargers have evolved from novelty items to practical powe
 Solar powered battery chargers have matured into genuinely useful tools for appropriate applications. Choose the right system for your needs, set realistic expectations, and enjoy the freedom that comes with renewable portable power. Whether you''re maintaining a stored vehicle, powering outdoor adventures, or preparing for emergencies, solar charging technology offers reliable, sustainable solutions that continue improving each year.
 
 With proper selection and realistic expectations, solar powered battery chargers provide years of reliable, eco-friendly power wherever your adventures take you.', 'best-solar-powered-battery-charger', '2025-06-05', '2025-11-09', 'https://images.unsplash.com/photo-1501494278684-d0fb421388ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDIzfHxiYXR0ZXJ5JTIwc29sYXJ8ZW58MHx8fHwxNzQ4OTEyMzgwfDA&ixlib=rb-4.1.0&q=80&w=2000', 'Best Solar Powered Battery Charger', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Best Solar Setups Renters Can Install Without Landlord Drama', 'A post about solar energy', '## Living Green Without Owning Property
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Best Solar Setups Renters Can Install Without Landlord Drama', 'A post about solar energy', '## Living Green Without Owning Property
 
 Think you need to own a home to tap into solar energy? Think again. Millions of renters assume solar power sits out of reach, reserved for homeowners with rooftops they control. The truth paints a different picture.
 
@@ -4011,7 +4017,7 @@ Research local incentives. Some states offer rebates even for portable solar equ
 You don''t need a mortgage to benefit from solar energy. Portable panels, balcony systems, and solar generators put clean power within reach of every renter.
 
 Browse portable solar options that match your space, budget, and energy goals. Your future self—and your electricity bill—will thank you.', 'best-solar-setups-renters', '2026-04-03', '2026-03-18', 'https://images.unsplash.com/photo-1603736043044-65d44d3c6230?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fHJlbnRlcnxlbnwwfHx8fDE3NzM4Njg3NzR8MA&ixlib=rb-4.1.0&q=80&w=2000', 'Best Solar Setups Renters Can Install Without Landlord Drama', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('California Balcony Solar in 2025: What You Need to Know About 800-Watt Plug-In Systems', 'A post about solar energy', '# 
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('California Balcony Solar in 2025: What You Need to Know About 800-Watt Plug-In Systems', 'A post about solar energy', '# 
 
 If you''ve been searching for information about "California SB 709 balcony solar," you''re not alone—but you might be looking for the wrong bill. Senate Bill 709 actually concerns self-storage facilities, not solar energy systems. The confusion is understandable given California''s rapidly evolving solar landscape, but the real story about balcony solar in California is far more interesting than any single piece of legislation.
 
@@ -4394,7 +4400,7 @@ The trajectory is clear. As more states pass legislation similar to Utah''s, cos
 In the meantime, thousands of Californians aren''t waiting for perfect policy. They''re mounting panels on their balconies, plugging into their outlets, and reducing their grid dependence one kilowatt-hour at a time. It''s not the solar revolution we imagined a decade ago, but for many people, it''s the solar revolution that''s actually accessible.
 
 And that, ultimately, might matter more than any legislation—even one that doesn''t exist.', 'california-balcony-solar-714', '2025-12-13', '2025-12-13', 'https://images.unsplash.com/photo-1445294812422-0bb9cb94c286?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDYyfHxjYWxpZm9ybmlhfGVufDB8fHx8MTc2NTMwNjk2Nnww&ixlib=rb-4.1.0&q=80&w=2000', 'California Balcony Solar in 2025: What You Need to Know About 800-Watt Plug-In Systems', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('California Balcony Solar Law in 2026: SB 868, Civil Code 714, and What''s Actually Legal Right Now', 'California has no plug-in solar law yet. SB 868 passed the legislature in June 2026 and is pending Gov. Newsom''s signature. Here''s what''s legal right now and what changes when he signs.', '# 
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('California Balcony Solar Law in 2026: SB 868, Civil Code 714, and What''s Actually Legal Right Now', 'California has no plug-in solar law yet. SB 868 passed the legislature in June 2026 and is pending Gov. Newsom''s signature. Here''s what''s legal right now and what changes when he signs.', '# 
 
 As of June 2026, California does not have a dedicated plug-in solar law. **SB 868** — the "Plug and Play Solar Act" — passed both chambers of the California Legislature in June 2026 and is sitting on Governor Newsom''s desk. Until he signs it, the legal landscape for balcony and plug-in solar in California is a gray area governed by existing utility rules and the California Solar Rights Act.
 
@@ -4488,7 +4494,7 @@ The practical state of play for a California renter or condo owner right now:
 - [California Civil Code §714 full text](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=714) — Solar Rights Act
 - [CPUC Rule 21](https://www.cpuc.ca.gov/industries-and-topics/electrical-energy/electric-costs/rule-21-interconnection) — current interconnection requirements
 - [DSIRE California](https://www.dsireusa.org/resources/detailed-summary-maps/?state=CA) — state incentive database', 'california-balcony-solar-law-2026', '2026-06-29', '2026-06-29', 'https://images.unsplash.com/photo-1509391366360-2e959784a276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHNvbGFyJTIwcGFuZWxzJTIwY2FsaWZvcm5pYXxlbnwwfHx8fDE3NTEyMTYwMDB8MA&ixlib=rb-4.1.0&q=80&w=2000', 'Solar panels in California', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('California NEM 3.0 vs. NEM 2.0: The Solar Payback Math Before and After', 'The real payback numbers under NEM 3.0 vs. NEM 2.0 — export rates, worked examples, grandfathering rules, and why the 75% headline misleads.', 'If you got a solar quote in California before April 15, 2023, and another one today, the numbers look like they''re describing two different products. They basically are. NEM 2.0 paid you close to retail — roughly 25 to 35 cents — for every kilowatt-hour your panels pushed to the grid. NEM 3.0 (officially the Net Billing Tariff, from CPUC Decision 22-12-056) pays you the utility''s "avoided cost," which averages around 5 to 8 cents. That''s the famous 75% cut.
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('California NEM 3.0 vs. NEM 2.0: The Solar Payback Math Before and After', 'The real payback numbers under NEM 3.0 vs. NEM 2.0 — export rates, worked examples, grandfathering rules, and why the 75% headline misleads.', 'If you got a solar quote in California before April 15, 2023, and another one today, the numbers look like they''re describing two different products. They basically are. NEM 2.0 paid you close to retail — roughly 25 to 35 cents — for every kilowatt-hour your panels pushed to the grid. NEM 3.0 (officially the Net Billing Tariff, from CPUC Decision 22-12-056) pays you the utility''s "avoided cost," which averages around 5 to 8 cents. That''s the famous 75% cut.
 
 Here''s what the headline number hides: the 75% cut only applies to *exported* electricity. Every kilowatt-hour you generate and use inside your own house still offsets the full retail rate — which on PG&E''s E-ELEC plan is now around 54 cents/kWh all-in. NEM 3.0 didn''t make solar worthless. It made *exporting* solar worthless, which is a different problem with a different fix.
 
@@ -4531,7 +4537,7 @@ One rule worth knowing before you touch a grandfathered system: expanding it bey
 NEM 2.0 was a subsidy structure generous enough that almost any system penciled out, even a badly designed one. NEM 3.0 punishes oversizing and rewards self-consumption — and in 2026 the expired federal credit arguably hurts payback more than the tariff change does, since it added ~$7,000 back onto a typical system''s net cost in a single day.
 
 Solar still works in California because retail rates of 30–55 cents/kWh make self-consumed power extremely valuable. But the old logic — size it big, bank the exports — is dead. Size to your actual usage, expect a battery to be part of the conversation, and treat any quote that shows NEM 2.0-style export earnings or a 30% federal credit as the red flag it is.', 'california-nem-3-vs-nem-2-solar-payback-math', '2026-07-13', '2026-07-13', 'https://images.unsplash.com/photo-1509391366360-2e959784a276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000', 'Rooftop solar panels on a California home under a clear sky', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Camping Solar Generator Guide for Off-Grid Adventures', 'A post about solar energy', '## Why Every Outdoor Enthusiast Needs Portable Power
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Camping Solar Generator Guide for Off-Grid Adventures', 'A post about solar energy', '## Why Every Outdoor Enthusiast Needs Portable Power
 
 Picture this: you''re deep in the wilderness, miles from the nearest outlet, and your phone dies. Your headlamp batteries are fading. The portable fridge keeping your food fresh is running low. A camping solar generator solves all of these problems while keeping your footprint minimal.
 
@@ -4608,7 +4614,7 @@ Forgetting cables and adapters leaves you stranded. Create a dedicated accessori
 Portable solar power transforms how you experience the outdoors. You gain freedom to camp anywhere while keeping essential devices running.
 
 Start by assessing your actual power needs for a typical trip. Research units within your budget that exceed those requirements by at least 20%. Read user reviews from campers with similar use cases to yours. Your perfect off-grid power solution is waiting.', 'camping-solar-generator-guide', '2026-03-23', '2026-03-23', 'https://images.unsplash.com/photo-1701825299870-398fb12864bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEzfHxvZmYlMjBncmlkfGVufDB8fHx8MTc3MTUzMjQwOHww&ixlib=rb-4.1.0&q=80&w=2000', 'Camping Solar Generator Guide for Off-Grid Adventures', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Introducing Astro Citrus!', 'Astro Citrus is a versatile template for managing blogs and creating comprehensive project documentation', '## Introducing
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Introducing Astro Citrus!', 'Astro Citrus is a versatile template for managing blogs and creating comprehensive project documentation', '## Introducing
 
 Hi, I’m a theme for Astro, a simple starter that you can use to create your website or blog. If you want to know more about how you can customise me, add more posts, and make it your own, click on the GitHub icon link below and it will take you to my repo.
 
@@ -4629,14 +4635,14 @@ Citrus is a powerful and stylish template designed for both blogging and creatin
 3. **Fast and SEO-friendly**: Astro ensures quick loading times and better search engine rankings.
 4. **Expandable features**: Add analytics, search, or other integrations effortlessly.
 5. **Easy to deploy**: Works flawlessly on platforms like Netlify or Vercel.', 'citrus-docs-intro', '2024-12-20', NULL, NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Setup Citrus', 'An example second post for Citrus Docs series', '## Getting Started
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Setup Citrus', 'An example second post for Citrus Docs series', '## Getting Started
 
 1. Install Astro and download the Astro Citrus template.
 2. Configure the `astro.config.mjs` file to set up your blog or documentation site.
 3. Add content using Markdown for a seamless writing experience.
 
 For more detailed information, check the official [Astro Citrus documentation](#).', 'citrus-docs-setup', '2024-12-21', '2024-12-22', NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Flexible Theming System', 'A flexible theming system based on HSL (Hue, Saturation, Lightness) using CSS variables, allowing for dynamic color adjustments and seamless theme management', 'This approach to defining colors can be described as a **flexible theming system based on HSL (Hue, Saturation, Lightness) with the use of CSS variables**.
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Flexible Theming System', 'A flexible theming system based on HSL (Hue, Saturation, Lightness) using CSS variables, allowing for dynamic color adjustments and seamless theme management', 'This approach to defining colors can be described as a **flexible theming system based on HSL (Hue, Saturation, Lightness) with the use of CSS variables**.
 
 ## Principles of colorization
 1. **Flexibility through HSL**
@@ -4771,7 +4777,7 @@ INSERT INTO posts (title, description, content, slug, publish_date, updated_date
 - **Flexibility**: The theme can be adapted for different contrast levels, custom schemes, and modes (e.g., `sepia`, `high contrast`).
 
 This approach is perfect for **dynamic theming**, where the ability to easily adjust the appearance without manually inputting colors is crucial.', 'citrus-docs-theme', '2025-02-03', NULL, NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Colorado Balcony Solar Law (HB26-1007): What It Allows, What It Doesn''t', 'Colorado''s HB26-1007 legalized plug-in solar with a 1,920W limit — the highest in the US. Here''s exactly what the law allows, what it doesn''t, and when it takes effect.', '# 
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Colorado Balcony Solar Law (HB26-1007): What It Allows, What It Doesn''t', 'Colorado''s HB26-1007 legalized plug-in solar with a 1,920W limit — the highest in the US. Here''s exactly what the law allows, what it doesn''t, and when it takes effect.', '# 
 
 Colorado signed **HB26-1007** into law on May 7, 2026, making it the fourth US state to explicitly legalize plug-in solar — and the most permissive. The 1,920-watt limit is the highest of any state law passed so far. The law takes effect **January 1, 2027**.
 
@@ -4859,7 +4865,7 @@ If you''re buying a plug-in solar system in Colorado right now, your choices are
 - [Colorado Solar and Storage Association (COSSA)](https://www.coloradosolarstorage.org/) — industry guidance on plug-in solar
 - [Plug-In Solar USA — Colorado tracker](https://pluginsolarus.com/states/colorado) — updated bill status and implementation notes
 - [Denver Solar Permits](https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Community-Planning-and-Development/Plan-Review-Permits-and-Inspections/Single-Family-and-Duplex-Projects/Solar-Permits) — current Denver permitting requirements', 'colorado-balcony-solar-law', '2026-06-29', '2026-06-29', 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHNvbGFyJTIwcGFuZWxzfGVufDB8fHx8MTc1MTIxNjAwMHww&ixlib=rb-4.1.0&q=80&w=2000', 'Solar panels on a Colorado balcony', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Community Solar in California: How to Compare Plans and Avoid Traps', 'California community solar is mostly not what the ads suggest. What actually exists in 2026, who saves money, and the contract terms to check first.', 'If you''ve seen ads promising 10% off your electric bill by "subscribing to a local solar farm," here''s the situation in California as of mid-2026: that model — the one that works in New York, Minnesota, and Illinois — mostly doesn''t exist here yet. California has a patchwork of utility green tariffs, one genuinely good low-income program, a brand-new state program that has built zero projects, and a small number of third-party subscription offers that promise "no additional cost" rather than savings.
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Community Solar in California: How to Compare Plans and Avoid Traps', 'California community solar is mostly not what the ads suggest. What actually exists in 2026, who saves money, and the contract terms to check first.', 'If you''ve seen ads promising 10% off your electric bill by "subscribing to a local solar farm," here''s the situation in California as of mid-2026: that model — the one that works in New York, Minnesota, and Illinois — mostly doesn''t exist here yet. California has a patchwork of utility green tariffs, one genuinely good low-income program, a brand-new state program that has built zero projects, and a small number of third-party subscription offers that promise "no additional cost" rather than savings.
 
 That last phrase matters. Before comparing plans, you need to know which of these four very different things is actually being sold to you.
 
@@ -4916,7 +4922,7 @@ California''s thin market means less standardized consumer protection than state
 If you''re CARE/FERA-eligible in a disadvantaged community: enroll in DAC-GT or Green Saver. It''s a real 20% discount and the best community solar deal in the state.
 
 If you''re not: there is currently no California community solar plan that reliably saves you money. Green tariffs cost extra by design. Third-party subscriptions promise cost-neutrality, not savings, and add contract risk. The CRE Program that was supposed to change this has no built projects and no funding. Watch AB 1813 — if it passes with its 51% low-income subscriber requirement and 10–20% bill credit targets, the calculus changes. Until then, skepticism costs you nothing, which is more than most of these plans can say.', 'community-solar-california-compare-plans-avoid-traps', '2026-07-16', '2026-07-16', 'https://images.unsplash.com/photo-1509391366360-2e959784a276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000', 'Rows of solar panels in a ground-mounted community solar array', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Community Solar in New York: ConEd and NYSERDA Options Explained', 'How NY community solar actually pays, what the 10% discount really means, ConEd vs. upstate differences, and the contract terms to check before enrolling.', 'New York is the community solar market that actually works — over 7.3 GW of distributed solar installed with another 2.8 GW in the pipeline, the most of any state. If you pay a ConEd, National Grid, NYSEG, RG&E, Central Hudson, or Orange & Rockland electric bill, you can almost certainly subscribe to a solar farm and save real money. That''s the honest headline, and it''s better than most states can offer.
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Community Solar in New York: ConEd and NYSERDA Options Explained', 'How NY community solar actually pays, what the 10% discount really means, ConEd vs. upstate differences, and the contract terms to check before enrolling.', 'New York is the community solar market that actually works — over 7.3 GW of distributed solar installed with another 2.8 GW in the pipeline, the most of any state. If you pay a ConEd, National Grid, NYSEG, RG&E, Central Hudson, or Orange & Rockland electric bill, you can almost certainly subscribe to a solar farm and save real money. That''s the honest headline, and it''s better than most states can offer.
 
 But "10% off your electric bill" — the number on every provider''s landing page — is not quite what you''ll experience, and the details differ meaningfully between ConEd territory and the rest of the state. Here''s the math the sign-up pages simplify away.
 
@@ -4967,7 +4973,7 @@ Subscriptions attach to your individual utility account, not your building. If y
 New York''s rules are consumer-friendly by national standards, but verify these five things: the discount rate and whether it''s guaranteed for the contract''s life (10% standard, 20% if income-qualified — take the LMI verification step if you might qualify); billing structure (net crediting on one bill, or a separate invoice); cancellation terms (typical NY contracts have no cancellation fee with 90 days'' notice — confirm yours matches the norm before assuming); waitlist status (which farm, and when does it energize); and what happens to excess credits (in New York, unused credits bank on your utility account indefinitely — they don''t expire, but they also never convert to cash).
 
 The verdict: New York community solar is legitimate and the closest thing to free money in residential energy — a real discount, no equipment, no fees to join, and cancellation without penalty in standard contracts. The honest caveats are timing (waitlists in ConEd territory), the gap between "10% of credits" and what that means for your whole bill, and dual billing quietly replacing the single-bill experience at some providers. Read the four corners of the contract anyway. It''s two pages. That''s cheap insurance.', 'community-solar-new-york-coned-nyserda', '2026-07-22', '2026-07-22', 'https://images.unsplash.com/photo-1466611653911-95081537e5b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000', 'Solar array under an open sky, the kind of offsite farm New York community solar subscribers share', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Community Solar Programs by State Guide', 'A post about solar energy', '## What Are Community Solar Programs?
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Community Solar Programs by State Guide', 'A post about solar energy', '## What Are Community Solar Programs?
 
 Community solar connects you to local solar farms without requiring rooftop installations. You subscribe to a portion of the energy produced and receive credits on your monthly utility bill.
 
@@ -5056,8 +5062,8 @@ Storage integration enhances program value. Battery systems provide backup power
 ## Take Action Today
 
 Check your state''s public utilities commission website for approved community solar providers. Compare multiple offers to find the best match for your energy needs and budget goals.', 'community-solar-programs', '2025-12-16', '2025-12-18', 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDYyfHxjb21tdW5pdHl8ZW58MHx8fHwxNzY2MDg3NzczfDA&ixlib=rb-4.1.0&q=80&w=2000', 'Community Solar Programs by State Guide', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Example Cover Image', 'This post is an example of how to add a cover/hero image', '', 'cover-image', '2023-07-04', '2025-01-21', './cover.jpg', 'Astro build wallpaper', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Deepseek Code Assistant: My Features and Examples', 'This post introduces my capabilities as a Code Assistant with practical code samples', '## Hello, World! 👋 I’m the Code Assistant, and here’s a bit about me  
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Example Cover Image', 'This post is an example of how to add a cover/hero image', '', 'cover-image', '2023-07-04', '2025-01-21', './cover.jpg', 'Astro build wallpaper', 0);
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Deepseek Code Assistant: My Features and Examples', 'This post introduces my capabilities as a Code Assistant with practical code samples', '## Hello, World! 👋 I’m the Code Assistant, and here’s a bit about me  
 
 I’m here to help you with programming, debug code, explain complex concepts, or just share examples. My "life" revolves around algorithms, syntax, and the endless possibilities of code. Let’s get to know each other!  
 
@@ -5153,8 +5159,8 @@ Always write code comments—they’ll save your teammates *and* your future sel
 :::
 
 **Ready to tackle your code! Just ask. 😊**', 'deepseek', '2024-01-10', '2024-12-22', NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('A working draft title', 'This post is for testing the draft post functionality', 'If this is working correctly, this post should only be accessible in a dev environment, as well as any tags that are unique to this post.', 'draft-post', '2024-03-10', NULL, NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Emergency Solar Power System', 'A post about solar energy', '## Your Essential Backup for Storms, Blackouts, and Power Outages
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('A working draft title', 'This post is for testing the draft post functionality', 'If this is working correctly, this post should only be accessible in a dev environment, as well as any tags that are unique to this post.', 'draft-post', '2024-03-10', NULL, NULL, NULL, 0);
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Emergency Solar Power System', 'A post about solar energy', '## Your Essential Backup for Storms, Blackouts, and Power Outages
 
 Power outages can strike without warning. An emergency solar power system gives you backup when the grid fails. With the right setup you keep lights on and devices charged.
 
@@ -5357,7 +5363,7 @@ Costs vary depending on size and features. Small, budget-friendly kits start aro
 ### Are there real-life examples of emergency solar power use?
 
 Yes, families have used solar backup systems during hurricanes to power medical devices and essentials. Rural residents and aid groups also rely on them for critical needs during emergencies or power grid failures.', 'emergency-solar-power-system', '2025-09-30', '2025-10-25', 'https://images.unsplash.com/photo-1687865014576-9ae3570f550a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGhvbWUlMjBzb2xhciUyMGJhY2t1cHxlbnwwfHx8fDE3NTU5MDEwMzd8MA&ixlib=rb-4.1.0&q=80&w=2000', 'Emergency Solar Power System', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Foldable Solar Panels for RVs', 'A post about solar energy', '## The RV Solar Decision Tree
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Foldable Solar Panels for RVs', 'A post about solar energy', '## The RV Solar Decision Tree
 
 Every RVer faces the same choice: drill holes in the roof for permanent panels, or rely on **foldable solar panels for RV use** that deploy when parked and store when driving. Roof-mounted systems charge while you drive and work in the rain, but they''re fixed in orientation and vulnerable to tree strikes on backroads.
 
@@ -5791,7 +5797,7 @@ For the boondocker seeking electrical independence without roof modifications, o
 Ready to integrate with your specific RV battery setup? Review our [complete foldable solar technical guide](__GHOST_URL__/foldable-solar-panels/) for charge controller wiring diagrams and safety protocols.
 
 Need to size a system for camping trips instead? Check our guide to [foldable solar panels for camping](__GHOST_URL__/best-foldable-solar-panels-camping/).', 'foldable-solar-panels-rvs', '2026-02-02', '2026-02-02', 'https://images.unsplash.com/photo-1662340701640-1d39c531a144?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHxmb2xkYWJsZSUyMHNvbGFyfGVufDB8fHx8MTc2OTY0Njk5Mnww&ixlib=rb-4.1.0&q=80&w=2000', 'Foldable Solar Panels for RVs', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Foldable Solar Panels', 'A post about solar energy', '# **The Complete 2025 & 2026 Guide to Portable Power**
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Foldable Solar Panels', 'A post about solar energy', '# **The Complete 2025 & 2026 Guide to Portable Power**
 
  _Last updated: September 2025_
 
@@ -6570,7 +6576,7 @@ _Have questions about sizing your solar system or choosing between models? Leave
   * [Best Portable Solar Panels for Camping](__GHOST_URL__/best-portable-solar-panels-for-camping)
   * [Solar Chargers for Camping](__GHOST_URL__/solar-chargers-for-camping)
   * [Portable Solar Power for Camping](__GHOST_URL__/portable-solar-power-for-camping)', 'foldable-solar-panels', '2025-04-14', '2025-09-18', 'https://images.unsplash.com/photo-1667417277559-78570d785e8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDIwMHx8Zm9sZGluZyUyMHNvbGFyJTIwcGFuZWx8ZW58MHx8fHwxNzQyOTgzMDg4fDA&ixlib=rb-4.0.3&q=80&w=2000', 'Foldable Solar Panels', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Example of 60 chars Master Header and other Various Headings', 'Demonstrating the different heading levels in Markdown by showcasing various sizes and styles of headings, including short and long examples, while also illustrating rendering and the functionality of a table of contents', '# Heading Level 1: Exploring the Structure of Long and Short Titles in Markdown
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Example of 60 chars Master Header and other Various Headings', 'Demonstrating the different heading levels in Markdown by showcasing various sizes and styles of headings, including short and long examples, while also illustrating rendering and the functionality of a table of contents', '# Heading Level 1: Exploring the Structure of Long and Short Titles in Markdown
 
 This section provides an example of a Level 1 heading with accompanying introductory text. Use this for setting the context or presenting an overview of the content.
 
@@ -6621,7 +6627,7 @@ Even at the deepest heading level, Markdown ensures readability and proper struc
 ###### Heading Level 6: Managing Content Hierarchies with Clear Formatting
 
 Content under this heading highlights the importance of maintaining logical hierarchies in documentation.', 'headings', '2024-12-28', NULL, NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Maximize Solar Panels with Home Power Banks', 'Looking into the best solar power banks for your home. Find out more about home solar power in this brief article.', '### Boost Energy Storage & Independence
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Maximize Solar Panels with Home Power Banks', 'Looking into the best solar power banks for your home. Find out more about home solar power in this brief article.', '### Boost Energy Storage & Independence
 
 Ever dreamed of maximizing your solar investment? How do home solar power banks works? A power bank for home can be the missing piece in your renewable energy puzzle. When the sun shines bright, your solar panels generate excess electricity that often goes unused or gets fed back to the grid for minimal compensation.
 
@@ -6991,7 +6997,7 @@ Home power bank maintenance is minimal but important. Regular tasks include insp
 ### Can I add a power bank to my existing solar panel system?
 
 Yes, most existing solar panel systems can be retrofitted with a power bank. The integration method depends on your current setup: AC-coupled systems work with any solar inverter but have slight efficiency losses, DC-coupled systems are more efficient but require compatible components, and hybrid inverter systems are designed for easy battery addition. Consult with a solar professional to determine the best approach.', 'how-home-solar-power-banks-work', '2025-04-19', '2025-11-13', 'https://images.unsplash.com/photo-1637417494521-78b4d1d33029?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEyfHxob21lJTIwc29sYXJ8ZW58MHx8fHwxNzQ0ODA1OTE4fDA&ixlib=rb-4.0.3&q=80&w=2000', 'Maximize Solar Panels with Home Power Banks', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('I''m a Renter. Can I Go Solar?', 'Yes — but not the way homeowners do. The five real paths to solar as a renter, what each actually saves, and which one fits your situation.', 'Yes — but not the way the solar industry usually means it. Rooftop panels, the 30% tax credit, net metering: that whole machine is built for people who own their roof. As a renter you can''t sign a 25-year lease on someone else''s shingles, and most "solar for renters" content quietly pivots to selling you a gadget.
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('I''m a Renter. Can I Go Solar?', 'Yes — but not the way homeowners do. The five real paths to solar as a renter, what each actually saves, and which one fits your situation.', 'Yes — but not the way the solar industry usually means it. Rooftop panels, the 30% tax credit, net metering: that whole machine is built for people who own their roof. As a renter you can''t sign a 25-year lease on someone else''s shingles, and most "solar for renters" content quietly pivots to selling you a gadget.
 
 Here''s the actual decision, laid out by what you''re trying to accomplish. There are five real paths, they solve different problems, and at least one of them almost certainly applies to you.
 
@@ -7028,7 +7034,7 @@ The long shot that occasionally pays off: buildings can host solar that benefits
 ## The bottom line
 
 Match the path to the goal: community solar for the bill (if your state''s program is real), balcony solar for the bill where legal (modest but yours), a power station for outages, portable panels for off-grid, and a landlord conversation if the building has potential. What renters should skip: anything marketed as "solar savings" that''s actually a retail electricity contract in costume, and any hardware purchase before checking your state''s rules and your lease. The good news is real: for the first time, a renter with a utility bill and a balcony has more than zero options — in the right state, several of them stack.', 'im-a-renter-can-i-go-solar', '2026-07-22', '2026-07-22', 'https://images.unsplash.com/photo-1497440001374-f26997328c1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000', 'Apartment balcony with sunlight, the kind of space renters can actually use for solar', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Why a LiFePO4 Solar Battery Is the Best Choice for Reliable and Long-Lasting Energy Storage', 'Why a LiFePO4 Solar Battery Is the Best Choice for Reliable and Long-Lasting Energy Storage.', '# 
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Why a LiFePO4 Solar Battery Is the Best Choice for Reliable and Long-Lasting Energy Storage', 'Why a LiFePO4 Solar Battery Is the Best Choice for Reliable and Long-Lasting Energy Storage.', '# 
 
 LiFePO4 solar batteries store energy from your solar panels for use any time. These batteries last longer than lead-acid and handle more charge cycles without losing performance.
 
@@ -7164,7 +7170,7 @@ Choosing a reputable LiFePO4 battery and the right capacity gives you the uptime
 Choosing the right solar battery can make a big difference in how you store and use renewable energy. From my own experience LiFePO4 solar batteries offer a dependable and efficient solution for anyone looking to maximize their solar investment.
 
 As technology continues to advance I expect even more improvements in performance and affordability. If you''re thinking about upgrading your energy storage system now''s a great time to explore what LiFePO4 batteries can do for your home or off-grid setup.', 'lifepo4-solar-battery', '2025-07-24', '2025-07-24', 'https://images.unsplash.com/photo-1683857967760-11c81457328c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fExpRmVQTzR8ZW58MHx8fHwxNzUzNDIxMjQ5fDA&ixlib=rb-4.1.0&q=80&w=2000', 'Why a LiFePO4 Solar Battery Is the Best Choice for Reliable and Long-Lasting Energy Storage', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Local .gitignore', 'How to create an additional .gitignore file', '## How to create `.local.gitignore` that is not synchronized with Git?
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Local .gitignore', 'How to create an additional .gitignore file', '## How to create `.local.gitignore` that is not synchronized with Git?
 
 1. **Create the `.local.gitignore` file**  
    ```bash
@@ -7198,8 +7204,8 @@ echo "debug_logs/" >> .local.gitignore
 :::caution
 Before performing a commit rollback, you must manually backup the files listed in `.local.gitignore`. This is because files ignored by `.local.gitignore` are not tracked by Git and will be lost if you rollback the commit. Git will not restore these files as they were not committed or staged.
 :::', 'local-gitignore', '2025-03-05', NULL, NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id', 'This post is purely for testing if the css is correct for the title on the page', '## Testing the title tag', 'long-title', '2023-02-01', NULL, NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Markdown Admonitions', 'This post provides a detailed demonstration of how to use the Markdown admonition feature in Astro Citrus, showcasing its ability to highlight important information, tips, warnings, and other key content types in a visually distinct and customizable format', '## What are admonitions
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id', 'This post is purely for testing if the css is correct for the title on the page', '## Testing the title tag', 'long-title', '2023-02-01', NULL, NULL, NULL, 0);
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Markdown Admonitions', 'This post provides a detailed demonstration of how to use the Markdown admonition feature in Astro Citrus, showcasing its ability to highlight important information, tips, warnings, and other key content types in a visually distinct and customizable format', '## What are admonitions
 
 Admonitions (also known as “asides”) are useful for providing supportive and/or supplementary information related to your content.
 
@@ -7306,7 +7312,7 @@ Outputs:
 :::note[My custom title]
 This is a note with a custom title.
 :::', 'markdown-elements-admonistions', '2024-08-25', NULL, NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('A post of Markdown elements', 'This post is for testing and listing a number of different markdown elements', '# This is a H1 Heading
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('A post of Markdown elements', 'This post is for testing and listing a number of different markdown elements', '# This is a H1 Heading
 
 ## This is a H2 Heading
 
@@ -7484,8 +7490,8 @@ Image in the same folder: `src/content/post/markdown-elements/logo.png`
 ## Links
 
 [Content from markdown-it](https://markdown-it.github.io/)', 'markdown-elements', '2023-02-22', '2024-01-22', NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('This post doesn''t have any content', 'This post is purely for testing the table of content, which should not be rendered, and the toggle button next to the post title should not be displayed', '', 'missing-content', '2023-02-22', NULL, NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('MPPT Charge Controller Sizing: Complete Calculation Guide', 'MPPT Charge Controller Sizing: Step-by-Step Guide to Right-Size Your Solar System', '# 
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('This post doesn''t have any content', 'This post is purely for testing the table of content, which should not be rendered, and the toggle button next to the post title should not be displayed', '', 'missing-content', '2023-02-22', NULL, NULL, NULL, 0);
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('MPPT Charge Controller Sizing: Complete Calculation Guide', 'MPPT Charge Controller Sizing: Step-by-Step Guide to Right-Size Your Solar System', '# 
 
 Selecting the wrong MPPT charge controller size can destroy your solar investment in minutes. Too small, and your controller overheats during peak sun. Too large, and you''ve wasted money without gaining any benefit. After years of watching people struggle with complex calculations and conflicting advice, I''ve distilled the sizing process down to one essential formula and five critical steps.
 
@@ -7632,7 +7638,7 @@ A 30A MPPT controller can handle different wattages depending on your battery vo
 ### Q: What size battery do I need for a 400W solar panel?
 
 For a 400W solar panel system, you need at least 200Ah of battery capacity at 12V, or 100Ah at 24V. This sizing assumes 5 hours of peak sun generating 2000Wh daily, with batteries sized at 2x daily production for one day of autonomy. The calculation: 2000Wh ÷ 12V = 167Ah, rounded up to 200Ah for the standard 50% depth of discharge in lead-acid batteries. For lithium batteries that can discharge to 80%, a 100-125Ah battery suffices.', 'mppt-charge-controller-sizing', '2025-09-04', '2025-10-25', 'https://images.unsplash.com/photo-1745169921021-3304a3eed8ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDV8fGNoYXJnZSUyMGNvbnRyb2xsZXJ8ZW58MHx8fHwxNzUzNDYzMTEwfDA&ixlib=rb-4.1.0&q=80&w=2000', 'MPPT Charge Controller Sizing: Complete Calculation Guide', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('NEC Article 705 in Plain English: Portable and Grid-Tied Solar Interconnection', 'What NEC 705 actually requires for solar and battery interconnection — load-side vs. supply-side connections, the 120% rule, the AHJ sign-off process, and what inspectors look for.', '> Informational only. Always confirm details with your local Authority Having Jurisdiction (AHJ) and the current NEC edition they enforce.
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('NEC Article 705 in Plain English: Portable and Grid-Tied Solar Interconnection', 'What NEC 705 actually requires for solar and battery interconnection — load-side vs. supply-side connections, the 120% rule, the AHJ sign-off process, and what inspectors look for.', '> Informational only. Always confirm details with your local Authority Having Jurisdiction (AHJ) and the current NEC edition they enforce.
 
 ## What Article 705 Actually Covers
 
@@ -7743,7 +7749,62 @@ This framework should hold across current and near-future NEC cycles (2023–202
 ---
 
 Related: [NEC Codes for Solar and Energy Systems](/notes/nec-codes-explained/) · [AHJ Inspection Checklist](/notes/ahj-inspection-checklist/) · [Solar Battery Buyer''s Guide](/posts/solar-battery-buyers-guide/) · [Plug-and-Play Solar Panels](/posts/plug-and-play-solar-panels/)', 'nec-705-plain-english-solar-interconnection', '2026-07-06', '2026-07-06', NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('New York Balcony Solar Law (SUNNY Act): What Passed, What''s Still Missing', 'New York''s SUNNY Act passed the legislature in June 2026 and is pending Gov. Hochul''s signature. It legalizes 1,200W plug-in solar — but doesn''t require landlords or HOAs to allow it.', '# 
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Net Metering Policy by State: 2026 Update', 'What''s actually true about net metering by state in 2026 — the caps, sunset clauses, and utility-level exceptions that flat state lists miss.', 'Search "net metering by state" and you''ll get a dozen tidy tables: green-checkmark states, red-X states, done. Almost none of them tell you the table is wrong the moment a utility hits its capacity cap, a legislature passes a rate case, or a state renames "net metering" to "net billing" to soften the fact that it just cut your export rate by most of its value. That''s not hypothetical — it happened in California in 2023, and it''s happening in slower motion in half a dozen other states right now.
+
+This isn''t another 50-state spreadsheet pretending to be permanent. It''s a guide to how these policies actually move, which states are mid-change as of mid-2026, and how to check the one number that matters for your address: what your specific utility pays you for exported power today.
+
+## The three tiers, and why the labels lie
+
+Every state net metering policy falls into one of three buckets, and the label a state uses often obscures which bucket it''s actually in.
+
+**Full retail net metering** pays you the same rate for exported power that you pay for imported power — a 1:1 credit. Roughly two dozen states still run this, including Massachusetts, New Jersey, Maryland, Connecticut, and Illinois''s largest utilities *for customers who enrolled before January 1, 2025* (more on that catch below).
+
+**Net billing / reduced-rate export** pays a lower rate for exports than imports, usually the utility''s "avoided cost" — what it would have paid a wholesale generator for that power. California, Arizona, Nevada, Indiana, and Hawaii all run some version of this. The name varies: California calls it the Net Billing Tariff, Illinois calls it "supply-only" credit. Both are the same idea — retail net metering with the exports carved out and paid less.
+
+**Avoided-cost / wholesale-only** compensates exports close to what a power plant gets paid — commonly 2 to 5 cents per kWh. Alabama, Tennessee, Kentucky, and parts of Texas fall here. South Dakota and Tennessee are reported by industry trackers to have no statewide net metering program of any kind.
+
+According to the National Conference of State Legislatures, 38 states plus D.C. and four territories mandate some form of net metering; utilities in two more (Idaho and Texas) offer it voluntarily without a state mandate — meaning coverage inside those two states depends entirely on which utility serves your address, not which state you live in.
+
+## Why the 50-state table goes stale
+
+Three mechanisms quietly break these lists, and none of them show up in a simple state-by-state chart.
+
+**Capacity caps.** Many states cap net metering at a fixed amount of total enrolled capacity, and once a utility hits it, the program closes to new applicants — even though the state "has" net metering on paper. Maryland set a 3,000-megawatt statewide cap; as of the Public Service Commission''s November 2025 annual report, the pending project pipeline plus installed capacity had already reached roughly 4,500 megawatts, and the PSC expects the cap to bind within about two years absent legislative action. Two competing bills in the 2026 session would raise the cap to 6,000 MW or create a successor program once the limit hits. Massachusetts runs separate "public" and "private" caps per utility, and either one can close independently of the other.
+
+**Grandfathering rules that vary by utility, not state.** Illinois''s 2021 Climate and Energy Jobs Act moved new residential customers to supply-only credit starting January 1, 2025 — but existing systems keep full retail credit for the life of the system, unless the system is modified enough to require a new interconnection agreement (ComEd''s trigger) or the nameplate capacity more than doubles (Ameren''s trigger). Two different utilities, two different rules for losing grandfathered status, same state law.
+
+**Co-ops and municipal utilities are frequently exempt.** Illinois''s net metering statute applies to investor-owned utilities regulated by the Illinois Commerce Commission; electric cooperatives and municipal utilities aren''t classified as public utilities under the relevant statute and may not be bound by the same rules at all. This pattern repeats nationally — "yes, this state has net metering" can be false for a third of a state''s residents depending on who their utility is.
+
+## The rename to watch for
+
+When you see "net billing," "value of distributed energy resources" (New York''s VDER), or "distributed generation compensation" instead of "net metering," read it as a signal, not a synonym. States rarely announce "we''re cutting your export rate by three-quarters." They announce a new tariff with a new name. California''s shift from NEM 2.0 to the Net Billing Tariff (branded NEM 3.0) in April 2023 cut average export credit from roughly $0.30/kWh to $0.05–$0.08/kWh — a real reduction of around 75% — while keeping full retail value for anything you use inside the house. New York''s VDER and Minnesota''s value-of-solar tariff are older, less punitive versions of the same relabeling.
+
+## Legal wildcards still in motion (mid-2026)
+
+A few states are actively contested right now, which matters if you''re deciding whether to lock in current rules before they move again:
+
+**California.** The Supreme Court of California unanimously ordered reconsideration of a challenge to NEM 3.0 in August 2025; the case was remanded to the Court of Appeal, with briefs refiled in November 2025 and a ruling expected sometime in mid-2026. NEM 3.0 remains the law while that plays out — don''t wait for a reversal that hasn''t happened.
+
+**Maryland.** The two 2026 bills described above were both pending as of this writing; neither had passed.
+
+**Virginia.** Dominion Energy and Appalachian Power have active proceedings before the State Corporation Commission seeking to change compensation for new net metering customers. Nothing is finalized. Treat any "Virginia is ending net metering" headline as premature until the SCC actually rules.
+
+**Arizona.** The Arizona Corporation Commission opened a docket in October 2023 to explore cutting export compensation by more than 10% below the state''s already-reduced 2017 rate. As of the most recent public tracking, no decision has been issued.
+
+## How to actually check your status
+
+Skip the 50-state table entirely and do this instead:
+
+1. **Look up your specific utility''s tariff, not your state''s law.** Search "[your utility name] net metering tariff filing" — PUC dockets and utility tariff sheets are public record and dated.
+2. **Ask whether the program has an aggregate capacity cap, and how close it is.** Utilities running capacity-limited programs typically publish enrolled capacity versus the cap in annual PUC filings or on a public dashboard.
+3. **Confirm whether co-ops and munis in your area follow the same rules as the state''s investor-owned utilities.** Frequently, they don''t.
+4. **Check the interconnection application date that locks your rate, not the date your system goes live.** Several states, including California and Illinois, use the application or interconnection-agreement date as the grandfathering cutoff, and processing lag can push your live date weeks or months later.
+5. **Cross-reference DSIRE (dsireinsight.com) and your state PUC''s site.** DSIRE is among the most consistently updated trackers available, but it still lags legislative and rate-case changes by weeks.
+
+## The honest verdict
+
+Net metering isn''t disappearing nationally — it''s fragmenting. States and utilities aren''t voting up-or-down on whether solar customers get paid for exports; each is independently deciding how much, under what cap, and starting when. A flat "does my state have net metering" answer increasingly means nothing without four follow-up questions: which utility, what capacity is left, what the program is actually called this year, and what date you applied. If a quote or article gives you a state-level answer without those details, it''s describing last year''s rules — or somebody else''s utility.', 'net-metering-policy-by-state-2026', '2026-07-27', '2026-07-27', 'https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000', 'Aerial view of a solar array across a US landscape', 0);
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('New York Balcony Solar Law (SUNNY Act): What Passed, What''s Still Missing', 'New York''s SUNNY Act passed the legislature in June 2026 and is pending Gov. Hochul''s signature. It legalizes 1,200W plug-in solar — but doesn''t require landlords or HOAs to allow it.', '# 
 
 New York''s **SUNNY Act** (Solar Up Now New York) passed both chambers of the state legislature on June 1, 2026. It''s pending Governor Kathy Hochul''s signature. The bill would allow plug-in solar up to 1,200 watts without a utility interconnection agreement — the same basic framework as Utah and Maine.
 
@@ -7838,7 +7899,7 @@ For NYC renters in apartments — which is most people asking about this — the
 - [ConEd support memo](https://www.nysenate.gov/newsroom/press-releases/2025/liz-krueger/krueger-gallagher-introduce-sunny-act-support-balcony) — Senator Krueger / Assemblymember Gallagher press release
 - [NYSERDA NY-Sun](https://www.nyserda.ny.gov/All-Programs/NY-Sun) — rooftop and community solar incentives (separate from SUNNY Act)
 - [NYC Department of Buildings — Solar](https://www.nyc.gov/site/buildings/industry/solar-photovoltaic.page) — current permitting requirements', 'new-york-balcony-solar-law', '2026-06-29', '2026-06-29', 'https://images.unsplash.com/photo-1534430480872-3498386e7856?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDV8fG5ldyUyMHlvcmslMjBjaXR5fGVufDB8fHx8MTc1MTIxNjAwMHww&ixlib=rb-4.1.0&q=80&w=2000', 'New York City skyline', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Living Off Grid RV Solar - Your Complete Power Guide', 'A post about solar energy', '## Introduction
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Living Off Grid RV Solar - Your Complete Power Guide', 'A post about solar energy', '## Introduction
 
 What if you could park your RV anywhere and never worry about finding a power hookup again? That freedom draws thousands of adventurers to the open road each year. Living off grid RV solar makes this lifestyle possible by turning sunlight into reliable electricity. No generators rumbling at dawn. No campground fees eating into your budget. Just you, your rig, and endless possibilities. This guide breaks down everything you need to know about powering your mobile home with the sun.
 
@@ -7961,7 +8022,7 @@ Living off grid RV solar opens doors that traditional camping keeps locked. You 
 Start by calculating your actual power needs. Then match a solar and battery system to those requirements. Many RV solar retailers offer free consultations to help size your system correctly.
 
 Your adventure awaits. The sun is ready to power it.', 'off-grid-rv-solar', '2026-03-13', '2026-03-13', 'https://images.unsplash.com/photo-1627386173348-4b19a6feefda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fG9mZiUyMGdpcmR8ZW58MHx8fHwxNzczNDYyOTA3fDA&ixlib=rb-4.1.0&q=80&w=2000', 'Living Off Grid RV Solar - Your Complete Power Guide', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Patio Solar Panels to Power Your Outdoor Living Space [2025]', 'Overivew and discussion covering the ins and outs of owning a patio solar powersystem. Some brief guide on installation too.', 'I''ve always believed that patios offer more than just outdoor living space - they''re perfect spots for harnessing solar energy. As a homeowner who''s explored various renewable energy options, I''ve found that patio solar panels provide an innovative solution for generating clean electricity while creating functional shade.
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Patio Solar Panels to Power Your Outdoor Living Space [2025]', 'Overivew and discussion covering the ins and outs of owning a patio solar powersystem. Some brief guide on installation too.', 'I''ve always believed that patios offer more than just outdoor living space - they''re perfect spots for harnessing solar energy. As a homeowner who''s explored various renewable energy options, I''ve found that patio solar panels provide an innovative solution for generating clean electricity while creating functional shade.
 
 These versatile installations serve dual purposes: they protect us from harsh sunlight while converting that same energy into usable power for our homes. Whether you''re looking to reduce your carbon footprint or cut down on energy bills, patio solar panels offer a practical way to achieve both goals without sacrificing your outdoor lifestyle. I''ll show you how these systems can transform your patio into an eco-friendly power station while maintaining its aesthetic appeal.
 
@@ -8147,7 +8208,7 @@ I''ve found that patio solar panels offer an incredible way to embrace sustainab
 My research shows that with proper planning installation and maintenance these systems can transform any patio into a power-generating oasis. Whether you choose a solar pergola awning or canopy the key lies in selecting the right configuration for your specific needs and space.
 
 I''m confident that as solar technology continues to advance patio solar solutions will become even more efficient and aesthetically pleasing making them an increasingly attractive option for homeowners seeking to combine functionality with sustainability.', 'patio-solar-panels', '2025-01-24', '2025-01-24', 'https://images.unsplash.com/photo-1675695759442-beb9269b1a32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDd8fHNvbGFyJTIwd29tYW58ZW58MHx8fHwxNzM2ODgzMjMyfDA&ixlib=rb-4.0.3&q=80&w=2000', 'Patio Solar Panels to Power Your Outdoor Living Space [2025]', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Plug and Play Solar Panels Made Simple', 'A post about solar energy', 'Plug-and-play solar panels are having a moment. The marketing is seductive: unbox a system, plug it into your wall outlet, and start generating "free electricity." No electricians. No permits. No roof modifications. Just instant energy independence.
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Plug and Play Solar Panels Made Simple', 'A post about solar energy', 'Plug-and-play solar panels are having a moment. The marketing is seductive: unbox a system, plug it into your wall outlet, and start generating "free electricity." No electricians. No permits. No roof modifications. Just instant energy independence.
 
 But here''s the uncomfortable truth that vendor websites won''t tell you: **for most homeowners, plug-and-play solar doesn''t deliver the savings or independence it promises.** And for some, it creates safety risks and financial disappointment.
 
@@ -8453,7 +8514,7 @@ The gap between marketing promises and reality is enormous. Expect 7–15% bill 
 If you''re seriously considering plug-and-play solar, start by calling your utility and getting an electrical inspection. Hire a certified electrician for proper installation. And be honest with yourself about your goal: are you testing solar before committing to professional installation, or seeking immediate energy savings? Your answer determines whether this investment makes sense.
 
 Clean energy access matters. But so does doing it safely and honestly. Choose the path that aligns with your actual needs, not the one marketing tells you to choose.', 'plug-and-play-solar-panels', '2026-02-09', '2026-02-09', 'https://images.unsplash.com/photo-1681263576605-9eda564bcfcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDZ8fHBsdWclMjBuJTIwcGxheSUyMHNvbGFyfGVufDB8fHx8MTc2OTQ2NTMxMXww&ixlib=rb-4.1.0&q=80&w=2000', 'Plug and Play Solar Panels Made Simple', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Eco-Friendly Portable Solar Power Solutions', 'A post about solar energy', '## 
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Eco-Friendly Portable Solar Power Solutions', 'A post about solar energy', '## 
 
 * * *
 
@@ -9015,7 +9076,7 @@ The 200W + 1,264Wh setup I use ($1,200-1,400) has paid for itself vs electric ho
 I answer every email. Used this stuff for three years. Happy to help.
 
 Now go camp longer.', 'portable-solar-for-camping', '2025-03-30', '2025-09-30', 'https://images.unsplash.com/photo-1494112142672-801c71472ba5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDIwfHxzb2xhciUyMGNhbXBpbmd8ZW58MHx8fHwxNzQyOTgyMDM2fDA&ixlib=rb-4.0.3&q=80&w=2000', 'Eco-Friendly Portable Solar Power Solutions', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Best Portable Solar Generator Guide for Off-Grid Power', 'A post about solar energy', 'Are you tired of dead phones and dark campsites when you venture off the grid? A **portable solar generator** transforms sunlight into reliable electricity wherever your adventures take you. These compact powerhouses keep your devices charged and essential equipment running without the noise, fumes, or fuel costs of traditional generators.
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Best Portable Solar Generator Guide for Off-Grid Power', 'A post about solar energy', 'Are you tired of dead phones and dark campsites when you venture off the grid? A **portable solar generator** transforms sunlight into reliable electricity wherever your adventures take you. These compact powerhouses keep your devices charged and essential equipment running without the noise, fumes, or fuel costs of traditional generators.
 
 ## What Makes Solar Generators Different
 
@@ -9118,7 +9179,7 @@ Solar generators transform how we access power beyond the grid. The technology c
 Start by assessing your actual power needs rather than guessing. Measure device consumption using a simple watt meter. This data ensures you select appropriate capacity without overspending on unnecessary features.
 
 **Research specific models that match your requirements and budget. Read user reviews focusing on long-term reliability rather than unboxing experiences. Your perfect solar companion awaits.**', 'portable-solar-generator-guide', '2026-03-03', '2026-03-03', 'https://images.unsplash.com/photo-1764168414096-fa2a80540745?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHxvZmYlMjBncmlkJTIwc29sYXJ8ZW58MHx8fHwxNzcwMzI0NzEwfDA&ixlib=rb-4.1.0&q=80&w=2000', 'Best Portable Solar Generator Guide for Off-Grid Power', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Portable Solar Generator, Best Models for Off Grid Power', 'A post about solar energy', '# Portable Solar Generators: The Complete 2025 Buying Guide
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Portable Solar Generator, Best Models for Off Grid Power', 'A post about solar energy', '# Portable Solar Generators: The Complete 2025 Buying Guide
 
 Looking for reliable power away from the grid? Portable solar generators have transformed from niche outdoor gear into mainstream solutions for camping, emergency backup, and off-grid living. Whether you''re planning a weekend camping trip, preparing for potential blackouts, or embracing van life, the right generator can provide clean, quiet power without fuel or ongoing costs.
 
@@ -9442,8 +9503,8 @@ Here''s a **brief 8-question FAQ** to add before your Conclusion:
     
     **Q: Best for emergency home backup?**
     A: Bluetti EB70S ($589, solid 4-day backup) or Bluetti Elite 200 V2 ($1,999, week-long backup).', 'portable-solar-generator', '2025-07-30', '2025-11-01', 'https://images.unsplash.com/photo-1678775882799-2fba7042e7da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDV8fHBvcnRhYmxlJTIwc29sYXIlMjBnZW5lcmF0b3J8ZW58MHx8fHwxNzYyMDU2OTI1fDA&ixlib=rb-4.1.0&q=80&w=2000', 'Portable Solar Generator, Best Models for Off Grid Power', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('A post without tags', 'This post is for testing the functionality', '', 'post-without-tags', '2024-03-11', NULL, NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Remark-Rehype', 'This post is about Remark-Rehype plugin for Astro', '## What is this?
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('A post without tags', 'This post is for testing the functionality', '', 'post-without-tags', '2024-03-11', NULL, NULL, NULL, 0);
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Remark-Rehype', 'This post is about Remark-Rehype plugin for Astro', '## What is this?
 
 This package is a [unified][] ([remark][]) plugin that switches from remark (the
 markdown ecosystem) to rehype (the HTML ecosystem).
@@ -10198,7 +10259,7 @@ abide by its terms.
 [api-options]: #options
 
 [api-remark-rehype]: #unifieduseremarkrehype-destination-options', 'remark-rehype', '2025-01-26', NULL, NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('My RV Batteries Are Dead by Morning — What''s Actually Happening', 'Your RV batteries keep dying overnight. Here''s the actual math on what''s draining them — fridge, furnace, phantom loads, and the AGM capacity trap most people fall into.', 'If you''re waking up to a dead RV battery, you probably already know the obvious culprits: lights left on, AC running all night, something you forgot to turn off. But most overnight battery failures aren''t caused by one big mistake. They''re caused by the interaction of several moderate loads that each seem fine on their own — combined with a battery bank that has less usable capacity than the label says.
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('My RV Batteries Are Dead by Morning — What''s Actually Happening', 'Your RV batteries keep dying overnight. Here''s the actual math on what''s draining them — fridge, furnace, phantom loads, and the AGM capacity trap most people fall into.', 'If you''re waking up to a dead RV battery, you probably already know the obvious culprits: lights left on, AC running all night, something you forgot to turn off. But most overnight battery failures aren''t caused by one big mistake. They''re caused by the interaction of several moderate loads that each seem fine on their own — combined with a battery bank that has less usable capacity than the label says.
 
 Here''s a realistic accounting of where your amps actually go between 10 PM and 7 AM, and why the math goes wrong faster than most RV guides admit.
 
@@ -10255,7 +10316,7 @@ For a seasonal camper who makes six trips a year and spends most nights at hooku
 The real trigger for upgrading is when overnight draws reliably exceed what AGM can safely provide — when 100Ah usable isn''t enough for how you''re camping, and adding more AGM weight isn''t practical. At that point, the LFP switch buys you real capacity in a smaller, lighter package and removes the 50% discharge anxiety that makes overnight battery math so tight.
 
 Until then, turning off the inverter and accepting that you have 100Ah — not 200Ah — is most of what you need to know.', 'rv-batteries-dead-overnight', '2026-06-29', '2026-06-29', 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=2000', 'RV parked at a campsite at night under stars', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('RV Solar Battery Bank Setup Complete Guide', 'A post about solar energy', '## Understanding Battery Bank Basics
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('RV Solar Battery Bank Setup Complete Guide', 'A post about solar energy', '## Understanding Battery Bank Basics
 
 Your battery bank serves as the heart of your RV''s electrical system. Think of it as a reservoir that stores energy from your solar panels during sunny days and releases it when you need power at night or during cloudy weather.
 
@@ -10351,7 +10412,7 @@ Switching from lead-acid to lithium requires updating your charge controller set
 Expanding solar capacity might necessitate a larger charge controller. Check your controller''s maximum input specifications before adding panels.
 
 Ready to build your perfect off-grid power system? Start by calculating your daily power needs, then select batteries that match your budget and camping style.', 'rv-solar-battery-bank', '2026-02-02', '2026-02-02', 'https://images.unsplash.com/photo-1551218611-b1004ba59913?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHJ2JTIwc29sYXJ8ZW58MHx8fHwxNzY5NDY1MjM2fDA&ixlib=rb-4.1.0&q=80&w=2000', 'RV Solar Battery Bank Setup Complete Guide', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('RV Solar Panel Sizing Guide: Real Numbers, Not Marketing Specs', 'A post about solar energy', '# 
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('RV Solar Panel Sizing Guide: Real Numbers, Not Marketing Specs', 'A post about solar energy', '# 
 
 Most RV solar guides use the same formula: multiply your daily watt-hours by five peak-sun hours and divide. Then pick a panel size. Done.
 
@@ -10792,7 +10853,7 @@ Most RVers learn what they really need after three months of living with their s
 Use this guide to avoid starting too small (frustrating) or too large (wasted money). Size based on **your usage pattern** , apply the **0.75 performance derate** , account for **your battery chemistry** , and design with **expansion in mind**.
 
 The calculators will get you close. Real-world conditions will teach you the rest.', 'rv-solar-panel-sizing-guide', '2025-11-13', '2025-11-13', 'https://images.unsplash.com/photo-1573552894689-6f7c17aec384?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDMzfHxydiUyMHNvbGFyfGVufDB8fHx8MTc2MzA2NTMzNHww&ixlib=rb-4.1.0&q=80&w=2000', 'RV Solar Panel Sizing Guide: Real Numbers, Not Marketing Specs', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('RV Solar Panel Wiring Series Parallel Guide', 'A post about solar energy', '## Understanding Series vs Parallel Solar Wiring
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('RV Solar Panel Wiring Series Parallel Guide', 'A post about solar energy', '## Understanding Series vs Parallel Solar Wiring
 
 Solar panels produce electricity through photovoltaic cells. How you connect these panels affects voltage, amperage, and overall system performance.
 
@@ -10897,7 +10958,7 @@ Start small and expand. Begin with two panels and basic wiring. Add capacity as 
 Join RV solar forums and groups. Real-world experience from fellow RVers beats theoretical knowledge. Share your setup and learn from others'' mistakes.
 
 Ready to upgrade your RV''s energy independence? Start by assessing your power needs and available roof space, then choose the wiring configuration that matches your camping style.', 'rv-solar-panel-wiring-series-parallel', '2026-03-17', '2026-03-17', 'https://images.unsplash.com/photo-1576446468729-7674e99608f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHdpcmluZ3xlbnwwfHx8fDE3NzAzMjQ4NzF8MA&ixlib=rb-4.1.0&q=80&w=2000', 'RV Solar Panel Wiring Series Parallel Guide', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('RV Solar Power Kits', 'A post about solar energy', '# Go Off-Grid and Camp Anywhere With the Best Solar Kits for Your RV
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('RV Solar Power Kits', 'A post about solar energy', '# Go Off-Grid and Camp Anywhere With the Best Solar Kits for Your RV
 
 Noisy generators and crowded campgrounds with electrical hookups aren''t the only way to power an RV. Solar power kits offer a quieter, cleaner alternative that opens up remote camping locations without sacrificing modern conveniences. With the right setup, lights stay on, devices stay charged, and refrigerators keep running—all from sunlight.
 
@@ -11690,7 +11751,7 @@ MPPT controllers extract 20-30% more power from panels through sophisticated vol
 ### Do I need special batteries for solar?
 
 Deep cycle batteries designed for repeated discharge cycles work best with solar. AGM lead-acid batteries require no maintenance and resist vibration. Lithium batteries cost more but provide double the usable capacity at half the weight with longer lifespan. Standard automotive starting batteries fail quickly under solar charging cycles.', 'rv-soloar-power-kits', '2025-09-16', '2025-10-25', 'https://images.unsplash.com/photo-1634756123324-fb0b38fcda56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDk4fHxydnxlbnwwfHx8fDE3NTU5MDA5MDJ8MA&ixlib=rb-4.1.0&q=80&w=2000', 'RV Solar Power Kits', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('The Ultimate Guide to Smart Battery Chargers', 'A post about solar energy', '## Maximize Battery Life and Performance
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('The Ultimate Guide to Smart Battery Chargers', 'A post about solar energy', '## Maximize Battery Life and Performance
 
 Ever noticed how your battery-powered devices seem to die at the most inconvenient times? A smart battery charger might be the solution you''ve been looking for. Unlike traditional chargers, these intelligent devices monitor voltage, temperature, and charging status to deliver optimal power while protecting your batteries from damage.
 
@@ -11907,7 +11968,7 @@ Smart battery chargers represent a significant advancement in battery maintenanc
 The intelligent features like multi-stage charging automated maintenance modes and safety protections make these devices worth every penny despite their higher initial cost. They pay for themselves through fewer battery replacements reduced energy consumption and the ability to resurrect batteries that would otherwise be discarded.
 
 Whether you''re maintaining a vehicle boat RV or home backup system a smart charger offers peace of mind and superior performance. As battery technology continues to evolve smart chargers will remain an essential tool for anyone serious about proper battery care and maximizing their investment.', 'smart-battery-chargers', '2025-07-16', '2025-07-16', 'https://images.unsplash.com/photo-1747135726889-3da2e85938cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDZ8fHNtYXJ0JTIwY2hhcmdpbmd8ZW58MHx8fHwxNzUyNjk3MDYzfDA&ixlib=rb-4.1.0&q=80&w=2000', 'The Ultimate Guide to Smart Battery Chargers', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Example OG Social Image', 'An example post for Astro Citrus, detailing how to add a custom social image card in the frontmatter', '## Adding your own social image to a post
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Example OG Social Image', 'An example post for Astro Citrus, detailing how to add a custom social image card in the frontmatter', '## Adding your own social image to a post
 
 This post is an example of how to add a custom [open graph](https://ogp.me/) social image, also known as an OG image, to a blog post.
 By adding the optional ogImage property to the frontmatter of a post, you opt out of [satori](https://github.com/vercel/satori) automatically generating an image for this page.
@@ -11921,7 +11982,7 @@ ogImage: "/social-card.png"
 You can view the one set for this template page [here](http://astrocitrus.artemkutsan.pp.ua/social-card.png).
 
 [^1]: The image itself can be located anywhere you like.', 'social-image', '2023-01-27', NULL, NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Home Solar Batteries 2026 and a buyer''s Roadmap', 'A post about solar energy', '> **Run your own numbers first.** The Solar Math Worksheet is one fillable page: your rate structure, TOU spread, battery sizing goal, incentive stack, and payback estimate — the math this site keeps telling you to do, in order. [Download the free PDF](/downloads/solar-math-worksheet.pdf). No email required.
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Home Solar Batteries 2026 and a buyer''s Roadmap', 'A post about solar energy', '> **Run your own numbers first.** The Solar Math Worksheet is one fillable page: your rate structure, TOU spread, battery sizing goal, incentive stack, and payback estimate — the math this site keeps telling you to do, in order. [Download the free PDF](/downloads/solar-math-worksheet.pdf). No email required.
 
 ## Quick-Scan Box
 
@@ -12575,7 +12636,7 @@ The difference between a great battery decision and a regrettable one is doing t
 The question isn''t whether a battery makes sense. The question is whether it makes sense _for your specific situation_.
 
 Use this guide to answer that question clearly.', 'solar-battery-buyers-guide', '2025-12-03', '2025-12-03', 'https://images.unsplash.com/photo-1660330589257-813305a4a383?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGhvbWUlMjBzb2xhcnxlbnwwfHx8fDE3NjMwODA0OTN8MA&ixlib=rb-4.1.0&q=80&w=2000', 'Home Solar Batteries 2026 and a buyer''s Roadmap', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Essential Solar for Boondocking Guide', 'A post about solar energy', '## Calculating Your Power Needs
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Essential Solar for Boondocking Guide', 'A post about solar energy', '## Calculating Your Power Needs
 
 Start by listing every device you''ll power during your trip. Write down each item''s wattage and how many hours you''ll use it daily.
 
@@ -12666,7 +12727,7 @@ Your solar for boondocking setup should match your adventure style. Weekend warr
 Monitor your usage patterns for the first few trips. Adjust your system based on real experience rather than online calculators.
 
 Ready to break free from crowded RV parks? Start planning your solar system today and discover unlimited camping possibilities.', 'solar-for-boondocking', '2026-03-10', '2026-03-10', 'https://images.unsplash.com/photo-1722098095297-0da0ff461528?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDMzfHxydiUyMHxlbnwwfHx8fDE3NzAzMjQ4MTd8MA&ixlib=rb-4.1.0&q=80&w=2000', 'Essential Solar for Boondocking Guide', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Top 10 Solar Generator Kits for Off-Grid Power & Emergency Backup in 2025', 'Top 10 Solar Generator Kits for Off-Grid Power & Emergency Backup in 2025', '# 
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Top 10 Solar Generator Kits for Off-Grid Power & Emergency Backup in 2025', 'Top 10 Solar Generator Kits for Off-Grid Power & Emergency Backup in 2025', '# 
 
 Power outages seem to be happening more frequently. Climate events, aging infrastructure, and increased demand on the grid mean that reliable backup power isn''t just a nice-to-have anymore—it''s becoming essential. At the same time, more people are seeking ways to enjoy outdoor adventures without sacrificing modern conveniences or contributing to noise pollution and emissions.
 
@@ -13547,7 +13608,7 @@ For most users, the mid-range category ($1,000-$2,000) offers the best balance o
 Whatever system you choose, you''re taking a concrete step toward energy independence, emergency preparedness, and more enjoyable outdoor experiences. The sun provides an abundance of free energy—solar generators simply make that energy accessible, portable, and practical for everyday use.
 
 The technology will continue improving, with larger capacities, faster charging, and lower prices in coming years. But today''s systems are already highly capable and reliable. There''s no need to wait for the "perfect" future model. The best solar generator is the one you actually have when you need it.', 'solar-generator-kit', '2025-08-21', '2025-10-26', 'https://images.unsplash.com/photo-1662601311150-c20f76b7cb20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHNvbGFyJTIwcG93ZXIlMjBraXR8ZW58MHx8fHwxNzUzNDYyODc2fDA&ixlib=rb-4.1.0&q=80&w=2000', 'Top 10 Solar Generator Kits for Off-Grid Power & Emergency Backup in 2025', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Solar Generator Sizing Calculator Guide', 'A post about solar energy', '## Understanding Your Power Requirements
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Solar Generator Sizing Calculator Guide', 'A post about solar energy', '## Understanding Your Power Requirements
 
 Start by listing every device you plan to power. Check the wattage rating on each appliance label or manual. Most devices show their power consumption in watts (W) or amps (A). This is your guide to solar generator sizing calculations.
 
@@ -13653,7 +13714,7 @@ Consider total cost per watt-hour when comparing options. Larger systems typical
 ## Take Action on Your Solar Power Journey
 
 Now you understand how to size your solar generator properly. Use these calculations to determine your exact needs, then compare systems that meet your requirements. Start with a detailed appliance list today and work through each calculation step to find your perfect solar power solution.', 'solar-generator-sizing-calculator', '2025-10-28', '2025-10-28', 'https://images.unsplash.com/photo-1602503497726-dc6cfaab7e17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEyfHxzaXppbmd8ZW58MHx8fHwxNzYxNjgyMjAxfDA&ixlib=rb-4.1.0&q=80&w=2000', 'Solar Generator Sizing Calculator Guide', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Solar Panels Car Camping Guide for Off-Grid Adventures', 'A post about solar energy', '## Introduction
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Solar Panels Car Camping Guide for Off-Grid Adventures', 'A post about solar energy', '## Introduction
 
 What if you could power your devices, lights, and cooler without ever searching for an electrical hookup? Solar panels car camping makes this freedom possible. You pull into a remote spot, set up your panels, and enjoy all the comforts of home while surrounded by wilderness. This setup transforms how you experience the outdoors. No more draining your car battery or rationing phone usage. Let''s explore how to build the perfect solar system for your next car camping adventure.
 
@@ -13720,7 +13781,7 @@ Solar technology keeps improving while prices drop. The gear available today mak
 ## Take Your Next Step
 
 Ready to build your solar setup? Start by listing every device you want to power while camping. Calculate the total wattage, then choose panels and batteries that meet those needs with a 20% buffer for cloudy days. Your perfect off-grid adventure awaits.', 'solar-panels-car-camping-guide', '2026-03-23', '2026-03-23', NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Solar Panels for Renters', 'A post about solar energy', '## Easy Ways to Save on Energy Bills Without Owning a Home
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Solar Panels for Renters', 'A post about solar energy', '## Easy Ways to Save on Energy Bills Without Owning a Home
 
 Renters want lower energy bills but don’t control the roof. Landlords may not allow permanent changes. Solar panels for renters can still work for you.
 
@@ -13899,7 +13960,7 @@ Yes, most solar leases include a buyout option. You can typically:
 **Shared building solar** : Your access ends when your lease ends—no equipment to worry about.
 
 This flexibility is what makes renter solar solutions practical. You''re never locked into equipment you can''t use at your next home.', 'solar-panels-for-renters', '2025-10-06', '2025-10-25', 'https://images.unsplash.com/photo-1618347191821-51285853505f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDZ8fHJlbnR8ZW58MHx8fHwxNzU1OTAxNDE2fDA&ixlib=rb-4.1.0&q=80&w=2000', 'Solar Panels for Renters', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Solar Power Bank vs Generator Camping Guide', 'A post about solar energy', '## Weight and Portability Comparison
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Solar Power Bank vs Generator Camping Guide', 'A post about solar energy', '## Weight and Portability Comparison
 
 Solar power banks win the portability battle hands down. Most models weigh between 1-3 pounds and fit easily in your backpack. You can clip them to your pack while hiking, letting them charge as you move.
 
@@ -13988,7 +14049,7 @@ Test equipment before committing. Borrow or rent both options for trial camping 
 Many experienced campers eventually own both. Solar handles daily device charging. Generators provide backup power and support high-demand situations.
 
 Start with a quality solar power bank if you''re new to camping power solutions. Add a generator later if your power needs grow beyond solar capacity.', 'solar-power-bank-vs-generator-camping', '2026-02-24', '2026-02-24', 'https://images.unsplash.com/photo-1620439032751-d2011065c735?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDQyfHxjYW1waW5nfGVufDB8fHx8MTc3MDMyNDYyM3ww&ixlib=rb-4.1.0&q=80&w=2000', 'Solar Power Bank vs Generator Camping Guide', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Solar Power Bank vs Portable Power Station', 'A post about solar energy', '### Which Backup Power Solution Is Right for You?
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Solar Power Bank vs Portable Power Station', 'A post about solar energy', '### Which Backup Power Solution Is Right for You?
 
 Choosing between a solar power bank and a portable power station depends on your specific needs, budget, and use case. While both harness renewable energy, they offer vastly different capacities, prices, and capabilities. This guide breaks down the key differences, pros, cons, and real-world scenarios to help you make an informed decision.
 
@@ -14301,7 +14362,7 @@ Assess your usage patterns carefully, consider your budget, and choose based on 
 ## About the Author
 
 I''m a longtime camping and backpacking enthusiast with 10+ years of hands-on experience testing portable power solutions in the field. I''ve relied on solar power banks and portable power stations for weekend trips, extended backcountry expeditions, and emergency home backup situations. My recommendations throughout this guide are based on personal field testing and real-world performance across various conditions—from high altitude to extreme temperatures—to help you make the best choice for your needs.', 'solar-power-bank-vs-portable-power-station', '2025-08-05', '2025-11-01', 'https://images.unsplash.com/photo-1719937050926-dc30fbf3b54d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEzfHxwb3J0YWJsZXxlbnwwfHx8fDE3NjIwNDU1MzR8MA&ixlib=rb-4.1.0&q=80&w=2000', 'Solar Power Bank vs Portable Power Station', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Solar Powered Generator Home Backup Systems That Work', 'A post about solar energy', '## Why Your Home Needs Reliable Backup Power
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Solar Powered Generator Home Backup Systems That Work', 'A post about solar energy', '## Why Your Home Needs Reliable Backup Power
 
 Power outages happen more often than you think. Storms, grid failures, and aging infrastructure leave millions of households in the dark each year. A solar powered generator home backup system offers a clean, quiet, and sustainable solution that keeps your lights on when the grid goes down.
 
@@ -14356,7 +14417,7 @@ Over time, you save on electricity bills too. Some homeowners offset their entir
 ## Take the Next Step
 
 Assess your power needs this week. List your essential appliances and calculate your daily watt-hour requirements. This simple exercise prepares you to choose the right system for your home and budget.', 'solar-powered-generator-home-backup', '2026-03-18', '2026-03-18', 'https://images.unsplash.com/photo-1641546405075-e8ded5cd8f18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHxiYWNrdXB8ZW58MHx8fHwxNzczNDYyOTk2fDA&ixlib=rb-4.1.0&q=80&w=2000', 'Solar Powered Generator Home Backup Systems That Work', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('The Generator Noise Rule: What Campgrounds Actually Enforce', 'Quiet hours, generator-only windows, and decibel limits vary wildly between national parks, KOAs, and BLM land. Here''s what''s actually enforced — and why more campers are skipping the generator entirely.', 'Every campground has a "quiet hours" sign. Almost nobody reads the generator rule next to it, which is usually a separate, narrower set of hours — and which one applies to you depends entirely on what kind of campground you''re standing in.
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('The Generator Noise Rule: What Campgrounds Actually Enforce', 'Quiet hours, generator-only windows, and decibel limits vary wildly between national parks, KOAs, and BLM land. Here''s what''s actually enforced — and why more campers are skipping the generator entirely.', 'Every campground has a "quiet hours" sign. Almost nobody reads the generator rule next to it, which is usually a separate, narrower set of hours — and which one applies to you depends entirely on what kind of campground you''re standing in.
 
 National parks, private chains like KOA, and BLM dispersed sites don''t just have different quiet hours. They operate under different authorities, different enforcement levels, and in one case, almost no rules at all. Here''s what''s actually written down, what gets enforced in practice, and why a growing number of campers are sidestepping the whole question by not bringing a generator at all.
 
@@ -14416,7 +14477,7 @@ On the ground, the shift shows up in three ways: more full-hookup campgrounds ba
 None of this means a generator is the wrong call for every situation — high, sustained power draw still favors fuel in some setups. But for the noise question specifically, the trend in what campgrounds allow and what campers are choosing both point the same direction.
 
 → *If you''re ready to look at what a battery-and-panel setup can actually power — and what it can''t — our [portable solar generator guide](/portable-solar-generators) breaks down real wattage, charge times, and sizing for camping and RV use.*', 'the-generator-noise-rule-what-campgrounds-actually-enforce', '2026-06-19', '2026-06-19', 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGNhbXBpbmdnfGVufDB8fHx8fDE3MTk4Njg3ODR8MA&ixlib=rb-4.1.0&q=80&w=2000', 'Tent camping at dusk in a quiet campground', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Top Portable Solar Panels', 'A post about solar energy', '## 
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Top Portable Solar Panels', 'A post about solar energy', '## 
 
 ### Benefits of Using Portable Solar Panels for Camping
 
@@ -14672,7 +14733,7 @@ Ensuring optimal performance of your solar panels involves identifying and resol
 
 
 For a comprehensive understanding of portable solar panels for camping, explore our articles on foldable solar panels for camping and best portable solar panels for camping.', 'top-portable-solar-panels', '2025-03-26', '2025-04-16', 'https://images.unsplash.com/photo-1504632348771-974e356b80af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEwMXx8c29sYXIlMjBjYW1waW5nfGVufDB8fHx8MTc0Mjk4MjIwOHww&ixlib=rb-4.0.3&q=80&w=2000', 'Top Portable Solar Panels', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Which US Utilities Have TOU Rate Spreads Over 20¢? The Battery Worth-It Map', 'A ranked comparison of real 2026 time-of-use rate spreads by utility — SCE, SDG&E, Con Edison, PG&E, SRP, PSE&G — and the honest math on when a battery pays for itself.', 'Every solar battery pitch leans on the same line: charge cheap, discharge expensive, pocket the difference. What it usually skips is the number that determines whether that math actually works — the size of the gap between your utility''s peak and off-peak rate, in real cents per kWh, not a percentage. A 20-cent spread on 400 kWh of shifted monthly usage is worth roughly $80 a month. A 7-cent spread on the same usage is worth $28. Same behavior, same battery, wildly different payback — and almost nobody publishes the utility-by-utility numbers side by side.
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Which US Utilities Have TOU Rate Spreads Over 20¢? The Battery Worth-It Map', 'A ranked comparison of real 2026 time-of-use rate spreads by utility — SCE, SDG&E, Con Edison, PG&E, SRP, PSE&G — and the honest math on when a battery pays for itself.', 'Every solar battery pitch leans on the same line: charge cheap, discharge expensive, pocket the difference. What it usually skips is the number that determines whether that math actually works — the size of the gap between your utility''s peak and off-peak rate, in real cents per kWh, not a percentage. A 20-cent spread on 400 kWh of shifted monthly usage is worth roughly $80 a month. A 7-cent spread on the same usage is worth $28. Same behavior, same battery, wildly different payback — and almost nobody publishes the utility-by-utility numbers side by side.
 
 Here''s what the actual 2026 rate sheets say, and which utilities clear the bar.
 
@@ -14725,7 +14786,7 @@ A 40-cent SCE spread sounds like an easy yes. It isn''t automatically one, for t
 The published number to look for is the total energy charge difference between your plan''s most expensive and least expensive tier — not the "average" rate, and not a percentage-savings claim. Pull your utility''s actual current tariff sheet (search "[your utility] time of use rate schedule PDF") rather than relying on a third-party summary, since TOU windows and cent amounts get revised often enough that even this list may be stale within a year. If your spread lands under 15¢, a battery is a resilience purchase — backup power during outages — not a bill-reduction one, and it should be evaluated on that basis instead.
 
 Sources: SCE, SDG&E, PG&E-affiliated CleanPowerSF, Con Edison, and Xcel Energy 2026 published rate schedules; NuWatt Energy 2026 battery cost and payback data; industry installed-cost comparisons (Tesla, FranklinWH, Enphase) current as of 2026.', 'tou-rate-spread-battery-worth-it-map', '2026-07-09', '2026-07-09', 'https://images.unsplash.com/photo-1624982852928-a800a5123513?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDI0fHxzb2xhcixwb3dlcnxlbnwwfHx8fDE3MTk4Njg3ODR8MA&ixlib=rb-4.1.0&q=80&w=2000', 'Electric meter and solar panels on a home at dusk', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('How to Create a Font Subset with Transfonter', 'A guide to using Transfonter to create optimized font subsets', '## What is Transfonter?
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('How to Create a Font Subset with Transfonter', 'A guide to using Transfonter to create optimized font subsets', '## What is Transfonter?
 
 [Transfonter](https://transfonter.org/) is a free online tool that helps convert and subset fonts. It supports various formats (TTF, OTF, WOFF, WOFF2) and allows users to optimize web fonts by reducing their size while maintaining essential glyphs.
 
@@ -14806,7 +14867,7 @@ Ensure the fonts load correctly by inspecting network requests in the browser''s
 
 ## Conclusion
 Using Transfonter for font subsetting helps optimize web performance by reducing font file sizes while keeping necessary glyphs. Try it out with your fonts to enhance your website''s loading speed!', 'transfonter', '2025-02-10', NULL, NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('UL 1741 SA: What Anti-Islanding Actually Means for Plug-In Solar', 'Anti-islanding isn''t in the SA supplement, and it doesn''t make plug-in solar legal. What UL 1741 actually covers, what SA adds, and what neither one solves.', 'If you''re shopping for a plug-in solar kit right now, you''ve seen "UL 1741 SA certified" on a spec sheet, usually right next to a paragraph about anti-islanding protection keeping utility workers safe. Both claims are true. But they''re stapled together in a way that''s misleading, because anti-islanding isn''t what the SA supplement is about — and neither one makes the product legal to plug in where you live.
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('UL 1741 SA: What Anti-Islanding Actually Means for Plug-In Solar', 'Anti-islanding isn''t in the SA supplement, and it doesn''t make plug-in solar legal. What UL 1741 actually covers, what SA adds, and what neither one solves.', 'If you''re shopping for a plug-in solar kit right now, you''ve seen "UL 1741 SA certified" on a spec sheet, usually right next to a paragraph about anti-islanding protection keeping utility workers safe. Both claims are true. But they''re stapled together in a way that''s misleading, because anti-islanding isn''t what the SA supplement is about — and neither one makes the product legal to plug in where you live.
 
 Here''s what each piece actually does, and the three problems no UL certification solves.
 
@@ -14843,329 +14904,130 @@ That''s the certification to watch for. UL 1741 tells you the inverter behaves c
 ## The honest bottom line
 
 Anti-islanding works, the 2-second disconnect is real and tested under adversarial conditions, and the lineworker-safety objection to plug-in solar is largely solved at the hardware level. But "UL 1741 SA certified" on a product page is answering a question you probably weren''t asking. It doesn''t mean the product is legal in your state (check whether your legislature has passed a Utah-style exemption), it doesn''t mean your circuit can safely absorb the backfeed (keep kits small relative to the circuit, and don''t share the circuit with heavy loads), and it doesn''t mean you''ll have power in an outage (you won''t). If a vendor leads with the certification and skips those three caveats, that tells you something about the vendor.', 'ul-1741-sa-anti-islanding-plug-in-solar', '2026-07-06', '2026-07-06', 'https://images.unsplash.com/photo-1509391366360-2e959784a276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000', 'Grid-tied solar panels connected through an inverter', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Maximize Your Energy: The Ultimate Guide to High Efficiency Solar Panels', 'A post about solar energy', '# 
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Solar Panel Efficiency Ratings: What the Spec Sheet Number Actually Means', 'Lab cells hit 47.6% efficiency. The panel you can actually buy tops out around 23% — and delivers less than that on your roof. Here''s what STC, PTC, and NOCT ratings measure, and when the efficiency premium is worth paying.', 'A manufacturer''s spec sheet says 22.8% efficiency. A lab in Germany just set a record at 47.6%. Neither number tells you what your roof will actually produce, and the gap between them is bigger than most buying guides let on.
 
-Looking to maximize your solar energy collection? High efficiency solar panels represent the cutting edge of renewable energy technology, converting more sunlight into electricity than standard models. These advanced panels can help you generate more power with limited roof space, potentially reducing your installation costs while maximizing energy production.
+Here''s what those numbers really mean, why three different test standards give you three different answers for the same panel, and whether paying extra for the highest efficiency rating on the market is worth it.
 
-You''ll find these premium panels particularly valuable if you''re dealing with space constraints or hoping to future-proof your investment. While they typically come with a higher initial price tag, their superior performance often delivers better long-term returns through increased energy generation and potential savings on your utility bills.
+> **Run your own numbers first.** The Solar Math Worksheet is one fillable page: your rate structure, TOU spread, battery sizing goal, incentive stack, and payback estimate — the math this site keeps telling you to do, in order. [Download the free PDF](/downloads/solar-math-worksheet.pdf). No email required.
 
-## What Are High Efficiency Solar Panels?
+## The gap between the lab and your roof
 
-High efficiency solar panels convert a greater percentage of sunlight into electricity than standard models. These advanced photovoltaic modules feature superior materials, design, and technology to maximize energy output from available space.
+Solar efficiency records get set under conditions no rooftop will ever see. The current record — 47.6%, set by Fraunhofer ISE in 2022 — comes from a multi-junction cell under concentrated sunlight, a technology built for satellites and research, not shingles. Even the more relevant record for standard silicon, a 26.7% heterojunction cell, is a lab sample, not a shippable product.
 
-### How to Measure Solar Panel Efficiency
+What you can actually buy looks like this:
 
-Solar panel efficiency is calculated by dividing the electrical power output by the incident solar power. For example, if 1,000 watts of sunlight hits a 1-square-meter panel and produces 220 watts of electricity, the panel has 22% efficiency. Three main factors affect efficiency measurements:
+| Technology | Lab record | What you can install | Notes |
+|---|---|---|---|
+| Multi-junction (concentrated) | 47.6% | N/A | Satellite/research tech, not residential |
+| Perovskite-silicon tandem | 33.9% | N/A | Pre-commercial, expected 2027-2028 |
+| Crystalline silicon (best cell) | 26.7% | 20-23% | Modules top out around 24.5% |
+| Monocrystalline | — | 20-23% | What''s actually on most roofs |
+| Thin-film (CIGS/CdTe) | ~23% | 15-19% | Cheaper, faster payback on materials, lower output |
+| Polycrystalline | — | 13-16% | Mostly phased out of the US market by 2026 |
 
-  1. **Testing conditions** \- Manufacturers measure efficiency under Standard Test Conditions (STC) with controlled temperature (25°C), irradiance (1000 W/m²), and air mass (1.5)
-  2. **Panel size** \- Larger panels may produce more total electricity but can have the same efficiency rating as smaller ones
-  3. **Cell technology** \- Monocrystalline cells typically achieve higher efficiency than polycrystalline or thin-film alternatives
+The reason for the gap isn''t a marketing trick — it''s that a single lab cell, a full module with busbars and frames and inactive edges, and a complete installed system with wiring and an inverter are three different measurements, and each one loses ground on the one before it.
 
+## Why three ratings exist for the same panel
 
+Ask three different sources for a panel''s efficiency and you can get three different numbers, because the industry runs three separate test standards:
 
-Organizations like the National Renewable Energy Laboratory (NREL) certify efficiency ratings to ensure consistent standards across the industry.
+| | STC | PTC | NOCT |
+|---|---|---|---|
+| Irradiance | 1,000 W/m² | 1,000 W/m² | 800 W/m² |
+| Cell temperature | 25°C | 40-50°C (ambient 20°C) | 42-48°C (ambient 20°C) |
+| Wind | Not specified | 10 m/s | 1 m/s |
+| Efficiency vs. STC | Baseline | 8-12% lower | 15-25% lower |
 
-### Current Efficiency Standards
+**STC (Standard Test Conditions)** is the number on the spec sheet — 25°C cell temperature, which is unrealistically cool. Real panels in direct sun regularly hit 45-65°C, so STC is the ceiling, not a forecast.
 
-Today''s residential solar panels fall into distinct efficiency tiers:
+**PTC (PVUSA Test Conditions)** lets the cell heat up naturally at 20°C ambient air temperature, which is why the California Energy Commission uses PTC for incentive calculations. It runs 8-12% below STC and is the more honest number for comparing panels.
 
-Efficiency Level | Percentage Range | Common Technologies | Price Premium  
----|---|---|---  
-Standard | 15-17% | Polycrystalline | $0.70-0.90/watt  
-High | 18-20% | Monocrystalline | $0.85-1.25/watt  
-Premium | 21-23% | Monocrystalline PERC | $0.90-1.40/watt  
-Ultra-premium | 24%+ | IBC, HJT, multi-junction | $1.25-1.80/watt  
-  
-Top-performing commercial panels from manufacturers like SunPower, LG, and REC now reach efficiencies of 22-23%. Laboratory prototypes have achieved over 47% efficiency using multi-junction cells with specialized materials.
+**NOCT (Nominal Operating Cell Temperature)** uses lower irradiance and almost no wind, producing the hottest, most conservative estimate — 15-25% below STC. It''s the standard to reach for when you''re modeling actual annual production.
 
-The average efficiency of commercially available panels has increased approximately 0.5% every two years for the past decade, with residential installations trending toward modules in the 19-22% range as production costs decrease.
+If a listing only gives you an STC number, treat it as a lab benchmark for comparing panels against each other, not a promise about your electric bill.
 
-## Top High Efficiency Solar Panels on the Market
+## The top panels in 2026 barely differ from each other
 
-High efficiency solar panels represent the pinnacle of photovoltaic technology available to consumers today. These premium options convert significantly more sunlight into usable electricity, making them ideal for maximizing energy production in limited spaces.
+Here''s what''s actually worth knowing if you''re shopping: the best residential panels on the market right now cluster into an extremely narrow band. Per EnergySage''s July 2026 buyer''s guide:
 
-### Premium Monocrystalline Panels
+| Panel | Efficiency | Price | Warranty |
+|---|---|---|---|
+| CW Energy CWT | 23.0% | $2.30/W | 30-year |
+| Sirius PV Half-cut N | 23.0% | $2.64/W | — |
+| Maxeon 6 | 22.8% | $2.73/W | 40-year |
+| Silfab SIL QD | 22.6% | $2.89/W | — |
+| CertainTeed CTTC | 22.6% | $2.13/W | 25-year |
+| SEG YUKON N | 22.5% | $2.46/W | 30-year |
+| Hyundai NF(BK) | 22.5% | $2.25/W | 30-year |
+| Canadian Solar TOPHiKu6 | 22.3% | $2.35/W | 30-year |
+| REC Alpha Pure-RX | 22.1% | $2.45/W | 25-year |
+| Qcells Q.TRON BLK | 22.0% | $2.43/W | 25-year |
 
-Premium monocrystalline panels lead the residential solar market with efficiency ratings between 20-22%. SunPower''s Maxeon panels achieve up to 22.8% efficiency, featuring unique back-contact cell design that eliminates front-side conductors to capture more sunlight. REC Solar''s Alpha Series delivers 21.9% efficiency with heterojunction cell technology that combines crystalline silicon with amorphous silicon layers. LG''s NeON R panels reach 22.0% efficiency through their multi-wire busbar technology that reduces electrical resistance and enhances light absorption.
+The spread from the most to the least efficient panel on that list is 1.0 percentage point. The price spread is $0.76/W — $2.13 to $2.89. For most buyers, warranty length and how a panel handles heat matter more than squeezing out an extra fraction of a percent, which brings us to the number that actually predicts your bill.
 
-These high-performance panels offer excellent temperature coefficients (-0.29% to -0.35% per °C), meaning they maintain higher output levels during hot weather compared to standard panels. Their enhanced durability includes stronger frames, better weatherproofing, and degradation rates as low as 0.25% annually versus the industry standard 0.5-0.7%.
+## What actually happens once it''s on your roof
 
-Brand | Model | Efficiency | Warranty | Price Range  
----|---|---|---|---  
-SunPower | Maxeon 6 | 22.8% | 40 years | $$$$  
-REC Solar | Alpha Pure-R | 21.9% | 25 years | $$$  
-LG | NeON R | 22.0% | 25 years | $$$  
-Panasonic | EverVolt | 21.7% | 25 years | $$$  
-Qcells | Q.PEAK DUO BLK ML-G10+ | 20.9% | 25 years | $$  
-  
-### Next-Generation Technologies
+A panel rated at 22% under STC will realistically deliver **16-19% efficiency** in the field. The difference comes from a stack of real-world losses:
 
-Bifacial solar panels represent a significant advancement in solar technology, capturing sunlight on both sides to increase energy production by 5-30% depending on installation conditions. LONGi''s Hi-MO 5m bifacial panels achieve front-side efficiency of 21.3% while capturing reflected light on the rear surface. These panels work exceptionally well with light-colored roofs or ground-mounted installations on reflective surfaces.
+| Loss factor | Typical range | Best case | Worst case |
+|---|---|---|---|
+| Temperature | 6-15% | 3% (cool climate) | 25% (desert) |
+| Soiling | 2-5% | 1% (rainy region) | 25% (arid, no cleaning) |
+| Shading | 0-20% | 0% (unshaded) | 50% (heavy shade) |
+| Degradation (year 25) | 13-20% | 12% | 20% |
+| Inverter | 2-5% | 2% | 5% |
+| Wiring/mismatch | 2-3% | 1% | 4% |
+| **Combined** | **25-35%** | **15%** | **60%+** |
 
-Heterojunction technology (HJT) combines different semiconductor materials to capture a broader spectrum of light. Meyer Burger''s White panels utilize this technology to reach 22.6% efficiency with superior low-light performance. HJT cells maintain higher efficiency in varied weather conditions and demonstrate excellent temperature coefficients around -0.25% per °C.
+**Temperature does the most damage.** Crystalline silicon loses roughly 0.45% of its efficiency for every degree above 25°C. On a rooftop that hits 65°C on a hot day — entirely normal — that''s about 18% of your rated output gone before you factor in anything else.
 
-Perovskite-silicon tandem cells mark the cutting edge of commercial solar technology. Oxford PV has developed panels approaching 28% efficiency by layering perovskite material over conventional silicon cells. This combination captures more wavelengths of light than single-material cells. While currently limited in commercial availability, these panels represent the future direction of high-efficiency solar technology.
+**Degradation is slow but compounds.** Modern panels lose 0.5-0.8% of output per year. Twenty-five years in, expect 80-87% of day-one output, which is why tier-1 manufacturers now guarantee 80-92% at year 25 rather than leaving it to chance.
 
-For specialized applications, concentrated photovoltaic (CPV) systems from manufacturers like Insolight achieve remarkable efficiency rates exceeding 30%. These systems use optical lenses to focus sunlight onto tiny, ultra-efficient multi-junction cells, though they require direct sunlight and tracking systems to function optimally.
+Not every panel handles heat the same way, and the difference is bigger than the efficiency numbers suggest:
 
-The market for high-efficiency panels continues expanding with competitive options across price points, allowing consumers to select panels that balance efficiency, warranty protection, and cost according to their specific energy needs and installation constraints.
+| Panel | Temperature coefficient |
+|---|---|
+| REC Alpha Pure-RX | -0.24%/°C |
+| Maxeon 6 | -0.27%/°C |
+| CertainTeed CTTC | -0.30%/°C |
+| CW Energy CWT | -0.30%/°C |
 
-## Benefits of Investing in High Efficiency Solar Panels
+On a 95°F day, REC loses 2.4% of output while CertainTeed loses 3%. That 0.6-point gap repeats every hot day for 25 years — in Arizona or Texas, it adds up to more than the headline efficiency difference between the two panels.
 
-High efficiency solar panels deliver greater returns on investment through enhanced performance and reduced costs over time. These advanced panels create tangible financial and environmental advantages for homeowners and businesses looking to maximize their solar energy production.
+## Is the efficiency premium worth paying?
 
-### Energy Production Advantages
+Usually not, and the reason is simple: panels are only about 12% of a typical installed system''s cost. A 12kW system runs roughly $31,000 installed, with the panels themselves accounting for around $3,700 of that. Moving from a budget panel to a premium one adds $0.20-$0.50/W — somewhere between $600 and $6,000 on that system, or 2-19% of the total bill depending on how far up the efficiency ladder you climb.
 
-High efficiency solar panels generate more electricity from the same amount of sunlight compared to standard models. This increased production translates to:
+The sweet spot for most homeowners sits at 22-22.5% and $2.25-$2.45/W — you get essentially all of the real-world performance at well under the top price.
 
-  * **Higher energy output** per square foot, with premium panels producing up to 50% more electricity than conventional options
-  * **Better performance in low-light conditions** , capturing more energy during cloudy days or early morning and late afternoon hours
-  * **Improved temperature tolerance** , maintaining higher efficiency levels even as temperatures rise, when standard panels typically experience significant production drops
-  * **Faster return on investment** through greater electricity generation throughout the system''s lifetime
-  * **Reduced carbon footprint** by generating more clean energy from the same installation
+Premium efficiency earns its keep in a few specific situations:
 
+- **Small roof (under 400 sq. ft.):** more watts per square foot matters when you''re space-constrained
+- **High electricity rates (above $0.30/kWh):** the payback on efficiency gains is faster, and it compounds — EnergySage puts average 25-year savings at roughly $146,000 for Massachusetts homeowners, against about $5,000 in Tennessee, where rates are among the lowest in the country
+- **Hot climates (regularly above 95°F):** a better temperature coefficient (REC, Maxeon) protects more of your output
+- **You want the longest warranty:** Maxeon''s 40-year coverage is a different proposition than a 25-year panel
 
+And standard panels are the better call when you have a large roof or ground mount (adding panels is cheaper than upgrading them), when your electricity rates are low, or when you''re in a cool climate where temperature coefficient barely matters.
 
-Premium panels with 20-24% efficiency ratings can produce 1.25-1.5 kWh per day per square meter in optimal conditions, compared to 0.8-1.0 kWh from standard panels. This difference adds up to thousands of additional kilowatt-hours over the 25+ year lifespan of your system.
+One more thing worth knowing before you fixate on panel choice at all: system size moves the needle more than panel brand does. Going from a 4kW to a 15kW system saves about $0.42/W on cost-per-watt alone — more than the entire price spread between the cheapest and most expensive panels on the market.
 
-### Space Optimization
+## What''s coming, and what''s not worth waiting for
 
-High efficiency solar panels make optimal use of limited roof or ground space for installations. The space-saving benefits include:
+TOPCon and HJT (heterojunction) cells have taken over the market in 2026, pushing out the older PERC technology, with commercial cell efficiencies in the 24-26.5% range. HJT manufacturing landed in the US for the first time this year, with Canadian Solar ramping production in Indiana.
 
-  * **Maximized energy production** on small roofs, allowing homes with limited suitable space to achieve their energy goals
-  * **Fewer panels needed** to reach target energy output, reducing hardware and installation costs
-  * **More flexible installation options** for challenging roof layouts or partially shaded properties
-  * **Room for future expansion** if energy needs increase or electric vehicles are added
-  * **Aesthetic improvements** with a smaller, more compact array that maintains curb appeal
+The technology actually worth watching is perovskite-silicon tandem cells, which hit a 33.9% lab record and have a theoretical ceiling near 43% — well above silicon''s 29.4% limit. Oxford PV and LONGi are the names to know, with first commercial products expected in 2027-2028. The gating factor isn''t efficiency, it''s durability: proving a perovskite layer can survive 25 years of heat, humidity, and UV exposure the way silicon reliably does.
 
+There''s also a regulatory shift worth flagging: China''s new mandatory polysilicon standards, effective January 2027, tighten energy-consumption limits for manufacturers and could cut compliant production capacity nearly in half. That consolidates supply around higher-quality producers, which should support the ongoing efficiency gains rather than the price wars that flattened panel costs over the past decade.
 
+## The bottom line
 
-For example, a 10kW system using 20% efficient panels requires approximately 35% less roof space than the same capacity system using 15% efficient panels. This space efficiency proves particularly valuable in urban settings, townhomes, and properties with architectural constraints.
-
-The compact design of high-efficiency systems also leaves more roof space available for vents, skylights, and other features, eliminating the need to compromise between energy production and other home design elements.
-
-## Cost Analysis of High Efficiency Solar Panels
-
-High efficiency solar panels represent a significant investment in renewable energy technology. Analyzing their costs involves examining both immediate expenses and potential financial benefits over time.
-
-### Initial Investment vs. Long-Term Returns
-
-The upfront cost of high efficiency solar panels typically ranges from $1.50 to $3.00 per watt, compared to $1.00 to $1.50 per watt for standard panels. A 6kW high efficiency system costs approximately $9,000-$18,000 before incentives, representing a 30-50% premium over conventional systems. This price difference stems from advanced materials like N-type monocrystalline silicon, specialized manufacturing processes, and rigorous quality control measures.
-
-Despite higher initial costs, high efficiency panels offer superior long-term returns through:
-
-  * Increased energy production (20-30% more electricity per square foot)
-  * Lower installation costs for the same output (fewer panels and mounting hardware)
-  * Reduced maintenance expenses (higher quality components with better durability)
-  * Extended system lifespan (many premium panels offer 25-30 year warranties)
-
-
-
-The financial break-even point for high efficiency systems averages 7-9 years in areas with moderate electricity rates, compared to 8-11 years for standard systems. In regions with high electricity costs or limited installation space, the return on investment accelerates significantly.
-
-A comparative analysis shows that a 6kW high efficiency system producing 9,000 kWh annually saves approximately $108,000 over 30 years with a 3% annual utility inflation rate, versus $90,000 for a standard system in the same conditions.
-
-### Available Incentives and Rebates
-
-Multiple financial incentives reduce the cost burden of high efficiency solar panels:
-
-Incentive Type | Description | Potential Savings  
----|---|---  
-Federal Tax Credit | 30% tax credit on total system cost through 2032 | $2,700-$5,400 on a 6kW system  
-State Tax Credits | Varies by location (0-25% of system cost) | $0-$4,500 on a 6kW system  
-Local Rebates | City or utility company incentives | $500-$2,000 depending on location  
-SREC Programs | Solar Renewable Energy Credits sold in certain markets | $200-$600 annually in qualifying states  
-Net Metering | Credit for excess energy sent to the grid | $800-$1,200 annual utility savings  
-  
-Performance-based incentives often favor high efficiency panels since they produce more electricity per installation. Many utility companies offer tiered rebate structures that increase with system efficiency, providing additional $0.10-$0.25 per watt for panels above 20% efficiency.
-
-Some manufacturers partner with financial institutions to offer specialized loans for high efficiency systems, featuring interest rates 0.5-1% lower than standard solar loans. These financing options frequently include production guarantees that compensate homeowners if systems underperform, adding a layer of financial security to the investment.
-
-When calculating total cost, factor in potential property value increases. Homes with high efficiency solar systems typically sell 4.1% higher than comparable properties with standard systems according to recent real estate analyses.
-
-## Installation Considerations for High Efficiency Systems
-
-Installing high efficiency solar panels requires careful planning and technical expertise to maximize their performance potential. These advanced systems demand specific installation approaches to ensure optimal energy production and return on investment.
-
-### Optimal Placement and Orientation
-
-Optimal placement of high efficiency solar panels significantly impacts their energy output. Southern-facing installations in the Northern Hemisphere typically generate the most electricity, with a tilt angle equal to your location''s latitude providing year-round performance. Consider these placement factors:
-
-  * **Shading analysis** : Conduct a thorough assessment to identify potential obstructions like trees, chimneys, or neighboring buildings that cast shadows during peak sunlight hours
-  * **Roof structural integrity** : Verify your roof can support the weight of high efficiency panels (typically 40-50 pounds per panel)
-  * **Seasonal sun paths** : Account for how the sun''s position changes throughout the year to maximize exposure during different seasons
-  * **Microclimate conditions** : Local weather patterns, including fog, cloud cover, and precipitation frequency, affect optimal panel positioning
-
-
-
-For properties with limited ideal roof space, ground-mounted arrays or solar tracking systems offer alternatives that can increase energy production by 20-40% compared to fixed installations. Modern installation techniques include solar mapping software that predicts annual production based on precise orientation calculations for your specific location.
-
-### Professional vs. DIY Installation
-
-High efficiency solar panel installation involves complex electrical work and precise mounting techniques. Professional installers bring several advantages to the process:
-
-Comparison Factor | Professional Installation | DIY Installation  
----|---|---  
-Average cost | $15,000-$25,000 for 6kW system | $10,000-$15,000 for 6kW system  
-Installation time | 1-3 days | 1-2 weeks (part-time)  
-Permit handling | Included | Self-managed  
-Warranty protection | Fully maintained | May be voided  
-System performance | 97-99% optimal efficiency | 85-95% optimal efficiency  
-  
-Professional installers provide critical services including:
-
-  * **Engineering assessment** : Structural analysis of mounting surfaces and load-bearing capacity
-  * **Electrical integration** : Proper connection to home electrical systems with appropriate safety measures
-  * **Permit acquisition** : Navigation of local building codes and utility interconnection requirements
-  * **Warranty protection** : Maintaining manufacturer guarantees through certified installation
-
-
-
-DIY installation can reduce initial costs by 30-40% but carries significant risks. High efficiency panels require precise handling to prevent micro-fractures that reduce performance. Their sophisticated electronics also demand proper grounding and connection techniques to function correctly and safely.
-
-Most jurisdictions require licensed electricians to perform final grid connections regardless of who installs the panels. This requirement adds complexity to DIY projects and often diminishes potential cost savings. For maximum energy production and long-term reliability, professional installation offers distinct advantages for high efficiency systems.
-
-## Maintaining High Efficiency Solar Panels
-
-High efficiency solar panels require regular maintenance to maximize their energy production and extend their lifespan. Proper care ensures these premium systems continue to deliver optimal performance and return on investment throughout their 25+ year lifecycle.
-
-### Cleaning and Care Requirements
-
-Regular cleaning keeps high efficiency solar panels operating at peak performance levels. Dust, pollen, bird droppings, and debris can reduce efficiency by 5-10% when allowed to accumulate on panel surfaces. Clean your panels 2-4 times per year using these methods:
-
-  * **Water rinse** : Use a garden hose during early morning or evening hours to prevent thermal shock to the panels.
-  * **Soft brush cleaning** : Apply a non-abrasive, soft-bristled brush with mild soap for stubborn dirt.
-  * **Professional services** : Hire specialized solar panel cleaning companies for difficult-to-access installations.
-
-
-
-Avoid harsh chemicals, pressure washers, and abrasive materials that might damage the anti-reflective coating on premium panels. Manufacturers like SunPower and REC Solar recommend using distilled water for cleaning to prevent mineral deposits that can create "hot spots" on panel surfaces.
-
-Seasonal care adjustments help maintain efficiency year-round:
-
-  * Clear snow accumulation carefully with a soft snow rake designed for solar panels
-  * Remove fallen leaves in autumn before they decompose on panel surfaces
-  * Check for signs of wildlife nesting under panels during spring inspections
-
-
-
-Physical inspection of mounting hardware, wiring connections, and panel edges should occur annually to catch minor issues before they develop into costly problems.
-
-### Monitoring Performance
-
-Tracking energy production identifies efficiency issues early and confirms your high efficiency system performs as expected. Modern monitoring systems provide real-time data through:
-
-  * **Manufacturer apps** : Track production metrics from smartphones with built-in alerts for performance drops
-  * **Web-based platforms** : Access detailed historical production data and weather correlation analysis
-  * **Smart home integration** : Connect solar monitoring with home energy management systems
-
-
-
-Key metrics to monitor include:
-
-  1. Daily/monthly/annual kilowatt-hour (kWh) production
-  2. Performance ratio (actual vs. expected energy output)
-  3. Efficiency losses compared to baseline measurements
-  4. Inverter conversion efficiency rates
-
-
-
-Set up automatic alerts for production drops exceeding 10%, which often indicate maintenance needs or component failures. Compare current production to previous years'' data during the same season for meaningful analysis.
-
-Physical signs of potential issues include:
-
-  * Discoloration or browning of cells
-  * Micro-cracks in the panel surface
-  * Moisture accumulation under the glass
-  * Inverter error codes or warning lights
-
-
-
-For high efficiency panels with advanced monitoring capabilities like SunPower''s Monitoring System or REC''s Solar Professional Portal, leverage their performance optimization features to identify underperforming panels within your array and schedule targeted maintenance.
-
-Professional inspections scheduled every 2-3 years complement DIY monitoring efforts, as certified technicians can use thermal imaging cameras to detect hot spots and other issues invisible to the naked eye.
-
-## Future Trends in Solar Panel Efficiency
-
-Solar panel efficiency continues to advance through technological innovation and scientific breakthroughs. The solar industry is experiencing rapid development in materials science, manufacturing processes, and cell designs that promise to push efficiency ratings beyond current limitations.
-
-### Emerging Technologies
-
-Perovskite-silicon tandem cells represent one of the most promising advances in solar technology, combining traditional silicon with perovskite materials to achieve efficiencies exceeding 29%. These hybrid cells capture different portions of the light spectrum, generating more electricity than single-junction cells alone. Companies like Oxford PV are scaling this technology for commercial production with targeted panel efficiencies of 30% by 2025.
-
-Multi-junction solar cells incorporate multiple semiconductor layers to absorb different wavelengths of light. Current laboratory versions demonstrate efficiencies up to 47% under concentrated light conditions. Though historically limited to space applications due to cost constraints, manufacturing innovations are gradually making these cells more affordable for terrestrial use.
-
-Quantum dot solar cells utilize nanoparticles that can be tuned to absorb specific wavelengths of light. This technology offers theoretical efficiency limits above 65% by capturing previously unused photon energy. Commercial applications remain in development, with research teams at MIT and the National Renewable Energy Laboratory (NREL) making significant progress toward practical implementations.
-
-Transparent solar cells integrated into windows and building materials could transform urban energy generation. Michigan State University researchers have developed transparent luminescent solar concentrators with 5% efficiency while maintaining 86% transparency. This technology could convert existing glass surfaces into power-generating assets without sacrificing functionality.
-
-### Research Breakthroughs
-
-Concentrated photovoltaics (CPV) systems use lenses and mirrors to focus sunlight onto small, highly efficient cells. Recent innovations in heat management and tracking systems have enabled commercial CPV installations to achieve module efficiencies of 35-40%. The technology performs exceptionally well in high-direct-sunlight regions like deserts and shows strong potential for utility-scale applications.
-
-Anti-reflective coatings derived from moth eye structures are reducing surface reflection from 30% to less than 1% in laboratory settings. These biomimetic designs maximize light absorption across all incident angles, increasing effective panel efficiency by 5-8% compared to traditional coatings. Companies like DSM Advanced Surfaces have commercialized versions of this technology with significant real-world performance improvements.
-
-Machine learning algorithms are optimizing solar panel design and performance prediction. Research at Stanford University demonstrates how AI can identify ideal molecular configurations for new solar materials 1,000 times faster than conventional methods. These computational approaches accelerate development cycles and help identify promising candidate materials that might otherwise remain undiscovered.
-
-Solar energy storage innovations complement efficiency improvements by addressing intermittency challenges. Flow batteries with 30-year lifespans, solid-state batteries with triple the energy density of lithium-ion, and thermal storage systems are extending the practical utility of solar generation. These technologies enable 24-hour solar energy use, effectively increasing the functional efficiency of entire solar power systems.
-
-Researchers at NREL have achieved remarkable progress in interface engineering between cell layers, reducing energy losses at material boundaries by 35%. This approach addresses recombination losses, one of the primary efficiency limitations in current solar technology. By optimizing how different materials interact at the atomic level, scientists are unlocking performance gains without requiring entirely new materials.
-
-## Conclusion
-
-High efficiency solar panels represent a smart investment for homeowners looking to maximize renewable energy production. While they require a higher initial investment than standard models they deliver superior long-term value through increased energy output better low-light performance and reduced space requirements.
-
-As technology continues to advance with innovations like perovskite-silicon tandems and quantum dot cells efficiency ratings will continue to climb making solar even more accessible and effective. These cutting-edge systems not only enhance your property value but also significantly reduce your carbon footprint.
-
-Whether you''re working with limited roof space or simply want the best return on your investment high efficiency solar panels offer a powerful solution that will continue to evolve and improve in the coming years. By choosing these premium systems you''re investing in both your financial future and a more sustainable planet.
-
-## Frequently Asked Questions
-
-### What are high efficiency solar panels?
-
-High efficiency solar panels are advanced photovoltaic modules that convert a greater percentage of sunlight into electricity compared to standard models. They typically achieve efficiency ratings of 20% or higher, utilizing superior materials and design to maximize energy output. These panels are ideal for limited roof space and deliver better long-term returns despite higher upfront costs.
-
-### How is solar panel efficiency measured?
-
-Solar panel efficiency is measured by dividing the electrical power output by the incident solar power. This calculation determines what percentage of sunlight hitting the panel is converted into usable electricity. Testing conditions, panel size, and cell technology all influence efficiency ratings. Modern residential panels range from standard (15-17% efficiency) to ultra-premium (24%+ efficiency).
-
-### What are the top high efficiency solar panel brands?
-
-Leading high efficiency solar panels include SunPower Maxeon (22.8% efficiency), REC Solar Alpha Series (21.9%), and LG NeON R (22.0%). These premium monocrystalline panels feature excellent temperature coefficients and durability. Other notable manufacturers include Panasonic, Canadian Solar, and Jinko Solar, each offering panels with efficiency ratings above 20%.
-
-### Are high efficiency solar panels worth the extra cost?
-
-Yes, high efficiency panels typically justify their higher upfront cost ($1.50-$3.00 per watt vs. $1.00-$1.50 for standard panels) through increased energy production, lower installation costs, reduced maintenance, and longer lifespans. They generate more electricity from the same space, perform better in low-light conditions, and can increase home value by up to 4.1%. Break-even typically occurs within 7-9 years.
-
-### What are the space-saving benefits of high efficiency panels?
-
-High efficiency panels generate more electricity per square foot, requiring fewer panels to achieve target energy output. This makes them ideal for limited roof space in urban settings or properties with architectural constraints. Their compact design maximizes energy production while maintaining aesthetic appeal, allowing for more flexible installation options and optimal use of available space.
-
-### What maintenance do high efficiency solar panels require?
-
-High efficiency panels need regular cleaning to remove dust, pollen, and debris that can reduce output. Depending on your location, cleaning 2-4 times yearly is recommended using soft brushes, non-abrasive cleaners, or professional services. Regular monitoring of performance metrics through smartphone apps or web portals helps identify issues early, while annual professional inspections ensure optimal operation.
-
-### What''s the best installation approach for high efficiency panels?
-
-Professional installation is strongly recommended for high efficiency systems to ensure optimal performance and warranty protection. Installers provide engineering assessments, proper electrical integration, and compliance with local regulations. Southern-facing installations (in Northern Hemisphere) at the appropriate angle yield best results. Professionals also conduct shading analysis and evaluate roof structural integrity to maximize energy production.
-
-### What emerging technologies will improve solar efficiency?
-
-Perovskite-silicon tandem cells, multi-junction solar cells, and quantum dot technologies are poised to push efficiencies beyond 29% in coming years, with theoretical limits exceeding 65%. Transparent solar cells for building integration, concentrated photovoltaics, anti-reflective coatings, and AI-optimized designs represent additional breakthrough areas. Improvements in energy storage technologies will further enhance the effectiveness of high efficiency solar systems.
-
-### How do high efficiency panels perform in different conditions?
-
-High efficiency panels outperform standard models in challenging conditions. They maintain better output during low-light periods (mornings, evenings, cloudy days), have superior temperature coefficients (less efficiency loss in heat), and often feature enhanced durability against environmental stressors. Their advanced materials and design enable more consistent performance across varying weather conditions and seasons.
-
-### What financial incentives are available for high efficiency solar systems?
-
-Financial incentives include the federal solar investment tax credit (currently 30%), state tax credits, local utility rebates, and performance-based incentives that vary by location. Some regions offer additional benefits specifically for high-efficiency systems. Net metering programs allow homeowners to sell excess electricity back to the grid, further improving the economic value proposition of high efficiency solar installations.', 'ultimate-guide-to-high-efficiency-solar-panels', '2025-03-28', '2025-03-28', 'https://images.unsplash.com/photo-1556306535-0b6f2c133bed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDUzfHxlZmZpY2llbmN5fGVufDB8fHx8MTc0Mjk4Mzc4MHww&ixlib=rb-4.0.3&q=80&w=2000', 'Maximize Your Energy: The Ultimate Guide to High Efficiency Solar Panels', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Unique tags validation', 'This post is used for validating if duplicate tags are removed, regardless of the string case', '## This post is to test zod transform
+Don''t shop by the biggest efficiency number on the spec sheet — the difference between a 22.0% and a 22.8% panel is close to invisible on your power bill. Look for PTC or CEC ratings instead of STC when comparing panels, budget for 75-85% of rated capacity in your own production estimates (60-70% if you''re dealing with heavy shade, dust, or heat), and only pay the premium for efficiency if your roof is small, your rates are high, or your climate is hot enough that temperature coefficient actually matters. TOPCon and HJT panels available today are excellent. Perovskite tandems are worth watching, but there''s no reason to delay a purchase waiting for them.', 'ultimate-guide-to-high-efficiency-solar-panels', '2026-07-27', '2026-07-27', 'https://images.unsplash.com/photo-1556306535-0b6f2c133bed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000', 'Rows of solar panels under bright sunlight', 0);
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Unique tags validation', 'This post is used for validating if duplicate tags are removed, regardless of the string case', '## This post is to test zod transform
 
 If you open the file `src/content/post/unique-tags.md`, the tags array has a number of duplicate blog strings of various cases.
 
 These are removed as part of the removeDupsAndLowercase function found in `src/content/config.ts`.', 'unique-tags', '2023-01-30', NULL, NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Utah HB 340 (2025) Explained: What the New Solar Access Law Means for Homeowners', 'A post about solar energy', '# 
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Utah HB 340 (2025) Explained: What the New Solar Access Law Means for Homeowners', 'A post about solar energy', '# 
 
 ## TL;DR
 
@@ -15367,7 +15229,7 @@ The progression shows Utah''s increasing commitment to solar access—each law a
 
 
 * * *', 'utah-hb-340-2025-explained', '2025-11-26', '2025-12-29', 'https://images.unsplash.com/photo-1742453285246-289271410563?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE2fHx1dGFoJTIwYXNwZW5zfGVufDB8fHx8MTc2MzA4MjYwMnww&ixlib=rb-4.1.0&q=80&w=2000', 'Utah HB 340 (2025) Explained: What the New Solar Access Law Means for Homeowners', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Van Life Solar Setup Guide for Off-Grid Adventures', 'A post about solar energy', '# Van Life Solar Setup: The Multi-Source Charging Reality
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Van Life Solar Setup Guide for Off-Grid Adventures', 'A post about solar energy', '# Van Life Solar Setup: The Multi-Source Charging Reality
 
 Most van lifers don''t rely on solar power alone. They charge their batteries while driving, plug into shore power at campgrounds, and use solar panels to fill gaps. Yet nearly every guide treats solar as the primary solution and ignores the alternator and shore power hookups that keep real vans powered. This article covers all three charging sources equally, because that''s how people actually live off-grid.
 
@@ -15859,7 +15721,7 @@ Start with a realistic power audit. Invest in a quality DC-DC charger (the best 
 Your future self—parked at a remote location with full batteries, comfortable temperature, and enough power to work—will thank you for the care you invested upfront.
 
 Ready to build? Start with a power consumption calculator, measure your roof space carefully, then design a system that covers your three charging sources equally.', 'van-life-solar-setup-guide', '2025-11-17', '2025-11-17', 'https://images.unsplash.com/photo-1652252421025-0392a97129a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDl8fGNhciUyMHNvbGFyfGVufDB8fHx8MTc2MzQ0NzI5MXww&ixlib=rb-4.1.0&q=80&w=2000', 'Van Life Solar Setup Guide for Off-Grid Adventures', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Adding Webmentions to Astro Citrus', 'This post describes the detailed process of adding webmentions to your own site, including setup, configuration, and integration with webmention services.', '## TLDR
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Adding Webmentions to Astro Citrus', 'This post describes the detailed process of adding webmentions to your own site, including setup, configuration, and integration with webmention services.', '## TLDR
 
 1. Add a link on your homepage to either your GitHub profile and/or email address as per [IndieLogin''s](https://indielogin.com/setup) instructions. You _could_ do this via `src/components/SocialList.astro`, just be sure to include `isWebmention` to the relevant link if doing so.
 2. Create an account @ [Webmention.io](https://webmention.io/) by entering your website''s address.
@@ -15916,7 +15778,7 @@ You can also view any test mentions in the browser via their [api](https://githu
 ## Acknowledgements
 
 Many thanks to [Kieran McGuire](https://github.com/KieranMaguire) for the helpful posts. I''d never heard of webmentions before, and now with this update hopefully others will be able to make use of them. Additionally, articles and examples from [kld](https://kld.dev/adding-webmentions/) and [ryanmulligan.dev](https://ryanmulligan.dev/blog/) really helped in getting this set up and integrated, both a great resource if you''re looking for more information!', 'webmentions', '2023-10-11', '2024-12-06', NULL, NULL, 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Why Your Electric Bill Spikes at 7 PM (Even With Solar Panels)', 'Solar panels stop producing right around when you need power most. Here''s the plain-English explanation of time-of-use rates and why your bill is still high — even with solar.', 'You installed solar. Your panels are working — the app confirms it, the production numbers look right. And your electric bill is still higher than you expected, especially in the evening.
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('Why Your Electric Bill Spikes at 7 PM (Even With Solar Panels)', 'Solar panels stop producing right around when you need power most. Here''s the plain-English explanation of time-of-use rates and why your bill is still high — even with solar.', 'You installed solar. Your panels are working — the app confirms it, the production numbers look right. And your electric bill is still higher than you expected, especially in the evening.
 
 This isn''t a malfunction, and it isn''t a sign you got a bad install. It''s a timing mismatch that has a name in the utility industry, and once you see it, your bill stops being a mystery.
 
@@ -15975,7 +15837,7 @@ The fix is storing the power instead of exporting it: capture the solar you make
 That doesn''t mean a battery is automatically the right move for every solar homeowner. Cost, payback timeline, your specific TOU rate spread, and how much of your usage actually falls in the peak window all change the math — sometimes significantly. That''s a big enough decision to deserve its own breakdown rather than a few paragraphs at the end of this one.
 
 → *We cover sizing, real payback math, and what to actually look for when shopping in our [home battery buyer''s guide](/home-battery-buyers-guide) — read that next if the 7 PM spike sounds like your bill.*', 'why-your-electric-bill-spikes-at-7-pm-even-with-solar-panels', '2026-06-19', '2026-06-19', 'https://images.unsplash.com/photo-1624982852928-a800a5123513?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDI0fHxzb2xhcixwb3dlcnxlbnwwfHx8fDE3MTk4Njg3ODR8MA&ixlib=rb-4.1.0&q=80&w=2000', 'Solar panels on a home roof at sunset', 0);
-INSERT INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('How Window Solar Panels Are Changing Home Energy', 'A post about solar energy', '## Introduction
+INSERT OR IGNORE INTO posts (title, description, content, slug, publish_date, updated_date, cover_image_src, cover_image_alt, is_draft) VALUES ('How Window Solar Panels Are Changing Home Energy', 'A post about solar energy', '## Introduction
 
 Window solar panels sound perfect—free electricity from glass you already have. But before you install, here''s what solar companies aren''t telling you.
 
@@ -16438,6 +16300,10 @@ INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p
 INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'markdown-elements' AND t.name = 'markdown';
 INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'missing-content' AND t.name = 'test';
 INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'missing-content' AND t.name = 'toc';
+INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'net-metering-policy-by-state-2026' AND t.name = 'net-metering';
+INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'net-metering-policy-by-state-2026' AND t.name = 'policy';
+INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'net-metering-policy-by-state-2026' AND t.name = 'state-guide';
+INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'net-metering-policy-by-state-2026' AND t.name = 'solar-economics';
 INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'new-york-balcony-solar-law' AND t.name = 'balcony-solar';
 INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'new-york-balcony-solar-law' AND t.name = 'new-york';
 INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'new-york-balcony-solar-law' AND t.name = 'plug-in-solar';
@@ -16474,6 +16340,11 @@ INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p
 INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'ul-1741-sa-anti-islanding-plug-in-solar' AND t.name = 'ul 1741';
 INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'ul-1741-sa-anti-islanding-plug-in-solar' AND t.name = 'anti-islanding';
 INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'ul-1741-sa-anti-islanding-plug-in-solar' AND t.name = 'safety standards';
+INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'ultimate-guide-to-high-efficiency-solar-panels' AND t.name = 'solar-panels';
+INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'ultimate-guide-to-high-efficiency-solar-panels' AND t.name = 'efficiency';
+INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'ultimate-guide-to-high-efficiency-solar-panels' AND t.name = 'buying-guide';
+INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'ultimate-guide-to-high-efficiency-solar-panels' AND t.name = 'topcon';
+INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'ultimate-guide-to-high-efficiency-solar-panels' AND t.name = 'monocrystalline';
 INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'unique-tags' AND t.name = 'blog';
 INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'unique-tags' AND t.name = 'test';
 INSERT OR IGNORE INTO post_tags (post_id, tag_id) SELECT p.id, t.id FROM posts p, tags t WHERE p.slug = 'webmentions' AND t.name = 'webmentions';

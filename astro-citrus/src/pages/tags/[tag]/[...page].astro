@@ -14,8 +14,7 @@ if (!tag) {
 	return new Response(null, { status: 404 });
 }
 
-const db = Astro.locals.runtime.env.DB;
-const posts = await getPostsByTag(db, tag);
+const posts = await getPostsByTag(tag);
 const sortedPosts = posts.sort(collectionDateSort);
 
 const currentPage = pageParam ? parseInt(pageParam, 10) : 1;

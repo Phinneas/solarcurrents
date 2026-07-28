@@ -1,6 +1,7 @@
+import { getCollection, type CollectionEntry } from "astro:content";
 import { micromark } from "micromark";
-import getReadingTime from "reading-time";
 import type { MarkdownHeading } from "astro";
+import { getReadingTime } from "@/utils/reading-time";
 
 export interface BlogPost {
 	id: string;
@@ -23,46 +24,6 @@ export interface BlogPost {
 	headings: MarkdownHeading[];
 }
 
-interface D1PostRow {
-	id: number;
-	title: string;
-	description: string;
-	content: string;
-	slug: string;
-	publishDate: string;
-	updatedDate: string | null;
-	coverImageSrc: string | null;
-	coverImageAlt: string | null;
-	tags: string | null;
-}
-
-function parsePostRow(row: D1PostRow): BlogPost {
-	const publishDate = new Date(row.publishDate);
-	const updatedDate = row.updatedDate ? new Date(row.updatedDate) : undefined;
-
-	return {
-		id: row.slug,
-		data: {
-			title: row.title,
-			description: row.description,
-			publishDate,
-			updatedDate,
-			coverImage:
-				row.coverImageSrc
-					? {
-							src: row.coverImageSrc,
-							alt: row.coverImageAlt || "",
-						}
-					: undefined,
-			tags: row.tags ? row.tags.split(",") : [],
-			draft: false,
-			readingTime: getReadingTime(row.content).text,
-		},
-		body: row.content,
-		headings: extractHeadings(row.content),
-	};
-}
-
 function extractHeadings(content: string): MarkdownHeading[] {
 	const headings: MarkdownHeading[] = [];
 	const lines = content.split("\n");
@@ -81,103 +42,63 @@ function extractHeadings(content: string): MarkdownHeading[] {
 	return headings;
 }
 
+function entryToBlogPost(entry: CollectionEntry<"post">): BlogPost {
+	const id = entry.id.replace(/\.md$/, "");
+	return {
+		id,
+		data: {
+			title: entry.data.title,
+			description: entry.data.description,
+			publishDate: entry.data.publishDate,
+			updatedDate: entry.data.updatedDate,
+			coverImage: entry.data.coverImage,
+			tags: entry.data.tags || [],
+			draft: entry.data.draft,
+			seriesId: entry.data.seriesId,
+			ogImage: entry.data.ogImage,
+			readingTime: getReadingTime(entry.body || "").text,
+		},
+		body: entry.body || "",
+		headings: extractHeadings(entry.body || ""),
+	};
+}
+
+export async function getAllPosts(): Promise<BlogPost[]> {
+	const entries = await getCollection("post");
+	return entries
+		.filter((e) => !e.data.draft)
+		.map(entryToBlogPost)
+		.sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+}
+
+export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
+	const entries = await getCollection("post");
+	const entry = entries.find((e) => e.id.replace(/\.md$/, "") === slug && !e.data.draft);
+	if (!entry) return null;
+	return entryToBlogPost(entry);
+}
+
+export async function getPostsByTag(tag: string): Promise<BlogPost[]> {
+	const posts = await getAllPosts();
+	return posts.filter((p) => p.data.tags.includes(tag.toLowerCase()));
+}
+
+export async function getAllTags(): Promise<string[]> {
+	const entries = await getCollection("post");
+	const tagSet = new Set<string>();
+	for (const entry of entries) {
+		if (entry.data.draft) continue;
+		for (const tag of entry.data.tags || []) {
+			tagSet.add(tag.toLowerCase());
+		}
+	}
+	return [...tagSet].sort();
+}
+
 export async function renderPost(content: string): Promise<{ html: string; readingTime: string }> {
 	const html = micromark(content);
 	const readingTime = getReadingTime(content).text;
 	return { html, readingTime };
-}
-
-export async function getAllPosts(db: D1Database): Promise<BlogPost[]> {
-	const result = await db
-		.prepare(
-			`
-			SELECT
-				p.id,
-				p.title,
-				p.description,
-				p.content,
-				p.slug,
-				p.publish_date as publishDate,
-				p.updated_date as updatedDate,
-				p.cover_image_src as coverImageSrc,
-				p.cover_image_alt as coverImageAlt,
-				GROUP_CONCAT(t.name) as tags
-			FROM posts p
-			LEFT JOIN post_tags pt ON p.id = pt.post_id
-			LEFT JOIN tags t ON pt.tag_id = t.id
-			WHERE p.is_draft = 0
-			GROUP BY p.id
-			ORDER BY p.publish_date DESC
-			`,
-		)
-		.all<D1PostRow>();
-
-	return (result.results || []).map(parsePostRow);
-}
-
-export async function getPostBySlug(db: D1Database, slug: string): Promise<BlogPost | null> {
-	const row = await db
-		.prepare(
-			`
-			SELECT
-				p.id,
-				p.title,
-				p.description,
-				p.content,
-				p.slug,
-				p.publish_date as publishDate,
-				p.updated_date as updatedDate,
-				p.cover_image_src as coverImageSrc,
-				p.cover_image_alt as coverImageAlt,
-				GROUP_CONCAT(t.name) as tags
-			FROM posts p
-			LEFT JOIN post_tags pt ON p.id = pt.post_id
-			LEFT JOIN tags t ON pt.tag_id = t.id
-			WHERE p.slug = ? AND p.is_draft = 0
-			GROUP BY p.id
-			`,
-		)
-		.bind(slug)
-		.first<D1PostRow>();
-
-	if (!row) return null;
-	return parsePostRow(row);
-}
-
-export async function getPostsByTag(db: D1Database, tag: string): Promise<BlogPost[]> {
-	const result = await db
-		.prepare(
-			`
-			SELECT
-				p.id,
-				p.title,
-				p.description,
-				p.content,
-				p.slug,
-				p.publish_date as publishDate,
-				p.updated_date as updatedDate,
-				p.cover_image_src as coverImageSrc,
-				p.cover_image_alt as coverImageAlt,
-				GROUP_CONCAT(t2.name) as tags
-			FROM posts p
-			JOIN post_tags pt ON p.id = pt.post_id
-			JOIN tags t ON pt.tag_id = t.id
-			LEFT JOIN post_tags pt2 ON p.id = pt2.post_id
-			LEFT JOIN tags t2 ON pt2.tag_id = t2.id
-			WHERE t.name = ? AND p.is_draft = 0
-			GROUP BY p.id
-			ORDER BY p.publish_date DESC
-			`,
-		)
-		.bind(tag)
-		.all<D1PostRow>();
-
-	return (result.results || []).map(parsePostRow);
-}
-
-export async function getAllTags(db: D1Database): Promise<string[]> {
-	const result = await db.prepare("SELECT name FROM tags ORDER BY name").all<{ name: string }>();
-	return (result.results || []).map((r) => r.name);
 }
 
 export function groupPostsByYear(posts: BlogPost[]) {
