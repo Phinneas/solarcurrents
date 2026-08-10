@@ -45,3 +45,8 @@ Desktop.ini
 .cache/
 tmp/
 temp/
+
+# Tool/debug artifacts
+.recall/
+kimi-debug-session_*/
+kimi-debug-session_*.zip
