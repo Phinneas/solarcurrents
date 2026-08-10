@@ -3,6 +3,9 @@ title: "NEC Article 705 in Plain English: Portable and Grid-Tied Solar Interconn
 description: "What NEC 705 actually requires for solar and battery interconnection — load-side vs. supply-side connections, the 120% rule, the AHJ sign-off process, and what inspectors look for."
 publishDate: "6 July 2026"
 updatedDate: "6 July 2026"
+coverImage:
+  src: "/images/posts/nec-705-plain-english-solar-interconnection/cover.jpg"
+  alt: "NEC Article 705 in Plain English: Portable and Grid-Tied Solar Interconnection"
 ---
 
 > Informational only. Always confirm details with your local Authority Having Jurisdiction (AHJ) and the current NEC edition they enforce.

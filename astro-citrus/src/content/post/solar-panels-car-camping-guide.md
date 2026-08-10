@@ -3,6 +3,9 @@ title: "Solar Panels Car Camping Guide for Off-Grid Adventures"
 description: "A post about solar energy"
 publishDate: "23 March 2026"
 updatedDate: "23 March 2026"
+coverImage:
+  src: "/images/posts/solar-panels-car-camping-guide/cover.jpg"
+  alt: "Solar Panels Car Camping Guide for Off-Grid Adventures"
 ---
 
 

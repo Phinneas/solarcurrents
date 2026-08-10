@@ -210,17 +210,24 @@ const featuredPosts = sortedPosts.slice(0, 3);
 </section>
 
 <!-- CTA BAND -->
+<section class="cta-band">
   <div class="wrap">
     <h2>Not sure where to start?</h2>
     <p>Browse all our guides — from balcony plug-in solar to full off-grid RV builds. No quiz, no email gate, just the article that answers your actual question.</p>
     <a href="/posts/" class="btn-gold">Browse all guides</a>
   </div>
-</div>
+</section>
 
 <!-- FOOTER -->
 <footer>
-  <div class="f-brand">Solar Currents</div>
-  <div class="f-note">Honest solar guides for real life. Pacific Northwest.</div>
+  <div class="f-row">
+    <div class="f-brand">Solar Currents</div>
+    <div class="f-note">Honest solar guides for real life. Pacific Northwest.</div>
+  </div>
+  <div class="f-credit">
+    This site is a product of
+    <a href="https://www.salishseaconsulting.com" target="_blank" rel="noopener noreferrer">Salish Sea Consulting</a>
+  </div>
 </footer>
 
 <style>
@@ -482,17 +489,21 @@ const featuredPosts = sortedPosts.slice(0, 3);
   .cta-band {
     background: var(--navy-mid);
     border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
-    padding: 4.5rem 2rem; text-align: center;
+    padding: 4.5rem 2rem;
+  }
+  .cta-band .wrap {
+    display: flex; flex-direction: column; align-items: center;
+    text-align: center; gap: 1.5rem;
   }
   .cta-band h2 {
     font-family: 'Fraunces', serif;
     font-size: clamp(1.7rem, 3vw, 2.4rem);
-    font-weight: 400; color: var(--cream); margin-bottom: 0.9rem;
+    font-weight: 400; color: var(--cream);
   }
   .cta-band p {
     font-size: 1rem; font-weight: 300;
     color: var(--cream-dim); max-width: 480px;
-    margin: 0 auto 2rem; line-height: 1.75;
+    line-height: 1.75;
   }
 
   /* ASK AI */
@@ -544,13 +555,26 @@ const featuredPosts = sortedPosts.slice(0, 3);
 
   /* FOOTER */
   footer {
-    padding: 2.25rem 2.5rem;
+    padding: 2.25rem 2.5rem 1.75rem;
+    border-top: 1px solid var(--border);
+  }
+  .f-row {
     display: flex; justify-content: space-between;
     align-items: center; flex-wrap: wrap; gap: 1rem;
-    border-top: 1px solid var(--border);
   }
   .f-brand { font-family: 'Fraunces', serif; color: var(--gold); font-size: 1rem; }
   .f-note { font-size: 0.73rem; color: var(--muted); }
+  .f-credit {
+    margin-top: 1.5rem; padding-top: 1.25rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.72rem; color: var(--muted);
+    text-align: center; letter-spacing: 0.02em;
+  }
+  .f-credit a {
+    color: var(--gold); text-decoration: none; font-weight: 500;
+    transition: color 0.2s;
+  }
+  .f-credit a:hover { text-decoration: underline; }
 
   /* RESPONSIVE */
   @media (max-width: 800px) {
