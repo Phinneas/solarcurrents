@@ -38,6 +38,29 @@ const post = defineCollection({
 		}),
 });
 
+const newsletter = defineCollection({
+	loader: glob({ base: "./src/content/newsletter", pattern: "**/*.{md,mdx}" }),
+	schema: baseSchema.extend({
+		description: z.string(),
+		coverImage: z
+			.object({
+				alt: z.string(),
+				src: z.string(),
+			})
+			.optional(),
+		draft: z.boolean().default(false),
+		tags: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
+		publishDate: z
+			.string()
+			.or(z.date())
+			.transform((val) => new Date(val)),
+		updatedDate: z
+			.string()
+			.optional()
+			.transform((str) => (str ? new Date(str) : undefined)),
+	}),
+});
+
 const note = defineCollection({
 	loader: glob({ base: "./src/content/note", pattern: "**/*.{md,mdx}" }),
 	schema: baseSchema.extend({
@@ -62,4 +85,4 @@ const series = defineCollection({
 // End
 
 // Series
-export const collections = { post, note, series };
+export const collections = { post, note, newsletter, series };
