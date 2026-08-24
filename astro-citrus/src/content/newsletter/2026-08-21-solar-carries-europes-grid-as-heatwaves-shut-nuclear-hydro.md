@@ -8,14 +8,12 @@ coverImage:
   src: "https://images.pexels.com/photos/34461379/pexels-photo-34461379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
   alt: "Aerial shot of Rancho Seco Solar Power Plant with large cooling tower and solar panels."
 ---
-# Solar carries Europe's grid as heatwaves shut nuclear, hydro
-
 PLUS: Sage's first commercial geothermal plant hits 120 days, and Orange County's hydrogen buses collapse 95%
 
 > [Subscribe on Substack](https://phinneas.substack.com/) | [Visit solarcurrents.co](https://www.solarcurrents.co)
 
 ---
-**Good morning, {{first_name | currents}}.**
+**Good morning.**
 
 Solar power just carried Europe through deadly June-July heatwaves that pushed demand up 28% while simultaneously knocking nuclear plants offline and driving hydropower to decade lows. The EU grid stayed stable because solar hit record highs (25% of electricity in both months), stepping in exactly when drought-starved rivers couldn't cool reactors and evaporating reservoirs cut hydro generation.
 
