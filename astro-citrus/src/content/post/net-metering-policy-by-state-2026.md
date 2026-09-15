@@ -5,6 +5,8 @@ publishDate: "27 July 2026"
 updatedDate: "27 July 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000"
+  width: 2000
+  height: 1331
   alt: "Aerial view of a solar array across a US landscape"
 tags: ["net-metering", "policy", "state-guide", "solar-economics"]
 ---
@@ -37,7 +39,7 @@ Three mechanisms quietly break these lists, and none of them show up in a simple
 
 ## The rename to watch for
 
-When you see "net billing," "value of distributed energy resources" (New York's VDER), or "distributed generation compensation" instead of "net metering," read it as a signal, not a synonym. States rarely announce "we're cutting your export rate by three-quarters." They announce a new tariff with a new name. California's shift from NEM 2.0 to the Net Billing Tariff (branded NEM 3.0) in April 2023 cut average export credit from roughly $0.30/kWh to $0.05–$0.08/kWh — a real reduction of around 75% — while keeping full retail value for anything you use inside the house. New York's VDER and Minnesota's value-of-solar tariff are older, less punitive versions of the same relabeling.
+When you see "net billing," "value of distributed energy resources" (New York's VDER), or "distributed generation compensation" instead of "net metering," read it as a signal, not a synonym. States rarely announce "we're cutting your export rate by three-quarters." They announce a new tariff with a new name. California's shift from NEM 2.0 to the Net Billing Tariff (branded [NEM 3.0](/posts/california-nem-3-vs-nem-2-solar-payback-math/)) in April 2023 cut average export credit from roughly $0.30/kWh to $0.05–$0.08/kWh — a real reduction of around 75% — while keeping full retail value for anything you use inside the house. [New York's VDER](/posts/community-solar-new-york-coned-nyserda/) and Minnesota's value-of-solar tariff are older, less punitive versions of the same relabeling.
 
 ## Legal wildcards still in motion (mid-2026)
 
@@ -58,7 +60,7 @@ Skip the 50-state table entirely and do this instead:
 1. **Look up your specific utility's tariff, not your state's law.** Search "[your utility name] net metering tariff filing" — PUC dockets and utility tariff sheets are public record and dated.
 2. **Ask whether the program has an aggregate capacity cap, and how close it is.** Utilities running capacity-limited programs typically publish enrolled capacity versus the cap in annual PUC filings or on a public dashboard.
 3. **Confirm whether co-ops and munis in your area follow the same rules as the state's investor-owned utilities.** Frequently, they don't.
-4. **Check the interconnection application date that locks your rate, not the date your system goes live.** Several states, including California and Illinois, use the application or interconnection-agreement date as the grandfathering cutoff, and processing lag can push your live date weeks or months later.
+4. **Check the [interconnection application date](/posts/nec-705-plain-english-solar-interconnection/) that locks your rate, not the date your system goes live.** Several states, including California and Illinois, use the application or interconnection-agreement date as the grandfathering cutoff, and processing lag can push your live date weeks or months later.
 5. **Cross-reference DSIRE (dsireinsight.com) and your state PUC's site.** DSIRE is among the most consistently updated trackers available, but it still lags legislative and rate-case changes by weeks.
 
 ## The honest verdict

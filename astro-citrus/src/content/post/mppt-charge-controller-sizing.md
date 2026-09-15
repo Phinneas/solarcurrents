@@ -1,10 +1,23 @@
 ---
 title: "MPPT Charge Controller Sizing: Complete Calculation Guide"
-description: "MPPT Charge Controller Sizing: Step-by-Step Guide to Right-Size Your Solar System"
+description: "MPPT charge controller sizing step by step: the ampacity formula, temperature compensation, and worked examples for 200W, 400W, and 800W solar arrays."
+faqs:
+  - question: "Is it okay to oversize a solar charge controller?"
+    answer: "Yes. The controller only delivers the current your system requires, so a 60A controller on a 30A load runs cooler and lasts longer. The only downside is higher upfront cost."
+  - question: "What happens if your solar charge controller is too small?"
+    answer: "It limits production during peak sun, constantly restricts input current, and overheats chronically, which shortens its life. Severe undersizing can cause controller failure and interrupted charging."
+  - question: "Can I use one 400W panel instead of four 100W panels with a 20A charge controller?"
+    answer: "Not on a 12V system: 400W divided by 14.4V is 27.8A, which exceeds the 20A limit. Four 100W panels can work in a 2S2P configuration on a 24V battery bank, where current drops to 13.9A."
+  - question: "How many watts can a 30 amp MPPT charge controller handle?"
+    answer: "Nominally 360W on 12V, 720W on 24V, or 1440W on 48V. At charging voltages the practical limits are slightly higher: 432W at 14.4V, 864W at 28.8V, and 1728W at 57.6V."
+  - question: "What size battery do I need for a 400W solar panel?"
+    answer: "At least 200Ah at 12V or 100Ah at 24V, assuming 5 peak sun hours and sizing batteries at twice daily production. With lithium's 80% usable discharge, a 100-125Ah battery suffices."
 publishDate: "4 September 2025"
 updatedDate: "25 October 2025"
 coverImage:
   src: "https://images.unsplash.com/photo-1745169921021-3304a3eed8ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDV8fGNoYXJnZSUyMGNvbnRyb2xsZXJ8ZW58MHx8fHwxNzUzNDYzMTEwfDA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1333
   alt: "MPPT Charge Controller Sizing: Complete Calculation Guide"
 ---
 
@@ -147,7 +160,7 @@ An undersized controller limits power production during peak sun hours, wasting 
 
 ### Q: Can I use one 400W panel instead of four 100W panels with a 20A charge controller?
 
-No, a single 400W panel will overwhelm a 20A controller on a 12V system. The calculation shows 400W ÷ 14.4V = 27.8A, exceeding the 20A limit by nearly 40%. However, four 100W panels wired appropriately could work if configured for higher voltage (2S2P) with a 24V battery bank, where the current drops to 13.9A, safely within the 20A limit.
+No, a single 400W panel will overwhelm a 20A controller on a 12V system. The calculation shows 400W ÷ 14.4V = 27.8A, exceeding the 20A limit by nearly 40%. However, four 100W panels wired appropriately could work if [configured for higher voltage (2S2P)](/posts/rv-solar-panel-wiring-series-parallel/) with a 24V battery bank, where the current drops to 13.9A, safely within the 20A limit.
 
 ### Q: How many watts can a 30 amp MPPT charge controller handle?
 
@@ -155,4 +168,4 @@ A 30A MPPT controller can handle different wattages depending on your battery vo
 
 ### Q: What size battery do I need for a 400W solar panel?
 
-For a 400W solar panel system, you need at least 200Ah of battery capacity at 12V, or 100Ah at 24V. This sizing assumes 5 hours of peak sun generating 2000Wh daily, with batteries sized at 2x daily production for one day of autonomy. The calculation: 2000Wh ÷ 12V = 167Ah, rounded up to 200Ah for the standard 50% depth of discharge in lead-acid batteries. For lithium batteries that can discharge to 80%, a 100-125Ah battery suffices.
+For a 400W solar panel system, you need at least 200Ah of battery capacity at 12V, or 100Ah at 24V. This sizing assumes 5 hours of peak sun generating 2000Wh daily, with batteries sized at 2x daily production for one day of autonomy. The calculation: 2000Wh ÷ 12V = 167Ah, rounded up to 200Ah for the standard 50% depth of discharge in lead-acid batteries. For [lithium batteries](/posts/lifepo4-solar-battery/) that can discharge to 80%, a 100-125Ah battery suffices.

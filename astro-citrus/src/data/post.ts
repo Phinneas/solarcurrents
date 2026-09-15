@@ -13,7 +13,10 @@ export interface BlogPost {
 		coverImage?: {
 			src: string;
 			alt: string;
+			width?: number;
+			height?: number;
 		};
+		faqs?: { question: string; answer: string }[];
 		tags: string[];
 		draft?: boolean;
 		seriesId?: string;
@@ -52,6 +55,7 @@ function entryToBlogPost(entry: CollectionEntry<"post">): BlogPost {
 			publishDate: entry.data.publishDate,
 			updatedDate: entry.data.updatedDate,
 			coverImage: entry.data.coverImage,
+			faqs: entry.data.faqs,
 			tags: entry.data.tags || [],
 			draft: entry.data.draft,
 			seriesId: entry.data.seriesId,

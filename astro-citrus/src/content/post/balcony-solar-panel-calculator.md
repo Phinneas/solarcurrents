@@ -1,10 +1,12 @@
 ---
 title: "Balcony Solar Panel Calculator Guide"
-description: "When you want to install balcony solar panels this calculator will help you make the best decision."
+description: "How to size balcony solar: measure sun exposure, shading, and railing space, run realistic output math, and avoid the mistakes that inflate payback estimates."
 publishDate: "27 October 2025"
 updatedDate: "20 February 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1711344397160-b23d5deaa012?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGNhbGN1bGF0b3J8ZW58MHx8fHwxNzYxNDE4NzM4fDA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1500
   alt: "Balcony Solar Panel Calculator Guide"
 ---
 
@@ -13,7 +15,7 @@ coverImage:
 
 Your balcony's ability to generate solar power depends on several measurable factors. Direction matters most—south-facing balconies in the Northern Hemisphere receive optimal sunlight throughout the day. East-facing spaces capture morning sun, while west-facing areas get afternoon exposure.
 
-Shading significantly impacts power generation. Buildings, trees, or awnings that block direct sunlight reduce panel efficiency by up to 80%. Even partial shade during peak hours cuts your potential output substantially.
+Shading significantly impacts power generation. Buildings, trees, or awnings that block direct sunlight reduce panel efficiency by up to 80%. Even [partial shade during peak hours](/notes/one-shaded-cell-can-kill-your-whole-panels-output/) cuts your potential output substantially.
 
 Available space determines your maximum capacity. Most balcony panels measure 3-4 feet wide and 2-3 feet tall. Measure your railing length and floor space to calculate how many panels you can accommodate.
 
@@ -55,9 +57,9 @@ Micro-inverters convert DC power to AC at each panel, maximizing efficiency when
 
 Portable mounting systems require no drilling or permanent modifications. Weighted stands secure panels to balcony floors, while clamp systems attach to railings without damage.
 
-Plug-and-play systems connect directly to standard outlets through special safety inverters. These systems automatically shut off if the grid fails, meeting most electrical codes.
+[Plug-and-play systems](/posts/plug-and-play-solar-panels/) connect directly to standard outlets through special safety inverters. These systems automatically shut off if the grid fails, meeting most electrical codes.
 
-Check your lease agreement and local regulations before installing any solar equipment. Some buildings restrict balcony modifications or require landlord approval for electrical devices.
+Check your lease agreement and [local regulations](/posts/balcony-solar-laws-by-state/) before installing any solar equipment. Some buildings restrict balcony modifications or require landlord approval for electrical devices.
 
 ## Maximizing Output from Limited Space
 

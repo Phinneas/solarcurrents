@@ -6,6 +6,8 @@ draft: false
 tags: ["newsletter", "solar", "energy"]
 coverImage:
   src: "https://images.pexels.com/photos/34461379/pexels-photo-34461379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  width: 1880
+  height: 1058
   alt: "Aerial shot of Rancho Seco Solar Power Plant with large cooling tower and solar panels."
 ---
 PLUS: Sage's first commercial geothermal plant hits 120 days, and Orange County's hydrogen buses collapse 95%

@@ -5,6 +5,8 @@ publishDate: "5 August 2025"
 updatedDate: "1 November 2025"
 coverImage:
   src: "https://images.unsplash.com/photo-1719937050926-dc30fbf3b54d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEzfHxwb3J0YWJsZXxlbnwwfHx8fDE3NjIwNDU1MzR8MA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 3005
   alt: "Solar Power Bank vs Portable Power Station"
 ---
 

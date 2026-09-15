@@ -5,6 +5,8 @@ publishDate: "6 October 2025"
 updatedDate: "25 October 2025"
 coverImage:
   src: "https://images.unsplash.com/photo-1618347191821-51285853505f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDZ8fHJlbnR8ZW58MHx8fHwxNzU1OTAxNDE2fDA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1333
   alt: "Solar Panels for Renters"
 ---
 

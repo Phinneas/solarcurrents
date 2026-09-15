@@ -1,10 +1,12 @@
 ---
 title: "RV Solar Panel Wiring Series Parallel Guide"
-description: "A post about solar energy"
+description: "RV solar panel wiring explained: series vs parallel tradeoffs, how to calculate your configuration, wire sizing, and troubleshooting common faults."
 publishDate: "17 March 2026"
 updatedDate: "17 March 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1576446468729-7674e99608f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHdpcmluZ3xlbnwwfHx8fDE3NzAzMjQ4NzF8MA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1500
   alt: "RV Solar Panel Wiring Series Parallel Guide"
 ---
 
@@ -21,13 +23,13 @@ Parallel wiring connects all positive terminals together and all negative termin
 
 Series connections excel in specific RV scenarios. Higher voltage means less power loss over long cable runs from your roof to your charge controller. You'll need thinner, less expensive wiring.
 
-Your charge controller operates more efficiently at higher voltages. MPPT controllers especially benefit from series configurations, converting excess voltage into usable amperage.
+Your charge controller operates more efficiently at higher voltages. [MPPT controllers](/posts/mppt-charge-controller-sizing/) especially benefit from series configurations, converting excess voltage into usable amperage.
 
 The major downside? Shade on one panel affects the entire string. Park under a tree branch, and your whole system suffers. Each panel acts like a bottleneck for current flow.
 
 ## Parallel Wiring Advantages and Limitations
 
-Parallel connections offer shade tolerance. One shaded panel won't drag down your entire array. Each panel operates independently, feeding power to your batteries regardless of what happens to its neighbors.
+Parallel connections offer shade tolerance. [One shaded panel won't drag down your entire array.](/notes/one-shaded-cell-can-kill-your-whole-panels-output/) Each panel operates independently, feeding power to your batteries regardless of what happens to its neighbors.
 
 Lower voltage means safer installations. Working with 12-24V systems reduces shock risk during maintenance or troubleshooting.
 
@@ -47,7 +49,7 @@ Start with your charge controller specifications. PWM controllers typically requ
 
 Check your panel specifications. A 100W panel might produce 18V and 5.5A. Two in series give you 36V at 5.5A. Two in parallel provide 18V at 11A.
 
-Consider your typical camping spots. Forest campers benefit from parallel wiring's shade tolerance. Desert boondockers might prefer series for long cable runs.
+Consider your typical camping spots. Forest campers benefit from parallel wiring's shade tolerance. Desert [boondockers](/posts/solar-for-boondocking/) might prefer series for long cable runs.
 
 ## Essential Components for Your RV Solar System
 

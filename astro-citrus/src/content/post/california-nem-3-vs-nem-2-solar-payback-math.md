@@ -5,6 +5,8 @@ publishDate: "13 July 2026"
 updatedDate: "13 July 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000"
+  width: 2000
+  height: 1331
   alt: "Rooftop solar panels on a California home under a clear sky"
 tags: ["california", "net-metering", "nem-3", "solar-economics", "policy"]
 ---
@@ -23,7 +25,7 @@ Three things, and they compound.
 
 **Netting went from annual to instantaneous.** NEM 2.0 let credits and usage wash out over a full year at similar rates. NEM 3.0 meters imports and exports separately, in real time. Buy a kWh at noon for 40+ cents, sell one at the same moment for 5 cents. There's no annual averaging to save you — surplus credits also expire at true-up with no cash payout.
 
-**Mandatory TOU rates with a wide peak spread.** New solar customers land on electrified TOU plans where evening power is the expensive power. That's deliberate: the whole tariff is engineered to push you toward storing midday solar and using it at night.
+**Mandatory TOU rates with a [wide peak spread](/posts/tou-rate-spread-battery-worth-it-map/).** New solar customers land on electrified TOU plans where evening power is the expensive power. That's deliberate: the whole tariff is engineered to push you toward storing midday solar and using it at night.
 
 One small offset exists: the ACC Plus adder for PG&E and SCE residential customers (not SDG&E). It's minor — PG&E's 2026 standard adder is under 1 cent/kWh (3.6 cents for CARE/FERA customers) — it steps down 20% per year, and it disappears entirely for new applicants after April 2028. Don't let a salesperson present it as meaningful revenue.
 
@@ -35,9 +37,9 @@ Take a typical 8 kW system in PG&E territory producing about 12,000 kWh/year, wi
 
 **NEM 3.0, same system, bought in 2026:** Self-consumption still saves ~$2,310. But the 5,400 exported kWh now earn roughly 7 cents — about $380. Total: ~$2,690/year. And here's the part most 2023-era comparison articles haven't updated: the 30% federal residential credit (Section 25D) expired December 31, 2025, with no phase-down. You pay the full ~$24,000. Payback: roughly 9 years, stretching to 11–13 with financing costs or worse production.
 
-**NEM 3.0 with a battery:** Add ~$10,000–13,000 for storage and shift most of that 5,400 kWh from 7-cent exports to offsetting 40–55-cent peak imports. That recovers roughly $1,800–2,200/year of what the tariff took away, plus SGIP rebates where available. Total system cost is much higher (~$34,000–37,000), but annual savings of $4,300–4,800 put payback around 7–9 years — genuinely faster than solar-alone under the same tariff, which is a strange-sounding result until you remember exports are nearly worthless.
+**NEM 3.0 with a battery:** Add ~$10,000–13,000 for storage and shift most of that 5,400 kWh from 7-cent exports to [offsetting 40–55-cent peak imports](/posts/why-your-electric-bill-spikes-at-7-pm-even-with-solar-panels/). That recovers roughly $1,800–2,200/year of what the tariff took away, plus SGIP rebates where available. Total system cost is much higher (~$34,000–37,000), but annual savings of $4,300–4,800 put payback around 7–9 years — genuinely faster than solar-alone under the same tariff, which is a strange-sounding result until you remember exports are nearly worthless.
 
-Two honest caveats on that battery math. First, it assumes your household actually has evening load to shift — small, efficient households with low evening usage benefit less. Second, batteries carry 10-year warranties against a 25-year panel life; a mid-life battery replacement can eat a meaningful chunk of the "savings" if prices don't keep falling.
+Two honest caveats on that battery math. First, it assumes your household actually has evening load to shift — small, efficient households with low evening usage benefit less. Second, [batteries carry 10-year warranties](/posts/lifepo4-vs-nmc-battery-lifespan/) against a 25-year panel life; a mid-life battery replacement can eat a meaningful chunk of the "savings" if prices don't keep falling.
 
 ## Grandfathering: what you keep, and what almost got taken
 

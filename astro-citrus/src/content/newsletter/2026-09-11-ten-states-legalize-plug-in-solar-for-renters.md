@@ -6,6 +6,8 @@ draft: false
 tags: ["newsletter", "solar", "energy"]
 coverImage:
   src: "https://images.pexels.com/photos/8962344/pexels-photo-8962344.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  width: 1880
+  height: 1253
   alt: "A modern wooden house with a prominent 'House for Rent' sign in the green yard."
 ---
 PLUS: Albuquerque deploys 6 MW of solar across city facilities in push toward 100% renewable goal

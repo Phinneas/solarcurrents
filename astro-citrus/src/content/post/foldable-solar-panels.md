@@ -1,10 +1,12 @@
 ---
 title: "Foldable Solar Panels"
-description: "A post about solar energy"
+description: "The complete foldable solar panel guide: real vs advertised output, expert-tested picks from Jackery to Renogy, and cost-benefit math for 2025-2026."
 publishDate: "14 April 2025"
 updatedDate: "18 September 2025"
 coverImage:
   src: "https://images.unsplash.com/photo-1667417277559-78570d785e8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDIwMHx8Zm9sZGluZyUyMHNvbGFyJTIwcGFuZWx8ZW58MHx8fHwxNzQyOTgzMDg4fDA&ixlib=rb-4.0.3&q=80&w=2000"
+  width: 2000
+  height: 1333
   alt: "Foldable Solar Panels"
 ---
 
@@ -785,6 +787,6 @@ _Have questions about sizing your solar system or choosing between models? Leave
 
 **Related Guides** :
 
-  * [Best Portable Solar Panels for Camping](__GHOST_URL__/best-portable-solar-panels-for-camping)
-  * [Solar Chargers for Camping](__GHOST_URL__/solar-chargers-for-camping)
-  * [Portable Solar Power for Camping](__GHOST_URL__/portable-solar-power-for-camping)
+  * [Best Portable Solar Panels for Camping](/posts/best-solar-panels-for-camping/)
+  * [Solar Chargers for Camping](/posts/best-solar-power-usb-chargers-2025/)
+  * [Portable Solar Power for Camping](/posts/portable-solar-for-camping/)

@@ -5,6 +5,8 @@ publishDate: "19 June 2026"
 updatedDate: "19 June 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGNhbXBpbmdnfGVufDB8fHx8fDE3MTk4Njg3ODR8MA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1334
   alt: "Tent camping at dusk in a quiet campground"
 tags: ["generator noise", "campground rules", "portable solar generator", "RV camping", "quiet hours"]
 ---

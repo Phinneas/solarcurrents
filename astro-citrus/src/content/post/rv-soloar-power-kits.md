@@ -1,10 +1,29 @@
 ---
 title: "RV Solar Power Kits"
-description: "A post about solar energy"
+description: "The 7 best RV solar power kits compared: Renogy, EcoFlow, Jackery, Bluetti and more, with real output expectations and which kit fits which camping style."
+faqs:
+  - question: "What is an RV solar power kit?"
+    answer: "A bundle of panels, charge controller, wiring, and mounting hardware that converts sunlight into electricity to charge the batteries powering your RV's lights, appliances, and devices without shore power or a generator."
+  - question: "What size solar system do I need for weekend camping?"
+    answer: "For basic needs like lights, phone charging, and a water pump, 100-200 watts of panels with a 100Ah battery is enough. Add 100-200 watts for each major appliance such as a 12V refrigerator."
+  - question: "Are flexible or rigid solar panels better for RVs?"
+    answer: "Rigid panels last longer (20-25 years vs 5-10) and cost less per watt. Choose flexible only when roof curvature or low-profile mounting demands it."
+  - question: "How long do RV solar panels last?"
+    answer: "Quality monocrystalline panels last 25-30 years. Charge controllers last 10-15 years, inverters 7-12 years, and batteries 3-5 years for lead-acid or 10-15 years for lithium."
+  - question: "Do RV solar panels work on cloudy days?"
+    answer: "Yes, but at 10-25% of rated capacity. A 400W array might produce only 50-100 watts in heavy overcast, so multiple cloudy days require a larger battery bank to bridge the gap."
+  - question: "How much can I save with RV solar panels?"
+    answer: "Solar eliminates generator fuel ($3-8 daily) and hookup fees ($5-10 nightly), saving frequent boondockers $500-1,500 per year. Break-even typically comes in 3-5 years of regular use."
+  - question: "Can I add more panels later?"
+    answer: "Usually yes, by adding panels in parallel as long as the charge controller handles the extra wattage. Oversizing the controller by 20-30% at install time makes expansion easy."
+  - question: "What's the difference between MPPT and PWM charge controllers?"
+    answer: "MPPT controllers harvest 20-30% more power through voltage optimization, especially in clouds and cold. PWM is cheaper but wastes potential energy. Above 200 watts, MPPT justifies its cost."
 publishDate: "16 September 2025"
 updatedDate: "25 October 2025"
 coverImage:
   src: "https://images.unsplash.com/photo-1634756123324-fb0b38fcda56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDk4fHxydnxlbnwwfHx8fDE3NTU5MDA5MDJ8MA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1333
   alt: "RV Solar Power Kits"
 ---
 
@@ -793,12 +812,12 @@ Solar panels eliminate generator fuel costs ($3-8 daily) and campground electric
 
 ### Can I add more panels later?
 
-Most systems support expansion by adding parallel panels. Ensure the charge controller can handle increased wattage—many controllers accommodate 20-30% above initial system size. Mixing panel types works but reduces efficiency. Plan for expansion by oversizing the charge controller during initial installation.
+Most systems support expansion by [adding parallel panels](/posts/rv-solar-panel-wiring-series-parallel/). Ensure the charge controller can handle increased wattage—many controllers accommodate 20-30% above initial system size. Mixing panel types works but reduces efficiency. Plan for expansion by oversizing the charge controller during initial installation.
 
 ### What's the difference between MPPT and PWM charge controllers?
 
-MPPT controllers extract 20-30% more power from panels through sophisticated voltage optimization, especially during suboptimal conditions. PWM controllers cost less but waste potential energy. MPPT justifies the higher cost for systems above 200 watts or in areas with frequent clouds.
+[MPPT controllers](/posts/mppt-charge-controller-sizing/) extract 20-30% more power from panels through sophisticated voltage optimization, especially during suboptimal conditions. PWM controllers cost less but waste potential energy. MPPT justifies the higher cost for systems above 200 watts or in areas with frequent clouds.
 
 ### Do I need special batteries for solar?
 
-Deep cycle batteries designed for repeated discharge cycles work best with solar. AGM lead-acid batteries require no maintenance and resist vibration. Lithium batteries cost more but provide double the usable capacity at half the weight with longer lifespan. Standard automotive starting batteries fail quickly under solar charging cycles.
+Deep cycle batteries designed for repeated discharge cycles work best with solar. AGM lead-acid batteries require no maintenance and resist vibration. [Lithium batteries](/posts/lifepo4-solar-battery/) cost more but provide double the usable capacity at half the weight with longer lifespan. Standard automotive starting batteries fail quickly under solar charging cycles.

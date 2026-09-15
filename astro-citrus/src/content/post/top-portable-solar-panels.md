@@ -5,6 +5,8 @@ publishDate: "26 March 2025"
 updatedDate: "16 April 2025"
 coverImage:
   src: "https://images.unsplash.com/photo-1504632348771-974e356b80af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEwMXx8c29sYXIlMjBjYW1waW5nfGVufDB8fHx8MTc0Mjk4MjIwOHww&ixlib=rb-4.0.3&q=80&w=2000"
+  width: 2000
+  height: 1334
   alt: "Top Portable Solar Panels"
 ---
 

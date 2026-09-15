@@ -5,6 +5,8 @@ publishDate: "10 September 2026"
 updatedDate: "10 September 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000"
+  width: 2000
+  height: 1331
   alt: "Solar panels on a residential roof against a clear sky"
 tags: ["solar advice", "consumer protection", "solar shopping"]
 ---

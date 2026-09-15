@@ -5,6 +5,8 @@ publishDate: "18 March 2026"
 updatedDate: "18 March 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1641546405075-e8ded5cd8f18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHxiYWNrdXB8ZW58MHx8fHwxNzczNDYyOTk2fDA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 3000
   alt: "Solar Powered Generator Home Backup Systems That Work"
 ---
 

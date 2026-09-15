@@ -1,10 +1,12 @@
 ---
 title: "Eco-Friendly Portable Solar Power Solutions"
-description: "A post about solar energy"
+description: "Portable solar for camping by scenario: device-only charging, a week with a fridge, or full van life — what to buy at each level and what it really costs."
 publishDate: "30 March 2025"
 updatedDate: "30 September 2025"
 coverImage:
   src: "https://images.unsplash.com/photo-1494112142672-801c71472ba5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDIwfHxzb2xhciUyMGNhbXBpbmd8ZW58MHx8fHwxNzQyOTgyMDM2fDA&ixlib=rb-4.0.3&q=80&w=2000"
+  width: 2000
+  height: 1333
   alt: "Eco-Friendly Portable Solar Power Solutions"
 ---
 
@@ -13,13 +15,13 @@ coverImage:
 
 * * *
 
-I'll never forget day three of what was supposed to be a week-long camping trip in Southern Utah. My phone was dead. My laptop was dead. My camera batteries were dead. And my buddy's 12V fridge had stopped cooling because his car battery was drained.
+I'll never forget day three of what was supposed to be a week-long camping trip in Southern Utah. My phone was dead. My laptop was dead. My camera batteries were dead. And my buddy's [12V fridge](/posts/camping-solar-generator-guide/) had stopped cooling because his car battery was drained.
 
 We packed up and drove two hours to the nearest town just to find outlets.
 
 That trip cost me $600 in wasted campsites and gas. A solar setup would've cost $600 and lasted me years. I was an idiot.
 
-Now I camp with solar panels, and honestly, it's changed everything. I can stay out as long as I want. My fridge runs 24/7. I work from my van when I feel like it. And I'm not constantly rationing battery life like some kind of power miser.
+Now I camp with solar panels, and honestly, it's changed everything. I can stay out as long as I want. My fridge runs 24/7. I [work from my van](/posts/van-life-solar-setup-guide/) when I feel like it. And I'm not constantly rationing battery life like some kind of power miser.
 
 Here's what I've learned after three years of using portable solar panels for camping - the real stuff that matters, not the technical mumbo jumbo nobody cares about.
 
@@ -60,7 +62,7 @@ So here are the three most common camping situations and what solar setup actual
 
 ### **Scenario 2: "I Have a Fridge and Want to Camp For a Week"**
 
-**You need:** 200W solar panel + 1,000-1,500Wh power station
+**You need:** [200W solar panel](/posts/best-solar-panels-for-camping/) + 1,000-1,500Wh power station
 
 **Cost:** About $1,200
 

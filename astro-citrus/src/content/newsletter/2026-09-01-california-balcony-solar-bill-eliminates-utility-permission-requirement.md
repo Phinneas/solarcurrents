@@ -6,6 +6,8 @@ draft: false
 tags: ["newsletter", "solar", "energy"]
 coverImage:
   src: "https://images.pexels.com/photos/9799767/pexels-photo-9799767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  width: 1733
+  height: 1300
   alt: "Solar panels installed over a parking lot, showcasing clean energy innovation outdoors."
 ---
 PLUS: UK legalizes plug-in solar nationwide, Georgia's secret OpenAI energy deal, and solar outperforms nuclear during European heatwaves

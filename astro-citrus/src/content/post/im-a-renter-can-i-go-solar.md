@@ -5,6 +5,8 @@ publishDate: "22 July 2026"
 updatedDate: "22 July 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1497440001374-f26997328c1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000"
+  width: 2000
+  height: 1125
   alt: "Apartment balcony with sunlight, the kind of space renters can actually use for solar"
 tags: ["renters", "balcony solar", "community solar", "portable solar", "hub"]
 ---

@@ -5,6 +5,8 @@ publishDate: "23 March 2026"
 updatedDate: "23 March 2026"
 coverImage:
   src: "/images/posts/solar-panels-car-camping-guide/cover.jpg"
+  width: 2496
+  height: 1664
   alt: "Solar Panels Car Camping Guide for Off-Grid Adventures"
 ---
 

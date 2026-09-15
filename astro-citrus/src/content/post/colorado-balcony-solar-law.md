@@ -5,6 +5,8 @@ publishDate: "29 June 2026"
 updatedDate: "29 June 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHNvbGFyJTIwcGFuZWxzfGVufDB8fHx8MTc1MTIxNjAwMHww&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1334
   alt: "Solar panels on a Colorado balcony"
 tags: ["balcony-solar", "colorado", "plug-in-solar", "laws"]
 ---
@@ -28,7 +30,7 @@ Here's what it actually does, in plain terms.
 
 This law legalizes "portable-scale solar generation devices" — plug-in solar systems that connect directly to a standard wall outlet. It does not address rooftop solar, solar leases, or community solar. Those are covered by separate statutes.
 
-Colorado becomes the fourth state to pass a dedicated plug-in solar law, after Utah (March 2025, 1,200W), Maine (April 2026, 1,200W), and Virginia (April 2026).
+Colorado becomes the fourth state to pass a dedicated plug-in solar law, after [Utah](/posts/utah-hb-340-2025-explained/) (March 2025, 1,200W), Maine (April 2026, 1,200W), and Virginia (April 2026).
 
 ---
 
@@ -67,7 +69,7 @@ Until then, the Colorado Solar and Storage Association recommends either purchas
 
 **One system per address:** The law limits installations to one plug-in solar system per meter. You cannot daisy-chain multiple units to push past the 1,920W limit.
 
-**No grid export guarantee:** While utilities cannot block installation, the law does not require them to credit you for electricity you export to the grid. Plug-in systems are designed for self-consumption. Any export compensation would fall under existing net metering rules (Xcel Energy currently offers 1:1 net metering for rooftop solar, but plug-in systems are a different category).
+**No grid export guarantee:** While utilities cannot block installation, the law does not require them to credit you for electricity you export to the grid. Plug-in systems are designed for self-consumption. Any export compensation would fall under existing [net metering](/posts/net-metering-policy-by-state-2026/) rules (Xcel Energy currently offers 1:1 net metering for rooftop solar, but plug-in systems are a different category).
 
 **Effective date:** The provisions do not kick in until January 1, 2027. Installing a system today does not grant you the HOA preemption or utility non-interference protections yet.
 
@@ -88,7 +90,7 @@ Colorado's law is the most permissive in the country — but the timing is imper
 If you're buying a plug-in solar system in Colorado right now, your choices are:
 
 - A system under 392W (no certification required, no law needed — just plug it in)
-- A UL 1741-listed microinverter system that complies with existing grid-interconnection standards, with the understanding that HOA preemption and utility non-interference won't be legally enforced until 2027
+- A [UL 1741-listed microinverter](/posts/ul-1741-sa-anti-islanding-plug-in-solar/) system that complies with existing grid-interconnection standards, with the understanding that HOA preemption and utility non-interference won't be legally enforced until 2027
 
 ---
 

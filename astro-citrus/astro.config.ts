@@ -43,6 +43,7 @@ export default defineConfig({
       filter: (page) =>
         !page.includes("/tags/") &&
         !page.includes("/author/") &&
+        !page.includes("/posts/page/") &&
         /\/posts\/\d+\/?$/.test(page) === false &&
         /\/notes\/\d+\/?$/.test(page) === false,
     }),
@@ -56,9 +57,6 @@ export default defineConfig({
             "/api/",
             "/tags/",
             "/author/",
-            "/page/",
-            "/posts/page/",
-            "/notes/page/",
             "/*?ref=",
           ],
         },

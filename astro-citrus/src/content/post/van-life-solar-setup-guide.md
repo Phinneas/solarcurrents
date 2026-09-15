@@ -5,6 +5,8 @@ publishDate: "17 November 2025"
 updatedDate: "17 November 2025"
 coverImage:
   src: "https://images.unsplash.com/photo-1652252421025-0392a97129a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDl8fGNhciUyMHNvbGFyfGVufDB8fHx8MTc2MzQ0NzI5MXww&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 3000
   alt: "Van Life Solar Setup Guide for Off-Grid Adventures"
 ---
 

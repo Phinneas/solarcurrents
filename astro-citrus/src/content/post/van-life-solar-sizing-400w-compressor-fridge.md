@@ -5,6 +5,8 @@ publishDate: "30 July 2026"
 updatedDate: "30 July 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000"
+  width: 2000
+  height: 3000
   alt: "Solar panels mounted flat on a van roof under an overcast sky"
 tags: ["van life", "solar sizing", "compressor fridge", "battery"]
 ---

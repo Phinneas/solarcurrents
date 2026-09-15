@@ -5,6 +5,8 @@ publishDate: "29 June 2026"
 updatedDate: "29 June 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1334
   alt: "RV parked at a campsite at night under stars"
 tags: ["rv", "batteries", "boondocking", "off-grid", "agm", "lifepo4"]
 ---
@@ -20,7 +22,7 @@ This is the part most RV manuals bury in fine print. AGM batteries — the seale
 
 That changes the math immediately. If you're camping in a modern travel trailer with a "200Ah battery bank," you're starting each night with 100Ah of real headroom. Everything after that is a choice between loads.
 
-LiFePO4 (lithium iron phosphate) batteries don't have this problem — they can be discharged to 20% or below without the same damage, which means a 100Ah LFP battery delivers around 80Ah usable versus ~50Ah for AGM. That's 60% more real capacity per rated amp-hour. The comparison matters, but the upgrade isn't free: quality LFP batteries run $700–$1,200 per 100Ah compared to $150–$250 for AGM, and your existing converter or charger may not support LFP charging profiles without modification.
+[LiFePO4 (lithium iron phosphate) batteries](/posts/lifepo4-solar-battery/) don't have this problem — they can be discharged to 20% or below without the same damage, which means a 100Ah LFP battery delivers around 80Ah usable versus ~50Ah for AGM. That's 60% more real capacity per rated amp-hour. The comparison matters, but the upgrade isn't free: quality LFP batteries run $700–$1,200 per 100Ah compared to $150–$250 for AGM, and your existing converter or charger may not support LFP charging profiles without modification.
 
 ## Your 12V Refrigerator Is the Biggest Single Draw
 
@@ -56,11 +58,11 @@ Add a warm night with a fridge struggling to hold temperature (50Ah instead of 3
 
 The highest-leverage interventions, in order of impact: turn off the inverter when not in use; install a battery disconnect switch to kill stereo and control-panel phantom loads at night; add a temperature-controlled catalytic heater or electric blanket as a furnace supplement on cold nights (though verify your battery can support it); and pre-cool the fridge to operating temperature before disconnecting from shore power.
 
-If you're boondocking regularly and not connected to solar during the day, you also need to examine your recharge window. AGM batteries accept charge slower than LFP, and a 200W solar panel on a partly cloudy afternoon may not fully restore 100Ah of draw before the next night. Chronic partial charging shortens AGM life faster than deep discharge does.
+If you're boondocking regularly and not connected to solar during the day, you also need to examine your recharge window. AGM batteries accept charge slower than LFP, and a [200W solar panel](/posts/rv-solar-panel-sizing-guide/) on a partly cloudy afternoon may not fully restore 100Ah of draw before the next night. Chronic partial charging shortens AGM life faster than deep discharge does.
 
 ## AGM vs. LiFePO4: When the Upgrade Actually Makes Sense
 
-The honest breakeven analysis on LFP versus AGM isn't about upfront cost — it's about how often you're actually draining the batteries and whether you have the recharge resources to support LFP charging profiles. For a full-timer or frequent boondocker who cycles the battery daily, LFP's 2,000–6,000 cycle rating versus AGM's 300–1,000 cycles is genuinely significant. You're replacing the AGM bank two to four times over a period when the LFP bank is still going.
+The honest breakeven analysis on LFP versus AGM isn't about upfront cost — it's about how often you're actually draining the batteries and whether you have the recharge resources to support LFP charging profiles. For a full-timer or frequent boondocker who cycles the battery daily, LFP's [2,000–6,000 cycle rating](/posts/lifepo4-vs-nmc-battery-lifespan/) versus AGM's 300–1,000 cycles is genuinely significant. You're replacing the AGM bank two to four times over a period when the LFP bank is still going.
 
 For a seasonal camper who makes six trips a year and spends most nights at hookup sites, the math inverts. You might run the AGM bank for 10 years without approaching its cycle-life limits. Spending $2,000–$4,000 on LFP to save $400 in AGM replacements over a decade isn't a deal.
 

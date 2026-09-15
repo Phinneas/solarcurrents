@@ -1,10 +1,12 @@
 ---
 title: "Community Solar Programs by State Guide"
-description: "A post about solar energy"
+description: "Community solar lets you subscribe to a shared solar farm and save 5-15% without rooftop panels. How programs work, state leaders, and signup questions."
 publishDate: "16 December 2025"
 updatedDate: "18 December 2025"
 coverImage:
   src: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDYyfHxjb21tdW5pdHl8ZW58MHx8fHwxNzY2MDg3NzczfDA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 2586
   alt: "Community Solar Programs by State Guide"
 ---
 
@@ -13,7 +15,7 @@ coverImage:
 
 Community solar connects you to local solar farms without requiring rooftop installations. You subscribe to a portion of the energy produced and receive credits on your monthly utility bill.
 
-These programs make solar accessible to everyone. Renters benefit just as much as homeowners. People with unsuitable roofs can still participate in renewable energy.
+These programs make solar accessible to everyone. [Renters](/posts/im-a-renter-can-i-go-solar/) benefit just as much as homeowners. People with unsuitable roofs can still participate in renewable energy.
 
 Most programs require no upfront costs. You simply pay for the energy credits you receive, often at a discount compared to standard utility rates.
 
@@ -21,7 +23,7 @@ Most programs require no upfront costs. You simply pay for the energy credits yo
 
 Twenty-two states plus Washington D.C. have active community solar programs by state legislation. Each state structures its program differently, affecting costs, savings, and availability.
 
-New York leads the nation with over 1,000 megawatts of community solar capacity. Minnesota follows closely, pioneering the model back in 2013. Massachusetts, Illinois, and Colorado round out the top five states for program participation.
+[New York leads the nation](/posts/community-solar-new-york-coned-nyserda/) with over 1,000 megawatts of community solar capacity. Minnesota follows closely, pioneering the model back in 2013. Massachusetts, Illinois, and Colorado round out the top five states for program participation.
 
 ### Northeast Region Opportunities
 
@@ -43,7 +45,7 @@ Wisconsin recently launched pilot programs in select utilities. Early participan
 
 Start by checking your utility company's website for approved solar farms. Many states maintain online marketplaces listing available projects.
 
-Compare subscription offers carefully. Look at contract length, cancellation fees, and projected savings. Some programs offer month-to-month options while others require annual commitments.
+Compare subscription offers carefully. Look at [contract length, cancellation fees](/posts/community-solar-california-compare-plans-avoid-traps/), and projected savings. Some programs offer month-to-month options while others require annual commitments.
 
 Review your past twelve months of electricity usage. This helps determine the right subscription size for maximum savings.
 

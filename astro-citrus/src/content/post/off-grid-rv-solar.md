@@ -1,10 +1,12 @@
 ---
 title: "Living Off Grid RV Solar - Your Complete Power Guide"
-description: "A post about solar energy"
+description: "Off-grid RV solar: how to size panels, batteries, charge controllers, and inverters for life without hookups, with real appliance watt draws and costs."
 publishDate: "13 March 2026"
 updatedDate: "13 March 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1627386173348-4b19a6feefda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fG9mZiUyMGdpcmR8ZW58MHx8fHwxNzczNDYyOTA3fDA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1333
   alt: "Living Off Grid RV Solar - Your Complete Power Guide"
 ---
 
@@ -17,7 +19,7 @@ What if you could park your RV anywhere and never worry about finding a power ho
 
 Traditional RV camping ties you to campgrounds with electrical hookups. Solar cuts that cord.
 
-You gain the ability to camp on public lands, in remote locations, and off the beaten path. Bureau of Land Management areas and national forests become your backyard. Many of these spots allow free camping for up to 14 days.
+You gain the ability to camp on public lands, in remote locations, and off the beaten path. [Bureau of Land Management areas and national forests](/posts/solar-for-boondocking/) become your backyard. Many of these spots allow free camping for up to 14 days.
 
 The financial math works too. A quality solar setup costs between $2,000 and $10,000 upfront. Compare that to campground fees averaging $30-50 per night. Heavy travelers recoup their investment within two years.
 
@@ -69,7 +71,7 @@ Your battery bank determines how long you can run without sunshine. Undersized b
 
 ### Lithium vs Lead-Acid Batteries
 
-Lithium iron phosphate (LiFePO4) batteries have transformed living off grid RV solar setups. They weigh 60% less than lead-acid equivalents. You can discharge them to 80-90% without damage. They last 3,000-5,000 cycles.
+[Lithium iron phosphate (LiFePO4) batteries](/posts/lifepo4-solar-battery/) have transformed living off grid RV solar setups. They weigh 60% less than lead-acid equivalents. You can discharge them to 80-90% without damage. They last 3,000-5,000 cycles.
 
 Lead-acid batteries cost less upfront but carry hidden expenses. You can only use 50% of their capacity safely. They require regular maintenance. Most last only 500-1,000 cycles.
 
@@ -87,7 +89,7 @@ Two critical components connect your panels and batteries to usable power.
 
 ### MPPT Charge Controllers
 
-Maximum Power Point Tracking controllers optimize the energy transfer from panels to batteries. They boost charging efficiency by 20-30% compared to basic PWM controllers.
+[Maximum Power Point Tracking controllers](/posts/mppt-charge-controller-sizing/) optimize the energy transfer from panels to batteries. They boost charging efficiency by 20-30% compared to basic PWM controllers.
 
 Match your controller's amp rating to your solar array. A 400-watt system at 12 volts needs at least a 40-amp controller.
 

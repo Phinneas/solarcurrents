@@ -1,10 +1,27 @@
 ---
 title: "Plug and Play Solar Panels Made Simple"
-description: "A post about solar energy"
+description: "Plug-and-play solar delivers modest savings (8-15% off your bill) with real safety rules attached. Honest output math, NEC codes, costs, and who should skip it."
+faqs:
+  - question: "Is plug-and-play solar worth it?"
+    answer: "For renters and DIY budget testers, yes, with realistic expectations of 8-15% bill reduction and a 6-8 year payback. Homeowners seeking ROI and energy independence get better long-term value from professional installation."
+  - question: "Will a 400W solar panel run my refrigerator?"
+    answer: "Barely. A 400W panel generates 1.5-2 kWh daily and a modern fridge uses about 1.5 kWh, leaving zero margin for anything else under real conditions. Single-panel setups are not recommended for this reason."
+  - question: "What is the 120% rule in solar?"
+    answer: "NEC allows backfed power up to 120% of a circuit breaker's rating. On a 20A breaker that is 24A max, so if a refrigerator draws 2A you have 22A left for solar. Installers typically cap at 1 kW per circuit."
+  - question: "Why can't I run air conditioning on plug-and-play solar?"
+    answer: "A window AC needs 1-1.5 kW continuous and central AC needs 3-5 kW, while plug-in systems max out around 800W. Running AC requires a 5+ kW professional installation."
+  - question: "Why are people getting rid of their solar panels?"
+    answer: "Common reasons: savings that disappoint versus promises, inverter failure around year 12 that wipes out savings, resale complications, no blackout backup, and utility rule changes that cut export credits."
+  - question: "Can a house run 100% on solar?"
+    answer: "Only with a professional 10+ kW system plus battery storage. A 400W plug-in panel generates 500-700 kWh a year against the average home's 10,000+ kWh, so plug-and-play can never approach full coverage."
+  - question: "Does solar ever pay for itself?"
+    answer: "Plug-and-play barely does, with a 6-8 year payback if nothing fails. Professional systems reliably pay back in 5-7 years and can save $35-50K over 25 years, plus added home value."
 publishDate: "9 February 2026"
 updatedDate: "9 February 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1681263576605-9eda564bcfcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDZ8fHBsdWclMjBuJTIwcGxheSUyMHNvbGFyfGVufDB8fHx8MTc2OTQ2NTMxMXww&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1334
   alt: "Plug and Play Solar Panels Made Simple"
 ---
 
@@ -242,15 +259,15 @@ Why the gap between marketing promises and reality? Ads show the physical "plug 
 
 ## The Questions People Actually Ask (FAQ)
 
-**Is plug-and-play solar worth it?** For renters and DIY budget testers: yes, with realistic expectations (8–15% bill reduction, 6–8 year payback). For homeowners seeking ROI and energy independence: professional installation offers better long-term value.
+**Is plug-and-play solar worth it?** For [renters](/posts/im-a-renter-can-i-go-solar/) and DIY budget testers: yes, with realistic expectations (8–15% bill reduction, 6–8 year payback). For homeowners seeking ROI and energy independence: professional installation offers better long-term value.
 
 **Will a 400W solar panel run my refrigerator?** On average, yes. A 400W panel generates 1.5–2 kWh daily; modern fridges use ~1.5 kWh. But this assumes optimal sun conditions, a modern efficient appliance, and no other devices on that circuit. Reality: it barely runs your fridge, with zero margin for other usage. Single-panel setups aren't recommended for this reason.
 
-**What is the 120% rule in solar?** Your circuit breaker is rated for maximum current (typically 15A or 20A). NEC allows backfed power up to 120% of that rating. 20A × 120% = 24A max. If your refrigerator draws 2A, you have 22A left for solar. In practice, installers cap at 1 kW per circuit for safety. Violating this causes fires or chronic breaker trips.
+**What is the 120% rule in solar?** Your circuit breaker is rated for maximum current (typically 15A or 20A). [NEC allows backfed power up to 120%](/posts/nec-705-plain-english-solar-interconnection/) of that rating. 20A × 120% = 24A max. If your refrigerator draws 2A, you have 22A left for solar. In practice, installers cap at 1 kW per circuit for safety. Violating this causes fires or chronic breaker trips.
 
 **Why can't I run air conditioning on plug-and-play solar?** Window AC needs 1–1.5 kW continuous. Central AC needs 3–5 kW. Your 800W maximum output system can't power even a window unit. You need a 5+ kW professional installation.
 
-**Why are people getting rid of their solar panels?** Main reasons: disappointing savings (expected 40%, got 10%), safety concerns, inverter failure at year 12 (replacement wipes out savings), home selling complications (non-standard systems hurt resale), no blackout backup, utility rule changes (net metering reduced), aesthetic regrets.
+**Why are people getting rid of their solar panels?** Main reasons: disappointing savings (expected 40%, got 10%), safety concerns, inverter failure at year 12 (replacement wipes out savings), home selling complications (non-standard systems hurt resale), no blackout backup, utility rule changes ([net metering reduced](/posts/net-metering-policy-by-state-2026/)), aesthetic regrets.
 
 **Can a house run 100% on solar?** Only with a professional 10+ kW system plus battery storage. Plug-and-play: no. Average US home uses 10,000+ kWh/year. A 400W panel generates 500–700 kWh. You'd need 15+ panels to approach 30% coverage—exceeding NEC limits and physical space constraints.
 

@@ -1,6 +1,19 @@
 ---
 title: "LiFePO4 vs NMC: Why Chemistry Choice Determines Your Battery Lifespan"
 description: "The chemistry drives cycle life, heat behavior, and how hard the BMS has to work. Here's what the numbers actually say in 2026, plus a portable solar generator deep-dive."
+faqs:
+  - question: "Is LiFePO4 better than NMC for solar energy storage in 2026?"
+    answer: "For most storage uses, yes: LiFePO4 delivers longer cycle life and better thermal stability. NMC works when you can enforce stricter state-of-charge and temperature control."
+  - question: "How many cycles do LiFePO4 and NMC batteries typically last?"
+    answer: "Under comparable test conditions, LiFePO4 commonly reaches the multi-thousand cycle band with premium tiers higher, while NMC cells typically test lower unless operating conditions are managed carefully."
+  - question: "Does depth of discharge matter more than chemistry for battery lifespan?"
+    answer: "Sometimes it matters as much as chemistry. NMC is more sensitive to aggressive cycling and time at high state of charge, so operating limits can swing real-world lifespan outcomes."
+  - question: "Which chemistry is safer for outdoor solar, camping, and backpacking?"
+    answer: "LiFePO4 generally offers the stronger thermal safety margin, which matters because batteries get hotter than people expect in field setups."
+  - question: "Is NMC worth it for RV power if I want lighter batteries?"
+    answer: "It can be, when energy density and weight are top priorities and your charge profiles, temperature, and SOC limits are disciplined. Otherwise LiFePO4 delivers more consistent lifespan."
+  - question: "What should I check before buying a battery based on LiFePO4 vs NMC?"
+    answer: "Check cell configuration and the correct charge voltage settings for your controller first, then verify BMS protections, temperature behavior, and whether the pack is designed for your duty cycle."
 publishDate: "14 August 2026"
 updatedDate: "14 August 2026"
 coverImage:
@@ -224,4 +237,4 @@ NMC can be worth it for rv power when energy density and weight are top prioriti
 
 ### What should I check before buying a battery based on LiFePO4 vs NMC?
 
-Check integration details first — cell configuration, and the correct charge voltage settings for your controller — because chemistry choice only helps if the system matches. Then verify your BMS protections, temperature behavior, and whether the pack is designed for your outdoor solar duty cycle.
+Check integration details first — cell configuration, and the correct [charge voltage settings for your controller](/posts/mppt-charge-controller-sizing/) — because chemistry choice only helps if the system matches. Then verify your BMS protections, temperature behavior, and whether the pack is designed for your outdoor solar duty cycle.

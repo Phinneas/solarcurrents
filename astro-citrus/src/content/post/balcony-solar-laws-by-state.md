@@ -5,6 +5,8 @@ publishDate: "29 June 2026"
 updatedDate: "29 June 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDd8fHNvbGFyJTIwcGFuZWxzJTIwY2l0eXxlbnwwfHx8fDE3NTEyMTYwMDB8MA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1331
   alt: "Solar panels on apartment buildings"
 tags: ["balcony-solar", "plug-in-solar", "laws", "state-law", "guide"]
 ---

@@ -1,10 +1,12 @@
 ---
 title: "Best Solar Generators Power Outages Protection Guide"
-description: "A post about solar energy"
+description: "Sizing solar generators for power outages: real watt math for fridges and essentials, LiFePO4 battery storage, surge capacity, and features that matter."
 publishDate: "24 March 2026"
 updatedDate: "24 March 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1637417494521-78b4d1d33029?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGhvbWUlMjBzb2xhcnxlbnwwfHx8fDE3NzAzMjQ5Mzh8MA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1334
   alt: "Best Solar Generators Power Outages Protection Guide"
 ---
 
@@ -23,7 +25,7 @@ Battery capacity, measured in watt-hours (Wh), tells you how long your generator
 
 Most power outages last less than 24 hours. A 3,000Wh battery system keeps critical loads running through the night and recharges during the day.
 
-Lithium iron phosphate (LiFePO4) batteries dominate the market now. They last 10+ years, handle thousands of cycles, and work safely indoors.
+[Lithium iron phosphate (LiFePO4) batteries](/posts/lifepo4-solar-battery/) dominate the market now. They last 10+ years, handle thousands of cycles, and work safely indoors.
 
 ## Solar Panel Integration and Charging Speed
 
@@ -45,7 +47,7 @@ WiFi monitoring lets you check battery levels and power consumption from your ph
 
 ## Sizing Your System: Real-World Calculations
 
-Start with a power audit. List every device you need during outages. Note both running watts and starting watts.
+Start with a [power audit](/posts/solar-generator-sizing-calculator/). List every device you need during outages. Note both running watts and starting watts.
 
 Essential loads for most homes:  
 \- Refrigerator: 600W running, 1,200W starting  
@@ -73,7 +75,7 @@ Solar panels mount on roofs, ground racks, or portable stands. Portable panels o
 
 Test your system monthly. Run it for an hour under load to ensure everything works when you need it.
 
-Keep batteries between 20-80% charge when storing. Full charges and complete discharges shorten battery life.
+Keep batteries between 20-80% charge when storing. Full charges and complete discharges [shorten battery life](/posts/lifepo4-vs-nmc-battery-lifespan/).
 
 Clean solar panels quarterly. Dust and debris reduce output by up to 25%. A gentle spray with a hose usually suffices.
 

@@ -1,10 +1,12 @@
 ---
 title: "Balcony Solar Panels, Urban Power Revolution"
-description: "Learn about balcony solar panels for home, condos and apartment living. Reduce your electrical bill and lower your carbon footprint."
+description: "Balcony solar panels compared: real output data by city, system prices, and the legal landscape for plug-in solar in the EU and US."
 publishDate: "14 January 2025"
 updatedDate: "5 February 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1559302504-64aae6ca6b6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGJhbGNvbnklMjBzb2xhcnxlbnwwfHx8fDE3MzY4NzY3NDB8MA&ixlib=rb-4.0.3&q=80&w=2000"
+  width: 2000
+  height: 1119
   alt: "Balcony Solar Panels, Urban Power Revolution"
 tags: ["solar", "home", "patio"]
 ---
@@ -51,10 +53,10 @@ Navigating regulations for balcony solar varies dramatically by location, with s
 
 The regulatory framework in the US varies dramatically by state and even by utility company:
 
-  * **California** : Recently adopted specific provisions for "plug-in solar devices" up to 800W through SB 709, allowing simplified connection without standard solar permitting.
+  * **California** : Recently adopted specific provisions for ["plug-in solar devices"](/posts/california-balcony-solar-law-2026/) up to 800W through SB 709, allowing simplified connection without standard solar permitting.
   * **New York** : The NY-Sun program specifically addresses balcony solar with allowances for systems under 1kW, though building-specific restrictions may apply in NYC.
   * **Massachusetts** : The ConnectedSolutions program provides incentives for small-scale solar including balcony systems when coupled with storage.
-  * **Most other states** : Lack specific provisions for plug-and-play solar, creating regulatory uncertainty that has limited adoption compared to Europe.
+  * **Most other states** : Lack specific provisions for [plug-and-play solar](/posts/plug-and-play-solar-panels/), creating regulatory uncertainty that has limited adoption compared to Europe.
 
 
 
@@ -62,7 +64,7 @@ Before installation, always:
 
   1. Check with local utility provider regarding connection requirements
   2. Review building/HOA regulations that may restrict external installations
-  3. Consult local electrical codes for safety compliance requirements
+  3. Consult local electrical codes for [safety compliance requirements](/notes/why-balcony-solar-has-a-genuine-safety-consideration-worth-knowing/)
   4. Verify if metering or special registration is needed
 
 

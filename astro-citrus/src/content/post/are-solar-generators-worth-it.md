@@ -1,10 +1,12 @@
 ---
 title: "Are Solar Generators Worth It for Your Energy Needs"
-description: "A post about solar energy"
+description: "Solar generators give silent, fuel-free backup power for outages, camping, and remote work. Real costs, honest limits, and who should actually buy one."
 publishDate: "8 April 2026"
 updatedDate: "18 March 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1650866137641-4246da0f5f09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHNvbGFyJTIwZ2VuZXJhdG9yc3xlbnwwfHx8fDE3NzM4Njg3Mjl8MA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 2000
   alt: "Are Solar Generators Worth It for Your Energy Needs"
 ---
 
@@ -59,9 +61,9 @@ Air conditioners, electric heaters, and power tools may exceed your generator's 
 
 ## Who Benefits Most From Solar Generators
 
-Campers and RV enthusiasts use these systems regularly. The silent operation and portability fit outdoor lifestyles perfectly.
+Campers and [RV enthusiasts](/posts/off-grid-rv-solar/) use these systems regularly. The silent operation and portability fit outdoor lifestyles perfectly.
 
-Homeowners in areas with frequent outages find peace of mind in backup power. Running a refrigerator, charging phones, and keeping lights on during emergencies provides genuine value.
+Homeowners in areas with [frequent outages](/posts/best-solar-generators-power-outages/) find peace of mind in backup power. Running a refrigerator, charging phones, and keeping lights on during emergencies provides genuine value.
 
 Remote workers who need reliable power away from outlets appreciate the flexibility. Digital nomads and outdoor photographers often consider solar generators essential gear.
 
@@ -77,7 +79,7 @@ For most outdoor enthusiasts and preparedness-minded homeowners, solar generator
 
 ## Making Your Decision
 
-Start by listing your power needs. Calculate the wattage of devices you want to run simultaneously. Match that number to generator specifications.
+Start by listing your power needs. [Calculate the wattage of devices](/posts/solar-generator-sizing-calculator/) you want to run simultaneously. Match that number to generator specifications.
 
 Consider your budget realistically. A smaller unit that you actually buy beats a dream system that stays on your wishlist.
 

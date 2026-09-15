@@ -1,10 +1,25 @@
 ---
 title: "Foldable Solar Panels for RVs"
-description: "A post about solar energy"
+description: "Foldable solar panels for RVs: when portable beats roof-mount, sizing by RV class, 12V integration, and honest picks for weekenders to full-time boondockers."
+faqs:
+  - question: "Can I run my RV air conditioner on foldable solar?"
+    answer: "No. RV air conditioners need 2,000-3,000W continuous, while the largest practical foldable setup is 600-800W. Use a generator or shore power for AC and solar for fans, fridge, and electronics."
+  - question: "How long do foldable RV solar panels last?"
+    answer: "Quality aluminum-frame panels last 10-15 years with proper storage, ETFE-coated fabric panels last 5-7 years, and budget plastic-frame panels last 2-3 years in full sun."
+  - question: "Can I add foldable panels to existing roof solar?"
+    answer: "Yes. Use a separate charge controller for the foldable array, or parallel into existing wiring if voltages match. Many RVers add 200W portable to supplement roof panels for winter redundancy."
+  - question: "Do I need to clean RV solar panels?"
+    answer: "Yes. Desert dust alone cuts output about 10% weekly. Clean with a microfiber cloth and distilled water, and remove bird droppings immediately since they can block entire cell sections."
+  - question: "Can I use RV foldable panels for home backup?"
+    answer: "Technically yes but impractical: RV panels output 12-18V DC while home backup needs 120V AC. Dedicated residential gear is the better tool; keep RV panels for mobile use."
+  - question: "Are foldable panels theft-proof?"
+    answer: "No. Cable locks through the grommets deter casual theft but not determined thieves. Insure systems over $1,000 and store panels inside when away from camp for long periods."
 publishDate: "2 February 2026"
 updatedDate: "2 February 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1662340701640-1d39c531a144?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHxmb2xkYWJsZSUyMHNvbGFyfGVufDB8fHx8MTc2OTY0Njk5Mnww&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1500
   alt: "Foldable Solar Panels for RVs"
 ---
 
@@ -424,9 +439,9 @@ No. Cable locks through grommets deter casual theft but not determined thieves w
 
 ## Cross-Reference
 
-If you're tent camping rather than RVing, your power needs are smaller but weather exposure is higher. See our guide to the [best foldable solar panels for camping](__GHOST_URL__/best-foldable-solar-panels-camping/) for lightweight backpacking options and tent-specific durability standards.
+If you're tent camping rather than RVing, your power needs are smaller but weather exposure is higher. See our guide to the [best foldable solar panels for camping](/posts/best-foldable-solar-panels-for-camping/) for lightweight backpacking options and tent-specific durability standards.
 
-For comprehensive technical specifications on all panel types, see our [complete foldable solar panels guide](__GHOST_URL__/foldable-solar-panels/).
+For comprehensive technical specifications on all panel types, see our [complete foldable solar panels guide](/posts/foldable-solar-panels/).
 
 * * *
 
@@ -440,6 +455,6 @@ For the boondocker seeking electrical independence without roof modifications, o
 
 ## Next Steps
 
-Ready to integrate with your specific RV battery setup? Review our [complete foldable solar technical guide](__GHOST_URL__/foldable-solar-panels/) for charge controller wiring diagrams and safety protocols.
+Ready to integrate with your specific RV battery setup? Review our [complete foldable solar technical guide](/posts/foldable-solar-panels/) for charge controller wiring diagrams and safety protocols.
 
-Need to size a system for camping trips instead? Check our guide to [foldable solar panels for camping](__GHOST_URL__/best-foldable-solar-panels-camping/).
+Need to size a system for camping trips instead? Check our guide to [foldable solar panels for camping](/posts/best-foldable-solar-panels-for-camping/).

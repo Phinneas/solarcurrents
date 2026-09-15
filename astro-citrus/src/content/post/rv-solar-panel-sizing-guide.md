@@ -1,10 +1,29 @@
 ---
 title: "RV Solar Panel Sizing Guide: Real Numbers, Not Marketing Specs"
-description: "A post about solar energy"
+description: "RV solar panel sizing without the brochure math: audit real loads, apply the 0.75 derate, match battery chemistry, and size for winter boondocking."
+faqs:
+  - question: "Can a 200-watt solar panel run a 12-volt refrigerator?"
+    answer: "Yes, but barely. A 12V RV fridge uses 240-400 Wh over 8 hours and a 200W panel produces about 750 Wh daily after derating, leaving little margin for clouds or device charging. 300-400 watts is more comfortable."
+  - question: "How many amps does a 200-watt solar panel put out?"
+    answer: "About 11 amps at its typical 18V maximum power point (200W divided by 18V). At open-circuit voltage around 22V, it is roughly 9 amps. Your charge controller handles the conversion."
+  - question: "Is 200W solar enough for a 100Ah battery?"
+    answer: "With lithium, yes. With AGM in winter, no: expect to need 300W for reliable boondocking. Season and battery chemistry matter more than the wattage number."
+  - question: "How long will a 200-watt solar panel take to charge a 100Ah battery?"
+    answer: "A 100Ah 12V battery at 50% needs 600 Wh, which a 200W panel can produce in under a day of ideal sun. Realistically expect 1.5-2 days in typical weather and 3+ days if cloudy."
+  - question: "What will 400 watts of solar run in an RV?"
+    answer: "About 1,500 Wh daily after derating: a fridge for 12 hours, LED lights for 5 hours, laptop charging for 3 hours, and fans as needed. Comfortable for full-time stationary use, tight for mobile winter use."
+  - question: "How many solar panels do I need to run a 30-amp RV?"
+    answer: "A 30-amp hookup is 3,600W, impractical to replace with solar. For comfortable boondocking without hookups, 400-600 watts of solar with 200-300Ah of battery covers core loads, but not air conditioning."
+  - question: "Is it better to have 2 100W panels or 1 200W panel?"
+    answer: "Two 100W panels usually win for RVs: they fit around roof obstacles, add wiring redundancy, and make expansion easier. One 200W panel is simpler but inflexible."
+  - question: "Why are people getting rid of their solar panels?"
+    answer: "Usually wrong expectations: systems marketed as free energy that need monitoring and planning, oversold and undersized systems that miss promised output, or botched installations with undersized controllers and poor wiring."
 publishDate: "13 November 2025"
 updatedDate: "13 November 2025"
 coverImage:
   src: "https://images.unsplash.com/photo-1573552894689-6f7c17aec384?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDMzfHxydiUyMHNvbGFyfGVufDB8fHx8MTc2MzA2NTMzNHww&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 3000
   alt: "RV Solar Panel Sizing Guide: Real Numbers, Not Marketing Specs"
 ---
 
@@ -398,7 +417,7 @@ Yes, but with caveats. A standard 12V RV fridge draws 3–5 amps continuous duri
 
 **How many amps does a 200-watt solar panel put out?**
 
-Depends on voltage. 200W panels are typically rated at 18 volts maximum power point (Vmp). At that voltage: 200W ÷ 18V = 11 amps. Most specs show this as "Imp" (current at max power). At the panel's open-circuit voltage (around 22V), it's only 9 amps. Your charge controller handles the conversion.
+Depends on voltage. 200W panels are typically rated at 18 volts maximum power point (Vmp). At that voltage: 200W ÷ 18V = 11 amps. Most specs show this as "Imp" (current at max power). At the panel's open-circuit voltage (around 22V), it's only 9 amps. Your [charge controller](/posts/mppt-charge-controller-sizing/) handles the conversion.
 
 **Is 200W solar enough for a 100Ah battery?**
 
@@ -414,7 +433,7 @@ A TV typically draws 50–100W while on. Yes, a 100W panel can run it during day
 
 **Why are people getting rid of their solar panels?**
 
-Usually: wrong expectations. Marketed as "free energy"—people discover it requires monitoring, maintenance, planning. Or: system was oversold/undersized, never meets promised output. Or: installation was botched (undersized controller, wrong angle, poor wiring). This guide helps you avoid that.
+Usually: wrong expectations. Marketed as "free energy"—people discover it requires monitoring, maintenance, planning. Or: system was oversold/undersized, never meets promised output. Or: installation was botched (undersized controller, wrong angle, [poor wiring](/posts/rv-solar-panel-wiring-series-parallel/)). This guide helps you avoid that.
 
 **What will 400 watts of solar run in an RV?**
 
@@ -426,7 +445,7 @@ Usually: wrong expectations. Marketed as "free energy"—people discover it requ
 
 **How many solar panels do I need to run a 30-amp RV?**
 
-A 30-amp RV hookup at 120V = 3,600 watts maximum draw. Running this entirely on solar is impractical. Most RVers use solar for boondocking (no hookup), not as a replacement for shore power. For comfortable boondocking: 400–600 watts of solar, 200–300 Ah battery. That handles core loads. AC loads (air conditioner, electric heater, microwave) are not solar-compatible.
+A 30-amp RV hookup at 120V = 3,600 watts maximum draw. Running this entirely on solar is impractical. Most RVers use solar for [boondocking](/posts/solar-for-boondocking/) (no hookup), not as a replacement for shore power. For comfortable boondocking: 400–600 watts of solar, 200–300 Ah battery. That handles core loads. AC loads (air conditioner, electric heater, microwave) are not solar-compatible.
 
 **Is it better to have 2 100W panels or 1 200W?**
 

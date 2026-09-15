@@ -1,10 +1,12 @@
 ---
 title: "Home Solar Batteries 2026 and a buyer's Roadmap"
-description: "A post about solar energy"
+description: "How to buy a home solar battery: check your rate structure, HOA, and inverter first, then size it in 3 steps with your own hourly usage data."
 publishDate: "3 December 2025"
 updatedDate: "3 December 2025"
 coverImage:
   src: "https://images.unsplash.com/photo-1660330589257-813305a4a383?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGhvbWUlMjBzb2xhcnxlbnwwfHx8fDE3NjMwODA0OTN8MA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1125
   alt: "Home Solar Batteries 2026 and a buyer's Roadmap"
 ---
 
@@ -27,7 +29,7 @@ coverImage:
 
 It's 6:55 p.m. on a summer evening. Your solar panels are going dark. In the next five minutes, your utility's rate will jump from 8¢ per kWh to 42¢ per kWh. Your air conditioner kicks in. Your oven turns on. Your Tesla charger starts pulling 7 kW. Without a battery, that peak-rate spike hits your bill hard—often the single most expensive hour of your day.
 
-A home battery changes the equation. Throughout the sunny afternoon, it silently captured the excess energy your panels weren't using. Now, at 7 p.m., that stored power runs your home. You draw almost nothing from the grid during the peak-rate hour. Instead of paying 42¢ for 20 kWh (which happens to hundreds of thousands of US homeowners every summer evening), you pay almost nothing. That one hour saves you between $8 and $16. Over a summer of 90 evenings, a single time-of-use arbitrage opportunity can return $720–$1,440 annually—even before counting outage protection or environmental benefits.
+A home battery changes the equation. Throughout the sunny afternoon, it silently captured the excess energy your panels weren't using. Now, at 7 p.m., that stored power runs your home. You draw almost nothing from the grid during the peak-rate hour. Instead of paying 42¢ for 20 kWh (which happens to hundreds of thousands of US homeowners every summer evening), you pay almost nothing. That one hour of [time-of-use arbitrage](/posts/tou-rate-spread-battery-worth-it-map/) saves you between $8 and $16. Over a summer of 90 evenings, a single time-of-use arbitrage opportunity can return $720–$1,440 annually—even before counting outage protection or environmental benefits.
 
 This is why solar batteries matter. They're not just about independence. They're about flipping the economics of your power bill from the grid's favor to yours.
 
@@ -43,11 +45,11 @@ Before sizing, shopping, or financing, confirm your situation allows a battery t
 
 Your utility determines _how much_ a battery will save you. Three scenarios exist:
 
-**Scenario A: Time-of-Use (TOU) Rates** Your utility charges different rates depending on the time of day. Peak hours (typically 4–9 p.m.) cost 3–5× more than off-peak hours (typically 9 p.m.–6 a.m.). Examples: Southern California Edison, PG&E California, Xcel Energy (Colorado, Minnesota).
+**Scenario A: Time-of-Use (TOU) Rates** Your utility charges different rates depending on the time of day. [Peak hours (typically 4–9 p.m.) cost 3–5× more](/posts/why-your-electric-bill-spikes-at-7-pm-even-with-solar-panels/) than off-peak hours (typically 9 p.m.–6 a.m.). Examples: Southern California Edison, PG&E California, Xcel Energy (Colorado, Minnesota).
 
 → **Battery ROI: Excellent.** A 10 kWh battery can save $500–$1,500/year through peak-shave arbitrage alone. Payback: 5–8 years.
 
-**Scenario B: Full Net-Metering (NEM 1.0 / All-You-Can-Export)** You generate solar electricity, and excess power flows to the grid at the _same rate_ you buy retail power (typically 12–16¢/kWh). You're not penalized for exporting. Examples: older California customers, some parts of Massachusetts, Vermont.
+**Scenario B: Full [Net-Metering](/posts/net-metering-policy-by-state-2026/) (NEM 1.0 / All-You-Can-Export)** You generate solar electricity, and excess power flows to the grid at the _same rate_ you buy retail power (typically 12–16¢/kWh). You're not penalized for exporting. Examples: older California customers, some parts of Massachusetts, Vermont.
 
 → **Battery ROI: Marginal.** A battery lets you time-shift, but there's no rate spread to exploit. Payback: 10–15 years. **A battery makes sense here primarily for outage backup, not financial return.** Ask yourself: How often does your grid fail? If fewer than 2–3 times per year for more than an hour, skip the battery unless you have other goals.
 

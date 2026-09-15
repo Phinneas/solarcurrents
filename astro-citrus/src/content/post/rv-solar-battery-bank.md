@@ -1,10 +1,12 @@
 ---
 title: "RV Solar Battery Bank Setup Complete Guide"
-description: "A post about solar energy"
+description: "How to build an RV solar battery bank: AGM vs lithium choices, wiring configuration, capacity math, and installation mistakes to avoid."
 publishDate: "2 February 2026"
 updatedDate: "2 February 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1551218611-b1004ba59913?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHJ2JTIwc29sYXJ8ZW58MHx8fHwxNzY5NDY1MjM2fDA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 2500
   alt: "RV Solar Battery Bank Setup Complete Guide"
 ---
 
@@ -21,7 +23,7 @@ The size of your bank depends on your daily power consumption. Calculate your am
 
 Battery selection shapes your entire system's performance. Lead-acid batteries remain popular due to their low cost, but they only provide 50% usable capacity to avoid damage.
 
-Lithium iron phosphate (LiFePO4) batteries offer 80-100% usable capacity and handle thousands more charge cycles. They also weigh half as much as lead-acid alternatives.
+[Lithium iron phosphate (LiFePO4) batteries](/posts/lifepo4-solar-battery/) offer 80-100% usable capacity and handle thousands more charge cycles. They also weigh half as much as lead-acid alternatives.
 
 Consider these factors when selecting batteries:
 
@@ -32,7 +34,7 @@ Consider these factors when selecting batteries:
 
 ## Wiring Your Battery Bank Configuration
 
-Series connections increase voltage while parallel connections boost capacity. Most RV solar battery bank setups use 12-volt systems with batteries wired in parallel to maintain voltage while increasing amp-hours.
+[Series connections increase voltage while parallel connections boost capacity.](/posts/rv-solar-panel-wiring-series-parallel/) Most RV solar battery bank setups use 12-volt systems with batteries wired in parallel to maintain voltage while increasing amp-hours.
 
 Use cables thick enough to handle your maximum current draw. Undersized wires create resistance, generate heat, and waste power. A 4/0 AWG cable works well for most installations under 10 feet.
 
@@ -48,7 +50,7 @@ Ventilation matters for lead-acid batteries. These batteries release hydrogen ga
 
 ## Calculating Your Power Requirements
 
-Start by listing every electrical device in your RV. Note each item's wattage and daily usage hours. Multiply watts by hours to get watt-hours, then divide by your system voltage for amp-hours.
+Start by [listing every electrical device in your RV](/posts/rv-solar-panel-sizing-guide/). Note each item's wattage and daily usage hours. Multiply watts by hours to get watt-hours, then divide by your system voltage for amp-hours.
 
 Add a 20% safety margin to account for inefficiencies and unexpected usage. This buffer ensures you won't drain batteries completely on cloudy days.
 

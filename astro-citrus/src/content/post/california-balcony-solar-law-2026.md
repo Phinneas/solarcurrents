@@ -5,6 +5,8 @@ publishDate: "29 June 2026"
 updatedDate: "29 June 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHNvbGFyJTIwcGFuZWxzJTIwY2FsaWZvcm5pYXxlbnwwfHx8fDE3NTEyMTYwMDB8MA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1331
   alt: "Solar panels in California"
 tags: ["balcony-solar", "california", "plug-in-solar", "laws", "sb-868"]
 ---
@@ -23,7 +25,7 @@ Here's what's actually legal right now, what changes when SB 868 is signed, and 
 **Bill:** SB 868 (Senator Scott Wiener, D-San Francisco)
 **Title:** "Plug and Play Solar Act"
 **Status:** Passed Senate and Assembly; pending Governor's signature as of June 2026
-**What it would do:** Exempt plug-in solar devices from all CPUC interconnection rules (including Rule 21), from utility interconnection agreements, and from net metering eligibility requirements. Devices would be classified as appliances, not power generation facilities.
+**What it would do:** Exempt plug-in solar devices from all CPUC interconnection rules (including Rule 21), from utility interconnection agreements, and from [net metering](/posts/net-metering-policy-by-state-2026/) eligibility requirements. Devices would be classified as appliances, not power generation facilities.
 **Wattage limit proposed:** Not a single hard cap — the bill defers to UL 3700 or equivalent NRTL certification as the qualifying criterion.
 
 Until SB 868 is signed, none of these exemptions apply.
@@ -32,7 +34,7 @@ Until SB 868 is signed, none of these exemptions apply.
 
 ## What Governs Plug-In Solar in California Right Now
 
-**NEC 705.12 (the 120% rule)** is the de facto federal floor. For any grid-tied solar connection — including plug-in systems — the sum of 125% of the inverter's AC output current plus the main breaker rating cannot exceed 120% of the busbar's rated ampacity. For a standard 200A panel with a 200A main breaker, this limits inverter-connected solar to roughly 40A AC output, or about 4,800W at 120V. A typical 600–800W plug-in system is well within this limit.
+**[NEC 705.12](/posts/nec-705-plain-english-solar-interconnection/) (the 120% rule)** is the de facto federal floor. For any grid-tied solar connection — including plug-in systems — the sum of 125% of the inverter's AC output current plus the main breaker rating cannot exceed 120% of the busbar's rated ampacity. For a standard 200A panel with a 200A main breaker, this limits inverter-connected solar to roughly 40A AC output, or about 4,800W at 120V. A typical 600–800W plug-in system is well within this limit.
 
 **California Electrical Code (CEC)** follows NEC with state amendments. PG&E, SCE, and SDG&E each apply their own interconnection tariffs (Rule 21 for investor-owned utilities) on top of the CEC. Rule 21 is what SB 868 is trying to exempt plug-in solar from.
 
@@ -44,7 +46,7 @@ Zero-export systems — which throttle output to prevent any backfeed — occupy
 
 ## What California Civil Code §714 Does (and Doesn't) Cover
 
-California Civil Code §714, the core of the California Solar Rights Act, voids any HOA restriction that "effectively prohibits or restricts the installation or use of a solar energy system." An HOA restriction is only permissible if it doesn't increase costs by more than $1,000 (or $2,000 for systems over 10kW) or reduce efficiency by more than 10%.
+[California Civil Code §714](/posts/california-balcony-solar-714/), the core of the California Solar Rights Act, voids any HOA restriction that "effectively prohibits or restricts the installation or use of a solar energy system." An HOA restriction is only permissible if it doesn't increase costs by more than $1,000 (or $2,000 for systems over 10kW) or reduce efficiency by more than 10%.
 
 **What this means for balcony solar:**
 

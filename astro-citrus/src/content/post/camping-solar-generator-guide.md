@@ -1,10 +1,12 @@
 ---
 title: "Camping Solar Generator Guide for Off-Grid Adventures"
-description: "A post about solar energy"
+description: "How to choose a camping solar generator: sizing by trip length, charging options, ports, and durability, plus real-world scenarios and mistakes to avoid."
 publishDate: "23 March 2026"
 updatedDate: "23 March 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1701825299870-398fb12864bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEzfHxvZmYlMjBncmlkfGVufDB8fHx8MTc3MTUzMjQwOHww&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1500
   alt: "Camping Solar Generator Guide for Off-Grid Adventures"
 ---
 
@@ -19,11 +21,11 @@ Gone are the days when camping meant completely disconnecting from power. Today'
 
 A solar generator combines three essential components: solar panels, a battery storage unit, and an inverter. Sunlight hits the panels and converts to electricity. The battery stores that energy. The inverter transforms it into usable AC power for your devices.
 
-Unlike gas generators, these systems produce zero emissions and operate silently. You won't disturb wildlife or fellow campers with engine noise.
+Unlike [gas generators](/posts/solar-power-bank-vs-generator-camping/), these systems produce zero emissions and operate silently. You won't disturb wildlife or fellow campers with engine noise.
 
 ### Key Components to Understand
 
-Solar panels come in rigid and portable folding designs. Folding panels pack down small and deploy quickly at your campsite.
+Solar panels come in rigid and portable folding designs. [Folding panels](/posts/best-foldable-solar-panels-for-camping/) pack down small and deploy quickly at your campsite.
 
 Battery capacity is measured in watt-hours (Wh). A 500Wh unit can charge a smartphone roughly 40 times or run a mini-fridge for 8-10 hours.
 
@@ -45,7 +47,7 @@ Overlanders and van-lifers often choose 2000Wh+ systems that can handle coffee m
 
 The best camping solar generator charges multiple ways. Solar input is primary, but look for AC wall charging and 12V car charging as backup options.
 
-MPPT charge controllers maximize solar efficiency. This technology extracts more power from your panels, especially in partial shade or cloudy conditions.
+[MPPT charge controllers](/posts/mppt-charge-controller-sizing/) maximize solar efficiency. This technology extracts more power from your panels, especially in partial shade or cloudy conditions.
 
 ### Output Ports
 

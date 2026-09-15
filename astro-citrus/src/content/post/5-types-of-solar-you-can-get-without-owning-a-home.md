@@ -5,6 +5,8 @@ publishDate: "19 June 2026"
 updatedDate: "19 June 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHNvbGFyfGVufDB8fHx8fDE3MTk4Njg3ODR8MA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1331
   alt: "Solar panels on a modern building"
 tags: ["renters", "community solar", "balcony solar", "portable solar", "RECs"]
 ---
@@ -23,7 +25,7 @@ For renters, the appeal is real: no equipment, no roof, no landlord conversation
 
 - **Term length and exit fees.** Some contracts auto-renew annually; others lock you in for the life of the project with a penalty to leave early.
 - **Portability.** If you move within the utility's service area, can the subscription transfer? If you move out of state, it almost certainly can't — and you may still owe out the contract.
-- **Who's actually selling it.** A lot of community solar enrollment happens through third-party brokers using door-to-door or phone sales tactics, not your utility directly. Several states have fielded complaints about high-pressure sales and unclear savings claims in this channel — read the subscriber agreement yourself rather than taking a salesperson's percentage at face value.
+- **Who's actually selling it.** A lot of community solar enrollment happens through [third-party brokers using door-to-door or phone sales tactics](/posts/community-solar-programs/), not your utility directly. Several states have fielded complaints about high-pressure sales and unclear savings claims in this channel — read the subscriber agreement yourself rather than taking a salesperson's percentage at face value.
 
 Savings estimates are also just that — estimates, not guarantees, and they shift with each utility's rate structure. "Up to 20% savings" language is doing a lot of work in most marketing.
 
@@ -49,11 +51,11 @@ Interest in this category has spiked hard over the past year as more states move
 - **Utility interconnection policy.** Your utility may have its own requirement for notification or approval before you connect anything that feeds power back into the circuit, regardless of state law.
 - **Lease and HOA terms.** Even where the law allows it, your lease might not. Get this in writing before you mount anything to a balcony railing or run a cord through a window.
 
-A handful of states have passed legislation explicitly legalizing balcony solar in the last couple of years; most states haven't addressed it directly, which leaves it in a gray zone rather than a green light. Output is also capped — most compliant kits top out around 600–800W by design, so treat this as a meaningful dent in daytime usage, not a bill replacement.
+A handful of states have passed [legislation explicitly legalizing balcony solar](/posts/balcony-solar-laws-by-state/) in the last couple of years; most states haven't addressed it directly, which leaves it in a gray zone rather than a green light. Output is also capped — most compliant kits top out around 600–800W by design, so treat this as a meaningful dent in daytime usage, not a bill replacement.
 
 ## 4. Window Solar Panels: Lowest Commitment, Lowest Payoff
 
-Small window-mounted panels with a built-in battery are the path of least resistance: no drilling, no permits, no landlord conversation, no electrician. You own the hardware, you can take it with you, and it works in a unit with literally no outdoor space.
+[Small window-mounted panels](/notes/window-solar-panels-useful-in-one-specific-situation/) with a built-in battery are the path of least resistance: no drilling, no permits, no landlord conversation, no electrician. You own the hardware, you can take it with you, and it works in a unit with literally no outdoor space.
 
 **The catch: it doesn't touch your bill.** These panels are sized for charging phones, tablets, and small electronics — not for offsetting household electricity use in any measurable way. Treat this as a resilience or convenience purchase (useful during an outage, handy for a small desk setup) rather than a step toward energy independence. If your goal is savings, this is the wrong category; if your goal is the lowest-effort way to personally own a working solar setup, it's the right one.
 

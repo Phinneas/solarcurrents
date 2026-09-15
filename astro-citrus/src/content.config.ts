@@ -18,7 +18,17 @@ const post = defineCollection({
 				.object({
 					alt: z.string(),
 					src: z.string(),
+					width: z.number().optional(),
+					height: z.number().optional(),
 				})
+				.optional(),
+			faqs: z
+				.array(
+					z.object({
+						question: z.string(),
+						answer: z.string(),
+					}),
+				)
 				.optional(),
 			draft: z.boolean().default(false),
 			ogImage: z.string().optional(),
@@ -46,6 +56,8 @@ const newsletter = defineCollection({
 			.object({
 				alt: z.string(),
 				src: z.string(),
+				width: z.number().optional(),
+				height: z.number().optional(),
 			})
 			.optional(),
 		draft: z.boolean().default(false),

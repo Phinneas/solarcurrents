@@ -5,6 +5,8 @@ publishDate: "20 August 2026"
 updatedDate: "20 August 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000"
+  width: 2000
+  height: 1331
   alt: "Solar panels on a residential roof with an empty driveway, no installer truck in sight"
 tags: ["solar installers", "warranties", "solar financing", "tax credit"]
 ---

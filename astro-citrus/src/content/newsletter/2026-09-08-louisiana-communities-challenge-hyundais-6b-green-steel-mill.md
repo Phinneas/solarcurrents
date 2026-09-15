@@ -6,6 +6,8 @@ draft: false
 tags: ["newsletter", "solar", "energy"]
 coverImage:
   src: "https://images.pexels.com/photos/6804267/pexels-photo-6804267.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  width: 1880
+  height: 1253
   alt: "Silhouetted industrial structures against a vibrant sunset sky."
 ---
 PLUS: Track balcony solar laws in 25 states, clean energy super PAC targets Democratic governor, solar-plus-storage hits $25B

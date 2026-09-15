@@ -6,6 +6,7 @@ import WebMentions from "@/components/blog/webmentions/index.astro";
 import BaseLayout from "./Base.astro";
 import SeriesPanel from "@/components/SeriesPanel.astro";
 import { Icon } from "astro-icon/components";
+import { siteConfig } from "@/site.config";
 import type { BlogPost } from "@/data/post";
 
 interface Props {
@@ -14,13 +15,58 @@ interface Props {
 }
 
 const { post, headings } = Astro.props;
-const { ogImage, title, description, updatedDate, publishDate, seriesId } = post.data;
+const { ogImage, title, description, updatedDate, publishDate, seriesId, faqs } = post.data;
 
 const socialImage = ogImage ?? `/og-image/${post.id}.png`;
 const articleDate = updatedDate?.toISOString() ?? publishDate.toISOString();
+
+const canonicalURL = new URL(`/posts/${post.id}/`, Astro.site).href;
+const socialImageURL = new URL(socialImage, Astro.site).href;
+
+const articleSchema = {
+	"@context": "https://schema.org",
+	"@type": "Article",
+	headline: title,
+	description,
+	image: socialImageURL,
+	datePublished: publishDate.toISOString(),
+	...(updatedDate && { dateModified: updatedDate.toISOString() }),
+	author: {
+		"@type": "Person",
+		name: siteConfig.author,
+	},
+	publisher: {
+		"@type": "Organization",
+		name: siteConfig.title,
+		url: Astro.site?.href,
+	},
+	mainEntityOfPage: {
+		"@type": "WebPage",
+		"@id": canonicalURL,
+	},
+};
+
+const faqSchema = faqs?.length
+	? {
+			"@context": "https://schema.org",
+			"@type": "FAQPage",
+			mainEntity: faqs.map((faq) => ({
+				"@type": "Question",
+				name: faq.question,
+				acceptedAnswer: {
+					"@type": "Answer",
+					text: faq.answer,
+				},
+			})),
+		}
+	: null;
 ---
 
 <BaseLayout meta={{ articleDate, description, ogImage: socialImage, title }}>
+	<script is:inline type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+	{faqSchema && (
+		<script is:inline type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+	)}
 	<div class="fixed left-0 top-0 z-10 flex h-16 md:h-20 w-full bg-bgColor overflow-hidden">
 		<div class="absolute top-0 left-1/2 -ml-[50vw] w-screen min-h-screen pointer-events-none blur-2xl">
 			<div class="absolute top-[-90%] right-[25%] w-[75%] h-full bg-gradient-to-b from-blue-300 via-pink-300 to-transparent rounded-full opacity-40 dark:opacity-5"></div>

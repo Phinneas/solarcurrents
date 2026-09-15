@@ -5,6 +5,8 @@ publishDate: "9 December 2025"
 updatedDate: "9 December 2025"
 coverImage:
   src: "https://images.unsplash.com/photo-1727932158185-e56a0f19b29f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDd8fHdpbmRvdyUyMHNvbHJ8ZW58MHx8fHwxNzY1MzA0MzkzfDA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 2954
   alt: "How Window Solar Panels Are Changing Home Energy"
 ---
 

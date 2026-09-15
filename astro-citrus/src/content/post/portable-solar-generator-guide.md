@@ -1,10 +1,12 @@
 ---
 title: "Best Portable Solar Generator Guide for Off-Grid Power"
-description: "A post about solar energy"
+description: "How to choose a portable solar generator: capacity math, panel charging speed, battery chemistry, and the features that matter, with real-world applications."
 publishDate: "3 March 2026"
 updatedDate: "3 March 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1764168414096-fa2a80540745?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHxvZmYlMjBncmlkJTIwc29sYXJ8ZW58MHx8fHwxNzcwMzI0NzEwfDA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1125
   alt: "Best Portable Solar Generator Guide for Off-Grid Power"
 ---
 
@@ -25,9 +27,9 @@ Battery capacity determines how long your **portable solar generator** powers yo
 
 A 500Wh unit handles basic camping needs. It charges phones 40-50 times, runs LED lights for days, and powers a laptop for 8-10 hours. Perfect for weekend warriors who need essential electronics.
 
-Mid-range 1000-1500Wh systems support more demanding applications. They run CPAP machines through the night, power electric coolers continuously, and handle multiple devices simultaneously. RV enthusiasts and remote workers favor this capacity range.
+Mid-range 1000-1500Wh systems support more demanding applications. They run CPAP machines through the night, power electric coolers continuously, and handle multiple devices simultaneously. [RV enthusiasts](/posts/rv-solar-battery-bank/) and remote workers favor this capacity range.
 
-Large 2000Wh+ generators approach home backup territory. They run refrigerators for 20-30 hours, power tools on job sites, and support small medical equipment during outages.
+Large 2000Wh+ generators approach home backup territory. They run refrigerators for 20-30 hours, power tools on job sites, and support small medical equipment [during outages](/posts/best-solar-generators-power-outages/).
 
 ### Calculate Your Power Requirements
 
@@ -49,7 +51,7 @@ Weather affects charging performance. Clouds reduce output by 50-80%. Winter sun
 
 Lithium batteries dominate the **portable solar generator** market for good reasons. They weigh 60% less than lead-acid equivalents, last 5-10 times longer, and charge faster.
 
-LiFePO4 (lithium iron phosphate) batteries offer the best safety profile. They resist thermal runaway, tolerate temperature extremes, and maintain 80% capacity after 3000+ cycles. The chemistry eliminates cobalt, reducing environmental impact and cost.
+[LiFePO4 (lithium iron phosphate) batteries](/posts/lifepo4-solar-battery/) offer the best safety profile. They resist thermal runaway, tolerate temperature extremes, and maintain 80% capacity after 3000+ cycles. The chemistry eliminates cobalt, reducing environmental impact and cost.
 
 Standard lithium-ion batteries cost less upfront but degrade faster. Expect 500-1000 cycles before capacity drops below 80%. They work well for occasional use but struggle with daily cycling.
 

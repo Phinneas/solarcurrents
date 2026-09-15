@@ -5,6 +5,8 @@ publishDate: "8 September 2026"
 updatedDate: "8 September 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000"
+  width: 2000
+  height: 1331
   alt: "Rooftop solar panels on a suburban house with a contract and pen resting on a porch table"
 tags: ["solar leases", "solar financing", "solar contracts", "selling a home with solar"]
 ---

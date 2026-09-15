@@ -5,6 +5,8 @@ publishDate: "16 July 2026"
 updatedDate: "16 July 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000"
+  width: 2000
+  height: 1331
   alt: "Rows of solar panels in a ground-mounted community solar array"
 tags: ["community solar", "california", "policy", "consumer protection"]
 ---
@@ -15,9 +17,9 @@ That last phrase matters. Before comparing plans, you need to know which of thes
 
 ## Why California community solar is different (and mostly worse)
 
-In most community solar states, you subscribe to a share of a solar farm and receive bill credits worth more than your subscription payment — a guaranteed 5–10% discount is typical. California's legislature ordered something similar in 2022 with AB 2316, which required large utilities to let ratepayers participate in offsite renewable generation.
+In most community solar states, you subscribe to a [share of a solar farm](/posts/community-solar-programs/) and receive bill credits worth more than your subscription payment — a guaranteed 5–10% discount is typical. California's legislature ordered something similar in 2022 with AB 2316, which required large utilities to let ratepayers participate in offsite renewable generation.
 
-What happened next is the part the marketing skips. Solar developers proposed a Net Value Billing Tariff modeled on New York's successful program, targeting up to 8 GW of projects. In May 2024, the CPUC rejected it (Decision 24-05-065), arguing the projects were wholesale resources that shouldn't earn retail-adjacent rates, and created its own Community Renewable Energy (CRE) Program instead. The CRE tariff compensates projects at avoided-cost rates based on ReMAT and PURPA contracts — wholesale prices, not the retail-linked credits that make subscriptions pencil out elsewhere.
+What happened next is the part the marketing skips. Solar developers proposed a Net Value Billing Tariff modeled on [New York's successful program](/posts/community-solar-new-york-coned-nyserda/), targeting up to 8 GW of projects. In May 2024, the CPUC rejected it (Decision 24-05-065), arguing the projects were wholesale resources that shouldn't earn retail-adjacent rates, and created its own Community Renewable Energy (CRE) Program instead. The CRE tariff compensates projects at avoided-cost rates based on ReMAT and PURPA contracts — wholesale prices, not the retail-linked credits that make subscriptions pencil out elsewhere.
 
 The results so far: zero CRE projects built. In 2025, the EPA rescinded $249 million in Solar for All funding that was supposed to seed the program (California is challenging this in court). The CPUC's own June 2026 implementation decision acknowledges that no incentive funds from the identified sources are currently available. When the Commission finalized the program details on June 11, 2026, the industry coalition that pushed for AB 2316 called the vote "a doubling down on failure."
 
@@ -53,7 +55,7 @@ California's thin market means less standardized consumer protection than states
 
 **Escalators.** Subscription prices that rise 2–4% per year can outrun the value of your credits. Ask what you'll pay in year 10, not year one.
 
-**Term and exit fees.** Twenty-year terms with early termination fees appear in this industry. Look for 1–5 year terms or month-to-month with 60–90 day notice, and get the cancellation fee in writing. Ask what happens if you move — within the same utility territory, out of it, or out of state.
+**Term and exit fees.** [Twenty-year terms with early termination fees](/posts/trapped-in-a-solar-lease-options-ranked-by-cost/) appear in this industry. Look for 1–5 year terms or month-to-month with 60–90 day notice, and get the cancellation fee in writing. Ask what happens if you move — within the same utility territory, out of it, or out of state.
 
 **Subscription sizing.** Your allocation should be roughly 80–110% of your annual usage. Oversizing generates credits you may never use; some programs don't cash them out.
 

@@ -6,6 +6,8 @@ draft: false
 tags: ["newsletter", "solar", "energy"]
 coverImage:
   src: "https://images.pexels.com/photos/28460196/pexels-photo-28460196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  width: 1616
+  height: 1300
   alt: "Facade of an apartment building with multiple balconies and windows in sunlight."
 ---
 PLUS: UK legalizes plug-in systems, Georgia's secret OpenAI deal, and solar saves Europe during deadly heatwaves

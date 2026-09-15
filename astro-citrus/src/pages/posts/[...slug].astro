@@ -1,18 +1,40 @@
 ---
-import { getPostBySlug, renderPost } from "@/data/post";
+import { getAllPosts, renderPost, type BlogPost } from "@/data/post";
 import PostLayout from "@/layouts/BlogPost.astro";
+import type { GetStaticPaths, InferGetStaticPropsType } from "astro";
 
-const { slug } = Astro.params;
-if (!slug) {
-	return new Response(null, { status: 404 });
+export const prerender = true;
+
+interface PostPathProps {
+	post?: BlogPost;
+	redirectTo?: string;
 }
 
-// Redirect old pagination URLs (/posts/2/, /posts/3/, etc.) to new structure
-if (/^\d+$/.test(slug)) {
-	return Astro.redirect(`/posts/page/${slug}/`, 301);
-}
+export const getStaticPaths = (async () => {
+	const postsPerPage = 5;
+	const posts = await getAllPosts();
+	const paths: { params: { slug: string }; props: PostPathProps }[] = posts.map((post) => ({
+		params: { slug: post.id },
+		props: { post },
+	}));
+	// Keep legacy numeric pagination URLs (/posts/2/, /posts/3/, ...) redirecting
+	const totalPages = Math.ceil(posts.length / postsPerPage);
+	for (let page = 2; page <= totalPages; page++) {
+		paths.push({
+			params: { slug: String(page) },
+			props: { redirectTo: `/posts/page/${page}/` },
+		});
+	}
+	return paths;
+}) satisfies GetStaticPaths;
 
-const post = await getPostBySlug(slug);
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
+const { post, redirectTo } = Astro.props as Props;
+
+if (redirectTo) {
+	return Astro.redirect(redirectTo, 301);
+}
 
 if (!post) {
 	return new Response(null, { status: 404 });

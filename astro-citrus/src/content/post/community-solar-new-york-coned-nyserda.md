@@ -5,6 +5,8 @@ publishDate: "22 July 2026"
 updatedDate: "22 July 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000"
+  width: 2000
+  height: 1333
   alt: "Solar array under an open sky, the kind of offsite farm New York community solar subscribers share"
 tags: ["community solar", "new york", "coned", "nyserda", "policy"]
 ---
@@ -23,9 +25,9 @@ The standard offer across New York in 2026 is a 10% discount, with 20% for incom
 
 ## One bill or two — check before you sign
 
-New York requires utilities to offer "net crediting," which consolidates everything into your utility bill: credits appear, the subscription charge appears, one statement, done. Utilities take a 1% administrative fee for this. It's the arrangement to prefer — you can verify your savings on a single page.
+New York requires utilities to offer "[net crediting](/posts/net-metering-policy-by-state-2026/)," which consolidates everything into your utility bill: credits appear, the subscription charge appears, one statement, done. Utilities take a 1% administrative fee for this. It's the arrangement to prefer — you can verify your savings on a single page.
 
-But not every subscription works this way anymore. Nexamp moved to dual billing for some New York projects in 2026: credits on your utility bill, subscription invoice arriving separately. The discount is the same, but you now have to reconcile two documents to confirm you're actually ahead, and autopay on a second account is where subscribers stop paying attention. Ask explicitly: "Will my subscription charge appear on my utility bill or as a separate invoice?"
+But not every subscription works this way anymore. Nexamp moved to [dual billing](/posts/community-solar-california-compare-plans-avoid-traps/) for some New York projects in 2026: credits on your utility bill, subscription invoice arriving separately. The discount is the same, but you now have to reconcile two documents to confirm you're actually ahead, and autopay on a second account is where subscribers stop paying attention. Ask explicitly: "Will my subscription charge appear on my utility bill or as a separate invoice?"
 
 ## ConEd territory: better credits, tighter supply
 
@@ -53,7 +55,7 @@ NYSERDA's community solar page is also the right starting point for finding vett
 
 ## Co-ops, condos, and renters
 
-Subscriptions attach to your individual utility account, not your building. If you're in a co-op or condo and pay your own ConEd bill, you can subscribe like any renter — no board approval needed, nothing installed. If your building master-meters electricity (you don't get your own ConEd bill), you can't subscribe individually; that's a board-level conversation about the building becoming a subscriber or an anchor. Buildings and businesses can take up to 40% of a project as "anchor" subscribers, so a motivated board has real options.
+Subscriptions attach to your individual utility account, not your building. If you're in a co-op or condo and pay your own ConEd bill, you can subscribe like [any renter](/posts/im-a-renter-can-i-go-solar/) — no board approval needed, nothing installed. If your building master-meters electricity (you don't get your own ConEd bill), you can't subscribe individually; that's a board-level conversation about the building becoming a subscriber or an anchor. Buildings and businesses can take up to 40% of a project as "anchor" subscribers, so a motivated board has real options.
 
 ## The checklist before you enroll
 

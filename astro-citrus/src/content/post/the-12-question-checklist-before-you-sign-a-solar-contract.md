@@ -5,6 +5,8 @@ publishDate: "3 September 2026"
 updatedDate: "3 September 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000"
+  width: 2000
+  height: 1148
   alt: "Homeowner reviewing a solar contract document with a pen in hand"
 tags: ["solar contract", "consumer protection", "buying guide", "financing"]
 ---

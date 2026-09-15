@@ -5,6 +5,8 @@ publishDate: "24 February 2026"
 updatedDate: "24 February 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1620439032751-d2011065c735?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDQyfHxjYW1waW5nfGVufDB8fHx8MTc3MDMyNDYyM3ww&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 3000
   alt: "Solar Power Bank vs Generator Camping Guide"
 ---
 

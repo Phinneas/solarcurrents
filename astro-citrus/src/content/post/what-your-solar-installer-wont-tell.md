@@ -5,6 +5,8 @@ publishDate: "6 August 2026"
 updatedDate: "6 August 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000"
+  width: 2000
+  height: 1331
   alt: "Rooftop solar array on a residential home at dusk"
 tags: ["batteries", "solar economics", "net metering", "buying guide"]
 ---

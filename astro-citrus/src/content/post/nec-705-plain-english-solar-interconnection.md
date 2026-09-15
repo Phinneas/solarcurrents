@@ -5,6 +5,8 @@ publishDate: "6 July 2026"
 updatedDate: "6 July 2026"
 coverImage:
   src: "/images/posts/nec-705-plain-english-solar-interconnection/cover.jpg"
+  width: 2496
+  height: 1664
   alt: "NEC Article 705 in Plain English: Portable and Grid-Tied Solar Interconnection"
 ---
 
@@ -19,7 +21,7 @@ When you interconnect solar or storage to a building that already has utility se
   * **Article 690** — PV wiring, overcurrent protection, disconnects, rapid shutdown
   * **Article 706** — energy storage systems (batteries)
   * **Article 230** — services and service conductors
-  * **IEEE 1547 and UL 1741** — how inverters behave with the grid
+  * **IEEE 1547 and [UL 1741](/posts/ul-1741-sa-anti-islanding-plug-in-solar/)** — how inverters behave with the grid
 
 The intent: don't overload buses or conductors when you add a new source, use listed equipment, provide clear disconnects and labeling, and coordinate with the utility whenever you're exporting power.
 
@@ -27,7 +29,7 @@ The intent: don't overload buses or conductors when you add a new source, use li
 
 ## Portable vs. Building-Connected Solar
 
-Most small portable systems — camping "solar generators," an RV system that isn't hard-wired into the building — are **not** normally under NEC 705. Standalone or plug-in setups that don't alter building wiring generally fall outside its scope. The moment you hard-wire a portable system into a building's wiring, or backfeed a panel or receptacle, you're in 705/690/706 territory.
+Most small portable systems — camping ["solar generators,"](/posts/portable-solar-generator/) an RV system that isn't hard-wired into the building — are **not** normally under NEC 705. Standalone or plug-in setups that don't alter building wiring generally fall outside its scope. The moment you hard-wire a portable system into a building's wiring, or backfeed a panel or receptacle, you're in 705/690/706 territory.
 
 * * *
 

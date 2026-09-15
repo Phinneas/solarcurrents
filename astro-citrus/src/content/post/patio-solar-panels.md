@@ -1,10 +1,12 @@
 ---
 title: "Patio Solar Panels to Power Your Outdoor Living Space [2025]"
-description: "Overivew and discussion covering the ins and outs of owning a patio solar powersystem. Some brief guide on installation too."
+description: "Patio solar panels, pergolas, awnings, and canopies: what each type generates, how mounting and wiring work, and whether a patio system is worth installing."
 publishDate: "24 January 2025"
 updatedDate: "24 January 2025"
 coverImage:
   src: "https://images.unsplash.com/photo-1675695759442-beb9269b1a32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDd8fHNvbGFyJTIwd29tYW58ZW58MHx8fHwxNzM2ODgzMjMyfDA&ixlib=rb-4.0.3&q=80&w=2000"
+  width: 2000
+  height: 773
   alt: "Patio Solar Panels to Power Your Outdoor Living Space [2025]"
 ---
 
@@ -53,8 +55,8 @@ Patio solar panels are photovoltaic modules integrated into outdoor living space
 
 ### Electrical Components
 
-  * Solar panels (monocrystalline or polycrystalline)
-  * Microinverters or power optimizers
+  * Solar panels ([monocrystalline or polycrystalline](/posts/ultimate-guide-to-high-efficiency-solar-panels/))
+  * [Microinverters](/posts/plug-and-play-solar-panels/) or power optimizers
   * Weather-resistant wiring conduits
 
 

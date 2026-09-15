@@ -1,10 +1,12 @@
 ---
 title: "Best Solar Setups Renters Can Install Without Landlord Drama"
-description: "A post about solar energy"
+description: "Renter-friendly solar setups that need no landlord approval: balcony panels, portable solar generators, and window chargers, with sizing and cost guidance."
 publishDate: "3 April 2026"
 updatedDate: "18 March 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1603736043044-65d44d3c6230?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fHJlbnRlcnxlbnwwfHx8fDE3NzM4Njg3NzR8MA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1333
   alt: "Best Solar Setups Renters Can Install Without Landlord Drama"
 ---
 
@@ -29,13 +31,13 @@ Beyond savings, there's independence. Charging devices, running small appliances
 
 ### How Balcony Panels Work
 
-Balcony solar systems attach to railings or sit on stands facing the sun. They connect to a micro-inverter that converts DC power to AC power. You plug the system into a standard outlet, and it feeds electricity directly into your apartment.
+[Balcony solar systems](/posts/balcony-solar-panels/) attach to railings or sit on stands facing the sun. They connect to a micro-inverter that converts DC power to AC power. You plug the system into a standard outlet, and it feeds electricity directly into your apartment.
 
 Germany has embraced these systems for years. Over 500,000 German households now use balcony solar. The trend is spreading fast across North America.
 
 ### What to Look For
 
-Choose panels rated between 300-800 watts for meaningful output. Look for systems with plug-and-play design. Ensure the micro-inverter meets local electrical codes.
+Choose panels rated between 300-800 watts for meaningful output. Look for systems with plug-and-play design. Ensure the micro-inverter meets [local electrical codes](/posts/balcony-solar-laws-by-state/).
 
 Weight matters on balconies. Most modern panels weigh under 40 pounds each. Verify your railing can support the added load before installation.
 
@@ -55,7 +57,7 @@ The best solar setups renters choose often combine a 1000Wh generator with 200 w
 
 ## Window-Mounted Solar Chargers
 
-No balcony? No problem. Suction-cup solar chargers stick directly to sunny windows. They won't power your refrigerator, but they keep phones and tablets charged without touching your electricity bill.
+No balcony? No problem. [Suction-cup solar chargers](/posts/window-solar-panels/) stick directly to sunny windows. They won't power your refrigerator, but they keep phones and tablets charged without touching your electricity bill.
 
 These small panels typically produce 5-20 watts. That's enough to charge a smartphone twice daily from pure sunlight.
 

@@ -6,9 +6,22 @@ import PageLayout from "@/layouts/Base.astro";
 import { collectionDateSort } from "@/utils/date";
 import { Icon } from "astro-icon/components";
 import Badge from "@/components/Badge.astro";
+import type { GetStaticPaths } from "astro";
+
+export const prerender = true;
 
 const MAX_POSTS_PER_PAGE = 5;
 const MAX_TAGS = 20;
+
+export const getStaticPaths = (async () => {
+	const postsPerPage = 5;
+	const allPosts = await getAllPosts();
+	const totalPages = Math.ceil(allPosts.length / postsPerPage);
+	// Page 1 is served by /posts/ (index.astro)
+	return Array.from({ length: Math.max(totalPages - 1, 0) }, (_, i) => ({
+		params: { page: String(i + 2) },
+	}));
+}) satisfies GetStaticPaths;
 
 const allPosts = await getAllPosts();
 const sortedPosts = allPosts.sort(collectionDateSort);

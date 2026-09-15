@@ -5,6 +5,8 @@ publishDate: "26 November 2025"
 updatedDate: "29 December 2025"
 coverImage:
   src: "https://images.unsplash.com/photo-1742453285246-289271410563?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE2fHx1dGFoJTIwYXNwZW5zfGVufDB8fHx8MTc2MzA4MjYwMnww&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 3000
   alt: "Utah HB 340 (2025) Explained: What the New Solar Access Law Means for Homeowners"
 ---
 

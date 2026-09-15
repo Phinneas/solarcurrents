@@ -1,10 +1,12 @@
 ---
 title: "Essential Solar for Boondocking Guide"
-description: "A post about solar energy"
+description: "Solar for boondocking: calculate real power needs, choose fixed vs portable panels, size battery storage, and pick charge controllers and inverters."
 publishDate: "10 March 2026"
 updatedDate: "10 March 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1722098095297-0da0ff461528?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDMzfHxydiUyMHxlbnwwfHx8fDE3NzAzMjQ4MTd8MA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1500
   alt: "Essential Solar for Boondocking Guide"
 ---
 
@@ -13,7 +15,7 @@ coverImage:
 
 Start by listing every device you'll power during your trip. Write down each item's wattage and how many hours you'll use it daily.
 
-A laptop uses about 60 watts. Your LED lights draw 10 watts each. That portable refrigerator pulls 45 watts continuously. Add these numbers together, multiply by hours of use, and you'll discover your daily power consumption in watt-hours.
+A laptop uses about 60 watts. Your LED lights draw 10 watts each. That [portable refrigerator](/posts/rv-batteries-dead-overnight/) pulls 45 watts continuously. Add these numbers together, multiply by hours of use, and you'll discover your daily power consumption in watt-hours.
 
 Most boondockers need between 1,000 and 3,000 watt-hours per day. Your specific needs depend on your camping style and comfort preferences.
 
@@ -33,7 +35,7 @@ Fixed panels mount permanently to your roof. They charge automatically without s
 
 Your batteries store energy for nighttime and cloudy periods. Lithium batteries cost more upfront but last 10+ years with 5,000 charge cycles. AGM batteries cost half as much but only survive 500-1,000 cycles.
 
-Size your battery bank to store two days of power consumption. If you use 2,000 watt-hours daily, install at least 4,000 watt-hours of battery capacity.
+Size your [battery bank](/posts/rv-solar-battery-bank/) to store two days of power consumption. If you use 2,000 watt-hours daily, install at least 4,000 watt-hours of battery capacity.
 
 ### Battery Monitoring Systems
 
@@ -41,7 +43,7 @@ A battery monitor shows exactly how much power remains. Without one, you're gues
 
 ## Charge Controllers Explained
 
-Your charge controller prevents overcharging and battery damage. PWM controllers work fine for small systems under 200 watts. MPPT controllers cost more but harvest 30% more power from your panels.
+Your charge controller prevents overcharging and battery damage. PWM controllers work fine for small systems under 200 watts. [MPPT controllers](/posts/mppt-charge-controller-sizing/) cost more but harvest 30% more power from your panels.
 
 Match your controller amperage to your panel output. A 400-watt system at 12 volts needs at least a 35-amp controller.
 

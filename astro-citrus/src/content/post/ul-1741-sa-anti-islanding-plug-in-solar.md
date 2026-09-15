@@ -5,6 +5,8 @@ publishDate: "6 July 2026"
 updatedDate: "6 July 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000"
+  width: 2000
+  height: 1331
   alt: "Grid-tied solar panels connected through an inverter"
 tags: ["plug-in solar", "balcony solar", "UL 1741", "anti-islanding", "safety standards"]
 ---

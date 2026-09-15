@@ -5,6 +5,8 @@ publishDate: "29 June 2026"
 updatedDate: "29 June 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1534430480872-3498386e7856?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDV8fG5ldyUyMHlvcmslMjBjaXR5fGVufDB8fHx8MTc1MTIxNjAwMHww&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 1333
   alt: "New York City skyline"
 tags: ["balcony-solar", "new-york", "plug-in-solar", "laws", "sunny-act"]
 ---
@@ -20,15 +22,15 @@ What makes New York interesting: **ConEd issued a memo supporting the bill.** Th
 
 ## What the SUNNY Act Does
 
-**Wattage limit:** 1,200W — in line with Utah and Maine, lower than Colorado's 1,920W.
+**Wattage limit:** 1,200W — in line with Utah and Maine, lower than [Colorado's 1,920W](/posts/colorado-balcony-solar-law/).
 
 **No interconnection agreement required:** Under the bill, plug-in solar owners would not need to enter into a utility interconnection agreement before installing. This is the central reform — the standard process for any grid-tied solar system in New York currently requires an application, review, and formal approval, which can take weeks and cost money.
 
 **Notification instead of approval:** Owners would notify their utility within 30 days of installation. No pre-approval, no fees, no application.
 
-**Safety standard:** Devices must comply with fire codes and be approved by an accredited testing laboratory. The bill does not name UL 3700 specifically (it was introduced before that standard existed), but UL 3700 or UL 1741 SA certification would satisfy the requirement.
+**Safety standard:** Devices must comply with fire codes and be approved by an accredited testing laboratory. The bill does not name UL 3700 specifically (it was introduced before that standard existed), but UL 3700 or [UL 1741 SA certification](/posts/ul-1741-sa-anti-islanding-plug-in-solar/) would satisfy the requirement.
 
-**NY-Sun relevance:** NY-Sun is NYSERDA's primary solar incentive program. It covers rooftop installations and community solar subscriptions. The SUNNY Act does not bring plug-in solar into NY-Sun eligibility — these are separate frameworks. Plug-in solar under the SUNNY Act is exempted from interconnection rules precisely because it is classified outside the standard net-metering and solar program categories.
+**NY-Sun relevance:** NY-Sun is NYSERDA's primary solar incentive program. It covers rooftop installations and [community solar subscriptions](/posts/community-solar-new-york-coned-nyserda/). The SUNNY Act does not bring plug-in solar into NY-Sun eligibility — these are separate frameworks. Plug-in solar under the SUNNY Act is exempted from interconnection rules precisely because it is classified outside the standard net-metering and solar program categories.
 
 ---
 

@@ -5,6 +5,8 @@ publishDate: "27 July 2026"
 updatedDate: "27 July 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1556306535-0b6f2c133bed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000"
+  width: 2000
+  height: 1333
   alt: "Rows of solar panels under bright sunlight"
 tags: ["solar-panels", "efficiency", "buying-guide", "topcon", "monocrystalline"]
 ---

@@ -5,6 +5,8 @@ publishDate: "31 August 2026"
 updatedDate: "31 August 2026"
 coverImage:
   src: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000"
+  width: 2000
+  height: 1331
   alt: "Close-up of a printed solar proposal document with a pen resting on it"
 tags: ["solar proposal", "consumer protection", "financing", "buying guide"]
 ---
@@ -17,7 +19,7 @@ Start here, because it's the single most common error on 2026 proposals and it's
 
 If your proposal shows a "price after 30% federal tax credit" line and you're purchasing (cash or loan) in 2026, that installer is either running an outdated pricing template or deliberately padding your expected savings. Ask them directly: "Is this credit actually available to me, and under what section of the tax code?" A straight answer will either correct the number or explain a narrow exception that doesn't apply to most homeowners.
 
-There's one real exception worth knowing: leases and PPAs. In those structures, the solar company (not you) owns the system and can still claim a 30% credit under Section 48E, as long as the system is placed in service by the end of 2027. Some of that value gets passed to you through a lower monthly payment — but it's the installer's credit, not yours, and it shows up nowhere on your tax return. If a salesperson tells you "you still get the 30% credit" on a lease, ask them to point to exactly where.
+There's one real exception worth knowing: [leases and PPAs](/posts/trapped-in-a-solar-lease-options-ranked-by-cost/). In those structures, the solar company (not you) owns the system and can still claim a 30% credit under Section 48E, as long as the system is placed in service by the end of 2027. Some of that value gets passed to you through a lower monthly payment — but it's the installer's credit, not yours, and it shows up nowhere on your tax return. If a salesperson tells you "you still get the 30% credit" on a lease, ask them to point to exactly where.
 
 ## The Cash Price vs. the Financed Price
 
@@ -41,7 +43,7 @@ This is the line that does the most quiet damage to a savings projection, and it
 
 ## If You're in California: the Export Credit Line
 
-Under NEM 3.0 (technically the Net Billing Tariff), solar exported to the grid is credited at a rate tied to the Avoided Cost Calculator — what it would have cost the utility to buy that power wholesale at that hour — not your retail rate. In PG&E territory that blends out to roughly $0.05-$0.09/kWh across the year, against a retail rate of $0.35-$0.55/kWh. SCE and SDG&E run similarly. If a proposal still shows export credits calculated near your retail rate, or describes "1-for-1 net metering," it's using NEM 2.0 math that hasn't applied to new interconnections since April 2023. There is a small standard adder ($0.0088/kWh for 2026 interconnections, $0.036/kWh for CARE/FERA customers) locked in for nine years from your Permission to Operate date — real, but not enough to change the fundamental math that batteries, not exports, are what make NEM 3.0 solar pencil out for most California homeowners.
+Under [NEM 3.0](/posts/california-nem-3-vs-nem-2-solar-payback-math/) (technically the Net Billing Tariff), solar exported to the grid is credited at a rate tied to the Avoided Cost Calculator — what it would have cost the utility to buy that power wholesale at that hour — not your retail rate. In PG&E territory that blends out to roughly $0.05-$0.09/kWh across the year, against a retail rate of $0.35-$0.55/kWh. SCE and SDG&E run similarly. If a proposal still shows export credits calculated near your retail rate, or describes "1-for-1 net metering," it's using NEM 2.0 math that hasn't applied to new interconnections since April 2023. There is a small standard adder ($0.0088/kWh for 2026 interconnections, $0.036/kWh for CARE/FERA customers) locked in for nine years from your Permission to Operate date — real, but not enough to change the fundamental math that [batteries, not exports](/posts/tou-rate-spread-battery-worth-it-map/), are what make NEM 3.0 solar pencil out for most California homeowners.
 
 ## The Line That Isn't There: Contract Cancellation Terms
 

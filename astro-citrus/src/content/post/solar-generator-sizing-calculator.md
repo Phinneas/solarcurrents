@@ -5,6 +5,8 @@ publishDate: "28 October 2025"
 updatedDate: "28 October 2025"
 coverImage:
   src: "https://images.unsplash.com/photo-1602503497726-dc6cfaab7e17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEyfHxzaXppbmd8ZW58MHx8fHwxNzYxNjgyMjAxfDA&ixlib=rb-4.1.0&q=80&w=2000"
+  width: 2000
+  height: 3020
   alt: "Solar Generator Sizing Calculator Guide"
 ---
 
