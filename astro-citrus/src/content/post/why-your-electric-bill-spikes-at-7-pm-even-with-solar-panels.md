@@ -17,13 +17,13 @@ This isn't a malfunction, and it isn't a sign you got a bad install. It's a timi
 
 ## The Quick Answer
 
-Your solar panels make most of their electricity in the middle of the day. You use most of your electricity in the early evening — cooking dinner, running AC or heat, charging an EV, turning on lights as the sun goes down. By 7 PM, your panels have largely stopped producing, but your household hasn't stopped consuming. If your utility charges more for electricity during those exact evening hours, you're buying expensive grid power at the worst possible time, regardless of how much free solar you made six hours earlier.
+Your solar panels make most of their electricity in the middle of the day. You use most of your electricity in the early evening — cooking dinner, running AC or heat, charging an EV, turning on lights as the sun goes down. By 7 PM, your panels have largely stopped producing, but your household hasn't stopped consuming. If your utility charges more for electricity during those exact evening hours, you're buying [expensive grid power](/posts/net-metering-policy-by-state-2026/) at the worst possible time, regardless of how much free solar you made six hours earlier.
 
 That's the whole problem in one sentence. The rest of this is about why utilities price it that way, and why that pricing structure specifically targets the hours right after your panels clock out.
 
 ## What "Time-of-Use" Rates Actually Mean
 
-Most utilities used to charge one flat rate no matter when you used electricity — a kilowatt-hour at 2 PM cost the same as a kilowatt-hour at 9 PM. That's changing. A growing number of utilities now use **time-of-use (TOU) pricing**, which charges different rates depending on the hour of day.
+Most utilities used to charge one flat rate no matter when you used electricity — a kilowatt-hour at 2 PM cost the same as a kilowatt-hour at 9 PM. That's changing. A growing number of utilities now use **[time-of-use (TOU) pricing](/posts/tou-rate-spread-battery-worth-it-map/)**, which charges different rates depending on the hour of day.
 
 The logic isn't arbitrary. The grid is under the most strain when everyone is drawing power at once — typically when people get home from work, start cooking, and run climate control simultaneously. Utilities price electricity higher during that window to reflect what it actually costs them to deliver power at peak demand, and to nudge people toward using less of it then.
 

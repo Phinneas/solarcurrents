@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 
 import Note from "@/components/note/Note.astro";
 import PageLayout from "@/layouts/Base.astro";
+import { siteConfig } from "@/site.config";
 import type { GetStaticPaths, InferGetStaticPropsType } from "astro";
 
 export const prerender = true;
@@ -24,9 +25,32 @@ const meta = {
 	description: note.data.description,
 	title: note.data.title,
 };
+
+const canonicalURL = new URL(`/notes/${note.id}/`, Astro.site).href;
+const articleSchema = {
+	"@context": "https://schema.org",
+	"@type": "Article",
+	headline: note.data.title,
+	description: note.data.description,
+	datePublished: note.data.publishDate.toISOString(),
+	author: {
+		"@type": "Person",
+		name: siteConfig.author,
+	},
+	publisher: {
+		"@type": "Organization",
+		name: siteConfig.title,
+		url: Astro.site?.href,
+	},
+	mainEntityOfPage: {
+		"@type": "WebPage",
+		"@id": canonicalURL,
+	},
+};
 ---
 
 <PageLayout meta={meta}>
+	<script is:inline type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
 	<div class="fixed left-0 top-0 z-10 flex h-16 md:h-20 w-full bg-bgColor overflow-hidden">
 		<!-- Background 
 			TODO: This approach is not optimal and requires improvements. 

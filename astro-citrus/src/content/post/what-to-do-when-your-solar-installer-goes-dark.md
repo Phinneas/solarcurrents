@@ -25,13 +25,13 @@ If you're in this situation: get a written, dated statement from whoever complet
 
 ## What Actually Survives, and What Doesn't
 
-Manufacturer warranties on your panels, inverter, and battery are issued by the equipment maker — not your installer — and typically remain valid regardless of what happened to the company that sold you the system. Contact Enphase, SolarEdge, Tesla, Q CELLS, or whoever made your equipment directly, confirm you're registered as the system owner, and get your warranty terms in writing.
+Manufacturer warranties on your [panels, inverter, and battery](/posts/lifepo4-solar-battery/) are issued by the equipment maker — not your installer — and typically remain valid regardless of what happened to the company that sold you the system. Contact Enphase, SolarEdge, Tesla, Q CELLS, or whoever made your equipment directly, confirm you're registered as the system owner, and get your warranty terms in writing.
 
-What doesn't reliably survive: workmanship warranties and roof-penetration warranties issued directly by the installer. These are frequently delayed, reduced, or discharged entirely in bankruptcy proceedings, because they're unsecured claims against a company that may have little left to pay out.
+What doesn't reliably survive: [workmanship warranties](/posts/what-your-solar-installer-wont-tell/) and roof-penetration warranties issued directly by the installer. These are frequently delayed, reduced, or discharged entirely in bankruptcy proceedings, because they're unsecured claims against a company that may have little left to pay out.
 
 ## Your Financing Structure Decides How Exposed You Are
 
-Most guides treat "contact your lender" as one generic step. It isn't — the type of agreement you signed determines how much leverage you have left.
+Most guides treat "contact your lender" as one generic step. It isn't — the [type of agreement you signed](/posts/the-12-question-checklist-before-you-sign-a-solar-contract/) determines how much leverage you have left.
 
 Cash purchase: you own the system outright. The installer's bankruptcy affects your workmanship warranty and your ability to get service, but you owe nobody anything and nobody can repossess your panels.
 

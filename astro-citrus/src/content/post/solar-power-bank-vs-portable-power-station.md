@@ -21,7 +21,7 @@ Choosing between a solar power bank and a portable power station depends on your
 
 **Solar Power Banks** are compact devices that store electrical energy in a built-in battery and recharge using integrated solar panels. Typically ranging from 10,000mAh to 30,000mAh in capacity, they're ideal for charging smartphones, tablets, and other small USB-powered devices. Most feature multiple USB ports, waterproof casings, and built-in LED flashlights.
 
-**Portable Power Stations** are larger capacity power storage solutions with capacities ranging from 100Wh to 2,000Wh or more, stored in lithium-ion or LiFePO4 batteries. They feature multiple output options including AC outlets, DC ports, USB-A, USB-C, and sometimes wireless charging pads. This versatility allows them to power laptops, CPAP machines, mini-refrigerators, and other appliances requiring substantial power.
+**Portable Power Stations** are larger capacity power storage solutions with [capacities ranging from 100Wh to 2,000Wh](/posts/solar-generator-sizing-calculator/) or more, stored in lithium-ion or [LiFePO4 batteries](/posts/lifepo4-solar-battery/). They feature multiple output options including AC outlets, DC ports, USB-A, USB-C, and sometimes wireless charging pads. This versatility allows them to power laptops, CPAP machines, mini-refrigerators, and other appliances requiring substantial power.
 
 ## Key Differences
 

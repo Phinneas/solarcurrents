@@ -11,7 +11,7 @@ coverImage:
 tags: ["solar advice", "consumer protection", "solar shopping"]
 ---
 
-If you've searched "should I get solar" in the last year, almost every result you clicked on was written or produced by someone who gets paid when you say yes. That's not a conspiracy theory — it's just how the information supply chain for residential solar is built. The installer's sales rep, the "comparison" site that generated the lead, the YouTuber reviewing panels, and even some of the review sites ranking installers all have a financial stake in your decision. Understanding exactly how each one gets paid tells you more about which advice to trust than any star rating does.
+If you've searched "should I get solar" in the last year, almost every result you clicked on was written or produced by someone who gets paid when you say yes. That's not a conspiracy theory — it's just how the information supply chain for residential solar is built. The installer's [sales rep](/posts/what-your-solar-installer-wont-tell/), the "comparison" site that generated the lead, the YouTuber reviewing panels, and even some of the review sites ranking installers all have a financial stake in your decision. Understanding exactly how each one gets paid tells you more about which advice to trust than any star rating does.
 
 ## The sales rep: paid by the watt, not by your savings
 
@@ -31,9 +31,9 @@ A lot of "top 10 solar companies" content is affiliate-driven: the site earns a 
 
 ## When the conflict tips into fraud
 
-The commission and affiliate incentives above are legal and disclosed (if you read the fine print). But they sit on a spectrum, and the aggressive end of that spectrum has produced real enforcement action. Power Home Solar, later rebranded Pink Energy, shut down in late 2022 amid an FTC lawsuit and multiple state attorneys general actions alleging deceptive sales practices and understated savings promises. The FTC and California jointly went after PACE lender Ygrene over financing practices that left homeowners with property liens they didn't understand, resulting in a $3 million settlement earmarked for lien relief. Vivint Solar (now part of Sunrun) settled with New Jersey for $122,000 in 2019 over deceptive sales tactics and had to change its practices. These aren't fringe cases — they're the same commission-driven incentive structure described above, just further along the same curve, where "oversell the savings" turned into "misrepresent the contract."
+The commission and affiliate incentives above are legal and disclosed (if you read the fine print). But they sit on a spectrum, and the aggressive end of that spectrum has produced real enforcement action. [Power Home Solar](/posts/what-to-do-when-your-solar-installer-goes-dark/), later rebranded Pink Energy, shut down in late 2022 amid an FTC lawsuit and multiple state attorneys general actions alleging deceptive sales practices and understated savings promises. The FTC and California jointly went after PACE lender Ygrene over financing practices that left homeowners with property liens they didn't understand, resulting in a $3 million settlement earmarked for lien relief. Vivint Solar (now part of Sunrun) settled with New Jersey for $122,000 in 2019 over deceptive sales tactics and had to change its practices. These aren't fringe cases — they're the same commission-driven incentive structure described above, just further along the same curve, where "oversell the savings" turned into "misrepresent the contract."
 
-The common thread across nearly every FTC and state action against solar companies: overstated savings estimates, unclear or misrepresented financing terms, and high-pressure tactics that rushed homeowners past details they'd have caught if given time to actually read the contract.
+The common thread across nearly every FTC and state action against solar companies: overstated savings estimates, unclear or misrepresented financing terms, and high-pressure tactics that rushed homeowners past details they'd have caught if given time to [actually read the contract](/posts/the-12-question-checklist-before-you-sign-a-solar-contract/).
 
 ## What to read instead
 

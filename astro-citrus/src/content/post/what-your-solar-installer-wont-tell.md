@@ -11,13 +11,13 @@ coverImage:
 tags: ["batteries", "solar economics", "net metering", "buying guide"]
 ---
 
-A sales rep sits at your kitchen table with a proposal that includes a battery you didn't ask about. You ask whether you need it. They say something true — "it protects you during outages," "your utility barely pays you for exports anymore" — and the conversation moves on. Nothing dishonest happened. But the reason the battery is on that page has as much to do with how the rep gets paid as with your roof, your rate plan, or your outage history.
+A sales rep sits at your kitchen table with a proposal that includes a battery you didn't ask about. You ask whether you need it. They say something true — [it protects you during outages](/posts/solar-powered-generator-home-backup/), "[your utility barely pays you for exports anymore](/posts/net-metering-policy-by-state-2026/)" — and the conversation moves on. Nothing dishonest happened. But the reason the battery is on that page has as much to do with how the rep gets paid as with your roof, your rate plan, or your outage history.
 
 This is not a claim that installers are crooks. It's a claim about incentive structure, and about a specific 2026 arithmetic problem that most of the internet hasn't updated for.
 
 ## Battery attach is the only line that's growing
 
-Residential solar-only installations are forecast to fall 18–21% in 2026. Over the same period, the national solar-plus-storage attach rate hit roughly 45% in Q1 2026, up from about 38% a year earlier. Wood Mackenzie tracked that number climbing from 6% in Q1 2020 to 25% by Q1 2024. Residential storage deployment grew about 51% year over year in 2025, reaching 3.1 GWh.
+Residential solar-only installations are forecast to fall 18–21% in 2026. Over the same period, the national [solar-plus-storage attach rate](/posts/tou-rate-spread-battery-worth-it-map/) hit roughly 45% in Q1 2026, up from about 38% a year earlier. Wood Mackenzie tracked that number climbing from 6% in Q1 2020 to 25% by Q1 2024. Residential storage deployment grew about 51% year over year in 2025, reaching 3.1 GWh.
 
 Meanwhile customer acquisition cost is reportedly spiking around 40%, toward $0.84 per watt. When it costs more to get a customer in front of you and there are fewer of them, the only way the unit economics hold is to sell more per customer. A battery adds roughly $10,000–$16,000 to a residential contract. It is, structurally, the product the industry needs you to buy.
 

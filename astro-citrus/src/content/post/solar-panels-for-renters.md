@@ -15,7 +15,7 @@ coverImage:
 
 Renters want lower energy bills but don’t control the roof. Landlords may not allow permanent changes. Solar panels for renters can still work for you.
 
-Portable solar options fit on balconies or patios. Community solar lets you share energy from a larger project nearby. These choices don’t need roof access or property changes.
+Portable solar options fit on [balconies or patios](/notes/balcony-solar-the-renters-first-real-shot-at-solar/). [Community solar](/posts/community-solar-programs/) lets you share energy from a larger project nearby. These choices don’t need roof access or property changes.
 
 I’ve seen renters use these solutions to cut costs and use clean energy. What’s stopping you from trying solar?
 
@@ -23,7 +23,7 @@ I’ve seen renters use these solutions to cut costs and use clean energy. What�
 
 Solar panels for renters mean you use solar energy without owning a property. You work with what you have—balconies, patios, windows, or shared spaces.
 
-Portable solar panels fit on a balcony or patio, so you can generate some electricity even if your roof stays off limits. I’ve seen renters power lights, laptops, or phones using foldable or suitcase-style panels.
+Portable solar panels fit on a balcony or patio, so you can generate some electricity even if your roof stays off limits. I’ve seen renters power lights, laptops, or phones using [foldable or suitcase-style panels](/posts/foldable-solar-panels/).
 
 Community solar projects let you subscribe to offsite solar farms. You buy a share or pay for a portion of the power generated. You get credits on your electric bill. This works for most renters who want regular savings without installing hardware.
 

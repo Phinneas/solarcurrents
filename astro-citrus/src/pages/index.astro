@@ -146,7 +146,7 @@ const featuredPosts = sortedPosts.slice(0, 3);
     <h2 class="sec-h2">Start here</h2>
     <div class="posts-grid">
       {featuredPosts.map((post) => (
-        <a class="post" href={`/posts/${post.slug}/`}>
+        <a class="post" href={`/posts/${post.id}/`}>
           <div class="post-topic">{post.data.tags?.[0] ?? "Guide"}</div>
           <div class="post-title">{post.data.title}</div>
           <div class="post-desc">{post.data.description ?? "Read the full guide."}</div>

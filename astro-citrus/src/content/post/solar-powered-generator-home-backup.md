@@ -15,7 +15,7 @@ coverImage:
 
 Power outages happen more often than you think. Storms, grid failures, and aging infrastructure leave millions of households in the dark each year. A solar powered generator home backup system offers a clean, quiet, and sustainable solution that keeps your lights on when the grid goes down.
 
-Unlike gas generators, these systems produce zero emissions and require minimal maintenance. They charge silently during the day and stand ready whenever you need them.
+Unlike [gas generators](/posts/solar-power-bank-vs-generator-camping/), these systems produce zero emissions and require minimal maintenance. They charge silently during the day and stand ready whenever you need them.
 
 ## How Solar Backup Systems Work
 
@@ -33,7 +33,7 @@ Most households need between 3,000 and 10,000 watt-hours per day for essential l
 
 ## Portable vs Whole-Home Systems
 
-Portable solar generators suit small apartments, RVs, and emergency kits. They typically provide 500 to 3,000 watts and can power phones, laptops, and small appliances.
+[Portable solar generators](/posts/best-solar-generators-power-outages/) suit small apartments, RVs, and emergency kits. They typically provide 500 to 3,000 watts and can power phones, laptops, and small appliances.
 
 Whole-home systems integrate with your electrical panel. They handle larger loads like air conditioning, well pumps, and multiple circuits. These systems cost more upfront but offer complete coverage.
 
@@ -41,7 +41,7 @@ Which option fits your situation? Consider your budget, space, and power require
 
 ### Key Features to Look For
 
-Battery capacity matters most. Look for lithium iron phosphate (LiFePO4) batteries. They last longer and handle more charge cycles than older lead-acid options.
+Battery capacity matters most. Look for [lithium iron phosphate (LiFePO4) batteries](/posts/lifepo4-solar-battery/). They last longer and handle more charge cycles than older lead-acid options.
 
 Inverter size determines what you can run simultaneously. Match it to your peak load requirements.
 

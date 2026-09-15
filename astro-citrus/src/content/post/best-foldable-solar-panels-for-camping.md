@@ -240,7 +240,7 @@ Salt air destroys aluminum frames and corrodes MC4 connectors within two seasons
 
 The distinction matters for search intent and product selection. **Camping solar** prioritizes portability and rapid deployment—you set up and break down daily. **RV solar** prioritizes integration with 12V house batteries and semi-permanent installation.
 
-Camping panels typically output 5V USB or 18V for small power stations. RV panels integrate with 12V deep-cycle battery systems and require charge controllers. If you're camping _in_ an RV (travel trailer, camper van), see our [foldable solar panels for RVs guide](__GHOST_URL__/foldable-solar-panels-rvs/) for wiring and battery compatibility.
+Camping panels typically output 5V USB or 18V for small power stations. RV panels integrate with 12V deep-cycle battery systems and require charge controllers. If you're camping _in_ an RV (travel trailer, camper van), see our [foldable solar panels for RVs guide](/posts/foldable-solar-panels-rvs/) for wiring and battery compatibility.
 
 * * *
 
@@ -302,4 +302,4 @@ Yes. Unlike generators, which have strict hour restrictions and noise limits, so
 
 Ready to spec your complete system? Review our detailed [foldable solar panels technical guide](/posts/foldable-solar-panels/) for charge controller deep-dives and wiring specifications.
 
-If you're camping _with_ an RV (travel trailer or camper van), check our [foldable solar panels for RVs guide](__GHOST_URL__/foldable-solar-panels-rvs/) for 12V battery integration and boondocking power planning.
+If you're camping _with_ an RV (travel trailer or camper van), check our [foldable solar panels for RVs guide](/posts/foldable-solar-panels-rvs/) for 12V battery integration and boondocking power planning.

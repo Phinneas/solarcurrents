@@ -10,7 +10,7 @@ tags: ["time-of-use rates", "solar battery", "battery storage", "utility rates",
 ---
 
 
-Every solar battery pitch leans on the same line: charge cheap, discharge expensive, pocket the difference. What it usually skips is the number that determines whether that math actually works — the size of the gap between your utility's peak and off-peak rate, in real cents per kWh, not a percentage. A 20-cent spread on 400 kWh of shifted monthly usage is worth roughly $80 a month. A 7-cent spread on the same usage is worth $28. Same behavior, same battery, wildly different payback — and almost nobody publishes the utility-by-utility numbers side by side.
+Every solar battery pitch leans on the same line: [charge cheap, discharge expensive, pocket the difference](/posts/why-your-electric-bill-spikes-at-7-pm-even-with-solar-panels/). What it usually skips is the number that determines whether that math actually works — the size of the gap between your utility's peak and off-peak rate, in real cents per kWh, not a percentage. A 20-cent spread on 400 kWh of shifted monthly usage is worth roughly $80 a month. A 7-cent spread on the same usage is worth $28. Same behavior, same battery, wildly different payback — and almost nobody publishes the utility-by-utility numbers side by side.
 
 Here's what the actual 2026 rate sheets say, and which utilities clear the bar.
 
@@ -20,11 +20,11 @@ Here's what the actual 2026 rate sheets say, and which utilities clear the bar.
 
 A battery earning its keep on rate arbitrage alone needs three things to line up, not one:
 
-A peak/off-peak spread wide enough to matter — generally north of 20¢/kWh, since installed battery costs now run $850–$1,700 per usable kWh and every cycle needs to earn its share of that back.
+A peak/off-peak spread wide enough to matter — generally north of 20¢/kWh, since [installed battery costs](/posts/solar-battery-buyers-guide/) now run $850–$1,700 per usable kWh and every cycle needs to earn its share of that back.
 
 A peak window that actually overlaps your usage. SCE's 5–8 PM plan is useless to you if you're not home until 6:30. A wide spread on hours you were never drawing from the grid anyway saves nothing.
 
-A tariff that holds still long enough to pay the battery off. Utilities revise TOU schedules almost every year — several of the rates below changed in just the last six months — and a 10-year Tesla Powerwall warranty assumes the rate structure you signed up for still exists in year 8.
+A tariff that holds still long enough to pay the battery off. Utilities revise TOU schedules almost every year — several of the rates below changed in just the last six months — and a 10-year [Tesla Powerwall](/posts/how-home-solar-power-banks-work/) warranty assumes the rate structure you signed up for still exists in year 8.
 
 Miss any of the three and the "arbitrage" is theoretical.
 

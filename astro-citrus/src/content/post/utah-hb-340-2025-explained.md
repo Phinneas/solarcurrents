@@ -15,7 +15,7 @@ coverImage:
 
 ## TL;DR
 
-Utah HB 340, signed into law in 2025 and effective May 1, prohibits HOAs and local governments from banning or unreasonably restricting rooftop solar panels and battery storage systems. Restrictions are allowed only if they don't reduce system efficiency or increase costs by more than 10%. The law closes loopholes from previous solar protections and explicitly extends to integrated solar-plus-storage systems.
+Utah HB 340, signed into law in 2025 and effective May 1, prohibits [HOAs and local governments](/posts/balcony-solar-laws-by-state/) from banning or unreasonably restricting [rooftop solar panels](/posts/ultimate-guide-to-high-efficiency-solar-panels/) and battery storage systems. Restrictions are allowed only if they don't reduce system efficiency or increase costs by more than 10%. The law closes loopholes from previous solar protections and explicitly extends to integrated [solar-plus-storage systems](/posts/how-home-solar-power-banks-work/).
 
 * * *
 

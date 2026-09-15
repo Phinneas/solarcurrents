@@ -11,7 +11,7 @@ coverImage:
 tags: ["van life", "solar sizing", "compressor fridge", "battery"]
 ---
 
-Search "how much solar for a van fridge" and you'll get the same answer from a dozen sites: 300–400W is enough. That number isn't wrong, exactly. It's an average dressed up as a rule. It comes from someone's build, in their climate, with their panel angle, running their fridge. Change any one of those variables and 400W stops covering the load — and nobody selling panels wants to walk you through why.
+Search ["how much solar for a van fridge"](/posts/van-life-solar-setup-guide/) and you'll get the same answer from a dozen sites: 300–400W is enough. That number isn't wrong, exactly. It's an average dressed up as a rule. It comes from someone's build, in their climate, with their panel angle, running their fridge. Change any one of those variables and 400W stops covering the load — and nobody selling panels wants to walk you through why.
 
 Here's the actual math, broken into the three places a 400W system quietly falls short: what the panels really produce, what the fridge really draws, and what happens when both move against you at once.
 
@@ -27,13 +27,13 @@ Peak sun hours vary enormously by season and latitude:
 - Northern US and Canada, winter: 2–3 hours
 - Pacific Northwest, most of the year: 3–5 hours
 
-Run the numbers on a flat-mounted 400W array with a realistic 78% system efficiency: 400W × 5 peak sun hours × 0.78 ≈ 1,560Wh on a good summer day. Same array in December at 40°N latitude, with only 2.5 peak sun hours: 400W × 2.5 × 0.78 ≈ 780Wh — half the output, from the same hardware. Several vanlife solar guides now publish this exact seasonal swing directly: a 400W setup producing roughly 2,000Wh on a clear June day can drop to 400–600Wh on a grey December one. That's not a system failure. That's the sun.
+Run the numbers on a flat-mounted 400W array with a realistic 78% system efficiency: 400W × 5 peak sun hours × 0.78 ≈ 1,560Wh on a good summer day. Same array in December at 40°N latitude, with only 2.5 peak sun hours: 400W × 2.5 × 0.78 ≈ 780Wh — half the output, from the same hardware. Several vanlife solar guides now publish this exact seasonal swing directly: [a 400W setup](/posts/rv-solar-panel-sizing-guide/) producing roughly 2,000Wh on a clear June day can drop to 400–600Wh on a grey December one. That's not a system failure. That's the sun.
 
 ## What Your Compressor Fridge Actually Draws
 
 The other half of the equation gets fuzzier, because fridge power draw isn't a fixed number — it's a duty cycle, and duty cycle moves with ambient temperature.
 
-Real measured data on common 12V compressor fridges (Dometic, ARB, and similar):
+Real measured data on common [12V compressor fridges](/posts/camping-solar-generator-guide/) (Dometic, ARB, and similar):
 
 - Compressor running: 30–75W depending on model, with a brief startup spike (5–6A) each cycle
 - Mild weather (20–25°C ambient): 30–40% duty cycle, landing around 15–20Ah/day

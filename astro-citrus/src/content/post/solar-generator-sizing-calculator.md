@@ -17,7 +17,7 @@ Start by listing every device you plan to power. Check the wattage rating on eac
 
 Convert amps to watts using this formula: Watts = Amps × Volts. Standard household outlets provide 120 volts in North America.
 
-Your refrigerator might draw 150 watts continuously but spike to 600 watts when the compressor starts. Always account for these surge requirements when sizing your system.
+Your refrigerator might draw 150 watts continuously but spike to 600 watts when the compressor starts. Always account for these [surge requirements](/posts/van-life-solar-sizing-400w-compressor-fridge/) when sizing your system.
 
 ## Calculating Daily Energy Consumption
 
@@ -36,7 +36,7 @@ This number represents your baseline energy needs before considering efficiency 
 
 ## Battery Capacity and Depth of Discharge
 
-Solar generators use lithium batteries that shouldn't discharge completely. Most manufacturers recommend staying above 20% capacity to extend battery life.
+Solar generators use [lithium batteries](/posts/lifepo4-vs-nmc-battery-lifespan/) that shouldn't discharge completely. Most manufacturers recommend staying above 20% capacity to extend battery life.
 
 If you need 2,195 Wh daily, divide by 0.8 (for 80% usable capacity): 2,195 ÷ 0.8 = 2,744 Wh minimum battery capacity.
 

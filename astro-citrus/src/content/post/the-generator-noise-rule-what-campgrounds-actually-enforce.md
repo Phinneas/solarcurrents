@@ -13,7 +13,7 @@ tags: ["generator noise", "campground rules", "portable solar generator", "RV ca
 
 Every campground has a "quiet hours" sign. Almost nobody reads the generator rule next to it, which is usually a separate, narrower set of hours — and which one applies to you depends entirely on what kind of campground you're standing in.
 
-National parks, private chains like KOA, and BLM dispersed sites don't just have different quiet hours. They operate under different authorities, different enforcement levels, and in one case, almost no rules at all. Here's what's actually written down, what gets enforced in practice, and why a growing number of campers are sidestepping the whole question by not bringing a generator at all.
+National parks, private chains like KOA, and BLM dispersed sites don't just have different quiet hours. They operate under different authorities, different enforcement levels, and in one case, almost no rules at all. Here's what's actually written down, what gets enforced in practice, and why a growing number of campers are sidestepping the whole question by [not bringing a generator at all](/posts/solar-power-bank-vs-generator-camping/).
 
 ## Quiet Hours and Generator Hours Are Two Different Rules
 
@@ -27,7 +27,7 @@ National Park Service campgrounds tend to post the most detailed rules, and they
 
 At Yosemite and Sequoia & Kings Canyon, quiet hours run 10 PM to 6 AM, with generator use restricted to specific windows on top of that — commonly something like 8–11 AM and 5–8 PM, with some loops banning generators entirely regardless of time. Mount Rainier runs quiet hours from 9 PM to 7 AM with three separate generator windows (roughly 8–10 AM, noon–2 PM, and 5–7 PM), and bans generators outright in certain campground loops. Yellowstone is stricter still, with an 8 PM to 8 AM no-generator, no-loud-noise window.
 
-The pattern across most national parks: a handful of two-hour generator windows during the day, a long overnight ban, and an increasing number of generator-free loops or sites reserved specifically for tent campers who don't want engine noise next door. National forests (a different federal agency, U.S. Forest Service) follow the same general shape but set their own hours forest by forest — there's no single rule that covers all of them.
+The pattern across most national parks: a handful of two-hour generator windows during the day, a long overnight ban, and an increasing number of generator-free loops or sites reserved specifically for [tent campers](/posts/best-solar-panels-for-camping/) who don't want engine noise next door. National forests (a different federal agency, U.S. Forest Service) follow the same general shape but set their own hours forest by forest — there's no single rule that covers all of them.
 
 ## KOA and Private Campgrounds: It Depends on Who Owns That Location
 
@@ -35,7 +35,7 @@ KOA is a franchise, not a single operator — each of its 500+ locations is inde
 
 A meaningful number of full-hookup KOAs ban generators outright — not because of noise specifically, but because every site already has electric service, so there's no legitimate reason to run one. Others allow brief use outside quiet hours (one location's posted rule: up to 45 minutes, for things like topping off batteries). Where generators are allowed, a 60 dB noise limit gets cited often enough that it's become something close to an industry default — but it's set by each individual campground, not a KOA-wide corporate policy, so don't assume it applies until you check that specific location's rules.
 
-## BLM Dispersed Camping: Minimal Rules, Maximum Etiquette
+## [BLM Dispersed Camping](/posts/solar-for-boondocking/): Minimal Rules, Maximum Etiquette
 
 This is the loosest tier by a wide margin. The Bureau of Land Management oversees roughly 245 million acres, much of it open to dispersed camping — camping outside any developed, staffed campground. Because there's no campground host and often no posted signage at all, there are typically no established quiet hours and no generator-specific time windows.
 

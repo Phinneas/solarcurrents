@@ -11,9 +11,9 @@ coverImage:
 tags: ["solar-panels", "efficiency", "buying-guide", "topcon", "monocrystalline"]
 ---
 
-A manufacturer's spec sheet says 22.8% efficiency. A lab in Germany just set a record at 47.6%. Neither number tells you what your roof will actually produce, and the gap between them is bigger than most buying guides let on.
+A manufacturer's spec sheet says 22.8% efficiency. A lab in Germany just set a record at 47.6%. Neither number tells you [what your roof will actually produce](/posts/why-your-electric-bill-spikes-at-7-pm-even-with-solar-panels/), and the gap between them is bigger than most buying guides let on.
 
-Here's what those numbers really mean, why three different test standards give you three different answers for the same panel, and whether paying extra for the highest efficiency rating on the market is worth it.
+Here's what those numbers really mean, why three different test standards give you three different answers for the same panel, and whether paying extra for the highest efficiency rating on the market [is worth it](/posts/california-nem-3-vs-nem-2-solar-payback-math/).
 
 > **Run your own numbers first.** The Solar Math Worksheet is one fillable page: your rate structure, TOU spread, battery sizing goal, incentive stack, and payback estimate — the math this site keeps telling you to do, in order. [Download the free PDF](/downloads/solar-math-worksheet.pdf). No email required.
 

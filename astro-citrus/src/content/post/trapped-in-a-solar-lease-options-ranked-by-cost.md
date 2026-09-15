@@ -11,7 +11,7 @@ coverImage:
 tags: ["solar leases", "solar financing", "solar contracts", "selling a home with solar"]
 ---
 
-Every solar lease exit guide lists the same four options: cancel in the cooling-off window, transfer the lease, buy it out, or fight the contract in court. What almost none of them do is put a number next to each one. That's the actual decision you're making — not "which option exists" but "which one costs the least given where I am in the contract right now." Here they are, ranked cheapest to most expensive, with the real numbers and the catch attached to each.
+Every solar lease exit guide lists the same four options: cancel in the cooling-off window, transfer the lease, buy it out, or [fight the contract in court](/posts/what-to-do-when-your-solar-installer-goes-dark/). What almost none of them do is put a number next to each one. That's the actual decision you're making — not "which option exists" but "which one costs the least given where I am in the contract right now." Here they are, ranked cheapest to most expensive, with the real numbers and the catch attached to each.
 
 ## 1. Cancel in the cooling-off window — free, but the window is smaller than it sounds
 
@@ -33,7 +33,7 @@ Run the actual math before assuming "just keep paying" is the cheap option: take
 
 ## 4. Buy out the contract — real money, and the number is negotiable
 
-Buyout pricing usually comes from one of two methods, and your contract may specify which applies, or let the lessor pick whichever is higher. The **cost approach** values the system at its depreciated hardware value — often low, since used panels and inverters don't hold value well. The **income approach** — which most solar companies default to — values the system on the net present value of the electricity it's projected to generate over its remaining life; because retail electricity rates have climbed, this number often runs high even on a mid-life system. Some contracts specify a fixed buyout schedule instead — for example, $18,000 at year 7, dropping to $14,000 at year 10, $8,000 at year 15 — which is more predictable but not necessarily cheaper.
+[Buyout pricing](/posts/how-to-read-a-solar-proposal-line-by-line/) usually comes from one of two methods, and your contract may specify which applies, or let the lessor pick whichever is higher. The **cost approach** values the system at its depreciated hardware value — often low, since used panels and inverters don't hold value well. The **income approach** — which most solar companies default to — values the system on the net present value of the electricity it's projected to generate over its remaining life; because retail electricity rates have climbed, this number often runs high even on a mid-life system. Some contracts specify a fixed buyout schedule instead — for example, $18,000 at year 7, dropping to $14,000 at year 10, $8,000 at year 15 — which is more predictable but not necessarily cheaper.
 
 Early buyouts, in the first five years of a lease, commonly run $15,000 to $40,000 depending on system size and remaining term. Ask your lessor in writing which valuation method applies to your contract and get the exact figure — don't accept a verbal estimate. If the number seems inflated relative to a comparable new install in your area, that's a legitimate point to push back on, especially if your contract allows an independent appraisal.
 

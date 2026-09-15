@@ -6,6 +6,6 @@ publishDate: "2026-04-15T00:00:00Z"
 
 Solar panels aren't like a row of buckets filling independently. Most are wired so that one shaded cell drags down the output of the entire string.
 
-Park your RV under a tree for afternoon shade and your 400W array might produce less than 100W — not because of cloud cover, but because three cells are in shadow.
+Park your [RV](/posts/off-grid-rv-solar/) under a tree for afternoon shade and your 400W array might produce less than 100W — not because of cloud cover, but because three cells are in shadow.
 
-This is why bypass diodes matter, why MPPT controllers outperform PWM in partial shade, and why panel placement deserves more thought than panel wattage.
+This is why bypass diodes matter, why [MPPT controllers](/posts/mppt-charge-controller-sizing/) outperform PWM in partial shade, and why [panel placement](/posts/rv-solar-panel-sizing-guide/) deserves more thought than panel wattage.

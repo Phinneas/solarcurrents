@@ -15,7 +15,7 @@ Most "questions to ask before going solar" lists are really about vetting the sa
 
 ## 1. Does this qualify for the FTC's 3-day cancellation window, and did I get the notice in writing?
 
-Under the FTC's Cooling-Off Rule (16 CFR Part 429), most solar sales made at your home qualify as door-to-door sales, giving you three business days to cancel for any reason. The seller is legally required to give you two copies of a cancellation form in writing at the time of signing. If they didn't, the clock on your right to cancel may not have started at all — in some interpretations it stays open indefinitely until you receive that notice. Check the contract for the cancellation form itself, not just a mention of a right to cancel.
+Under the [FTC's Cooling-Off Rule](/posts/trapped-in-a-solar-lease-options-ranked-by-cost/) (16 CFR Part 429), most solar sales made at your home qualify as door-to-door sales, giving you three business days to cancel for any reason. The seller is legally required to give you two copies of a cancellation form in writing at the time of signing. If they didn't, the clock on your right to cancel may not have started at all — in some interpretations it stays open indefinitely until you receive that notice. Check the contract for the cancellation form itself, not just a mention of a right to cancel.
 
 ## 2. Is there a UCC-1 fixture filing, and who is responsible for terminating it?
 
@@ -31,11 +31,11 @@ Ownership structure determines who claims the federal tax credit. If you own the
 
 ## 5. What's the production guarantee, and how is a shortfall actually paid out?
 
-Many contracts guarantee a minimum annual kWh output and promise "true-up" compensation if the system underperforms. In practice, this is usually cash compensation of $0.10–$0.20 per missing kWh, calculated against your utility's annual true-up bill, and it requires you to file a claim — it isn't paid automatically. Ask exactly how the shortfall is measured, whether shading, panel degradation, or "unusual weather" clauses can exclude a bad year from the calculation, and how long you have to file.
+Many contracts [guarantee a minimum annual kWh output](/posts/how-to-read-a-solar-proposal-line-by-line/) and promise "true-up" compensation if the system underperforms. In practice, this is usually cash compensation of $0.10–$0.20 per missing kWh, calculated against your utility's annual true-up bill, and it requires you to file a claim — it isn't paid automatically. Ask exactly how the shortfall is measured, whether shading, panel degradation, or "unusual weather" clauses can exclude a bad year from the calculation, and how long you have to file.
 
 ## 6. Does the contract include a mandatory arbitration clause?
 
-Many residential solar contracts — including from some of the largest national installers — include mandatory binding arbitration clauses that waive your right to a jury trial and to join a class action, routing any dispute to a private arbitrator instead of a courtroom. This is legal, and it's common, but it's not something a salesperson volunteers. If the contract has one, understand that your only recourse for a dispute — including installation defects or a broken production guarantee — runs through arbitration, not small claims court.
+Many residential solar contracts — including from some of the largest national installers — include [mandatory binding arbitration clauses](/posts/what-your-solar-installer-wont-tell/) that waive your right to a jury trial and to join a class action, routing any dispute to a private arbitrator instead of a courtroom. This is legal, and it's common, but it's not something a salesperson volunteers. If the contract has one, understand that your only recourse for a dispute — including installation defects or a broken production guarantee — runs through arbitration, not small claims court.
 
 ## 7. What's the difference between the equipment warranty and the workmanship warranty — and who backs each one?
 

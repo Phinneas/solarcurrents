@@ -13,13 +13,13 @@ coverImage:
 
 ## Introduction
 
-Window solar panels sound perfect—free electricity from glass you already have. But before you install, here's what solar companies aren't telling you.
+[Window solar panels](/notes/window-solar-panels-useful-in-one-specific-situation/) sound perfect—free electricity from glass you already have. But before you install, here's what solar companies aren't telling you.
 
-Transparent solar cells use organic photovoltaic materials to absorb ultraviolet and infrared light while letting visible light pass through. The concept is elegant: turn your windows into power generators without blocking your view. The problem? The reality is far more complicated than the marketing suggests.
+[Transparent solar cells](/posts/balcony-solar-panels/) use organic photovoltaic materials to absorb ultraviolet and infrared light while letting visible light pass through. The concept is elegant: turn your windows into power generators without blocking your view. The problem? The reality is far more complicated than the marketing suggests.
 
 Window solar comes in two forms. Building-integrated systems permanently replace your windows (cost: $20-40 per square foot installed). Small retrofit panels mount on existing window frames and are mostly used to power motorized blinds ($40-150 each). This guide covers both, but focuses on the integrated systems most people actually consider.
 
-Here's what you need to know before committing: window solar underperforms rooftop panels by a significant margin, costs more per watt, and takes 15-30 years to pay back instead of the 7-15 years marketed. The question isn't whether it works—it does. The question is whether it makes sense for your specific situation. This guide helps you answer that honestly.
+Here's what you need to know before committing: window solar underperforms [rooftop panels](/posts/ultimate-guide-to-high-efficiency-solar-panels/) by a significant margin, costs more per watt, and takes 15-30 years to pay back instead of the 7-15 years marketed. The question isn't whether it works—it does. The question is whether it makes sense for your specific situation. This guide helps you answer that honestly.
 
 * * *
 

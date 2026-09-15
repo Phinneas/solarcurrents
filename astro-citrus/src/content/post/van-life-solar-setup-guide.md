@@ -31,11 +31,11 @@ Before sizing anything, you need to speak the language of your system. Confusion
 
 **12V DC vs. 110V AC:** Your batteries output 12V direct current (DC). Most household appliances need 110V alternating current (AC). An inverter converts DC to AC. This conversion isn't free—you lose 5-15% efficiency in the process.
 
-**Voltage Drop:** When electricity travels through undersized wiring over distance, it loses voltage. A laptop charger 20 feet from your battery might receive 11V instead of 12V, charging slower and wasting energy as heat. This is why wire gauge matters.
+**Voltage Drop:** When electricity travels through undersized wiring over distance, it loses voltage. A laptop charger 20 feet from your battery might receive 11V instead of 12V, charging slower and wasting energy as heat. This is why [wire gauge matters](/posts/rv-solar-panel-wiring-series-parallel/).
 
-**MPPT vs. PWM:** These are two types of solar charge controllers. MPPT (Maximum Power Point Tracking) is more expensive but captures 20-30% more power from your panels, especially useful in partial shade or temperature fluctuations. PWM (Pulse Width Modulation) is cheaper and works fine for simple systems. MPPT is worth the upgrade if you can afford it.
+**MPPT vs. PWM:** These are two types of solar charge controllers. [MPPT](/posts/mppt-charge-controller-sizing/) (Maximum Power Point Tracking) is more expensive but captures 20-30% more power from your panels, especially useful in partial shade or temperature fluctuations. PWM (Pulse Width Modulation) is cheaper and works fine for simple systems. MPPT is worth the upgrade if you can afford it.
 
-**Usable Capacity:** Lithium batteries can discharge 80-100% safely. AGM batteries should only discharge to 50% to maintain lifespan. A "100Ah" AGM battery only provides 50Ah of usable capacity, which affects your system sizing.
+**Usable Capacity:** [Lithium batteries](/posts/lifepo4-vs-nmc-battery-lifespan/) can discharge 80-100% safely. AGM batteries should only discharge to 50% to maintain lifespan. A "100Ah" AGM battery only provides 50Ah of usable capacity, which affects your system sizing.
 
 **Continuous Load vs. Peak Load:** Your refrigerator draws 50 watts continuously. Your inverter powering a microwave might need 1,200 watts for a few seconds (peak load). Your inverter must handle peak loads even if your average power draw is much lower.
 
