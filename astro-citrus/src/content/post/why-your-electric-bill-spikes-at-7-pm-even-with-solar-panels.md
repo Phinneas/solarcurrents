@@ -4,8 +4,10 @@ description: "Solar panels stop producing right around when you need power most.
 publishDate: "19 June 2026"
 updatedDate: "19 June 2026"
 coverImage:
-  src: "https://images.unsplash.com/photo-1624982852928-a800a5123513?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDI0fHxzb2xhcixwb3dlcnxlbnwwfHx8fDE3MTk4Njg3ODR8MA&ixlib=rb-4.1.0&q=80&w=2000"
-  alt: "Solar panels on a home roof at sunset"
+  src: "/images/posts/why-your-electric-bill-spikes-at-7-pm-even-with-solar-panels/cover.jpg"
+  width: 2000
+  height: 1246
+  alt: "The sun setting behind a rooftop solar panel"
 tags: ["time-of-use rates", "solar battery", "net metering", "duck curve", "home solar"]
 ---
 

@@ -17,8 +17,10 @@ faqs:
 publishDate: "14 August 2026"
 updatedDate: "14 August 2026"
 coverImage:
-  src: "https://images.unsplash.com/photo-1620714223084-866e08865c07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000"
-  alt: "Close-up of lithium battery cells inside an open portable power station"
+  src: "/images/posts/lifepo4-vs-nmc-battery-lifespan/cover.jpg"
+  width: 2000
+  height: 1500
+  alt: "Wall-mounted solar and battery storage system installed on a home exterior wall"
 tags: ["lifepo4", "nmc", "battery-chemistry", "solar-energy-storage", "rv-power", "battery-lifespan", "technical-faq"]
 ---
 

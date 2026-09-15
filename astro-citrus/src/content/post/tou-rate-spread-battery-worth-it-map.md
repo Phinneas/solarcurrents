@@ -4,8 +4,10 @@ description: "A ranked comparison of real 2026 time-of-use rate spreads by utili
 publishDate: "9 July 2026"
 updatedDate: "9 July 2026"
 coverImage:
-  src: "https://images.unsplash.com/photo-1624982852928-a800a5123513?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDI0fHxzb2xhcixwb3dlcnxlbnwwfHx8fDE3MTk4Njg3ODR8MA&ixlib=rb-4.1.0&q=80&w=2000"
-  alt: "Electric meter and solar panels on a home at dusk"
+  src: "/images/posts/tou-rate-spread-battery-worth-it-map/cover.jpg"
+  width: 2000
+  height: 1333
+  alt: "A row of gray electricity meters mounted on a wall"
 tags: ["time-of-use rates", "solar battery", "battery storage", "utility rates", "home solar"]
 ---
 
