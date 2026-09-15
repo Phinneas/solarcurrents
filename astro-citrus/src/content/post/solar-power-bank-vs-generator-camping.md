@@ -1,6 +1,6 @@
 ---
 title: "Solar Power Bank vs Generator Camping Guide"
-description: "A post about solar energy"
+description: "Solar power bank vs camping generator compared on weight, noise, capacity, and cost — and which fits car camping, backpacking, or week-long trips."
 publishDate: "24 February 2026"
 updatedDate: "24 February 2026"
 coverImage:

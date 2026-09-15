@@ -1,5 +1,6 @@
 ---
 title: "Why balcony solar has a genuine safety consideration worth knowing"
+description: "Plug-in solar pushes power back through your outlets, which can stress older wiring. Here's the real risk and why UL 3700 certification matters."
 publishDate: "2026-04-22T00:00:00Z"
 ---
 

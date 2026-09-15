@@ -1,6 +1,6 @@
 ---
 title: "Solar Powered Generator Home Backup Systems That Work"
-description: "A post about solar energy"
+description: "How solar-powered generator home backup systems work, what size you need for outages, and where they beat gas generators on noise and fuel."
 publishDate: "18 March 2026"
 updatedDate: "18 March 2026"
 coverImage:

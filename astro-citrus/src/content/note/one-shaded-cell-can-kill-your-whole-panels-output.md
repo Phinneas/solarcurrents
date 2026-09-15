@@ -1,5 +1,6 @@
 ---
 title: "One shaded cell can kill your whole panel's output"
+description: "Why one shaded cell can cut an entire solar array's output — and how bypass diodes, MPPT controllers, and smarter panel placement limit the damage."
 publishDate: "2026-04-15T00:00:00Z"
 ---
 

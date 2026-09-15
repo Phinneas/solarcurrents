@@ -1,5 +1,6 @@
 ---
 title: "The number everyone gets wrong when buying a solar generator"
+description: "Watt-hours, not watts, decide how long a solar generator runs. Here's the sizing math buyers get wrong and how to avoid an undersized battery."
 publishDate: "2026-04-10T00:00:00Z"
 ---
 

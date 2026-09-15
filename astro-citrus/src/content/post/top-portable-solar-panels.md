@@ -1,6 +1,6 @@
 ---
 title: "Top Portable Solar Panels"
-description: "A post about solar energy"
+description: "The best portable solar panels for camping and off-grid power, compared by output, weight, and durability — plus what to check before you buy."
 publishDate: "26 March 2025"
 updatedDate: "16 April 2025"
 coverImage:

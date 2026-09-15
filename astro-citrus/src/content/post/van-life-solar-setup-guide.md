@@ -1,6 +1,6 @@
 ---
 title: "Van Life Solar Setup Guide for Off-Grid Adventures"
-description: "A post about solar energy"
+description: "A van life solar setup that accounts for alternator and shore power, not just panels — sizing, wiring, and why solar-only builds run out of power."
 publishDate: "17 November 2025"
 updatedDate: "17 November 2025"
 coverImage:

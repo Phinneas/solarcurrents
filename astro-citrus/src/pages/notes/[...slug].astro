@@ -21,9 +21,7 @@ export type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 const { note } = Astro.props;
 
 const meta = {
-	description:
-		note.data.description ||
-		`Read about my note posted on: ${note.data.publishDate.toLocaleDateString()}`,
+	description: note.data.description,
 	title: note.data.title,
 };
 ---

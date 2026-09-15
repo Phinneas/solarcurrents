@@ -1,6 +1,6 @@
 ---
 title: "Solar Generator Sizing Calculator Guide"
-description: "A post about solar energy"
+description: "Size a solar generator from real loads: how to read watt and surge ratings, convert amps to watts, and total daily watt-hours before you buy."
 publishDate: "28 October 2025"
 updatedDate: "28 October 2025"
 coverImage:

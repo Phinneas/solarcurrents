@@ -1,6 +1,6 @@
 ---
 title: "Solar Panels for Renters"
-description: "A post about solar energy"
+description: "Renter-friendly solar that needs no roof or landlord approval: balcony and portable panels, community solar, and what each option really saves."
 publishDate: "6 October 2025"
 updatedDate: "25 October 2025"
 coverImage:

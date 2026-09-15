@@ -1,6 +1,6 @@
 ---
 title: "Solar Panels Car Camping Guide for Off-Grid Adventures"
-description: "A post about solar energy"
+description: "Build a car camping solar setup that actually works: panel and battery sizing for fridges and devices, mounting options, and what you can skip."
 publishDate: "23 March 2026"
 updatedDate: "23 March 2026"
 coverImage:

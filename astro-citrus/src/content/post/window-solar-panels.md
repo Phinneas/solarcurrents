@@ -1,6 +1,6 @@
 ---
 title: "How Window Solar Panels Are Changing Home Energy"
-description: "A post about solar energy"
+description: "Window solar panels, tested honestly: real output versus rooftop, installed and retrofit costs, payback math, and the one case where they make sense."
 publishDate: "9 December 2025"
 updatedDate: "9 December 2025"
 coverImage:

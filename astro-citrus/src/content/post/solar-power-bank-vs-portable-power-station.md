@@ -1,6 +1,6 @@
 ---
 title: "Solar Power Bank vs Portable Power Station"
-description: "A post about solar energy"
+description: "Solar power bank or portable power station? Compare capacity, price, and use cases to pick the right power source for phones, laptops, or appliances."
 publishDate: "5 August 2025"
 updatedDate: "1 November 2025"
 coverImage:

@@ -1,5 +1,6 @@
 ---
 title: "Why solar sizing guides all say 'it depends' (and what to do about it)"
+description: "Solar sizing guides hedge because the variables are real. Pin down three — location, daily watt-hours, and cloudy-day reserve — and the math gets clear."
 publishDate: "2026-04-20T00:00:00Z"
 ---
 

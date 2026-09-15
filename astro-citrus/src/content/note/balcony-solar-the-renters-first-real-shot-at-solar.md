@@ -1,5 +1,6 @@
 ---
 title: "Balcony solar: the renter's first real shot at solar"
+description: "Balcony solar (plug-in solar) explained: how 1–3 railing-mounted panels work, what a 400–800W system costs and saves, and which states legalized it."
 publishDate: "2026-04-21T00:00:00Z"
 ---
 

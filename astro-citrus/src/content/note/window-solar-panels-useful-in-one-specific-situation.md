@@ -1,5 +1,6 @@
 ---
 title: "Window solar panels: useful in one specific situation"
+description: "Window solar panels produce roughly a fifth of a rooftop panel's output. Here's the one renter scenario where they're worth it — and where they aren't."
 publishDate: "2026-04-18T00:00:00Z"
 ---
 

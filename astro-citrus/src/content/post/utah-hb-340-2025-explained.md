@@ -1,6 +1,6 @@
 ---
 title: "Utah HB 340 (2025) Explained: What the New Solar Access Law Means for Homeowners"
-description: "A post about solar energy"
+description: "Utah HB 340 explained: how the 2025 law stops HOAs and cities from banning rooftop solar and batteries, the 10% cost rule, and who it protects."
 publishDate: "26 November 2025"
 updatedDate: "29 December 2025"
 coverImage:

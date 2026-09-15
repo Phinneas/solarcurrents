@@ -1,5 +1,6 @@
 ---
 title: "NEC codes for solar and energy systems — a plain English guide"
+description: "A plain-English guide to the NEC articles that govern solar and batteries: 551 for RVs, 690 for PV, 705 for grid ties, 706 for storage, and 750."
 publishDate: "2026-06-28T00:00:00Z"
 ---
 
