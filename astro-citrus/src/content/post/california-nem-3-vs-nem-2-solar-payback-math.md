@@ -1,6 +1,13 @@
 ---
 title: "California NEM 3.0 vs. NEM 2.0: The Solar Payback Math Before and After"
 description: "The real payback numbers under NEM 3.0 vs. NEM 2.0 — export rates, worked examples, grandfathering rules, and why the 75% headline misleads."
+faqs:
+  - question: "How much did NEM 3.0 cut solar export rates in California?"
+    answer: "NEM 3.0 sharply reduced what exports are worth compared with NEM 2.0's near-retail credit. The widely cited '75% less' headline is directionally right but misleading, because it compares average export value against a rate most systems never earned on every kWh."
+  - question: "Does NEM 2.0 grandfathering still apply?"
+    answer: "Customers who interconnected under NEM 2.0 keep those terms for 20 years from their original approval, and that grandfathering survived attempts to roll it back. Major system changes or moving the account can put you on NEM 3.0 instead."
+  - question: "Is solar still worth it under NEM 3.0?"
+    answer: "Yes, but the economics shift from export credits to self-consumption. Without a battery, payback stretches out considerably; pairing solar with storage and time-of-use arbitrage changes the math back in your favor."
 publishDate: "13 July 2026"
 updatedDate: "13 July 2026"
 coverImage:

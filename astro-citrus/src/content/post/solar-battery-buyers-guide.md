@@ -1,6 +1,13 @@
 ---
 title: "Home Solar Batteries 2026 and a buyer's Roadmap"
 description: "How to buy a home solar battery: check your rate structure, HOA, and inverter first, then size it in 3 steps with your own hourly usage data."
+faqs:
+  - question: "How do I size a home solar battery?"
+    answer: "Check your rate structure, HOA rules, and inverter compatibility first, then size it in three steps using your own hourly usage data rather than a generic rule of thumb."
+  - question: "What should I check before buying a solar battery?"
+    answer: "Your time-of-use rate spread, whether your HOA allows storage, and whether your inverter is battery-ready. Sizing comes after those three checks, not before."
+  - question: "Do I need a battery if I have net metering?"
+    answer: "If your utility still pays near-retail for exports, a battery's arbitrage value is limited. Batteries matter more where export credits are low and peak rates are high."
 publishDate: "3 December 2025"
 updatedDate: "3 December 2025"
 coverImage:

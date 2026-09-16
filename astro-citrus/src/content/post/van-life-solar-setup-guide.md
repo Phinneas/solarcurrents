@@ -1,6 +1,13 @@
 ---
 title: "Van Life Solar Setup Guide for Off-Grid Adventures"
 description: "A van life solar setup that accounts for alternator and shore power, not just panels — sizing, wiring, and why solar-only builds run out of power."
+faqs:
+  - question: "How much solar does a van need?"
+    answer: "Less than most guides imply, because real vans also charge from the alternator while driving and from shore power at campgrounds. Solar is the independence piece, not the whole system."
+  - question: "Can you run van life on solar alone?"
+    answer: "Usually not reliably. Rain, tree cover, and latitude cut production, which is why experienced van lifers treat alternator and shore power as core parts of the charging system."
+  - question: "What size charge controller do I need for a van solar setup?"
+    answer: "Size it to your array's output and battery voltage, and prefer MPPT over PWM for the extra 20-30% capture, especially in shade and heat."
 publishDate: "17 November 2025"
 updatedDate: "17 November 2025"
 coverImage:

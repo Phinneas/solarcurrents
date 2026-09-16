@@ -1,6 +1,13 @@
 ---
 title: "Balcony Solar Laws by State: Where Plug-In Solar Is Legal in 2026"
 description: "A state-by-state tracker of plug-in solar laws in 2026. Colorado, Utah, Maine, Virginia have laws. New York and California have pending bills. Here's the real legal picture."
+faqs:
+  - question: "Which states have legalized balcony solar in 2026?"
+    answer: "Colorado, Utah, Maine, and Virginia have passed laws explicitly allowing plug-in or balcony solar. New York and California have pending bills, and around 30 other states have legislation in progress but no law yet."
+  - question: "Do I need my utility's permission to install balcony solar?"
+    answer: "In states without an enabling law, yes. Utilities often treat a single plug-in panel like a full rooftop array, requiring an interconnection agreement, fees, and weeks of waiting. States with a law typically exempt permitted systems up to a wattage cap."
+  - question: "What safety standard should a balcony solar kit meet?"
+    answer: "Look for UL 3700 certification, introduced in 2026 specifically for plug-in solar. It covers automatic power cutoff, grid-outage protection so utility workers stay safe, and overload protection. A kit without it is missing the certification that makes plug-in systems safe."
 publishDate: "29 June 2026"
 updatedDate: "29 June 2026"
 coverImage:

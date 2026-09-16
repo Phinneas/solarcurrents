@@ -1,6 +1,13 @@
 ---
 title: "I'm a Renter. Can I Go Solar?"
 description: "Yes — but not the way homeowners do. The five real paths to solar as a renter, what each actually saves, and which one fits your situation."
+faqs:
+  - question: "Can renters get solar?"
+    answer: "Yes, through five paths: community solar, balcony solar where legal, window and patio panels, a portable power station with panels, or negotiating with your landlord. Each has very different costs and returns."
+  - question: "What is the best solar option for renters?"
+    answer: "Community solar is the no-hardware option and works almost anywhere a program exists. Balcony solar saves more where state law allows it. Window and patio panels are legal nearly everywhere but produce little power."
+  - question: "Do I need my landlord's permission for solar as a renter?"
+    answer: "For anything mounted on the building, yes. Community solar needs no permission at all, and portable setups are usually fine, but check your lease before mounting anything permanently."
 publishDate: "22 July 2026"
 updatedDate: "22 July 2026"
 coverImage:

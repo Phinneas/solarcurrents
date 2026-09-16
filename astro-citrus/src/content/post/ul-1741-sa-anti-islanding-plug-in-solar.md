@@ -1,6 +1,13 @@
 ---
 title: "UL 1741 SA: What Anti-Islanding Actually Means for Plug-In Solar"
 description: "Anti-islanding isn't in the SA supplement, and it doesn't make plug-in solar legal. What UL 1741 actually covers, what SA adds, and what neither one solves."
+faqs:
+  - question: "What does UL 1741 SA actually certify?"
+    answer: "Supplement A tests smart-inverter grid-support functions such as voltage and frequency ride-through, volt-var response, and power factor control. It was built around California's Rule 21 and is largely superseded by Supplement SB."
+  - question: "Is anti-islanding part of the SA supplement?"
+    answer: "No. Anti-islanding has been required by base UL 1741 since long before SA existed. It requires the inverter to stop exporting power within 2 seconds when the grid goes down."
+  - question: "Does UL 1741 certification make plug-in solar legal?"
+    answer: "No. It addresses safety, not regulation. In most states any device that exports power still requires an interconnection agreement, though a few states like Utah now exempt small plug-in systems."
 publishDate: "6 July 2026"
 updatedDate: "6 July 2026"
 coverImage:

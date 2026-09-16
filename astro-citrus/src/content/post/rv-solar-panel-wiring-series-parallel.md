@@ -1,6 +1,13 @@
 ---
 title: "RV Solar Panel Wiring Series Parallel Guide"
 description: "RV solar panel wiring explained: series vs parallel tradeoffs, how to calculate your configuration, wire sizing, and troubleshooting common faults."
+faqs:
+  - question: "Should RV solar panels be wired in series or parallel?"
+    answer: "Series raises voltage so you can use thinner wire over longer runs, but shading one panel drags down the whole string. Parallel keeps panels independent in shade and handles partial shading better, at the cost of higher current and thicker wire."
+  - question: "What wire size do I need for RV solar panels?"
+    answer: "It depends on the configuration. Series wiring carries lower current so a smaller gauge works; parallel wiring carries higher current and needs a heavier gauge to limit voltage drop over the run."
+  - question: "Why does shading hurt series-wired panels so much?"
+    answer: "In a series string the current is limited by the weakest panel, so shading one panel reduces output for the entire string. Parallel wiring isolates each panel's output instead."
 publishDate: "17 March 2026"
 updatedDate: "17 March 2026"
 coverImage:

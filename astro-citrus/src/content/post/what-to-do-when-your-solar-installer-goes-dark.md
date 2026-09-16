@@ -1,6 +1,13 @@
 ---
 title: "What to Do When Your Solar Installer Goes Dark"
 description: "Your solar installer stopped answering. Here's what actually survives bankruptcy, what doesn't, and the 2026 tax credit deadline nobody's warning you about."
+faqs:
+  - question: "What happens to my solar warranty if my installer goes bankrupt?"
+    answer: "Manufacturer warranties on panels, inverters, and batteries are issued by the equipment maker and usually remain valid. Workmanship and roof-penetration warranties issued directly by the installer often do not survive bankruptcy proceedings."
+  - question: "Do I still owe my solar loan if the installer goes out of business?"
+    answer: "Yes. A third-party loan was sold to the lender at closing, so the installer's bankruptcy doesn't change what you owe or to whom. Keep paying on the original terms."
+  - question: "Does the 30% solar tax credit still apply if my installer disappeared mid-install?"
+    answer: "The Section 25D credit ended for systems not substantially complete by December 31, 2025. If your installer walked off before finishing, you may not be able to claim it, so document exactly what was outstanding and talk to a tax professional."
 publishDate: "20 August 2026"
 updatedDate: "20 August 2026"
 coverImage:

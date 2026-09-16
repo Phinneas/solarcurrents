@@ -1,6 +1,13 @@
 ---
 title: "Why a LiFePO4 Solar Battery Is the Best Choice for Reliable and Long-Lasting Energy Storage"
 description: "LiFePO4 solar batteries last 3,000-5,000 cycles, run 8-10 years, and stay safe indoors. How they work, where they beat lead-acid, and how to choose one."
+faqs:
+  - question: "How long do LiFePO4 solar batteries last?"
+    answer: "Typically 3,000-5,000 charge cycles, which works out to roughly 8-10 years in normal use — considerably longer than lead-acid."
+  - question: "Are LiFePO4 batteries safe indoors?"
+    answer: "Yes. LiFePO4 chemistry is more thermally stable than many lithium-ion alternatives, which is why it's common for indoor home storage installations."
+  - question: "Why choose LiFePO4 over lead-acid?"
+    answer: "LiFePO4 allows deeper discharge, delivers more usable capacity, lasts more cycles, and weighs less. Lead-acid is cheaper up front but needs shallower discharges to survive."
 publishDate: "24 July 2025"
 updatedDate: "24 July 2025"
 coverImage:

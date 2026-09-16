@@ -1,6 +1,13 @@
 ---
 title: "Solar Panel Efficiency Ratings: What the Spec Sheet Number Actually Means"
 description: "Lab cells hit 47.6% efficiency; the panel you can buy tops out near 23%. What STC, PTC, and NOCT ratings measure, and when the premium pays off."
+faqs:
+  - question: "What is the highest efficiency solar panel I can actually buy?"
+    answer: "Residential modules top out around 23-24.5%, even though lab cells have reached 47.6% under concentrated sunlight. The headline records use technology that isn't available for residential roofs."
+  - question: "What is the difference between STC, PTC, and NOCT ratings?"
+    answer: "They are three different test standards for the same panel. STC uses idealized lab conditions, PTC uses more realistic field conditions, and NOCT estimates operating-temperature effects — which is why one panel can get three different numbers."
+  - question: "Is it worth paying more for the highest efficiency panels?"
+    answer: "Only when roof space is the limiting factor. If area isn't constrained, cost per watt and overall system design usually matter more than chasing the top efficiency rating."
 publishDate: "27 July 2026"
 updatedDate: "27 July 2026"
 coverImage:

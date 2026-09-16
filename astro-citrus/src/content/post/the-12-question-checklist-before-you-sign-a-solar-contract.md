@@ -1,6 +1,13 @@
 ---
 title: "The 12-Question Checklist Before You Sign a Solar Contract"
 description: "12 solar contract clauses that actually cost buyers money — liens, escalators, arbitration waivers, warranty splits — that installer-vetting checklists skip."
+faqs:
+  - question: "What should I check before signing a solar contract?"
+    answer: "Twelve clauses matter most: the FTC cancellation notice, any UCC-1 lien filing, the escalator rate and year-25 payment, whether you own the system (and claim the tax credit), the production guarantee, arbitration clauses, and how warranty responsibility is split."
+  - question: "What is the FTC Cooling-Off Rule for solar?"
+    answer: "Most solar sales made at your home qualify as door-to-door sales under 16 CFR Part 429, giving you three business days to cancel for any reason. The seller must give you written cancellation forms; if they didn't, the clock may never have started."
+  - question: "What is a solar escalator and why does it matter?"
+    answer: "A lease or PPA escalator is an annual payment increase, typically 1-3% with 2.9% common. Over a 25-year term a 2.9% escalator roughly doubles the payment, so always ask for the year-25 number in writing."
 publishDate: "3 September 2026"
 updatedDate: "3 September 2026"
 coverImage:

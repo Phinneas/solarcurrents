@@ -1,6 +1,13 @@
 ---
 title: "RV Solar Battery Bank Setup Complete Guide"
 description: "How to build an RV solar battery bank: AGM vs lithium choices, wiring configuration, capacity math, and installation mistakes to avoid."
+faqs:
+  - question: "AGM or lithium for an RV solar battery bank?"
+    answer: "Lithium (LiFePO4) costs more up front but delivers 3,000-5,000 cycles, allows deeper discharge, and weighs less. AGM is cheaper initially but should only be discharged to about 50% to preserve its lifespan."
+  - question: "How do I calculate the battery bank size I need?"
+    answer: "Add up your daily watt-hours, divide by the usable depth of discharge, then add a reserve for cloudy days. A 100Ah AGM battery only provides about 50Ah usable, while lithium can provide 80-100%."
+  - question: "What is the most common RV battery bank mistake?"
+    answer: "Mixing battery ages or chemistries in one bank, and using undersized cabling. Mismatched batteries drag the whole bank down to the weakest cell."
 publishDate: "2 February 2026"
 updatedDate: "2 February 2026"
 coverImage:

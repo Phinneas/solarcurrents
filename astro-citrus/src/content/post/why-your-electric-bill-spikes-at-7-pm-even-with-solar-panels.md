@@ -1,6 +1,13 @@
 ---
 title: "Why Your Electric Bill Spikes at 7 PM (Even With Solar Panels)"
 description: "Solar panels stop producing right around when you need power most. Here's the plain-English explanation of time-of-use rates and why your bill is still high — even with solar."
+faqs:
+  - question: "Why is my electric bill high even with solar panels?"
+    answer: "A timing mismatch. Your panels produce most in the middle of the day, but you use the most power in the early evening. By 7 PM the panels have largely stopped while your household is still consuming, so you buy grid power during peak pricing."
+  - question: "What are time-of-use (TOU) rates?"
+    answer: "TOU pricing charges different rates by hour. Utilities price the late-afternoon and early-evening peak higher to reflect the cost of meeting demand, often 2-4x off-peak."
+  - question: "How do I fix the evening peak problem?"
+    answer: "Shift flexible loads off the peak window and, where the rate spread is wide enough, add battery storage so solar generated midday is discharged during peak hours instead of being exported cheaply."
 publishDate: "19 June 2026"
 updatedDate: "19 June 2026"
 coverImage:

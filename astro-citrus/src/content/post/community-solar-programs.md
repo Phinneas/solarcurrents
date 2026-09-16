@@ -1,6 +1,13 @@
 ---
 title: "Community Solar Programs by State Guide"
 description: "Community solar lets you subscribe to a shared solar farm and save 5-15% without rooftop panels. How programs work, state leaders, and signup questions."
+faqs:
+  - question: "What is community solar?"
+    answer: "A community solar program lets you subscribe to a share of an offsite solar farm and receive credits on your electric bill, with no panels installed on your own property."
+  - question: "How much can I save with community solar?"
+    answer: "Typically 5-15% off your electricity costs, depending on the program and your utility. Savings arrive as bill credits rather than direct payments."
+  - question: "Can renters join community solar?"
+    answer: "Yes. Community solar is one of the few solar options that works for renters, since it needs no roof access or property changes. Availability depends on whether a program serves your utility territory."
 publishDate: "16 December 2025"
 updatedDate: "18 December 2025"
 coverImage:

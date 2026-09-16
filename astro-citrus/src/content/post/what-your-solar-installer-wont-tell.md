@@ -1,6 +1,13 @@
 ---
 title: "Why Your Solar Installer Won't Tell You to Skip the Battery"
 description: "Battery attach rates hit 45% in 2026 while solar installs shrank. How installer pay structures work, and the math on when storage actually pays for itself."
+faqs:
+  - question: "Do I need a battery with solar?"
+    answer: "It depends on your rate plan and outage needs, not on the installer's pay structure. Batteries add roughly $10,000-$16,000, and their value comes from time-of-use arbitrage, backup power, and reduced reliance on export credits."
+  - question: "Why do solar installers push batteries so hard?"
+    answer: "Compensation structure. Reps commonly earn per-kW commissions with separate battery bonuses, so the incentive runs toward attaching storage to every deal, even where it doesn't shorten your payback."
+  - question: "Is the 30% federal tax credit still available for solar batteries?"
+    answer: "No. Section 25D was terminated for expenditures after December 31, 2025, so cash and loan purchases in 2026 don't qualify. Section 48E, the business-side credit, still applies through 2027 and may be embedded in leased systems."
 publishDate: "6 August 2026"
 updatedDate: "6 August 2026"
 coverImage:

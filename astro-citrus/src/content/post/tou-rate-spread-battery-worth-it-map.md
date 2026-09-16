@@ -1,6 +1,13 @@
 ---
 title: "Which US Utilities Have TOU Rate Spreads Over 20¢? The Battery Worth-It Map"
 description: "A ranked comparison of real 2026 time-of-use rate spreads by utility — SCE, SDG&E, Con Edison, PG&E, SRP, PSE&G — and the honest math on when a battery pays for itself."
+faqs:
+  - question: "How big does a TOU rate spread need to be for a battery to pay off?"
+    answer: "Generally the peak/off-peak spread needs to be north of about 20 cents per kWh, given installed battery costs of roughly $850-$1,700 per usable kWh and the need to earn that back over a limited number of cycles."
+  - question: "Which utilities clear the 20-cent TOU spread bar?"
+    answer: "Several do, including SCE, Con Edison, SDG&E, PG&E, SRP, and PSE&G based on 2026 published rates. The exact numbers change frequently."
+  - question: "What else determines whether a home battery is worth it?"
+    answer: "The peak window has to overlap when you actually use power, and the tariff has to stay stable long enough to pay the battery off — utilities revise TOU schedules almost every year."
 publishDate: "9 July 2026"
 updatedDate: "9 July 2026"
 coverImage:

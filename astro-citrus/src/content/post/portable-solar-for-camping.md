@@ -1,6 +1,13 @@
 ---
 title: "Eco-Friendly Portable Solar Power Solutions"
 description: "Portable solar for camping by scenario: device-only charging, a week with a fridge, or full van life — what to buy at each level and what it really costs."
+faqs:
+  - question: "How much portable solar do I need for camping?"
+    answer: "It depends on the scenario. Charging phones and small devices needs only a small folding panel; running a 12V fridge for a week needs around 200W plus a 1,000-1,500Wh power station."
+  - question: "Can portable solar panels run a fridge while camping?"
+    answer: "Yes, with enough capacity. A 12V compressor fridge paired with a 200W panel and a 1,000-1,500Wh power station is the common working setup; smaller panels won't keep up."
+  - question: "How much does a camping solar setup cost?"
+    answer: "Roughly $600 for a basic device-charging setup, up to about $1,200 for a fridge-capable system, and more for a full van-life build."
 publishDate: "30 March 2025"
 updatedDate: "30 September 2025"
 coverImage:

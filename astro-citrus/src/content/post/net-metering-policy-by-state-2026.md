@@ -1,6 +1,13 @@
 ---
 title: "Net Metering Policy by State: 2026 Update"
 description: "What's actually true about net metering by state in 2026 — the caps, sunset clauses, and utility-level exceptions that flat state lists miss."
+faqs:
+  - question: "Is net metering still available in 2026?"
+    answer: "It depends on your state and often your specific utility. Many states have replaced one-for-one net metering with reduced export rates or capped programs, and utility-level exceptions mean a flat state-by-state list is frequently wrong."
+  - question: "Why do net metering state lists go stale so quickly?"
+    answer: "Policies change at both the state and utility level, through caps, sunset clauses, and program renames. A table compiled a year ago can be inaccurate for your utility today."
+  - question: "How do I check my real net metering status?"
+    answer: "Check your utility's current tariff sheet rather than a third-party state list, and ask what export rate applies to new applications. Watch for program renames, which often signal a reduced rate."
 publishDate: "27 July 2026"
 updatedDate: "27 July 2026"
 coverImage:

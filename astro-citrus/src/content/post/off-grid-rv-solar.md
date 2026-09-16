@@ -1,6 +1,13 @@
 ---
 title: "Living Off Grid RV Solar - Your Complete Power Guide"
 description: "Off-grid RV solar: how to size panels, batteries, charge controllers, and inverters for life without hookups, with real appliance watt draws and costs."
+faqs:
+  - question: "How much solar do I need for off-grid RV living?"
+    answer: "Start from your daily watt-hours: list every appliance, multiply wattage by hours used, then add a safety margin. Most off-grid RVs land between 400W and 1,200W of panels depending on whether they run air conditioning or a residential-style fridge."
+  - question: "What size battery bank does an off-grid RV need?"
+    answer: "Size it to cover your daily usage plus a reserve for cloudy days. Lithium (LiFePO4) lets you use far more of the rated capacity than lead-acid, so a smaller lithium bank can replace a larger AGM one."
+  - question: "Do I need a charge controller for RV solar?"
+    answer: "Yes, always. An MPPT controller captures meaningfully more power than PWM, especially in partial shade or high heat, and it prevents overcharging your batteries."
 publishDate: "13 March 2026"
 updatedDate: "13 March 2026"
 coverImage:

@@ -1,6 +1,13 @@
 ---
 title: "Utah HB 340 (2025) Explained: What the New Solar Access Law Means for Homeowners"
 description: "Utah HB 340 explained: how the 2025 law stops HOAs and cities from banning rooftop solar and batteries, the 10% cost rule, and who it protects."
+faqs:
+  - question: "What does Utah HB 340 do?"
+    answer: "It prohibits HOAs and local governments from banning or unreasonably restricting rooftop solar and battery storage. Restrictions are only allowed if they don't cut system efficiency or raise costs by more than 10%."
+  - question: "When did Utah HB 340 take effect?"
+    answer: "It was signed into law in 2025 and took effect on May 1."
+  - question: "Does Utah HB 340 cover battery storage?"
+    answer: "Yes. The law explicitly extends to integrated solar-plus-storage systems, closing loopholes left by earlier solar protections."
 publishDate: "26 November 2025"
 updatedDate: "29 December 2025"
 coverImage:

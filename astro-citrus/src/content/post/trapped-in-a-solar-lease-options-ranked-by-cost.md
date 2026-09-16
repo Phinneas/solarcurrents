@@ -1,6 +1,13 @@
 ---
 title: "Trapped in a Solar Lease? Your Actual Options, Ranked by Cost"
 description: "Every solar lease exit guide lists the same four options. Almost none tells you what they actually cost. Here they are, ranked cheapest to most expensive."
+faqs:
+  - question: "Can I cancel a solar lease for free?"
+    answer: "Only inside the cooling-off window. Under the FTC Cooling-Off Rule you have three business days to cancel a contract signed at home, with a full refund. Once the system is installed, the free exit is gone."
+  - question: "Can I transfer a solar lease to a home buyer?"
+    answer: "Usually yes. The buyer applies to the leasing company, which runs a credit check and requires an adequate debt-to-income ratio. Approval typically takes 2-4 weeks, and some buyers walk away rather than assume the payments."
+  - question: "How much does it cost to buy out a solar lease?"
+    answer: "Early buyouts in the first five years commonly run $15,000-$40,000 depending on system size and remaining term. The valuation method is often chosen by the lessor, so get the exact figure in writing."
 publishDate: "8 September 2026"
 updatedDate: "8 September 2026"
 coverImage:
