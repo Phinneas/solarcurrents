@@ -1,0 +1,11 @@
+# Redirect removed Citrus template/demo pages to the blog index.
+# These were theme scaffolding (citrus-docs, markdown-elements, cover-image)
+# published by mistake. 301 preserves any accumulated link equity.
+
+/posts/citrus-docs/            /posts/  301
+/posts/citrus-docs/*           /posts/  301
+/posts/markdown-elements/      /posts/  301
+/posts/markdown-elements/*     /posts/  301
+/posts/cover-image/            /posts/  301
+/series/                       /posts/  301
+/series/*                      /posts/  301

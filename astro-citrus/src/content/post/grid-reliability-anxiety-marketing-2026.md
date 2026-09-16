@@ -1,6 +1,6 @@
 ---
 title: "2026 Grid-Reliability Anxiety Marketing: Switching From Bill Savings to Backup Power Readiness"
-description: "In 2026, grid-reliability anxiety marketing is shifting from bill savings to backup power readiness. Learn how to reframe your solar and battery messaging around outage resilience, runtime math, and real-world constraints."
+description: "Grid-reliability anxiety marketing is shifting from bill savings to backup readiness. How to reframe solar messaging around outage resilience."
 faqs:
   - question: "What is 2026 grid-reliability anxiety marketing, and why is everyone switching from bill savings?"
     answer: "It is a shift from how much you save to how prepared you are when the grid is unreliable. The best messages connect solar with stored capacity, realistic runtime, and outage readiness without dodging constraints."

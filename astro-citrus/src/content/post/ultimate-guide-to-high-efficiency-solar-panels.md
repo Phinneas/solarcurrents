@@ -1,6 +1,6 @@
 ---
 title: "Solar Panel Efficiency Ratings: What the Spec Sheet Number Actually Means"
-description: "Lab cells hit 47.6% efficiency. The panel you can actually buy tops out around 23% — and delivers less than that on your roof. Here's what STC, PTC, and NOCT ratings measure, and when the efficiency premium is worth paying."
+description: "Lab cells hit 47.6% efficiency; the panel you can buy tops out near 23%. What STC, PTC, and NOCT ratings measure, and when the premium pays off."
 publishDate: "27 July 2026"
 updatedDate: "27 July 2026"
 coverImage:

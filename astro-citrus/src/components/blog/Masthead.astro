@@ -91,7 +91,8 @@ const postSeries = content.data.seriesId
 			<img
 				alt={content.data.coverImage.alt}
 				class="object-cover w-full"
-				loading="lazy"
+				loading="eager"
+				fetchpriority="high"
 				src={content.data.coverImage.src}
 				width={content.data.coverImage.width}
 				height={content.data.coverImage.height}

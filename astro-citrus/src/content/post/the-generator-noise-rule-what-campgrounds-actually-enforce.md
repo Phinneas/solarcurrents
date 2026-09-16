@@ -1,6 +1,6 @@
 ---
 title: "The Generator Noise Rule: What Campgrounds Actually Enforce"
-description: "Quiet hours, generator-only windows, and decibel limits vary wildly between national parks, KOAs, and BLM land. Here's what's actually enforced — and why more campers are skipping the generator entirely."
+description: "Quiet hours and generator windows vary wildly across national parks, KOAs, and BLM land. What's actually enforced — and why campers skip generators."
 publishDate: "19 June 2026"
 updatedDate: "19 June 2026"
 coverImage:
