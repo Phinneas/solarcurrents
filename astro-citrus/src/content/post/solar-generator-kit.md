@@ -1,6 +1,6 @@
 ---
 title: "Top 10 Solar Generator Kits for Off-Grid Power & Emergency Backup in 2025"
-description: "Top 10 Solar Generator Kits for Off-Grid Power & Emergency Backup in 2025"
+description: "The best solar generator kits for off-grid power and emergency backup, compared on capacity, output, and recharge speed — plus how to size one for your needs."
 publishDate: "21 August 2025"
 updatedDate: "26 October 2025"
 coverImage:
