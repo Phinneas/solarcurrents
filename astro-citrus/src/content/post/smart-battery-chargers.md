@@ -4,10 +4,10 @@ description: "Smart battery chargers adjust voltage and current to each charge s
 publishDate: "16 July 2025"
 updatedDate: "16 July 2025"
 coverImage:
-  src: "https://images.unsplash.com/photo-1747135726889-3da2e85938cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDZ8fHNtYXJ0JTIwY2hhcmdpbmd8ZW58MHx8fHwxNzUyNjk3MDYzfDA&ixlib=rb-4.1.0&q=80&w=2000"
+  src: "/images/posts/smart-battery-chargers/cover.jpg"
   width: 2000
   height: 1333
-  alt: "The Ultimate Guide to Smart Battery Chargers"
+  alt: "A rechargeable battery charger with two batteries on a white surface"
 ---
 
 

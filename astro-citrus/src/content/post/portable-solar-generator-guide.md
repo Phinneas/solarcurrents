@@ -4,10 +4,10 @@ description: "How to choose a portable solar generator: capacity math, panel cha
 publishDate: "3 March 2026"
 updatedDate: "3 March 2026"
 coverImage:
-  src: "https://images.unsplash.com/photo-1764168414096-fa2a80540745?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHxvZmYlMjBncmlkJTIwc29sYXJ8ZW58MHx8fHwxNzcwMzI0NzEwfDA&ixlib=rb-4.1.0&q=80&w=2000"
+  src: "/images/posts/portable-solar-generator-guide/cover.jpg"
   width: 2000
-  height: 1125
-  alt: "Best Portable Solar Generator Guide for Off-Grid Power"
+  height: 1326
+  alt: "Solar panels harvesting photovoltaic energy outdoors"
 ---
 
 

@@ -21,10 +21,10 @@ faqs:
 publishDate: "5 June 2025"
 updatedDate: "9 November 2025"
 coverImage:
-  src: "https://images.unsplash.com/photo-1501494278684-d0fb421388ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDIzfHxiYXR0ZXJ5JTIwc29sYXJ8ZW58MHx8fHwxNzQ4OTEyMzgwfDA&ixlib=rb-4.1.0&q=80&w=2000"
+  src: "/images/posts/best-solar-powered-battery-charger/cover.jpg"
   width: 2000
-  height: 2486
-  alt: "Best Solar Powered Battery Charger"
+  height: 1333
+  alt: "Batteries and a charger arranged on a blue surface"
 ---
 
 

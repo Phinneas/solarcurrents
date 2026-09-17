@@ -11,10 +11,10 @@ faqs:
 publishDate: "24 July 2025"
 updatedDate: "24 July 2025"
 coverImage:
-  src: "https://images.unsplash.com/photo-1683857967760-11c81457328c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fExpRmVQTzR8ZW58MHx8fHwxNzUzNDIxMjQ5fDA&ixlib=rb-4.1.0&q=80&w=2000"
+  src: "/images/posts/lifepo4-solar-battery/cover.jpg"
   width: 2000
-  height: 1396
-  alt: "Why a LiFePO4 Solar Battery Is the Best Choice for Reliable and Long-Lasting Energy Storage"
+  height: 1126
+  alt: "A technician installing a home battery system indoors"
 ---
 
 

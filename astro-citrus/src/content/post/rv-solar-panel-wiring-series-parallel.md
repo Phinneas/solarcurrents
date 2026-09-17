@@ -11,10 +11,10 @@ faqs:
 publishDate: "17 March 2026"
 updatedDate: "17 March 2026"
 coverImage:
-  src: "https://images.unsplash.com/photo-1576446468729-7674e99608f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHdpcmluZ3xlbnwwfHx8fDE3NzAzMjQ4NzF8MA&ixlib=rb-4.1.0&q=80&w=2000"
+  src: "/images/posts/rv-solar-panel-wiring-series-parallel/cover.jpg"
   width: 2000
-  height: 1500
-  alt: "RV Solar Panel Wiring Series Parallel Guide"
+  height: 1336
+  alt: "Coiled cable on a rooftop beside solar panels"
 ---
 
 

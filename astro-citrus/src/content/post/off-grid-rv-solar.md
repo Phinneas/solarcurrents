@@ -11,10 +11,10 @@ faqs:
 publishDate: "13 March 2026"
 updatedDate: "13 March 2026"
 coverImage:
-  src: "https://images.unsplash.com/photo-1627386173348-4b19a6feefda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fG9mZiUyMGdpcmR8ZW58MHx8fHwxNzczNDYyOTA3fDA&ixlib=rb-4.1.0&q=80&w=2000"
+  src: "/images/posts/off-grid-rv-solar/cover.jpg"
   width: 2000
   height: 1333
-  alt: "Living Off Grid RV Solar - Your Complete Power Guide"
+  alt: "A campervan parked in a scenic landscape under a blue sky"
 ---
 
 

@@ -17,10 +17,10 @@ faqs:
 publishDate: "9 February 2026"
 updatedDate: "9 February 2026"
 coverImage:
-  src: "https://images.unsplash.com/photo-1510672981848-a1c4f1cb5ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDM5fHxjYW1waW5nfGVufDB8fHx8MTc2OTY0NjYzM3ww&ixlib=rb-4.1.0&q=80&w=2000"
+  src: "/images/posts/best-foldable-solar-panels-for-camping/cover.jpg"
   width: 2000
-  height: 1331
-  alt: "Best Foldable Solar Panels for Camping"
+  height: 1333
+  alt: "Two orange portable solar panels set up on dry ground"
 ---
 
 

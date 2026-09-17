@@ -11,10 +11,10 @@ faqs:
 publishDate: "16 December 2025"
 updatedDate: "18 December 2025"
 coverImage:
-  src: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDYyfHxjb21tdW5pdHl8ZW58MHx8fHwxNzY2MDg3NzczfDA&ixlib=rb-4.1.0&q=80&w=2000"
+  src: "/images/posts/community-solar-programs/cover.jpg"
   width: 2000
-  height: 2586
-  alt: "Community Solar Programs by State Guide"
+  height: 1325
+  alt: "Solar panels installed in a rural field under a cloudy sky"
 ---
 
 

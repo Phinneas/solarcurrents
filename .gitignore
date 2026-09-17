@@ -50,3 +50,6 @@ temp/
 .recall/
 kimi-debug-session_*/
 kimi-debug-session_*.zip
+
+# pi-subagents artifacts
+.pi-subagents/

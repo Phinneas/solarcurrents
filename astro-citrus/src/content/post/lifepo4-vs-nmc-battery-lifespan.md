@@ -40,7 +40,7 @@ LiFePO4 vs NMC: why chemistry choice determines your battery lifespan is not a s
 - **Safety:** chemistry choice shapes thermal runaway risk, which affects system lifespan indirectly (how often you hit protection events).
 - **BMS reality:** Internal battery management systems monitor voltage, temperature, and current, and they can make or break lifespan.
 - **Solar energy use:** Your duty cycle (deep daily discharge vs light cycling) matters as much as the cell.
-- **RV power:** For rv power in hot conditions, chemistry and charging windows decide whether "years of service" stays true.
+- **RV power:** For [rv power](/posts/rv-solar-battery-bank/) in hot conditions, chemistry and charging windows decide whether "years of service" stays true.
 - **Want a system-level lens:** we recommend reading the practical guidance in [LFP vs NMC for BESS: Which Cell Chemistry Fits Your Application?](https://www.solarcurrents.co/notes/lfp-vs-nmc-bess/) before you pick a pack.
 
 **Quick link for planning:** if you are building around charge profiles, start with [Polarium Energy Solutions & Morningstar (Technote)](https://www.morningstarcorp.com/wp-content/uploads/Polararium-LiFePO4-Integration-Guide-for-Morningstar-Charge-Controllers.pdf) and match setpoints to your controller.
@@ -69,7 +69,7 @@ People argue about chemistry as if it is the whole story. It is not. You can get
 
 LFP depth-of-discharge guidance often looks generous because it tends to hold cycle life across high DOD use, whereas NMC frequently needs stricter operational limits. The BMS is the referee here, it keeps voltage, temperature, and current inside safe bounds, but your charging and inverter settings also matter.
 
-In practical terms for outdoor solar and camping and backpacking solar, you will usually run one of two patterns:
+In practical terms for outdoor solar and [camping and backpacking solar](/posts/best-solar-panels-for-camping/), you will usually run one of two patterns:
 
 - **Pattern A, "daily draw":** you drain batteries and recharge the next day (common for off-grid and rv power).
 - **Pattern B, "long idle":** you store energy for days or weeks and then top up (common for seasonal cabins and off-season camping).
@@ -94,7 +94,7 @@ We also see a pattern in residential installs and off-grid builds: the "housing"
 
 ## Solar Energy Storage: Choosing Chemistry for Stationary vs Mobile Duty Cycles
 
-Let's separate stationary storage from mobile use because chemistry choices play out differently. In solar energy storage, batteries often see repeated day/night cycles with stable temperature control, so cycle life and calendar aging become your main lifespan drivers.
+Let's separate [stationary storage](/posts/how-home-solar-power-banks-work/) from mobile use because chemistry choices play out differently. In solar energy storage, batteries often see repeated day/night cycles with stable temperature control, so cycle life and calendar aging become your main lifespan drivers.
 
 In mobile use (rv power), the pack experiences more temperature swings, more vibration, and more "imperfect" charge behavior when people rely on portable solar and quick upgrades.
 

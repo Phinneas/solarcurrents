@@ -21,10 +21,10 @@ faqs:
 publishDate: "13 November 2025"
 updatedDate: "13 November 2025"
 coverImage:
-  src: "https://images.unsplash.com/photo-1573552894689-6f7c17aec384?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDMzfHxydiUyMHNvbGFyfGVufDB8fHx8MTc2MzA2NTMzNHww&ixlib=rb-4.1.0&q=80&w=2000"
+  src: "/images/posts/rv-solar-panel-sizing-guide/cover.jpg"
   width: 2000
-  height: 3000
-  alt: "RV Solar Panel Sizing Guide: Real Numbers, Not Marketing Specs"
+  height: 1333
+  alt: "Top view of a campervan roof fitted with solar panels"
 ---
 
 

@@ -4,10 +4,10 @@ description: "How to choose a camping solar generator: sizing by trip length, ch
 publishDate: "23 March 2026"
 updatedDate: "23 March 2026"
 coverImage:
-  src: "https://images.unsplash.com/photo-1701825299870-398fb12864bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEzfHxvZmYlMjBncmlkfGVufDB8fHx8MTc3MTUzMjQwOHww&ixlib=rb-4.1.0&q=80&w=2000"
+  src: "/images/posts/camping-solar-generator-guide/cover.jpg"
   width: 2000
-  height: 1500
-  alt: "Camping Solar Generator Guide for Off-Grid Adventures"
+  height: 1333
+  alt: "A camper securing a tent peg at a forested campsite"
 ---
 
 

@@ -4,10 +4,10 @@ description: "The complete foldable solar panel guide: real vs advertised output
 publishDate: "14 April 2025"
 updatedDate: "18 September 2025"
 coverImage:
-  src: "https://images.unsplash.com/photo-1667417277559-78570d785e8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDIwMHx8Zm9sZGluZyUyMHNvbGFyJTIwcGFuZWx8ZW58MHx8fHwxNzQyOTgzMDg4fDA&ixlib=rb-4.0.3&q=80&w=2000"
+  src: "/images/posts/foldable-solar-panels/cover.jpg"
   width: 2000
   height: 1333
-  alt: "Foldable Solar Panels"
+  alt: "A mobile solar panel trailer parked outdoors"
 ---
 
 
