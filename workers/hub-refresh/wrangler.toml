@@ -1,0 +1,16 @@
+name = "solarcurrents-hub-refresh"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+# Weekly, Monday 10:17 UTC. Rows older than a year are refreshed in batches.
+[triggers]
+crons = ["17 10 * * 1"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "solar-currents-cms-db"
+database_id = "8db2540a-af3d-497a-af35-11235bb44503"
+
+# Secrets (set in the Cloudflare dashboard or with `wrangler secret put`, never in this file):
+#   PVWATTS_API_KEY
+#   LEGISCAN_API_KEY  (once issued)
