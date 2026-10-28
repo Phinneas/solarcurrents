@@ -76,4 +76,4 @@ The fix is storing the power instead of exporting it: capture the solar you make
 
 That doesn't mean a battery is automatically the right move for every solar homeowner. Cost, payback timeline, your specific TOU rate spread, and how much of your usage actually falls in the peak window all change the math — sometimes significantly. That's a big enough decision to deserve its own breakdown rather than a few paragraphs at the end of this one.
 
-→ *We cover sizing, real payback math, and what to actually look for when shopping in our [home battery buyer's guide](/home-battery-buyers-guide) — read that next if the 7 PM spike sounds like your bill.*
+→ *We cover sizing, real payback math, and what to actually look for when shopping in our [home battery buyer's guide](/posts/solar-battery-buyers-guide/) — read that next if the 7 PM spike sounds like your bill.*

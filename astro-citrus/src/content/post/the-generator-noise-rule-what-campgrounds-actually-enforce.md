@@ -70,4 +70,4 @@ On the ground, the shift shows up in three ways: more full-hookup campgrounds ba
 
 None of this means a generator is the wrong call for every situation — high, sustained power draw still favors fuel in some setups. But for the noise question specifically, the trend in what campgrounds allow and what campers are choosing both point the same direction.
 
-→ *If you're ready to look at what a battery-and-panel setup can actually power — and what it can't — our [portable solar generator guide](/portable-solar-generators) breaks down real wattage, charge times, and sizing for camping and RV use.*
+→ *If you're ready to look at what a battery-and-panel setup can actually power — and what it can't — our [portable solar generator guide](/posts/portable-solar-generator-guide/) breaks down real wattage, charge times, and sizing for camping and RV use.*
