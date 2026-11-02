@@ -39,8 +39,9 @@ const post = defineCollection({
 				.transform((val) => new Date(val)),
 			updatedDate: z
 				.string()
+				.or(z.date())
 				.optional()
-				.transform((str) => (str ? new Date(str) : undefined)),
+				.transform((val) => (val ? new Date(val) : undefined)),
 			// Series
 			seriesId: z.string().optional(), // Поле для связи с серией
       		orderInSeries: z.number().optional(), // Опционально: для сортировки в серии
@@ -68,8 +69,9 @@ const newsletter = defineCollection({
 			.transform((val) => new Date(val)),
 		updatedDate: z
 			.string()
+			.or(z.date())
 			.optional()
-			.transform((str) => (str ? new Date(str) : undefined)),
+			.transform((val) => (val ? new Date(val) : undefined)),
 	}),
 });
 
