@@ -1,0 +1,37 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+
+export const prerender = true;
+
+const meta = {
+	description: "What data Solar Currents collects, how Google AdSense uses cookies, and how to opt out.",
+	title: "Privacy Policy",
+};
+---
+
+<PageLayout meta={meta}>
+	<h1 class="mb-6 font-['Fraunces'] text-3xl md:text-4xl font-semibold text-[var(--gold)]">Privacy Policy</h1>
+	<div class="prose prose-citrus max-w-none text-[var(--cream-dim)]">
+		<p><em>Last updated: November 13, 2026</em></p>
+		<p>Solar Currents (solarcurrents.co) is run by Chester Beard through Salish Sea Consulting in Everett, Washington. This policy explains what data the site collects and how it is used.</p>
+		<h2>What we collect</h2>
+		<p>The site has no accounts, comment forms or sign-up forms. We do not ask for your name, email or any other personal details.</p>
+		<p>Our host, Cloudflare, processes standard request data such as IP address, browser type and the pages requested. This is used to deliver the site and protect it from abuse. See <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Cloudflare's privacy policy</a>.</p>
+		<h2>Advertising and cookies</h2>
+		<p>Solar Currents uses Google AdSense to show ads. Google and its partners use cookies to serve ads based on your visits to this site and other sites on the internet.</p>
+		<ul>
+			<li>Google's use of advertising cookies lets it and its partners serve ads based on your browsing.</li>
+			<li>You can opt out of personalized advertising in <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">Google Ads Settings</a>.</li>
+			<li>You can opt out of some third-party vendors' use of cookies at <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener noreferrer">aboutads.info</a>.</li>
+			<li>Learn more in <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google uses information from sites that use its services</a>.</li>
+		</ul>
+		<p>Visitors in the EEA, UK and Switzerland are asked for consent before personalized ads are shown.</p>
+		<h2>Links to other sites</h2>
+		<p>Guides link to manufacturers, standards bodies and other sources. Those sites have their own privacy policies.</p>
+		<h2>Children</h2>
+		<p>The site is not directed at children under 13 and does not knowingly collect their data.</p>
+		<h2>Changes and contact</h2>
+		<p>If this policy changes, the date above changes with it. Questions go through the <a href="/contact/">contact page</a>.</p>
+
+	</div>
+</PageLayout>

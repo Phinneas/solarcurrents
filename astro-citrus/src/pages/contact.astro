@@ -1,0 +1,25 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+
+export const prerender = true;
+
+const meta = {
+	description: "How to reach Chester Beard, who runs Solar Currents, with corrections, questions or press requests.",
+	title: "Contact",
+};
+---
+
+<PageLayout meta={meta}>
+	<h1 class="mb-6 font-['Fraunces'] text-3xl md:text-4xl font-semibold text-[var(--gold)]">Contact</h1>
+	<div class="prose prose-citrus max-w-none text-[var(--cream-dim)]">
+		<p>I'm Chester Beard, and I run Solar Currents. The fastest way to reach me is through the contact page of my consultancy, <a href="https://www.salishseaconsulting.com/contact/" target="_blank" rel="noopener noreferrer">Salish Sea Consulting</a>. You can also message me on <a href="https://www.linkedin.com/in/chester-beard/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
+		<h2>What to get in touch about</h2>
+		<ul>
+			<li><strong>Corrections.</strong> If a number, spec or claim in a guide is wrong, tell me which page and what you found. I fix errors and note the change.</li>
+			<li><strong>Questions about your setup.</strong> I can't design your system, but I read every question. Good ones often become new guides.</li>
+			<li><strong>Press and partnerships.</strong> I don't accept paid placements or sponsored reviews.</li>
+		</ul>
+		<p>I usually reply within a few business days.</p>
+
+	</div>
+</PageLayout>

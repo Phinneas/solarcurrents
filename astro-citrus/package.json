@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build --force",
     "postbuild": "pagefind --site dist",
     "preview": "astro preview",
     "lint": "biome lint .",

@@ -1,0 +1,31 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+
+export const prerender = true;
+
+const meta = {
+	description: "Terms for using Solar Currents, including safety, accuracy and content use.",
+	title: "Terms of Use",
+};
+---
+
+<PageLayout meta={meta}>
+	<h1 class="mb-6 font-['Fraunces'] text-3xl md:text-4xl font-semibold text-[var(--gold)]">Terms of Use</h1>
+	<div class="prose prose-citrus max-w-none text-[var(--cream-dim)]">
+		<p><em>Last updated: November 13, 2026</em></p>
+		<p>By using solarcurrents.co you agree to these terms. The site is run by Chester Beard through Salish Sea Consulting in Everett, Washington.</p>
+		<h2>Information, not professional advice</h2>
+		<p>Guides are for general education. They are not electrical, engineering, legal or financial advice. Solar and battery work can involve dangerous voltages and fire risk. Follow your local code and your Authority Having Jurisdiction, and use a licensed electrician where required.</p>
+		<h2>Accuracy</h2>
+		<p>I work to keep numbers and specs correct, but products, prices, incentives and codes change. Check current details with the manufacturer or your local authority before you buy or install anything. If you spot an error, please <a href="/contact/">tell me</a>.</p>
+		<h2>Content ownership</h2>
+		<p>Text, diagrams and images on this site belong to Solar Currents unless noted. You may quote short passages with a link back. Please don't republish whole articles.</p>
+		<h2>Advertising and links</h2>
+		<p>The site shows ads through Google AdSense. Ads don't influence what I write. Links to other sites are provided for reference, and I'm not responsible for their content.</p>
+		<h2>Liability</h2>
+		<p>The site is provided as is. To the extent the law allows, Solar Currents and Salish Sea Consulting are not liable for losses from using the information here.</p>
+		<h2>Changes</h2>
+		<p>These terms may change. The date above shows the latest version. These terms are governed by the laws of Washington State.</p>
+
+	</div>
+</PageLayout>
